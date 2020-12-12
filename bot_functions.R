@@ -2,7 +2,7 @@
 # with thanks to espn for the api
 get_data <- function(df) {
 
-  espn_game_id <- df$espn
+  espn_game_id <- df$game_id
   home <- df$home_team
   away <- df$away_team
   week <- df$week
@@ -13,7 +13,7 @@ get_data <- function(df) {
     expr = {
 
 
-      pbp <- httr::GET(url = glue::glue("http://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event={espn_game_id}")) %>%
+      pbp <- httr::GET(url = glue::glue("http://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event={espn_game_id}")) %>%
         httr::content(as = "text", encoding = "UTF-8") %>%
         jsonlite::fromJSON(flatten = TRUE)
 

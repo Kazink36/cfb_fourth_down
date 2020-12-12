@@ -60,8 +60,8 @@ model_vars <-pbp %>%
   select(
     label,
     down,
+    distance,
     yards_to_goal
-    #yardline_100,
     #era3, era4,
     #outdoors, retractable, dome,
     #posteam_spread, total_line, posteam_total
@@ -70,75 +70,108 @@ model_vars <-pbp %>%
   mutate(label = label + 10)
 set.seed(2013)
 
-full_train = xgboost::xgb.DMatrix(model.matrix(~.+0, data = model_vars %>% dplyr::select(-label)), label = as.integer(model_vars$label))
+# full_train = xgboost::xgb.DMatrix(model.matrix(~.+0, data = model_vars %>% dplyr::select(-label)), label = as.integer(model_vars$label))
+#
+# nrounds = 5000
 
-nrounds = 5000
+yard_model = MASS::polr(as.factor(label) ~ .,data = model_vars)
 
-grid <- grid_latin_hypercube(
-  finalize(mtry(), model_vars),
-  min_n(),
-  tree_depth(),
-  learn_rate(),
-  loss_reduction(),
-  sample_size = sample_prop(),
-  size = 20
-)
-grid <- grid %>%
-  mutate(
-    # it was making dumb learn rates
-    learn_rate = .025 + .1 * ((1 : nrow(grid)) / nrow(grid)),
-    # has to be between 0 and 1
-    mtry = mtry / length(model_vars)
+
+get_go_wp <- function(game_state) {
+
+  game_state_long <- game_state %>%
+    slice(rep(1,76)) %>%
+    #add_row(down = rep(game_state$down,75),distance = game_state$distance, yards_to_goal = game_state$yards_to_goal) %>%
+    mutate(pred = predict(yard_model,newdata = game_state,type = "probs"),
+           yards_gained = row_number()-11,
+           yards_to_goal = yards_to_goal-yards_gained,
+           success = yards_gained >= distance,
+           td = yards_to_goal <= 0) %>%
+    update_game_state()
+
+
+  game_state_long$ep <- sum(predict(object = cfbscrapR:::ep_model,newdata = game_state_long,type = "probs")*c(0,3,-3,2,-7,-2,7) )
+
+  game_state_long <- game_state_long %>%
+    mutate(ExpScoreDiff = pos_score_diff_start + ep,
+           ExpScoreDiff_Time_Ratio = ExpScoreDiff/TimeSecsRem,
+           wp = NA)
+  game_state_long$wp <- predict(object = cfbscrapR:::wp_model,newdata = game_state_long,type = "response")
+  game_state_long <- game_state_long %>%
+    mutate(wp = ifelse(td|turnover,1-wp,wp))
+
+  report <- game_state_long %>%
+    mutate(success_tag = ifelse(success,"Convert","Fail")) %>%
+    group_by(success_tag) %>%
+    summarize(success = sum(pred),
+              wp = sum(wp*pred)/success)# %>%
+  wp_go <- report %>%
+    mutate(exp_wp = sum(success*wp)) %>% slice(1) %>%
+    pull(exp_wp)
+  first_down_prob <- report %>% filter(success_tag == "Convert") %>% pull(success)
+  wp_succeed <- report %>% filter(success_tag == "Convert") %>% pull(wp)
+  wp_fail <- report %>% filter(success_tag == "Fail") %>% pull(wp)
+
+
+  results <- list(
+    wp_go,
+    first_down_prob,
+    wp_fail,
+    wp_succeed
   )
-grid
-
-
-get_metrics <- function(df, row = 1) {
-
-  # testing only
-  # df <- grid %>% dplyr::slice(1)
-
-  params <-
-    list(
-      booster = "gbtree",
-      objective = "multi:softprob",
-      eval_metric = c("mlogloss"),
-      num_class = 76,
-      eta = df$learn_rate,
-      gamma = df$loss_reduction,
-      subsample= df$sample_size,
-      colsample_bytree= df$mtry,
-      max_depth = df$tree_depth,
-      min_child_weight = df$min_n
-    )
-
-  # tuning with cv
-  fd_model <- xgboost::xgb.cv(data = full_train, params = params, nrounds = nrounds,
-                              nfold = 5, metrics = list("mlogloss"),
-                              early_stopping_rounds = 10, print_every_n = 10)
-
-  output <- params
-  output$iter = fd_model$best_iteration
-  output$logloss = fd_model$evaluation_log[output$iter]$test_mlogloss_mean
-  output$error = fd_model$evaluation_log[output$iter]$test_merror_mean
-
-  this_param <- bind_rows(output)
-
-  if (row == 1) {
-    saveRDS(this_param, "data/modeling.rds")
-  } else {
-    prev <- readRDS("data/modeling.rds")
-    for_save <- bind_rows(prev, this_param)
-    saveRDS(for_save, "data/modeling.rds")
-  }
-
-  return(this_param)
-
+  return(results)
+}
+update_game_state <- function(df) {
+  df %>%
+    mutate(down = factor(1,levels = c(1,2,3,4)),
+           distance = 10,
+           #TD
+           pos_score = ifelse(td,pos_score+7,pos_score),
+           pos_score_temp = ifelse(td,def_pos_score,pos_score),
+           def_pos_score = ifelse(td,pos_score,def_pos_score),
+           pos_score = ifelse(td,pos_score_temp,pos_score),
+           pos_to_temp = ifelse(td,def_pos_team_timeouts_rem_before,pos_team_timeouts_rem_before),
+           def_pos_team_timeouts_rem_before = ifelse(td,pos_team_timeouts_rem_before,def_pos_team_timeouts_rem_before),
+           pos_team_timeouts_rem_before = ifelse(td,pos_to_temp,pos_team_timeouts_rem_before),
+           pos_score = ifelse(td,pos_score_temp,pos_score),
+           yards_to_goal = ifelse(td,75,yards_to_goal),
+           # Turnover
+           turnover = !success,
+           pos_score_temp = ifelse(turnover,def_pos_score,pos_score),
+           def_pos_score = ifelse(turnover,pos_score,def_pos_score),
+           pos_score = ifelse(turnover,pos_score_temp,pos_score),
+           pos_to_temp = ifelse(turnover,def_pos_team_timeouts_rem_before,pos_team_timeouts_rem_before),
+           def_pos_team_timeouts_rem_before = ifelse(turnover,pos_team_timeouts_rem_before,def_pos_team_timeouts_rem_before),
+           pos_team_timeouts_rem_before = ifelse(turnover,pos_to_temp,pos_team_timeouts_rem_before),
+           pos_score = ifelse(turnover,pos_score_temp,pos_score),
+           yards_to_goal = ifelse(turnover,100-yards_to_goal,yards_to_goal),
+           distance = ifelse(yards_to_goal < 10, yards_to_goal,distance)
+           ) %>%
+    mutate(Under_two = TimeSecsRem < 120,
+           log_ydstogo = log(yards_to_goal),
+           Goal_To_Go = distance == yards_to_goal,
+           pos_score_diff_start = pos_score-def_pos_score,ep = NA,
+           )
 }
 
-results <- map_df(1 : nrow(grid), function(x) {
 
-  message(glue::glue("Row {x}"))
-  get_metrics(grid %>% dplyr::slice(x), row = x)
 
-})
+
+current_situation <- tibble(yards_to_goal = 20, down = 4,distance = 3,pos_score = 7,def_pos_score = 0,
+                     TimeSecsRem = 900,half = 2,pos_team_timeouts_rem_before = 3,
+                     def_pos_team_timeouts_rem_before = 2) %>%
+  mutate(Under_two = TimeSecsRem < 120,
+         log_ydstogo = log(yards_to_goal),
+         Goal_To_Go = distance == yards_to_goal,
+         pos_score_diff_start = pos_score-def_pos_score,ep = NA)
+
+z <- get_go_wp(current_situation)
+
+go <- tibble::tibble(
+  "choice_prob" = z[[1]],
+  "choice" = "Go for it",
+  "success_prob" = z[[2]],
+  "fail_wp" = z[[3]],
+  "success_wp" = z[[4]]
+) %>%
+  select(choice, choice_prob, success_prob, fail_wp, success_wp)
