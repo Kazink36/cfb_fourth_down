@@ -75,7 +75,7 @@ set.seed(2013)
 # nrounds = 5000
 
 yard_model = MASS::polr(as.factor(label) ~ .,data = model_vars)
-
+saveRDS(yard_model,"yard_model.RDS")
 
 get_go_wp <- function(game_state) {
 
@@ -86,12 +86,15 @@ get_go_wp <- function(game_state) {
            yards_gained = row_number()-11,
            yards_to_goal = yards_to_goal-yards_gained,
            success = yards_gained >= distance,
-           td = yards_to_goal <= 0) %>%
+           td = yards_to_goal <= 0
+           ) %>%
     update_game_state()
 
 
-  game_state_long$ep <- sum(predict(object = cfbscrapR:::ep_model,newdata = game_state_long,type = "probs")*c(0,3,-3,2,-7,-2,7) )
-
+  game_state_long$ep <- predict(object = cfbscrapR:::ep_model,newdata = game_state_long,type = "probs") %>%
+    as_tibble() %>%
+    mutate(ep =V1*0+V2*3+V3*-3+V4*2+V5*-7+V6*-2+V7*7) %>%
+    pull(ep)
   game_state_long <- game_state_long %>%
     mutate(ExpScoreDiff = pos_score_diff_start + ep,
            ExpScoreDiff_Time_Ratio = ExpScoreDiff/TimeSecsRem,
@@ -157,21 +160,5 @@ update_game_state <- function(df) {
 
 
 
-current_situation <- tibble(yards_to_goal = 20, down = 4,distance = 3,pos_score = 7,def_pos_score = 0,
-                     TimeSecsRem = 900,half = 2,pos_team_timeouts_rem_before = 3,
-                     def_pos_team_timeouts_rem_before = 2) %>%
-  mutate(Under_two = TimeSecsRem < 120,
-         log_ydstogo = log(yards_to_goal),
-         Goal_To_Go = distance == yards_to_goal,
-         pos_score_diff_start = pos_score-def_pos_score,ep = NA)
 
-z <- get_go_wp(current_situation)
 
-go <- tibble::tibble(
-  "choice_prob" = z[[1]],
-  "choice" = "Go for it",
-  "success_prob" = z[[2]],
-  "fail_wp" = z[[3]],
-  "success_wp" = z[[4]]
-) %>%
-  select(choice, choice_prob, success_prob, fail_wp, success_wp)
