@@ -1,22 +1,8 @@
-punt_df <- pbp %>%
-  filter(str_detect(play_text,"punt"))
+# punt_df <- pbp %>%
+#   filter(str_detect(play_text,"punt"))
+punt_df <- readRDS("punt_df.RDS")
 
-flip_team <- function(df) {
-  turnover <- TRUE
-  df %>%
-    mutate(
-      down = 1,
-      distance = 10,
-      pos_score_temp = ifelse(turnover,def_pos_score,pos_score),
-      def_pos_score = ifelse(turnover,pos_score,def_pos_score),
-      pos_score = ifelse(turnover,pos_score_temp,pos_score),
-      pos_to_temp = ifelse(turnover,def_pos_team_timeouts_rem_before,pos_team_timeouts_rem_before),
-      def_pos_team_timeouts_rem_before = ifelse(turnover,pos_team_timeouts_rem_before,def_pos_team_timeouts_rem_before),
-      pos_team_timeouts_rem_before = ifelse(turnover,pos_to_temp,pos_team_timeouts_rem_before),
-      pos_score = ifelse(turnover,pos_score_temp,pos_score),
-      yards_to_goal = ifelse(turnover,100-yards_to_goal,yards_to_goal)
-    )
-}
+
 
 get_density <- function(x, y, ...) {
   density_out <- MASS::kde2d(x, y, ...)
@@ -166,96 +152,5 @@ saveRDS(punt_df,"punt_df.RDS")
 
 
 
-get_punt_wp <- function(df, punt_df) {
 
-  # get the distribution at a yard line from punt data
-  punt_probs <- punt_df %>%
-    filter(yards_to_goal == df$yards_to_goal) %>%
-    select(yards_to_goal_end, pct)#, muff)
-
-  if (nrow(punt_probs) > 0) {
-
-    # get punt df
-    probs <- punt_probs %>%
-      bind_cols(df[rep(1, nrow(punt_probs)), ]) %>%
-      flip_team() %>%
-      mutate(
-        yards_to_goal = 100 - yards_to_goal_end,
-
-        # deal with punt return TD (yards_to_goal_end == 100)
-        # we want punting team to be receiving a kickoff so have to flip everything back
-        #posteam = ifelse(yards_to_goal_end == 100, df$posteam, df$),
-        yards_to_goal = ifelse(yards_to_goal_end == 100, as.integer(75), as.integer(yards_to_goal)),
-        pos_team_timeouts_rem_before = ifelse(yards_to_goal_end == 100,
-                                                    df$pos_team_timeouts_rem_before,
-                                                    pos_team_timeouts_rem_before),
-        def_pos_team_timeouts_rem_before = ifelse(yards_to_goal_end == 100,
-                                                    df$def_pos_team_timeouts_rem_before,
-                                                    def_pos_team_timeouts_rem_before),
-        # score_differential = ifelse(yards_to_goal_end == 100, as.integer(-score_differential - 7), as.integer(score_differential)),
-        # receive_2h_ko = case_when(
-        #   qtr <= 2 & receive_2h_ko == 0 & (yards_to_goal_end == 100) ~ 1,
-        #   qtr <= 2 & receive_2h_ko == 1 & (yards_to_goal_end == 100) ~ 0,
-        #   TRUE ~ receive_2h_ko
-        # ),
-
-        # now deal with muffed punts (fumble lost)
-        # again we need to flip everything back
-        #posteam = ifelse(muff == 1, df$posteam, posteam),
-        #yards_to_goal = ifelse(muff == 1, as.integer(100 - yards_to_goal), yards_to_goal),
-        # posteam_timeouts_remaining = dplyr::ifelse(muff == 1,
-        #                                             df$posteam_timeouts_remaining,
-        #                                             posteam_timeouts_remaining),
-        # defteam_timeouts_remaining = dplyr::ifelse(muff == 1,
-        #                                             df$defteam_timeouts_remaining,
-        #                                             defteam_timeouts_remaining),
-        #score_differential = ifelse(muff == 1, as.integer(-score_differential), as.integer(score_differential)),
-        # receive_2h_ko = case_when(
-        #   qtr <= 2 & receive_2h_ko == 0 & (muff == 1) ~ 1,
-        #   qtr <= 2 & receive_2h_ko == 1 & (muff == 1) ~ 0,
-        #   TRUE ~ receive_2h_ko
-        # ),
-        distance = ifelse(yards_to_goal < 10, yards_to_goal, as.integer(distance)),
-        down = as.factor(down)
-      )
-
-    probs$ep <- predict(object = cfbscrapR:::ep_model,newdata = probs,type = "probs") %>%
-      as_tibble() %>%
-      mutate(ep =V1*0+V2*3+V3*-3+V4*2+V5*-7+V6*-2+V7*7) %>%
-      pull(ep)
-    probs <- probs %>%
-      mutate(ExpScoreDiff = pos_score_diff_start + ep,
-             ExpScoreDiff_Time_Ratio = ExpScoreDiff/TimeSecsRem,
-             wp = NA)
-    probs$wp <- predict(object = cfbscrapR:::wp_model,newdata = probs,type = "response")
-
-    # have to flip bc other team
-    #1 - probs %>%
-    probs %>%
-      # nflfastR::calculate_expected_points() %>%
-      # nflfastR::calculate_win_probability() %>%
-      mutate(
-        # for the punt return TD case
-        wp = ifelse(yards_to_goal_end == 100, 1 - wp, wp),
-        score_differential = pos_score - def_pos_score,
-        # fill in end of game situation when team can kneel out clock
-        # discourages punting when the other team can end the game
-        wp = case_when(
-          score_differential > 0 & TimeSecsRem < 120 & def_pos_team_timeouts_rem_before == 0 ~ 1,
-          score_differential > 0 & TimeSecsRem < 80 & def_pos_team_timeouts_rem_before == 1 ~ 1,
-          score_differential > 0 & TimeSecsRem < 40 & def_pos_team_timeouts_rem_before == 2 ~ 1,
-          TRUE ~ wp
-        ),
-
-        wt_wp = pct * wp
-      ) %>%
-      summarize(wp = sum(wt_wp)) %>%
-      pull(wp) %>%
-      return()
-  } else {
-    # message("Too close for punting")
-    return(NA_real_)
-  }
-
-}
 

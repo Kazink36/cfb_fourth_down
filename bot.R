@@ -1,165 +1,125 @@
+library(cfbscrapR)
+library(gt)
+library(MASS)
+library(rtweet)
+library(tidyverse)
+source("bot_functions.R")
+source("helpers.R")
 
-make_table <- function(df, current_situation) {
-  current_situation <- current_situation %>%
-    mutate(score_differential = pos_score_diff_start,
-           ydstogo = distance,
-           yardline_100 = yards_to_goal,
-           qtr = period,
-           sec = TimeSecsRem %% 60,
-           min = round(TimeSecsRem/60),
-           min = ifelse(min>15,min-15,min),
-           time = glue::glue("{min}:{str_pad(sec,2,side = 'left',pad = '0')}"))
-  df %>%
-    arrange(-choice_prob) %>%
-    gt() %>%
-    cols_label(
-      choice = "",
-      choice_prob = "Win %",
-      success_prob = "Success %",
-      success_wp = "Succeed",
-      fail_wp = "Fail"
-    ) %>%
-    tab_style(
-      style = cell_text(color = "black", weight = "bold"),
-      locations = list(
-        cells_row_groups(),
-        cells_column_labels(everything())
-      )
-    ) %>%
-    tab_options(
-      row_group.border.top.width = px(3),
-      row_group.border.top.color = "black",
-      row_group.border.bottom.color = "black",
-      table_body.hlines.color = "white",
-      table.border.top.color = "black",
-      table.border.top.width = px(1),
-      table.border.bottom.color = "white",
-      table.border.bottom.width = px(1),
-      column_labels.border.bottom.color = "black",
-      column_labels.border.bottom.width = px(2)
-    ) %>%
-    fmt_number(
-      columns = vars(choice_prob, success_prob, success_wp, fail_wp), decimals = 0
-    ) %>%
-    # tab_source_note(md("**Please cite**: Ben Baldwin's fourth down model"
-    # )) %>%
-    tab_style(
-      style = list(
-        cell_text(color = "red", weight = "bold")
-      ),
-      locations = cells_body(
-        columns = vars(choice_prob)
-      )
-    )  %>%
-    tab_style(
-      style = list(
-        cell_text(weight = "bold")
-      ),
-      locations = cells_body(
-        columns = vars(choice)
-      )
-    )  %>%
-    tab_spanner(label = "Win % if",
-                columns = 4:5) %>%
-    cols_align(
-      columns = 2:5,
-      align = "center"
-    ) %>%
-    tab_footnote(
-      footnote = "Expected win % for a given decision",
-      locations = cells_column_labels(2)
-    ) %>%
-    tab_footnote(
-      footnote = "Likelihood of converting on 4th down or of making field goal",
-      locations = cells_column_labels(3)
-    )  %>%
-    tab_header(
-      title = md(glue::glue("{case_when(current_situation$score_differential < 0 ~ 'Down', current_situation$score_differential == 0 ~ 'Tied', current_situation$score_differential > 0 ~ 'Up')} {ifelse(current_situation$score_differential == 0, 'up', abs(current_situation$score_differential))}, 4th & {current_situation$ydstogo}, {current_situation$yardline_100} yards from opponent end zone")),
-      subtitle = md(glue::glue("Qtr {current_situation$qtr}, {current_situation$time}"))#hms::hms(current_situation$time) %>% substr(4, 8)}"))
+
+week <- 16
+games<- cfb_game_info(2020,week = week)
+
+
+
+options(dplyr.summarise.inform = FALSE)
+punt_df <- readRDS("punt_df.RDS")
+fg_model <- readRDS("fg_model.RDS")
+yard_model <- readRDS("yard_model.RDS")
+team_info <- cfb_team_info()
+
+
+
+
+live_games <- games %>%
+  mutate(start_time = lubridate::as_datetime(start_date),
+         start_time2 = lubridate::force_tz(start_time,tzone = "GMT"),
+         start_time3 = lubridate::with_tz(start_time2,tzone = "MST")) %>%
+  #select(start_time,start_time2,start_time3) %>% arrange(start_time3)
+   dplyr::filter(
+
+    # this probably isn't necessary but whatever
+    season == 2020,
+
+    # hasn't finished yet
+    is.na(away_post_win_prob),
+
+    # happening today (REMOVE THE DAY ADJUSTMENT)
+    as.character(lubridate::as_date(start_time3)) == as.character(lubridate::today())
+
+  ) %>%
+  dplyr::mutate(
+    # there's probably a better way to do this but it seems to work
+    current_hour = lubridate::hour(lubridate::now()),
+    current_minute = lubridate::minute(lubridate::now()),
+    game_hour = lubridate::hour(start_time3),#as.integer(substr(gametime, 1, 2)),
+    game_minute = lubridate::minute(start_time3),#as.integer(substr(gametime, 4, 5)),
+    # has already started
+    started = dplyr::case_when(
+      current_hour > game_hour ~ 1,
+      current_hour == game_hour & current_minute >= game_minute + 5 ~ 1,
+      TRUE ~ 0
     )
+  ) %>%
+  dplyr::filter(started == 1) %>%
+  dplyr::select(game_id, home_team, away_team, week)
+
+
+while (nrow(live_games != 0)) {
+  plays <- tibble()
+  to_tweet <- tibble()
+  for (i in 1:nrow(live_games)) {
+    Sys.sleep(2)
+    plays <- rbind(plays,get_data(live_games[i,]))
+  }
+  if (nrow(plays != 0)) {
+    old_plays <- readRDS("old_plays.RDS")
+    plays <- plays %>% mutate(old = ifelse(play_id %in% old_plays$play_id,1,0))
+    to_tweet <- plays %>% filter(old == 0)
+  }
+  if (nrow(to_tweet) != 0) {
+    for (i in 1:nrow(to_tweet)) {
+
+      play <- to_tweet %>% slice(i)
+      old_plays <- old_plays %>%
+        bind_rows(play %>% make_tidy_data(punt_df))
+      saveRDS(old_plays,"old_plays.RDS")
+      play %>%
+        tweet_play()
+      print(paste(Sys.time(),play$desc))
+      Sys.sleep(60)
+    }
+  }
+
+  live_games <- games %>%
+    mutate(start_time = lubridate::as_datetime(start_date),
+           start_time2 = lubridate::force_tz(start_time,tzone = "GMT"),
+           start_time3 = lubridate::with_tz(start_time2,tzone = "MST")) %>%
+    #select(start_time,start_time2,start_time3) %>% arrange(start_time3)
+    dplyr::filter(
+
+      # this probably isn't necessary but whatever
+      season == 2020,
+
+      # hasn't finished yet
+      is.na(away_post_win_prob),
+
+      # happening today (REMOVE THE DAY ADJUSTMENT)
+      as.character(lubridate::as_date(start_time3)) == as.character(lubridate::today())
+
+    ) %>%
+    dplyr::mutate(
+      # there's probably a better way to do this but it seems to work
+      current_hour = lubridate::hour(lubridate::now()),
+      current_minute = lubridate::minute(lubridate::now()),
+      game_hour = lubridate::hour(start_time3),#as.integer(substr(gametime, 1, 2)),
+      game_minute = lubridate::minute(start_time3),#as.integer(substr(gametime, 4, 5)),
+      # has already started
+      started = dplyr::case_when(
+        current_hour > game_hour ~ 1,
+        current_hour == game_hour & current_minute >= game_minute + 5 ~ 1,
+        TRUE ~ 0
+      )
+    ) %>%
+    dplyr::filter(started == 1) %>%
+    dplyr::select(game_id, home_team, away_team, week)
+
 
 }
 
-current_situation <- tibble(yards_to_goal = 53, down = 4,distance = 5,pos_score = 17,def_pos_score = 22,
-                            TimeSecsRem = 292,half = 2,pos_team_timeouts_rem_before = 1,
-                            def_pos_team_timeouts_rem_before = 2) %>%
-  mutate(Under_two = TimeSecsRem < 120,
-         period = ifelse(half == 2,3,1) + ifelse(TimeSecsRem < 900,1,0),
-         log_ydstogo = log(yards_to_goal),
-         Goal_To_Go = distance == yards_to_goal,
-         pos_score_diff_start = pos_score-def_pos_score,ep = NA)
-#Utah Punt
-current_situation <- tibble(yards_to_goal = 37, down = 4,distance = 11,pos_score = 7,def_pos_score = 0,
-                            TimeSecsRem = 1349,half = 1,pos_team_timeouts_rem_before = 3,
-                            def_pos_team_timeouts_rem_before = 3) %>%
-  mutate(Under_two = TimeSecsRem < 120,
-         period = ifelse(half == 2,3,1) + ifelse(TimeSecsRem < 900,1,0),
-         log_ydstogo = log(yards_to_goal),
-         Goal_To_Go = distance == yards_to_goal,
-         pos_score_diff_start = pos_score-def_pos_score,ep = NA)
-#Memphis kneel
-current_situation <- tibble(yards_to_goal = 29, down = 4,distance = 10,pos_score = 27,def_pos_score = 27,
-                            TimeSecsRem = 7,half = 2,pos_team_timeouts_rem_before = 1,
-                            def_pos_team_timeouts_rem_before = 0) %>%
-  mutate(Under_two = TimeSecsRem < 120,
-         period = ifelse(half == 2,3,1) + ifelse(TimeSecsRem < 900,1,0),
-         log_ydstogo = log(yards_to_goal),
-         Goal_To_Go = distance == yards_to_goal,
-         pos_score_diff_start = pos_score-def_pos_score,ep = NA)
-#Memphis lean forward
-current_situation <- tibble(yards_to_goal = 23, down = 4,distance = 10,pos_score = 27,def_pos_score = 27,
-                            TimeSecsRem = 7,half = 2,pos_team_timeouts_rem_before = 1,
-                            def_pos_team_timeouts_rem_before = 0) %>%
-  mutate(Under_two = TimeSecsRem < 120,
-         period = ifelse(half == 2,3,1) + ifelse(TimeSecsRem < 900,1,0),
-         log_ydstogo = log(yards_to_goal),
-         Goal_To_Go = distance == yards_to_goal,
-         pos_score_diff_start = pos_score-def_pos_score,ep = NA)
-
-
-x <- get_punt_wp(current_situation, punt_df)
-
-y <- get_fg_wp(current_situation)
-z <- get_go_wp(current_situation)
-
-go <- tibble::tibble(
-  "choice_prob" = z[[1]],
-  "choice" = "Go for it",
-  "success_prob" = z[[2]],
-  "fail_wp" = z[[3]],
-  "success_wp" = z[[4]]
-) %>%
-  select(choice, choice_prob, success_prob, fail_wp, success_wp)
-
-punt <- tibble::tibble(
-  "choice_prob" = if_else(is.na(x), NA_real_, x),
-  "choice" = "Punt",
-  "success_prob" = NA_real_,
-  "fail_wp" = NA_real_,
-  "success_wp" = NA_real_
-) %>%
-  select(choice, choice_prob, success_prob, fail_wp, success_wp)
-
-fg <- tibble::tibble(
-  "choice_prob" = y[[1]],
-  "choice" = "Field goal attempt",
-  "success_prob" = y[[2]],
-  "fail_wp" = y[[3]],
-  "success_wp" = y[[4]]
-) %>%
-  select(choice, choice_prob, success_prob, fail_wp, success_wp)
-
-for_return <- bind_rows(
-  go, fg, punt
-) %>%
-  mutate(
-    choice_prob = 100 * choice_prob,
-    success_prob = 100 * success_prob,
-    fail_wp = 100 * fail_wp,
-    success_wp = 100 * success_wp
-  )
 
 
 
-table <-
-table %>% gtsave("bot/table.png")
+
+
+
