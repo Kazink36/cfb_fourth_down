@@ -1,5 +1,9 @@
 # get all the 4th downs for a game
 # with thanks to espn for the api
+punt_df <- readRDS("punt_df.RDS")
+fg_model <- readRDS("fg_model.RDS")
+yard_model <- readRDS("yard_model.RDS")
+team_info <- cfb_team_info()
 get_data <- function(df) {
 
   espn_game_id <- df$game_id
@@ -77,11 +81,6 @@ get_data <- function(df) {
           dplyr::mutate(
             home_team = home,
             away_team = away,
-            posteam = case_when(
-              posteam == "WSH" ~ "WAS",
-              posteam == "LAR" ~ "LA",
-              TRUE ~ posteam
-            ),
             defteam = if_else(posteam == home_team, away_team, home_team),
             half = if_else(qtr <= 2, 1, 2),
             challenge_team = stringr::str_extract(desc, "[:alpha:]*\\s*[:alpha:]*\\s*[:alpha:]*[:alpha:]+(?=\\schallenged)"),
@@ -206,6 +205,7 @@ get_data <- function(df) {
             yr
           ) %>%
           mutate(Under_two = TimeSecsRem < 120,
+                 distance = ifelse(distance == 0,1,distance),
                  period = ifelse(half == 2,3,1) + ifelse(TimeSecsRem < 900,1,0),
                  log_ydstogo = log(yards_to_goal),
                  Goal_To_Go = distance == yards_to_goal,
@@ -266,6 +266,8 @@ make_table <- function(df, current_situation) {
            time = glue::glue("{min}:{str_pad(sec,2,side = 'left',pad = '0')}"))
   df %>%
     arrange(-choice_prob) %>%
+    filter(!(success_prob == 0 & choice == "Field goal attempt")) %>%
+    filter(!is.na(choice_prob)) %>%
     gt() %>%
     cols_label(
       choice = "",

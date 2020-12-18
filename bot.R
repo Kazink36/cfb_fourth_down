@@ -3,8 +3,6 @@ library(gt)
 library(MASS)
 library(rtweet)
 library(tidyverse)
-source("bot_functions.R")
-source("helpers.R")
 
 
 week <- 16
@@ -13,12 +11,11 @@ games<- cfb_game_info(2020,week = week)
 
 
 options(dplyr.summarise.inform = FALSE)
-punt_df <- readRDS("punt_df.RDS")
-fg_model <- readRDS("fg_model.RDS")
-yard_model <- readRDS("yard_model.RDS")
-team_info <- cfb_team_info()
 
 
+
+source("bot_functions.R")
+source("helpers.R")
 
 
 live_games <- games %>%
@@ -55,7 +52,7 @@ live_games <- games %>%
   dplyr::select(game_id, home_team, away_team, week)
 
 
-while (nrow(live_games != 0)) {
+while(nrow(live_games != 0)) {
   plays <- tibble()
   to_tweet <- tibble()
   for (i in 1:nrow(live_games)) {
@@ -77,7 +74,7 @@ while (nrow(live_games != 0)) {
       play %>%
         tweet_play()
       print(paste(Sys.time(),play$desc))
-      Sys.sleep(60)
+      Sys.sleep(120)
     }
   }
 
@@ -94,7 +91,7 @@ while (nrow(live_games != 0)) {
       # hasn't finished yet
       is.na(away_post_win_prob),
 
-      # happening today (REMOVE THE DAY ADJUSTMENT)
+      # happening today
       as.character(lubridate::as_date(start_time3)) == as.character(lubridate::today())
 
     ) %>%

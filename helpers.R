@@ -10,8 +10,8 @@ get_fg_wp <- function(df) {
 
   # hacky way to not have crazy high probs for long kicks
   # because the bot should be conservative about recommending kicks in this region
-  # for 56 through 60 yards
-  fg_prob <- if_else(df$yards_to_goal >= 38 & df$yards_to_goal <= 42, fg_prob * .9, fg_prob)
+  # for 53 through 60 yards
+  fg_prob <- if_else(df$yards_to_goal >= 35 & df$yards_to_goal <= 42, fg_prob * .9, fg_prob)
 
   # win probability of kicking team if field goal is made
   probs <-
@@ -22,7 +22,9 @@ get_fg_wp <- function(df) {
       yards_to_goal = 75,
       score_differential = (pos_score_diff_start - 3),
       pos_score_diff_start = (pos_score_diff_start - 3),
-      down = as.factor(down)
+      down = as.factor(down),
+      log_ydstogo = log(yards_to_goal),
+      Goal_To_Go = distance == yards_to_goal
     ) #%>%
   probs$ep <- sum(predict(object = cfbscrapR:::ep_model,newdata = probs,type = "probs")*c(0,3,-3,2,-7,-2,7) )
   probs <- probs %>%
@@ -54,12 +56,14 @@ get_fg_wp <- function(df) {
     df %>%
     flip_team() %>%
     mutate(
-      yards_to_goal = (100 - yards_to_goal) - 8,
+      yards_to_goal = (100 - yards_to_goal),
       score_differential = (pos_score_diff_start),
       pos_score_diff_start = (pos_score_diff_start),
       # yards_to_goal can't be bigger than 80 due to some weird nfl rule
       yards_to_goal = if_else(yards_to_goal > 80, 80, yards_to_goal),
-      down = as.factor(down)
+      down = as.factor(down),
+      log_ydstogo = log(yards_to_goal),
+      Goal_To_Go = distance == yards_to_goal
     )
 
   probs$ep <- sum(predict(object = cfbscrapR:::ep_model,newdata = probs,type = "probs")*c(0,3,-3,2,-7,-2,7) )
@@ -294,7 +298,6 @@ flip_team <- function(df) {
       pos_score = ifelse(turnover,pos_score_temp,pos_score),
       score_differential = pos_score - def_pos_score,
       pos_score_diff_start = pos_score - def_pos_score,
-      yards_to_goal = ifelse(turnover,100-yards_to_goal,yards_to_goal),
       posteam = if_else(home_team == posteam, away_team, home_team)
     )
 }
