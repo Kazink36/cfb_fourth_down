@@ -73,11 +73,11 @@ while(nrow(live_games != 0)) {
       saveRDS(old_plays,"old_plays.RDS")
       play %>%
         tweet_play()
-      print(paste(Sys.time(),play$desc))
+      message(paste(Sys.time(),play$desc))
       Sys.sleep(120)
     }
   }
-
+  message("No Plays To Tweet")
   live_games <- games %>%
     mutate(start_time = lubridate::as_datetime(start_date),
            start_time2 = lubridate::force_tz(start_time,tzone = "GMT"),
@@ -111,11 +111,11 @@ while(nrow(live_games != 0)) {
     dplyr::filter(started == 1) %>%
     dplyr::select(game_id, home_team, away_team, week)
 
-
+    Sys.sleep(300)
 }
 
 
-
+message("No Live Games")
 
 
 

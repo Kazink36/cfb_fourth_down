@@ -16,7 +16,7 @@ get_data <- function(df) {
   tryCatch(
     expr = {
 
-
+      warn <- 0
       pbp <- httr::GET(url = glue::glue("http://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event={espn_game_id}")) %>%
         httr::content(as = "text", encoding = "UTF-8") %>%
         jsonlite::fromJSON(flatten = TRUE)
