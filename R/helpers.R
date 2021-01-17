@@ -1,0 +1,334 @@
+
+# function to get WP for field goal attempt
+get_fg_wp <- function(df) {
+
+  # probability field goal is made
+  fg_prob <- as.numeric(mgcv::predict.bam(fg_model, newdata = df, type="response"))
+
+  # don't recommend kicking when fg is over 60 yards
+  fg_prob <- if_else(df$yards_to_goal > 42, 0, fg_prob)
+
+  # hacky way to not have crazy high probs for long kicks
+  # because the bot should be conservative about recommending kicks in this region
+  # for 53 through 60 yards
+  fg_prob <- if_else(df$yards_to_goal >= 35 & df$yards_to_goal <= 42, fg_prob * .9, fg_prob)
+
+  # win probability of kicking team if field goal is made
+  probs <-
+    df %>%
+    flip_team() %>%
+    # win prob after receiving kickoff for touchback and other team has 3 more points
+    mutate(
+      yards_to_goal = 75,
+      score_differential = (pos_score_diff_start - 3),
+      pos_score_diff_start = (pos_score_diff_start - 3),
+      down = as.factor(down),
+      log_ydstogo = log(yards_to_goal),
+      adj_TimeSecsRem = TimeSecsRem + ifelse(half == 1,1800,0),
+      Goal_To_Go = distance == yards_to_goal,
+    ) #%>%
+  probs$ep <- sum(predict(object = cfbscrapR:::ep_model,newdata = probs,type = "probs")*c(0,3,-3,2,-7,-2,7) )
+  probs <- probs %>%
+    mutate(ExpScoreDiff = pos_score_diff_start + ep,
+           ExpScoreDiff_Time_Ratio = ExpScoreDiff/(adj_TimeSecsRem+1),
+           wp = NA)
+  probs$wp <- predict(object = cfbscrapR:::wp_model,newdata = probs,type = "response")
+
+
+  # for end of 1st half stuff
+  #flip_half() %>%
+  fg_make_wp<-1-probs %>%
+    mutate(
+
+      # fill in end of game situation when team can kneel out clock
+      # discourages punting when the other team can end the game
+      wp = case_when(
+        score_differential > 0 & TimeSecsRem < 120 & def_pos_team_timeouts_rem_before == 0 ~ 1,
+        score_differential > 0 & TimeSecsRem < 80 & def_pos_team_timeouts_rem_before == 1 ~ 1,
+        score_differential > 0 & TimeSecsRem < 40 & def_pos_team_timeouts_rem_before == 2 ~ 1,
+        TRUE ~ wp
+      )
+
+    ) %>%
+    pull(wp)
+
+  # win probability of kicking team if field goal is missed
+  probs <-
+    df %>%
+    flip_team() %>%
+    mutate(
+      yards_to_goal = (100 - yards_to_goal),
+      score_differential = (pos_score_diff_start),
+      pos_score_diff_start = (pos_score_diff_start),
+      # yards_to_goal can't be bigger than 80 due to some weird nfl rule
+      yards_to_goal = if_else(yards_to_goal > 80, 80, yards_to_goal),
+      yards_to_goal = if_else(yards_to_goal == 0, 1, yards_to_goal),
+      down = as.factor(down),
+      adj_TimeSecsRem = TimeSecsRem + ifelse(half == 1,1800,0),
+      log_ydstogo = log(yards_to_goal),
+      Goal_To_Go = distance == yards_to_goal
+    )
+
+  probs$ep <- sum(predict(object = cfbscrapR:::ep_model,newdata = probs,type = "probs")*c(0,3,-3,2,-7,-2,7) )
+  probs <- probs %>%
+    mutate(ExpScoreDiff = pos_score_diff_start + ep,
+           ExpScoreDiff_Time_Ratio = ExpScoreDiff/(adj_TimeSecsRem+1),
+           wp = NA)
+  probs$wp <- predict(object = cfbscrapR:::wp_model,newdata = probs,type = "response")
+  # for end of 1st half stuff
+  #flip_half() %>%
+  fg_miss_wp <- 1-probs %>%
+    mutate(
+
+      # fill in end of game situation when team can kneel out clock
+      # discourages punting when the other team can end the game
+      wp = case_when(
+        score_differential > 0 & TimeSecsRem < 120 & def_pos_team_timeouts_rem_before == 0 ~ 1,
+        score_differential > 0 & TimeSecsRem < 80 & def_pos_team_timeouts_rem_before == 1 ~ 1,
+        score_differential > 0 & TimeSecsRem < 40 & def_pos_team_timeouts_rem_before == 2 ~ 1,
+        TRUE ~ wp
+      )
+
+    ) %>%
+    pull(wp)
+
+  # for end of half situations
+  # when team gets ball again after halftime
+  # if (df %>% flip_team() %>% pull(half_seconds_remaining) == 0 & df$qtr == 2 &
+  #     df %>% flip_team() %>% flip_half() %>% pull(posteam) == df$posteam) {
+  #   # message("test")
+  #   fg_make_wp <- 1 - fg_make_wp
+  #   fg_miss_wp <- 1 - fg_miss_wp
+  # }
+
+  # FG win prob is weighted avg of make and miss WPs
+  fg_wp <- fg_prob * fg_make_wp + (1 - fg_prob) * fg_miss_wp
+
+  # bind up the probs to return for table
+  results <- list(fg_wp, fg_prob, fg_miss_wp, fg_make_wp)
+
+  return(results)
+}
+
+get_punt_wp <- function(df, punt_df) {
+
+  # get the distribution at a yard line from punt data
+  punt_probs <- punt_df %>%
+    filter(yards_to_goal == df$yards_to_goal) %>%
+    select(yards_to_goal_end, pct)#, muff)
+
+  if (nrow(punt_probs) > 0) {
+
+    # get punt df
+    probs <- punt_probs %>%
+      bind_cols(df[rep(1, nrow(punt_probs)), ]) %>%
+      flip_team() %>%
+      mutate(
+        yards_to_goal = 100 - yards_to_goal_end,
+
+        # deal with punt return TD (yards_to_goal_end == 100)
+        # we want punting team to be receiving a kickoff so have to flip everything back
+        #posteam = ifelse(yards_to_goal_end == 100, df$posteam, df$),
+        yards_to_goal = ifelse(yards_to_goal_end == 100, as.integer(75), as.integer(yards_to_goal)),
+        pos_team_timeouts_rem_before = ifelse(yards_to_goal_end == 100,
+                                              df$pos_team_timeouts_rem_before,
+                                              pos_team_timeouts_rem_before),
+        def_pos_team_timeouts_rem_before = ifelse(yards_to_goal_end == 100,
+                                                  df$def_pos_team_timeouts_rem_before,
+                                                  def_pos_team_timeouts_rem_before),
+        score_differential = ifelse(yards_to_goal_end == 100, as.integer(-score_differential - 7), as.integer(score_differential)),
+        log_ydstogo = log(yards_to_goal),
+        pos_score_diff_start = ifelse(yards_to_goal_end == 100, as.integer(-pos_score_diff_start - 7), as.integer(pos_score_diff_start)),
+        # receive_2h_ko = case_when(
+        #   qtr <= 2 & receive_2h_ko == 0 & (yards_to_goal_end == 100) ~ 1,
+        #   qtr <= 2 & receive_2h_ko == 1 & (yards_to_goal_end == 100) ~ 0,
+        #   TRUE ~ receive_2h_ko
+        # ),
+
+        # now deal with muffed punts (fumble lost)
+        # again we need to flip everything back
+        #posteam = ifelse(muff == 1, df$posteam, posteam),
+        #yards_to_goal = ifelse(muff == 1, as.integer(100 - yards_to_goal), yards_to_goal),
+        # posteam_timeouts_remaining = dplyr::ifelse(muff == 1,
+        #                                             df$posteam_timeouts_remaining,
+        #                                             posteam_timeouts_remaining),
+        # defteam_timeouts_remaining = dplyr::ifelse(muff == 1,
+        #                                             df$defteam_timeouts_remaining,
+        #                                             defteam_timeouts_remaining),
+        #score_differential = ifelse(muff == 1, as.integer(-score_differential), as.integer(score_differential)),
+        # receive_2h_ko = case_when(
+        #   qtr <= 2 & receive_2h_ko == 0 & (muff == 1) ~ 1,
+        #   qtr <= 2 & receive_2h_ko == 1 & (muff == 1) ~ 0,
+        #   TRUE ~ receive_2h_ko
+        # ),
+        distance = ifelse(yards_to_goal < 10, yards_to_goal, as.integer(distance)),
+        Goal_To_Go = distance == yards_to_goal,
+        adj_TimeSecsRem = TimeSecsRem + ifelse(half == 1,1800,0),
+        down = as.factor(down)
+      )
+
+    probs$ep <- predict(object = cfbscrapR:::ep_model,newdata = probs,type = "probs") %>%
+      as_tibble() %>%
+      mutate(ep =V1*0+V2*3+V3*-3+V4*2+V5*-7+V6*-2+V7*7) %>%
+      pull(ep)
+    probs <- probs %>%
+      mutate(ExpScoreDiff = pos_score_diff_start + ep,
+             ExpScoreDiff_Time_Ratio = ExpScoreDiff/(adj_TimeSecsRem+1),
+             wp = NA)
+    probs$wp <- predict(object = cfbscrapR:::wp_model,newdata = probs,type = "response")
+
+    # have to flip bc other team
+    #1 - probs %>%
+    1-probs %>%
+      # nflfastR::calculate_expected_points() %>%
+      # nflfastR::calculate_win_probability() %>%
+      mutate(
+        # for the punt return TD case
+        wp = ifelse(yards_to_goal_end == 100, 1 - wp, wp),
+        score_differential = pos_score - def_pos_score,
+        # fill in end of game situation when team can kneel out clock
+        # discourages punting when the other team can end the game
+        wp = case_when(
+          score_differential > 0 & TimeSecsRem < 120 & def_pos_team_timeouts_rem_before == 0 ~ 1,
+          score_differential > 0 & TimeSecsRem < 80 & def_pos_team_timeouts_rem_before == 1 ~ 1,
+          score_differential > 0 & TimeSecsRem < 40 & def_pos_team_timeouts_rem_before == 2 ~ 1,
+          TRUE ~ wp
+        ),
+
+        wt_wp = pct * wp
+      ) %>%
+      #select(yards_to_goal_end,yards_to_goal,wp,pct,wt_wp) %>% view()
+      summarize(wp = sum(wt_wp)) %>%
+      pull(wp) %>%
+      return()
+  } else {
+    # message("Too close for punting")
+    return(NA_real_)
+  }
+
+}
+get_go_wp <- function(game_state) {
+
+  not.character <- function(x){
+    !is.character(x)
+  }
+  game_state_matrix <- game_state %>%
+    select_if(not.character) %>%
+    mutate(posteam_spread = -7,
+           posteam_total = 50) %>%
+    select(down,
+           distance,
+           yards_to_goal,
+           posteam_spread,
+           posteam_total) %>%
+    as.matrix()
+  game_state_long <- stats::predict(yard_model,game_state_matrix) %>%
+    as_tibble() %>%
+    rename(pred = value) %>%
+    bind_cols(game_state[rep(1,76),]) %>%
+    mutate(yards_gained = row_number()-11,
+           yards_to_goal = yards_to_goal - yards_gained,
+           success = yards_gained >= distance,
+           td = yards_to_goal <= 0) %>% filter(yards_to_goal < 100) %>%
+    update_game_state()
+    #view()
+
+  # game_state_long <- game_state %>%
+  #   slice(rep(1,76)) %>%
+  #   #add_row(down = rep(game_state$down,75),distance = game_state$distance, yards_to_goal = game_state$yards_to_goal) %>%
+  #   mutate(pred = predict(yard_model,newdata = game_state,type = "probs"),
+  #          yards_gained = row_number()-11,
+  #          yards_to_goal = yards_to_goal-yards_gained,
+  #          success = yards_gained >= distance,
+  #          td = yards_to_goal <= 0
+  #   ) %>% filter(yards_to_goal < 100) %>% #Fix safeties later
+  #   update_game_state()
+
+
+  game_state_long$ep <- predict(object = cfbscrapR:::ep_model,newdata = game_state_long,type = "probs") %>%
+    as_tibble() %>%
+    mutate(ep =V1*0+V2*3+V3*-3+V4*2+V5*-7+V6*-2+V7*7) %>%
+    pull(ep)
+  game_state_long <- game_state_long %>%
+    mutate(ExpScoreDiff = pos_score_diff_start + ep,
+           adj_TimeSecsRem = TimeSecsRem + ifelse(half == 1,1800,0),
+           ExpScoreDiff_Time_Ratio = ExpScoreDiff/(adj_TimeSecsRem+1),
+           wp = NA)
+  game_state_long$wp <- predict(object = cfbscrapR:::wp_model,newdata = game_state_long,type = "response")
+  game_state_long <- game_state_long %>%
+    mutate(wp = ifelse(td|turnover,1-wp,wp))
+
+  report <- game_state_long %>%
+    mutate(success_tag = ifelse(success,"Convert","Fail")) %>%
+    group_by(success_tag) %>%
+    summarize(success = sum(pred),
+              wp = sum(wp*pred)/success)# %>%
+  wp_go <- report %>%
+    mutate(exp_wp = sum(success*wp)) %>% slice(1) %>%
+    pull(exp_wp)
+  first_down_prob <- report %>% filter(success_tag == "Convert") %>% pull(success)
+  wp_succeed <- report %>% filter(success_tag == "Convert") %>% pull(wp)
+  wp_fail <- report %>% filter(success_tag == "Fail") %>% pull(wp)
+
+
+  results <- list(
+    wp_go,
+    first_down_prob,
+    wp_fail,
+    wp_succeed
+  )
+  return(results)
+}
+update_game_state <- function(df) {
+  df %>%
+    mutate(down = factor(1,levels = c(1,2,3,4)),
+           distance = 10,
+           #TD
+           pos_score = ifelse(td,pos_score+7,pos_score),
+           pos_score_temp = ifelse(td,def_pos_score,pos_score),
+           def_pos_score = ifelse(td,pos_score,def_pos_score),
+           pos_score = ifelse(td,pos_score_temp,pos_score),
+           pos_to_temp = ifelse(td,def_pos_team_timeouts_rem_before,pos_team_timeouts_rem_before),
+           def_pos_team_timeouts_rem_before = ifelse(td,pos_team_timeouts_rem_before,def_pos_team_timeouts_rem_before),
+           pos_team_timeouts_rem_before = ifelse(td,pos_to_temp,pos_team_timeouts_rem_before),
+           pos_score = ifelse(td,pos_score_temp,pos_score),
+           yards_to_goal = ifelse(td,75,yards_to_goal),
+           posteam = if_else(home_team == posteam & td, away_team, home_team),
+           # Turnover
+           turnover = !success,
+           posteam = if_else(home_team == posteam & turnover, away_team, home_team),
+           pos_score_temp = ifelse(turnover,def_pos_score,pos_score),
+           def_pos_score = ifelse(turnover,pos_score,def_pos_score),
+           pos_score = ifelse(turnover,pos_score_temp,pos_score),
+           pos_to_temp = ifelse(turnover,def_pos_team_timeouts_rem_before,pos_team_timeouts_rem_before),
+           def_pos_team_timeouts_rem_before = ifelse(turnover,pos_team_timeouts_rem_before,def_pos_team_timeouts_rem_before),
+           pos_team_timeouts_rem_before = ifelse(turnover,pos_to_temp,pos_team_timeouts_rem_before),
+           pos_score = ifelse(turnover,pos_score_temp,pos_score),
+           yards_to_goal = ifelse(turnover,100-yards_to_goal,yards_to_goal),
+           distance = ifelse(yards_to_goal < 10, yards_to_goal,distance)
+    ) %>%
+    mutate(Under_two = TimeSecsRem < 120,
+           log_ydstogo = log(yards_to_goal),
+           Goal_To_Go = distance == yards_to_goal,
+           pos_score_diff_start = pos_score-def_pos_score,ep = NA,
+    )
+}
+flip_team <- function(df) {
+  turnover <- TRUE
+  df %>%
+    mutate(
+      down = 1,
+      distance = 10,
+      TimeSecsRem = ifelse(TimeSecsRem<=6,0,TimeSecsRem - 6),
+      pos_score_temp = ifelse(turnover,def_pos_score,pos_score),
+      def_pos_score = ifelse(turnover,pos_score,def_pos_score),
+      pos_score = ifelse(turnover,pos_score_temp,pos_score),
+      pos_to_temp = ifelse(turnover,def_pos_team_timeouts_rem_before,pos_team_timeouts_rem_before),
+      def_pos_team_timeouts_rem_before = ifelse(turnover,pos_team_timeouts_rem_before,def_pos_team_timeouts_rem_before),
+      pos_team_timeouts_rem_before = ifelse(turnover,pos_to_temp,pos_team_timeouts_rem_before),
+      pos_score = ifelse(turnover,pos_score_temp,pos_score),
+      score_differential = pos_score - def_pos_score,
+      pos_score_diff_start = pos_score - def_pos_score,
+      posteam = if_else(home_team == posteam, away_team, home_team)
+    )
+}
