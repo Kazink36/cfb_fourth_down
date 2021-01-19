@@ -348,7 +348,7 @@ observeEvent(input$team, {
     table_data() %>%
       left_join(logos,by = c("posteam" = "school")) %>%
       left_join(logos,by = c("defteam" = "school"),suffix = c("_pos","_def")) %>%
-      select(-posteam,-logos_pos,-defteam,-game_id,-play_id) %>%
+      select(-posteam,-logos_pos,-defteam,-game_id,-play_id,-go_wp,-fg_wp,-punt_wp) %>%
       select(logos_def,everything()) %>%
       reactable(
         defaultColDef = colDef(
