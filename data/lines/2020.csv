@@ -1,0 +1,2547 @@
+﻿id,homeTeam,homeScore,awayTeam,awayScore,lineProvider,overUnder,spread,formattedSpread
+401234576,Navy,3,BYU,55,Bovada,48.0,1.0,BYU -1.0
+401234576,Navy,3,BYU,55,Caesars,48,1.5,BYU -1.5
+401234576,Navy,3,BYU,55,consensus,48.5,1,BYU -1
+401234576,Navy,3,BYU,55,numberfire,48.5,1.5,BYU -1.5
+401234576,Navy,3,BYU,55,teamrankings,48.5,1,BYU -1
+401239884,UTEP,24,Stephen F. Austin,14,consensus,54,-4,UTEP -4
+401239884,UTEP,24,Stephen F. Austin,14,Bovada,54.0,-4.0,UTEP -4.0
+401212553,Memphis,37,Arkansas State,24,Bovada,71.5,-18.5,Memphis -18.5
+401212553,Memphis,37,Arkansas State,24,Caesars,72.5,-18.5,Memphis -18.5
+401212553,Memphis,37,Arkansas State,24,consensus,72,-18.5,Memphis -18.5
+401212553,Memphis,37,Arkansas State,24,numberfire,72.5,-18.5,Memphis -18.5
+401212553,Memphis,37,Arkansas State,24,teamrankings,71.5,-18.5,Memphis -18.5
+401207098,North Texas,57,Houston Baptist,31,Bovada,74.0,-23.0,North Texas -23.0
+401207098,North Texas,57,Houston Baptist,31,consensus,74.5,-23,North Texas -23
+401212484,Texas State,24,SMU,31,Bovada,70.0,25.5,SMU -25.5
+401212484,Texas State,24,SMU,31,Caesars,70,25,SMU -25
+401212484,Texas State,24,SMU,31,consensus,70.5,24.5,SMU -24.5
+401212484,Texas State,24,SMU,31,numberfire,69.5,24.5,SMU -24.5
+401212484,Texas State,24,SMU,31,teamrankings,70,24.5,SMU -24.5
+401235700,Army,42,Middle Tennessee,0,Bovada,54.0,-4.0,Army -4.0
+401235700,Army,42,Middle Tennessee,0,Caesars,54.5,-3.5,Army -3.5
+401235700,Army,42,Middle Tennessee,0,consensus,54,-3.5,Army -3.5
+401235700,Army,42,Middle Tennessee,0,numberfire,53.5,-3.5,Army -3.5
+401235700,Army,42,Middle Tennessee,0,teamrankings,53,-3.5,Army -3.5
+401237353,Marshall,59,Eastern Kentucky,0,Bovada,55.0,-26.0,Marshall -26.0
+401237353,Marshall,59,Eastern Kentucky,0,consensus,55,-25.5,Marshall -25.5
+401207101,Southern Mississippi,21,South Alabama,32,Bovada,54.5,-12.0,Southern Mississippi -12.0
+401207101,Southern Mississippi,21,South Alabama,32,Caesars,55,-12.5,Southern Mississippi -12.5
+401207101,Southern Mississippi,21,South Alabama,32,consensus,54.5,-12.5,Southern Mississippi -12.5
+401207101,Southern Mississippi,21,South Alabama,32,numberfire,55.5,-12.5,Southern Mississippi -12.5
+401207101,Southern Mississippi,21,South Alabama,32,teamrankings,55,-12.5,Southern Mississippi -12.5
+401238035,UAB,45,Central Arkansas,35,Bovada,50.0,-21.0,UAB -21.0
+401238035,UAB,45,Central Arkansas,35,consensus,49.5,-21,UAB -21
+401236658,Kansas,23,Coastal Carolina,38,Bovada,55.0,-6.5,Kansas -6.5
+401236658,Kansas,23,Coastal Carolina,38,Caesars,56,-6,Kansas -6
+401236658,Kansas,23,Coastal Carolina,38,consensus,55.5,-6,Kansas -6
+401236658,Kansas,23,Coastal Carolina,38,numberfire,55.5,-5.5,Kansas -5.5
+401236658,Kansas,23,Coastal Carolina,38,teamrankings,56.5,-5.5,Kansas -5.5
+401236039,Texas Tech,35,Houston Baptist,33,consensus,81,-40,Texas Tech -40
+401236039,Texas Tech,35,Houston Baptist,33,Bovada,80.0,-40.0,Texas Tech -40.0
+401234564,Louisville,35,Western Kentucky,21,Bovada,55.5,-13.5,Louisville -13.5
+401234564,Louisville,35,Western Kentucky,21,Caesars,55,-13,Louisville -13
+401234564,Louisville,35,Western Kentucky,21,consensus,55,-13,Louisville -13
+401234564,Louisville,35,Western Kentucky,21,numberfire,54.5,-13.5,Louisville -13.5
+401234564,Louisville,35,Western Kentucky,21,teamrankings,55,-13,Louisville -13
+401236222,Texas,59,UTEP,3,Bovada,56.0,-44.0,Texas -44.0
+401236222,Texas,59,UTEP,3,Caesars,56,-44,Texas -44
+401236222,Texas,59,UTEP,3,consensus,55,-45,Texas -45
+401236222,Texas,59,UTEP,3,numberfire,55.5,-44.5,Texas -44.5
+401236222,Texas,59,UTEP,3,teamrankings,55,-45,Texas -45
+401239973,South Alabama,24,Tulane,27,Bovada,51.5,10.5,Tulane -10.5
+401239973,South Alabama,24,Tulane,27,Caesars,51.5,11,Tulane -11
+401239973,South Alabama,24,Tulane,27,consensus,51.5,11.5,Tulane -11.5
+401239973,South Alabama,24,Tulane,27,numberfire,51.5,11.5,Tulane -11.5
+401239973,South Alabama,24,Tulane,27,teamrankings,51.5,11.5,Tulane -11.5
+401236041,Oklahoma State,16,Tulsa,7,Caesars,66.5,-24,Oklahoma State -24
+401236041,Oklahoma State,16,Tulsa,7,Bovada,67.0,-24.5,Oklahoma State -24.5
+401236041,Oklahoma State,16,Tulsa,7,consensus,66.5,-24,Oklahoma State -24
+401236041,Oklahoma State,16,Tulsa,7,numberfire,68.5,-24.5,Oklahoma State -24.5
+401236041,Oklahoma State,16,Tulsa,7,teamrankings,67,-23.5,Oklahoma State -23.5
+401234562,Wake Forest,13,Clemson,37,Bovada,59.0,36.0,Clemson -36.0
+401234562,Wake Forest,13,Clemson,37,Caesars,59,34,Clemson -34
+401234562,Wake Forest,13,Clemson,37,consensus,58.5,34.5,Clemson -34.5
+401234562,Wake Forest,13,Clemson,37,numberfire,58.5,34.5,Clemson -34.5
+401234562,Wake Forest,13,Clemson,37,teamrankings,58.5,34.5,Clemson -34.5
+401236054,Oklahoma,48,Missouri State,0,Bovada,72.0,-48.0,Oklahoma -48.0
+401236054,Oklahoma,48,Missouri State,0,consensus,72,-50.5,Oklahoma -50.5
+401240233,Pittsburgh,55,Austin Peay,0,Bovada,49.0,-31.0,Pittsburgh -31.0
+401240233,Pittsburgh,55,Austin Peay,0,consensus,48.5,-30.5,Pittsburgh -30.5
+401234563,Florida State,13,Georgia Tech,16,consensus,50.5,-12.5,Florida State -12.5
+401234563,Florida State,13,Georgia Tech,16,numberfire,49.5,-13.5,Florida State -13.5
+401234563,Florida State,13,Georgia Tech,16,teamrankings,49,-13,Florida State -13
+401234563,Florida State,13,Georgia Tech,16,Bovada,49.0,-13.5,Florida State -13.5
+401215298,Georgia Southern,27,Campbell,26,consensus,58.5,-27.5,Georgia Southern -27.5
+401215298,Georgia Southern,27,Campbell,26,Bovada,58.5,-31.0,Georgia Southern -31.0
+401207113,Texas State,48,UT San Antonio,51,Caesars,56.5,-6,Texas State -6
+401207113,Texas State,48,UT San Antonio,51,consensus,56.5,-6,Texas State -6
+401207113,Texas State,48,UT San Antonio,51,numberfire,56.5,-6.5,Texas State -6.5
+401207113,Texas State,48,UT San Antonio,51,teamrankings,56.5,-6.5,Texas State -6.5
+401207113,Texas State,48,UT San Antonio,51,Bovada,56.5,-6.0,Texas State -6.0
+401236053,Kansas State,31,Arkansas State,35,Caesars,55.5,-14.5,Kansas State -14.5
+401236053,Kansas State,31,Arkansas State,35,consensus,54.5,-14.5,Kansas State -14.5
+401236053,Kansas State,31,Arkansas State,35,numberfire,53.5,-15.5,Kansas State -15.5
+401236053,Kansas State,31,Arkansas State,35,teamrankings,56.5,-15,Kansas State -15
+401236053,Kansas State,31,Arkansas State,35,Bovada,56.0,-15.5,Kansas State -15.5
+401234574,Notre Dame,27,Duke,13,Caesars,51,-21.5,Notre Dame -21.5
+401234574,Notre Dame,27,Duke,13,consensus,51,-21.5,Notre Dame -21.5
+401234574,Notre Dame,27,Duke,13,numberfire,51.5,-21.5,Notre Dame -21.5
+401234574,Notre Dame,27,Duke,13,teamrankings,50.5,-21,Notre Dame -21
+401234574,Notre Dame,27,Duke,13,Bovada,51.5,-22.5,Notre Dame -22.5
+401240113,Army,37,Louisiana Monroe,7,Caesars,53.5,-24,Army -24
+401240113,Army,37,Louisiana Monroe,7,consensus,53.5,-24.5,Army -24.5
+401240113,Army,37,Louisiana Monroe,7,numberfire,53.5,-23.5,Army -23.5
+401240113,Army,37,Louisiana Monroe,7,teamrankings,53.5,-24,Army -24
+401240113,Army,37,Louisiana Monroe,7,Bovada,53.5,-25.0,Army -25.0
+401240039,South Florida,27,The Citadel,6,consensus,51.5,-17.5,South Florida -17.5
+401240039,South Florida,27,The Citadel,6,Bovada,52.5,-17.5,South Florida -17.5
+401236081,Appalachian State,35,Charlotte,20,Caesars,60,-16.5,Appalachian State -16.5
+401236081,Appalachian State,35,Charlotte,20,consensus,59.5,-16.5,Appalachian State -16.5
+401236081,Appalachian State,35,Charlotte,20,numberfire,59.5,-16.5,Appalachian State -16.5
+401236081,Appalachian State,35,Charlotte,20,Bovada,60.0,-17.0,Appalachian State -17.0
+401236081,Appalachian State,35,Charlotte,20,teamrankings,59,-17,Appalachian State -17
+401236038,West Virginia,56,Eastern Kentucky,10,consensus,58.5,-41,West Virginia -41
+401236038,West Virginia,56,Eastern Kentucky,10,Bovada,59.5,-41.0,West Virginia -41.0
+401236221,Iowa State,14,Louisiana,31,Caesars,56.5,-13,Iowa State -13
+401236221,Iowa State,14,Louisiana,31,consensus,56,-13.5,Iowa State -13.5
+401236221,Iowa State,14,Louisiana,31,numberfire,55.5,-12.5,Iowa State -12.5
+401236221,Iowa State,14,Louisiana,31,teamrankings,56.5,-13,Iowa State -13
+401236221,Iowa State,14,Louisiana,31,Bovada,56.5,-11.0,Iowa State -11.0
+401234565,North Carolina,31,Syracuse,6,Caesars,66.5,-23.5,North Carolina -23.5
+401234565,North Carolina,31,Syracuse,6,consensus,66.5,-24,North Carolina -24
+401234565,North Carolina,31,Syracuse,6,numberfire,66.5,-24.5,North Carolina -24.5
+401234565,North Carolina,31,Syracuse,6,teamrankings,67,-24,North Carolina -24
+401234565,North Carolina,31,Syracuse,6,Bovada,67.0,-24.5,North Carolina -24.5
+401234559,Miami,31,UAB,14,Bovada,55.0,-16.0,Miami -16.0
+401234559,Miami,31,UAB,14,Caesars,55,-15.5,Miami -15.5
+401234559,Miami,31,UAB,14,consensus,55,-15.5,Miami -15.5
+401234559,Miami,31,UAB,14,numberfire,55.5,-16.5,Miami -16.5
+401234559,Miami,31,UAB,14,teamrankings,55,-15.5,Miami -15.5
+401239885,UTEP,17,Abilene Christian,13,consensus,47.5,-8.5,UTEP -8.5
+401215302,Louisiana Monroe,17,Texas State,38,Bovada,58.0,3.5,Texas State -3.5
+401215302,Louisiana Monroe,17,Texas State,38,Caesars,58.5,3,Texas State -3
+401215302,Louisiana Monroe,17,Texas State,38,consensus,58,3,Texas State -3
+401215302,Louisiana Monroe,17,Texas State,38,numberfire,58.5,3.5,Texas State -3.5
+401215302,Louisiana Monroe,17,Texas State,38,teamrankings,58,3,Texas State -3
+401236939,Marshall,17,Appalachian State,7,Bovada,61.0,6.0,Appalachian State -6.0
+401236939,Marshall,17,Appalachian State,7,Caesars,59.5,6,Appalachian State -6
+401236939,Marshall,17,Appalachian State,7,consensus,60.5,6,Appalachian State -6
+401236939,Marshall,17,Appalachian State,7,numberfire,60.5,4.5,Appalachian State -4.5
+401236939,Marshall,17,Appalachian State,7,teamrankings,60.5,6,Appalachian State -6
+401207120,North Texas,35,SMU,65,Bovada,72.5,15.0,SMU -15.0
+401207120,North Texas,35,SMU,65,Caesars,71.5,14.5,SMU -14.5
+401207120,North Texas,35,SMU,65,consensus,71.5,14.5,SMU -14.5
+401207120,North Texas,35,SMU,65,numberfire,72.5,14.5,SMU -14.5
+401207120,North Texas,35,SMU,65,teamrankings,71.5,15,SMU -15
+401241282,Notre Dame,52,South Florida,0,Bovada,49.0,-23.5,Notre Dame -23.5
+401241282,Notre Dame,52,South Florida,0,Caesars,49,-23,Notre Dame -23
+401241282,Notre Dame,52,South Florida,0,consensus,49,-22.5,Notre Dame -22.5
+401241282,Notre Dame,52,South Florida,0,numberfire,48.5,-22.5,Notre Dame -22.5
+401241282,Notre Dame,52,South Florida,0,teamrankings,49.5,-23.5,Notre Dame -23.5
+401240640,Middle Tennessee,14,Troy,47,Bovada,65.5,2.5,Troy -2.5
+401240640,Middle Tennessee,14,Troy,47,Caesars,66,2.5,Troy -2.5
+401240640,Middle Tennessee,14,Troy,47,consensus,66,2,Troy -2
+401240640,Middle Tennessee,14,Troy,47,numberfire,65.5,2.5,Troy -2.5
+401240640,Middle Tennessee,14,Troy,47,teamrankings,70.5,6.5,Troy -6.5
+401240126,Coastal Carolina,43,Campbell,21,consensus,60.5,-27.5,Coastal Carolina -27.5
+401207106,Southern Mississippi,30,Louisiana Tech,31,Bovada,59.0,-7.0,Southern Mississippi -7.0
+401207106,Southern Mississippi,30,Louisiana Tech,31,Caesars,59.5,-7,Southern Mississippi -7
+401207106,Southern Mississippi,30,Louisiana Tech,31,consensus,58.5,-7,Southern Mississippi -7
+401207106,Southern Mississippi,30,Louisiana Tech,31,numberfire,58.5,-6.5,Southern Mississippi -6.5
+401207106,Southern Mississippi,30,Louisiana Tech,31,teamrankings,59,-7,Southern Mississippi -7
+401240041,UT San Antonio,24,Stephen F. Austin,10,consensus,54.5,-18,UT San Antonio -18
+401234571,Pittsburgh,21,Syracuse,10,Bovada,47.0,-21.5,Pittsburgh -21.5
+401234571,Pittsburgh,21,Syracuse,10,Caesars,47.5,-21,Pittsburgh -21
+401234571,Pittsburgh,21,Syracuse,10,consensus,47,-21,Pittsburgh -21
+401234571,Pittsburgh,21,Syracuse,10,numberfire,47.5,-20.5,Pittsburgh -20.5
+401234571,Pittsburgh,21,Syracuse,10,teamrankings,46.5,-21.5,Pittsburgh -21.5
+401234570,NC State,45,Wake Forest,42,Bovada,53.0,2.0,Wake Forest -2.0
+401234570,NC State,45,Wake Forest,42,Caesars,53,2,Wake Forest -2
+401234570,NC State,45,Wake Forest,42,consensus,53.5,2,Wake Forest -2
+401234570,NC State,45,Wake Forest,42,numberfire,52.5,1.5,Wake Forest -1.5
+401234570,NC State,45,Wake Forest,42,teamrankings,54,2,Wake Forest -2
+401234569,Louisville,34,Miami,47,Bovada,65.5,2.5,Miami -2.5
+401234569,Louisville,34,Miami,47,Caesars,65.5,1.5,Miami -1.5
+401234569,Louisville,34,Miami,47,consensus,65.5,2.5,Miami -2.5
+401234569,Louisville,34,Miami,47,numberfire,65.5,1.5,Miami -1.5
+401234569,Louisville,34,Miami,47,teamrankings,65.5,2.5,Miami -2.5
+401234567,Duke,6,Boston College,26,Bovada,50.5,-3.5,Duke -3.5
+401234567,Duke,6,Boston College,26,Caesars,50.5,-4,Duke -4
+401234567,Duke,6,Boston College,26,consensus,50.5,-3.5,Duke -3.5
+401234567,Duke,6,Boston College,26,numberfire,50.5,-3.5,Duke -3.5
+401234567,Duke,6,Boston College,26,teamrankings,49.5,-3.5,Duke -3.5
+401212522,Tulane,24,Navy,27,Bovada,44.5,-5.0,Tulane -5.0
+401212522,Tulane,24,Navy,27,Caesars,45,-5.5,Tulane -5.5
+401212522,Tulane,24,Navy,27,consensus,45,-5.5,Tulane -5.5
+401212522,Tulane,24,Navy,27,numberfire,46.5,-5.5,Tulane -5.5
+401212522,Tulane,24,Navy,27,teamrankings,44.5,-5.5,Tulane -5.5
+401207124,Western Kentucky,24,Liberty,30,Bovada,52.0,-14.5,Western Kentucky -14.5
+401207124,Western Kentucky,24,Liberty,30,Caesars,51.5,-15,Western Kentucky -15
+401207124,Western Kentucky,24,Liberty,30,consensus,51.5,-14.5,Western Kentucky -14.5
+401207124,Western Kentucky,24,Liberty,30,numberfire,51.5,-14.5,Western Kentucky -14.5
+401207124,Western Kentucky,24,Liberty,30,teamrankings,52,-15.5,Western Kentucky -15.5
+401215301,Georgia State,31,Louisiana,34,Caesars,57.5,17,Louisiana -17
+401215301,Georgia State,31,Louisiana,34,consensus,57.5,17,Louisiana -17
+401215301,Georgia State,31,Louisiana,34,numberfire,57.5,17.5,Louisiana -17.5
+401215301,Georgia State,31,Louisiana,34,teamrankings,57.5,17,Louisiana -17
+401234568,Georgia Tech,21,UCF,49,Bovada,63.5,9.5,UCF -9.5
+401234568,Georgia Tech,21,UCF,49,Caesars,63.5,9.5,UCF -9.5
+401234568,Georgia Tech,21,UCF,49,consensus,63,9.5,UCF -9.5
+401234568,Georgia Tech,21,UCF,49,numberfire,62.5,8.5,UCF -8.5
+401234568,Georgia Tech,21,UCF,49,teamrankings,63.5,9.5,UCF -9.5
+401212541,Cincinnati,55,Austin Peay,20,consensus,54,-39.5,Cincinnati -39.5
+401237492,Clemson,49,The Citadel,0,consensus,57,-50.5,Clemson -50.5
+401237037,Texas A&M,17,Vanderbilt,12,Caesars,46,-31.5,Texas A&M -31.5
+401237037,Texas A&M,17,Vanderbilt,12,consensus,46,-31.5,Texas A&M -31.5
+401237037,Texas A&M,17,Vanderbilt,12,numberfire,46.5,-31.5,Texas A&M -31.5
+401237037,Texas A&M,17,Vanderbilt,12,teamrankings,46,-31.5,Texas A&M -31.5
+401237037,Texas A&M,17,Vanderbilt,12,Bovada,46.5,-31.0,Texas A&M -31.0
+401234638,Virginia,38,Duke,20,Bovada,45.5,-4.0,Virginia -4.0
+401234638,Virginia,38,Duke,20,Caesars,45.5,-4,Virginia -4
+401234638,Virginia,38,Duke,20,consensus,45.5,-4,Virginia -4
+401234638,Virginia,38,Duke,20,numberfire,44.5,-3.5,Virginia -3.5
+401236223,BYU,48,Troy,7,Bovada,59.0,-14.5,BYU -14.5
+401236223,BYU,48,Troy,7,Caesars,58.5,-14.5,BYU -14.5
+401236223,BYU,48,Troy,7,consensus,58.5,-14.5,BYU -14.5
+401236223,BYU,48,Troy,7,numberfire,58.5,-14.5,BYU -14.5
+401236223,BYU,48,Troy,7,teamrankings,58.5,-14.5,BYU -14.5
+401234566,Virginia Tech,45,NC State,24,Bovada,56.5,-6.0,Virginia Tech -6.0
+401234566,Virginia Tech,45,NC State,24,Caesars,56.5,-5.5,Virginia Tech -5.5
+401234566,Virginia Tech,45,NC State,24,consensus,56.5,-6,Virginia Tech -6
+401234566,Virginia Tech,45,NC State,24,numberfire,57.5,-6.5,Virginia Tech -6.5
+401235993,Baylor,47,Kansas,14,Caesars,61,-17,Baylor -17
+401235993,Baylor,47,Kansas,14,consensus,61,-17,Baylor -17
+401235993,Baylor,47,Kansas,14,numberfire,60.5,-16.5,Baylor -16.5
+401235993,Baylor,47,Kansas,14,teamrankings,60.5,-17,Baylor -17
+401235993,Baylor,47,Kansas,14,Bovada,61.0,-17.5,Baylor -17.5
+401234593,Miami,52,Florida State,10,Caesars,53.5,-11.5,Miami -11.5
+401234593,Miami,52,Florida State,10,consensus,53.5,-12,Miami -12
+401234593,Miami,52,Florida State,10,numberfire,53.5,-11.5,Miami -11.5
+401234593,Miami,52,Florida State,10,teamrankings,53.5,-12.5,Miami -12.5
+401234593,Miami,52,Florida State,10,Bovada,54.0,-12.5,Miami -12.5
+401237036,South Carolina,27,Tennessee,31,Bovada,45.5,5.0,Tennessee -5.0
+401237036,South Carolina,27,Tennessee,31,Caesars,45,4.5,Tennessee -4.5
+401237036,South Carolina,27,Tennessee,31,consensus,45,4,Tennessee -4
+401237036,South Carolina,27,Tennessee,31,numberfire,45.5,3.5,Tennessee -3.5
+401237036,South Carolina,27,Tennessee,31,teamrankings,45,4,Tennessee -4
+401212485,SMU,50,Stephen F. Austin,7,consensus,63.5,-38.5,SMU -38.5
+401234734,Southern Mississippi,24,Tulane,66,Bovada,54.5,3.5,Tulane -3.5
+401234734,Southern Mississippi,24,Tulane,66,Caesars,54.5,3.5,Tulane -3.5
+401234734,Southern Mississippi,24,Tulane,66,consensus,54.5,3.5,Tulane -3.5
+401234734,Southern Mississippi,24,Tulane,66,numberfire,54.5,3.5,Tulane -3.5
+401234734,Southern Mississippi,24,Tulane,66,teamrankings,54.5,3.5,Tulane -3.5
+401232157,Louisiana Tech,66,Houston Baptist,38,consensus,75.5,-23.5,Louisiana Tech -23.5
+401236951,Missouri,19,Alabama,38,Caesars,55,29,Alabama -29
+401236951,Missouri,19,Alabama,38,consensus,55.5,28.5,Alabama -28.5
+401236951,Missouri,19,Alabama,38,numberfire,55.5,29.5,Alabama -29.5
+401236951,Missouri,19,Alabama,38,teamrankings,54.5,28.5,Alabama -28.5
+401236951,Missouri,19,Alabama,38,Bovada,56.0,29.0,Alabama -29.0
+401241303,Boston College,24,Texas State,21,Caesars,57,-21.5,Boston College -21.5
+401241303,Boston College,24,Texas State,21,consensus,57.5,-21.5,Boston College -21.5
+401241303,Boston College,24,Texas State,21,numberfire,57.5,-21.5,Boston College -21.5
+401241303,Boston College,24,Texas State,21,teamrankings,58,-21.5,Boston College -21.5
+401241303,Boston College,24,Texas State,21,Bovada,57.0,-21.5,Boston College -21.5
+401237033,Arkansas,10,Georgia,37,Bovada,53.0,28.0,Georgia -28.0
+401237033,Arkansas,10,Georgia,37,Caesars,53,28,Georgia -28
+401237033,Arkansas,10,Georgia,37,consensus,53,28,Georgia -28
+401237033,Arkansas,10,Georgia,37,numberfire,52.5,27.5,Georgia -27.5
+401237033,Arkansas,10,Georgia,37,teamrankings,53,28,Georgia -28
+401240194,Louisiana Monroe,6,UTEP,31,Bovada,49.5,-10.0,Louisiana Monroe -10.0
+401240194,Louisiana Monroe,6,UTEP,31,Caesars,50,-9.5,Louisiana Monroe -9.5
+401240194,Louisiana Monroe,6,UTEP,31,consensus,50,-9.5,Louisiana Monroe -9.5
+401240194,Louisiana Monroe,6,UTEP,31,numberfire,48.5,-9.5,Louisiana Monroe -9.5
+401240194,Louisiana Monroe,6,UTEP,31,teamrankings,49,-9.5,Louisiana Monroe -9.5
+401240996,Cincinnati,24,Army,10,Bovada,44.5,-12.0,Cincinnati -12.0
+401240996,Cincinnati,24,Army,10,Caesars,44.5,-12.5,Cincinnati -12.5
+401240996,Cincinnati,24,Army,10,consensus,44.5,-12.5,Cincinnati -12.5
+401240996,Cincinnati,24,Army,10,numberfire,44.5,-11.5,Cincinnati -11.5
+401240996,Cincinnati,24,Army,10,teamrankings,44,-12.5,Cincinnati -12.5
+401235997,Oklahoma State,27,West Virginia,13,Bovada,49.5,-6.0,Oklahoma State -6.0
+401235997,Oklahoma State,27,West Virginia,13,Caesars,50,-6,Oklahoma State -6
+401235997,Oklahoma State,27,West Virginia,13,consensus,50,-6.5,Oklahoma State -6.5
+401235997,Oklahoma State,27,West Virginia,13,numberfire,49.5,-6.5,Oklahoma State -6.5
+401235997,Oklahoma State,27,West Virginia,13,teamrankings,49,-5.5,Oklahoma State -5.5
+401235995,Texas Tech,56,Texas,63,Bovada,71.0,18.0,Texas -18.0
+401235995,Texas Tech,56,Texas,63,Caesars,71.5,17.5,Texas -17.5
+401235995,Texas Tech,56,Texas,63,consensus,71,17.5,Texas -17.5
+401235995,Texas Tech,56,Texas,63,numberfire,71.5,17.5,Texas -17.5
+401235995,Texas Tech,56,Texas,63,teamrankings,71,17,Texas -17
+401237035,LSU,34,Mississippi State,44,Bovada,57.5,-14.5,LSU -14.5
+401237035,LSU,34,Mississippi State,44,Caesars,57,-14.5,LSU -14.5
+401237035,LSU,34,Mississippi State,44,consensus,57,-14.5,LSU -14.5
+401237035,LSU,34,Mississippi State,44,numberfire,56.5,-14.5,LSU -14.5
+401237035,LSU,34,Mississippi State,44,teamrankings,57,-14.5,LSU -14.5
+401235994,TCU,34,Iowa State,37,Bovada,43.5,4.5,Iowa State -4.5
+401235994,TCU,34,Iowa State,37,Caesars,43.5,4,Iowa State -4
+401235994,TCU,34,Iowa State,37,consensus,43.5,3.5,Iowa State -3.5
+401235994,TCU,34,Iowa State,37,numberfire,42.5,3.5,Iowa State -3.5
+401235994,TCU,34,Iowa State,37,teamrankings,43.5,4.5,Iowa State -4.5
+401207126,Liberty,36,Florida International,34,Bovada,60.5,-10.0,Liberty -10.0
+401207126,Liberty,36,Florida International,34,Caesars,60.5,-9.5,Liberty -9.5
+401207126,Liberty,36,Florida International,34,consensus,60.5,-9.5,Liberty -9.5
+401207126,Liberty,36,Florida International,34,numberfire,60.5,-9.5,Liberty -9.5
+401207126,Liberty,36,Florida International,34,teamrankings,61,-10,Liberty -10
+401234594,Syracuse,37,Georgia Tech,20,Bovada,52.0,7.5,Georgia Tech -7.5
+401234594,Syracuse,37,Georgia Tech,20,Caesars,52,7.5,Georgia Tech -7.5
+401234594,Syracuse,37,Georgia Tech,20,consensus,52,7.5,Georgia Tech -7.5
+401234594,Syracuse,37,Georgia Tech,20,numberfire,51.5,7.5,Georgia Tech -7.5
+401234594,Syracuse,37,Georgia Tech,20,teamrankings,52.5,7.5,Georgia Tech -7.5
+401236253,Appalachian State,52,Campbell,21,consensus,54,-33.5,Appalachian State -33.5
+401215303,Louisiana,20,Georgia Southern,18,Caesars,49,-11.5,Louisiana -11.5
+401215303,Louisiana,20,Georgia Southern,18,consensus,49,-11.5,Louisiana -11.5
+401215303,Louisiana,20,Georgia Southern,18,numberfire,48.5,-11.5,Louisiana -11.5
+401215303,Louisiana,20,Georgia Southern,18,teamrankings,49,-12,Louisiana -12
+401234595,Pittsburgh,23,Louisville,20,Bovada,54.0,-3.0,Pittsburgh -3.0
+401234595,Pittsburgh,23,Louisville,20,Caesars,54,-2.5,Pittsburgh -2.5
+401234595,Pittsburgh,23,Louisville,20,consensus,53.5,-2.5,Pittsburgh -2.5
+401234595,Pittsburgh,23,Louisville,20,numberfire,53.5,-2.5,Pittsburgh -2.5
+401234595,Pittsburgh,23,Louisville,20,teamrankings,53,-3,Pittsburgh -3
+401212536,East Carolina,28,UCF,51,Bovada,77.5,28.5,UCF -28.5
+401212536,East Carolina,28,UCF,51,Caesars,77.5,28,UCF -28
+401212536,East Carolina,28,UCF,51,consensus,77.5,28,UCF -28
+401212536,East Carolina,28,UCF,51,numberfire,77.5,28.5,UCF -28.5
+401212536,East Carolina,28,UCF,51,teamrankings,78,28,UCF -28
+401237034,Auburn,29,Kentucky,13,Caesars,,-6.5,Auburn -6.5
+401237034,Auburn,29,Kentucky,13,consensus,46.5,-6.5,Auburn -6.5
+401237034,Auburn,29,Kentucky,13,numberfire,47.5,-5.5,Auburn -5.5
+401237034,Auburn,29,Kentucky,13,teamrankings,46.5,-6,Auburn -6
+401237034,Auburn,29,Kentucky,13,Bovada,47.0,-6.0,Auburn -6.0
+401207132,South Alabama,10,UAB,42,Bovada,47.5,8.0,UAB -8.0
+401207132,South Alabama,10,UAB,42,Caesars,47.5,7.5,UAB -7.5
+401207132,South Alabama,10,UAB,42,consensus,47.5,7.5,UAB -7.5
+401207132,South Alabama,10,UAB,42,numberfire,47.5,7.5,UAB -7.5
+401207132,South Alabama,10,UAB,42,teamrankings,48,7.5,UAB -7.5
+401236952,Ole Miss,35,Florida,51,Bovada,59.5,14.0,Florida -14.0
+401236952,Ole Miss,35,Florida,51,Caesars,60,14,Florida -14
+401236952,Ole Miss,35,Florida,51,consensus,59.5,14,Florida -14
+401236952,Ole Miss,35,Florida,51,numberfire,60.5,14.5,Florida -14.5
+401236952,Ole Miss,35,Florida,51,teamrankings,59.5,13.5,Florida -13.5
+401235996,Oklahoma,35,Kansas State,38,Bovada,62.5,-28.0,Oklahoma -28.0
+401235996,Oklahoma,35,Kansas State,38,Caesars,61.5,-27.5,Oklahoma -27.5
+401235996,Oklahoma,35,Kansas State,38,consensus,61.5,-27.5,Oklahoma -27.5
+401235996,Oklahoma,35,Kansas State,38,numberfire,61.5,-27.5,Oklahoma -27.5
+401235996,Oklahoma,35,Kansas State,38,teamrankings,61.5,-28,Oklahoma -28
+401207134,UT San Antonio,37,Middle Tennessee,35,Caesars,59.5,-6,UT San Antonio -6
+401207134,UT San Antonio,37,Middle Tennessee,35,consensus,58.5,-6,UT San Antonio -6
+401207134,UT San Antonio,37,Middle Tennessee,35,numberfire,58.5,-6.5,UT San Antonio -6.5
+401207134,UT San Antonio,37,Middle Tennessee,35,teamrankings,59,-6,UT San Antonio -6
+401240282,Wake Forest,66,Campbell,14,consensus,68.5,-34.5,Wake Forest -34.5
+401212476,Cincinnati,28,South Florida,7,Bovada,45.5,-22.0,Cincinnati -22.0
+401212476,Cincinnati,28,South Florida,7,Caesars,45.5,-22,Cincinnati -22
+401212476,Cincinnati,28,South Florida,7,consensus,45.5,-22.5,Cincinnati -22.5
+401212476,Cincinnati,28,South Florida,7,numberfire,45.5,-22.5,Cincinnati -22.5
+401212476,Cincinnati,28,South Florida,7,teamrankings,44.5,-22,Cincinnati -22
+401234597,Boston College,22,North Carolina,26,Bovada,52.5,14.5,North Carolina -14.5
+401234597,Boston College,22,North Carolina,26,Caesars,52.5,14.5,North Carolina -14.5
+401234597,Boston College,22,North Carolina,26,consensus,52.5,14.5,North Carolina -14.5
+401234597,Boston College,22,North Carolina,26,numberfire,51.5,15.5,North Carolina -15.5
+401234597,Boston College,22,North Carolina,26,teamrankings,52.5,14.5,North Carolina -14.5
+401236000,Kansas,7,Oklahoma State,47,Bovada,53.0,21.5,Oklahoma State -21.5
+401236000,Kansas,7,Oklahoma State,47,Caesars,53,21.5,Oklahoma State -21.5
+401236000,Kansas,7,Oklahoma State,47,consensus,53,21.5,Oklahoma State -21.5
+401236000,Kansas,7,Oklahoma State,47,numberfire,53.5,22.5,Oklahoma State -22.5
+401236000,Kansas,7,Oklahoma State,47,teamrankings,53,21.5,Oklahoma State -21.5
+401236002,Texas,31,TCU,33,Bovada,62.0,-10.5,Texas -10.5
+401236002,Texas,31,TCU,33,Caesars,61,-10.5,Texas -10.5
+401236002,Texas,31,TCU,33,consensus,61.5,-10.5,Texas -10.5
+401236002,Texas,31,TCU,33,numberfire,61.5,-10.5,Texas -10.5
+401236002,Texas,31,TCU,33,teamrankings,61.5,-10.5,Texas -10.5
+401235999,Iowa State,37,Oklahoma,30,Bovada,63.0,8.0,Oklahoma -8.0
+401235999,Iowa State,37,Oklahoma,30,Caesars,62.5,8,Oklahoma -8
+401235999,Iowa State,37,Oklahoma,30,consensus,62.5,7.5,Oklahoma -7.5
+401235999,Iowa State,37,Oklahoma,30,numberfire,61.5,7.5,Oklahoma -7.5
+401235999,Iowa State,37,Oklahoma,30,teamrankings,61.5,8,Oklahoma -8
+401234598,Clemson,41,Virginia,23,Bovada,56.0,-28.5,Clemson -28.5
+401234598,Clemson,41,Virginia,23,Caesars,55.5,-28,Clemson -28
+401234598,Clemson,41,Virginia,23,consensus,55,-28,Clemson -28
+401234598,Clemson,41,Virginia,23,numberfire,55.5,-28.5,Clemson -28.5
+401234598,Clemson,41,Virginia,23,teamrankings,55,-28,Clemson -28
+401246275,BYU,45,Louisiana Tech,14,Caesars,61,-24,BYU -24
+401246275,BYU,45,Louisiana Tech,14,consensus,61,-24,BYU -24
+401246275,BYU,45,Louisiana Tech,14,Bovada,62.0,-24.0,BYU -24.0
+401246275,BYU,45,Louisiana Tech,14,numberfire,60.5,-24.5,BYU -24.5
+401246275,BYU,45,Louisiana Tech,14,teamrankings,61.5,-24,BYU -24
+401237094,Mississippi State,14,Arkansas,21,Bovada,68.5,-17.0,Mississippi State -17.0
+401237094,Mississippi State,14,Arkansas,21,Caesars,69,-17,Mississippi State -17
+401237094,Mississippi State,14,Arkansas,21,consensus,68.5,-16.5,Mississippi State -16.5
+401237094,Mississippi State,14,Arkansas,21,numberfire,68.5,-16.5,Mississippi State -16.5
+401237094,Mississippi State,14,Arkansas,21,teamrankings,68,-16.5,Mississippi State -16.5
+401207139,North Texas,31,Southern Mississippi,41,Bovada,74.5,-1.5,North Texas -1.5
+401207139,North Texas,31,Southern Mississippi,41,Caesars,74,-2,North Texas -2
+401207139,North Texas,31,Southern Mississippi,41,consensus,74,-1.5,North Texas -1.5
+401207139,North Texas,31,Southern Mississippi,41,numberfire,73.5,-2.5,North Texas -2.5
+401207139,North Texas,31,Southern Mississippi,41,teamrankings,74,-1,North Texas -1
+401237098,Vanderbilt,7,LSU,41,Bovada,50.0,21.5,LSU -21.5
+401237098,Vanderbilt,7,LSU,41,Caesars,49.5,21,LSU -21
+401237098,Vanderbilt,7,LSU,41,consensus,50,21,LSU -21
+401237098,Vanderbilt,7,LSU,41,numberfire,49.5,21.5,LSU -21.5
+401237098,Vanderbilt,7,LSU,41,teamrankings,49.5,21,LSU -21
+401237095,Georgia,27,Auburn,6,Bovada,44.5,-7.0,Georgia -7.0
+401237095,Georgia,27,Auburn,6,Caesars,45,-7.5,Georgia -7.5
+401237095,Georgia,27,Auburn,6,consensus,44.5,-7.5,Georgia -7.5
+401237095,Georgia,27,Auburn,6,numberfire,43.5,-7.5,Georgia -7.5
+401237095,Georgia,27,Auburn,6,teamrankings,44.5,-8,Georgia -8
+401215305,Louisiana Monroe,30,Georgia Southern,35,Bovada,50.5,19.5,Georgia Southern -19.5
+401215305,Louisiana Monroe,30,Georgia Southern,35,Caesars,50.5,19.5,Georgia Southern -19.5
+401215305,Louisiana Monroe,30,Georgia Southern,35,consensus,50.5,19.5,Georgia Southern -19.5
+401215305,Louisiana Monroe,30,Georgia Southern,35,numberfire,48.5,19.5,Georgia Southern -19.5
+401215305,Louisiana Monroe,30,Georgia Southern,35,teamrankings,51,19.5,Georgia Southern -19.5
+401212557,Air Force,40,Navy,7,Bovada,46.5,6.5,Navy -6.5
+401212557,Air Force,40,Navy,7,Caesars,47,6.5,Navy -6.5
+401212557,Air Force,40,Navy,7,consensus,47,6.5,Navy -6.5
+401212557,Air Force,40,Navy,7,numberfire,46.5,6.5,Navy -6.5
+401212557,Air Force,40,Navy,7,teamrankings,46.5,6.5,Navy -6.5
+401237097,Kentucky,41,Ole Miss,42,Caesars,63,-7,Kentucky -7
+401237097,Kentucky,41,Ole Miss,42,consensus,63,-7,Kentucky -7
+401237097,Kentucky,41,Ole Miss,42,numberfire,63.5,-6.5,Kentucky -6.5
+401237097,Kentucky,41,Ole Miss,42,teamrankings,63,-6.5,Kentucky -6.5
+401237097,Kentucky,41,Ole Miss,42,Bovada,63.0,-7.0,Kentucky -7.0
+401237093,Alabama,52,Texas A&M,24,Bovada,54.0,-18.5,Alabama -18.5
+401237093,Alabama,52,Texas A&M,24,Caesars,53.5,-18,Alabama -18
+401237093,Alabama,52,Texas A&M,24,consensus,53.5,-18,Alabama -18
+401237093,Alabama,52,Texas A&M,24,numberfire,53.5,-17.5,Alabama -17.5
+401237093,Alabama,52,Texas A&M,24,teamrankings,54,-18,Alabama -18
+401240040,Army,55,Abilene Christian,23,consensus,49.5,-31,Army -31
+401237513,Liberty,28,North Alabama,7,consensus,65,-33,Liberty -33
+401207141,UAB,21,UT San Antonio,13,Caesars,55.5,-21,UAB -21
+401207141,UAB,21,UT San Antonio,13,consensus,55,-21.5,UAB -21.5
+401207141,UAB,21,UT San Antonio,13,numberfire,55.5,-22.5,UAB -22.5
+401207141,UAB,21,UT San Antonio,13,teamrankings,55.5,-21.5,UAB -21.5
+401237099,Tennessee,35,Missouri,12,Caesars,49,-10,Tennessee -10
+401237099,Tennessee,35,Missouri,12,Bovada,49.0,-10.0,Tennessee -10.0
+401237099,Tennessee,35,Missouri,12,consensus,49,-10,Tennessee -10
+401237099,Tennessee,35,Missouri,12,numberfire,48.5,-10.5,Tennessee -10.5
+401237099,Tennessee,35,Missouri,12,teamrankings,48.5,-10,Tennessee -10
+401237096,Florida,38,South Carolina,24,Bovada,57.5,-15.0,Florida -15.0
+401237096,Florida,38,South Carolina,24,Caesars,57,-14.5,Florida -14.5
+401237096,Florida,38,South Carolina,24,consensus,56.5,-14.5,Florida -14.5
+401237096,Florida,38,South Carolina,24,numberfire,55.5,-14.5,Florida -14.5
+401237096,Florida,38,South Carolina,24,teamrankings,57,-14.5,Florida -14.5
+401236001,Kansas State,31,Texas Tech,21,Bovada,63.0,-1.0,Kansas State -1.0
+401236001,Kansas State,31,Texas Tech,21,Caesars,63,-1,Kansas State -1
+401236001,Kansas State,31,Texas Tech,21,consensus,62.5,-1,Kansas State -1
+401236001,Kansas State,31,Texas Tech,21,numberfire,61.5,0.5,Texas Tech -0.5
+401236001,Kansas State,31,Texas Tech,21,teamrankings,61.5,1.5,Texas Tech -1.5
+401235998,West Virginia,27,Baylor,21,Bovada,54.0,1.5,Baylor -1.5
+401235998,West Virginia,27,Baylor,21,Caesars,54,1,Baylor -1
+401235998,West Virginia,27,Baylor,21,consensus,54,1.5,Baylor -1.5
+401235998,West Virginia,27,Baylor,21,numberfire,53.5,1.5,Baylor -1.5
+401235998,West Virginia,27,Baylor,21,teamrankings,54.5,1.5,Baylor -1.5
+401212547,Georgia State,49,East Carolina,29,Bovada,70.0,2.0,East Carolina -2.0
+401212547,Georgia State,49,East Carolina,29,Caesars,70,1.5,East Carolina -1.5
+401212547,Georgia State,49,East Carolina,29,consensus,70,1.5,East Carolina -1.5
+401212547,Georgia State,49,East Carolina,29,numberfire,69.5,-0.5,Georgia State -0.5
+401212547,Georgia State,49,East Carolina,29,teamrankings,70.5,1.5,East Carolina -1.5
+401207138,Middle Tennessee,17,Western Kentucky,20,Caesars,52,7,Western Kentucky -7
+401207138,Middle Tennessee,17,Western Kentucky,20,consensus,52.5,7,Western Kentucky -7
+401207138,Middle Tennessee,17,Western Kentucky,20,numberfire,52.5,7.5,Western Kentucky -7.5
+401207138,Middle Tennessee,17,Western Kentucky,20,teamrankings,52,7,Western Kentucky -7
+401207138,Middle Tennessee,17,Western Kentucky,20,Bovada,52.5,7.0,Western Kentucky -7.0
+401207136,Florida Atlantic,21,Charlotte,17,Bovada,62.5,-5.0,Florida Atlantic -5.0
+401207136,Florida Atlantic,21,Charlotte,17,Caesars,62,-5,Florida Atlantic -5
+401207136,Florida Atlantic,21,Charlotte,17,consensus,62.5,-5,Florida Atlantic -5
+401207136,Florida Atlantic,21,Charlotte,17,numberfire,62.5,-5.5,Florida Atlantic -5.5
+401207136,Florida Atlantic,21,Charlotte,17,teamrankings,63,-5,Florida Atlantic -5
+401238034,Florida State,41,Jacksonville State,24,consensus,52.5,-27,Florida State -27
+401215304,Coastal Carolina,52,Arkansas State,23,Bovada,64.5,3.5,Arkansas State -3.5
+401215304,Coastal Carolina,52,Arkansas State,23,Caesars,64.5,3.5,Arkansas State -3.5
+401215304,Coastal Carolina,52,Arkansas State,23,consensus,64.5,3.5,Arkansas State -3.5
+401215304,Coastal Carolina,52,Arkansas State,23,numberfire,64.5,3.5,Arkansas State -3.5
+401215304,Coastal Carolina,52,Arkansas State,23,teamrankings,64.5,3.5,Arkansas State -3.5
+401234600,Pittsburgh,29,NC State,30,Bovada,46.0,-14.0,Pittsburgh -14.0
+401234600,Pittsburgh,29,NC State,30,Caesars,46,-14,Pittsburgh -14
+401234600,Pittsburgh,29,NC State,30,consensus,46,-14,Pittsburgh -14
+401234600,Pittsburgh,29,NC State,30,numberfire,46.5,-13.5,Pittsburgh -13.5
+401234600,Pittsburgh,29,NC State,30,teamrankings,45.5,-14,Pittsburgh -14
+401234599,Duke,31,Virginia Tech,38,Bovada,54.0,14.0,Virginia Tech -14.0
+401234599,Duke,31,Virginia Tech,38,Caesars,54,11,Virginia Tech -11
+401234599,Duke,31,Virginia Tech,38,consensus,54,11,Virginia Tech -11
+401234599,Duke,31,Virginia Tech,38,numberfire,53.5,10.5,Virginia Tech -10.5
+401234599,Duke,31,Virginia Tech,38,teamrankings,54.5,11.5,Virginia Tech -11.5
+401212486,SMU,30,Memphis,27,Bovada,75.0,-2.5,SMU -2.5
+401212486,SMU,30,Memphis,27,Caesars,74.5,-2,SMU -2
+401212486,SMU,30,Memphis,27,consensus,74.5,-2,SMU -2
+401212486,SMU,30,Memphis,27,numberfire,75.5,-2.5,SMU -2.5
+401212486,SMU,30,Memphis,27,teamrankings,75,-1.5,SMU -1.5
+401212531,UCF,26,Tulsa,34,Bovada,70.0,-21.0,UCF -21.0
+401212531,UCF,26,Tulsa,34,consensus,70,-20.5,UCF -20.5
+401212531,UCF,26,Tulsa,34,numberfire,70.5,-20.5,UCF -20.5
+401212531,UCF,26,Tulsa,34,teamrankings,70,-19.5,UCF -19.5
+401212515,Navy,31,Temple,29,Caesars,51,4,Temple -4
+401212515,Navy,31,Temple,29,consensus,51,4,Temple -4
+401212515,Navy,31,Temple,29,numberfire,50.5,3.5,Temple -3.5
+401212515,Navy,31,Temple,29,Bovada,51.0,4.0,Temple -4.0
+401234603,Boston College,31,Pittsburgh,30,Caesars,42.5,6,Pittsburgh -6
+401234603,Boston College,31,Pittsburgh,30,SugarHouse,43,6.5,Pittsburgh -6.5
+401234603,Boston College,31,Pittsburgh,30,consensus,42.5,6.5,Pittsburgh -6.5
+401234603,Boston College,31,Pittsburgh,30,numberfire,43.5,6.5,Pittsburgh -6.5
+401234603,Boston College,31,Pittsburgh,30,teamrankings,42.5,6.5,Pittsburgh -6.5
+401234603,Boston College,31,Pittsburgh,30,Bovada,42.5,6.0,Pittsburgh -6.0
+401236005,Oklahoma,53,Texas,45,Bovada,75.0,-3,Oklahoma -3
+401236005,Oklahoma,53,Texas,45,Caesars,74,-3,Oklahoma -3
+401236005,Oklahoma,53,Texas,45,SugarHouse,74.5,-3,Oklahoma -3
+401236005,Oklahoma,53,Texas,45,consensus,74.5,-3,Oklahoma -3
+401236005,Oklahoma,53,Texas,45,numberfire,72.5,-2.5,Oklahoma -2.5
+401236005,Oklahoma,53,Texas,45,teamrankings,74.5,-3,Oklahoma -3
+401237105,LSU,41,Missouri,45,Bovada,50.5,-20.5,LSU -20.5
+401237105,LSU,41,Missouri,45,Caesars,53,-14,LSU -14
+401237105,LSU,41,Missouri,45,consensus,53,14,Missouri -14
+401237105,LSU,41,Missouri,45,numberfire,52.5,-20.5,LSU -20.5
+401237105,LSU,41,Missouri,45,teamrankings,53,-14,LSU -14
+401207146,Western Kentucky,14,Marshall,38,Caesars,43,7,Marshall -7
+401207146,Western Kentucky,14,Marshall,38,SugarHouse,43,6.5,Marshall -6.5
+401207146,Western Kentucky,14,Marshall,38,consensus,43,6.5,Marshall -6.5
+401207146,Western Kentucky,14,Marshall,38,numberfire,44.5,6.5,Marshall -6.5
+401207146,Western Kentucky,14,Marshall,38,teamrankings,43,6.5,Marshall -6.5
+401207146,Western Kentucky,14,Marshall,38,Bovada,43.0,7.0,Marshall -7.0
+401207215,Liberty,40,Louisiana Monroe,7,Bovada,63.5,-17.5,Liberty -17.5
+401207215,Liberty,40,Louisiana Monroe,7,Caesars,63.5,-17,Liberty -17
+401207215,Liberty,40,Louisiana Monroe,7,consensus,63.5,-17,Liberty -17
+401207215,Liberty,40,Louisiana Monroe,7,numberfire,60.5,-19.5,Liberty -19.5
+401207215,Liberty,40,Louisiana Monroe,7,teamrankings,63.5,-17,Liberty -17
+401240114,Army,14,The Citadel,9,SugarHouse,46,-31,Army -31
+401240114,Army,14,The Citadel,9,consensus,46.5,-30.5,Army -30.5
+401240997,BYU,27,UT San Antonio,20,Caesars,63.5,-34,BYU -34
+401240997,BYU,27,UT San Antonio,20,consensus,63,-34,BYU -34
+401240997,BYU,27,UT San Antonio,20,numberfire,63.5,-34.5,BYU -34.5
+401240997,BYU,27,UT San Antonio,20,teamrankings,63.5,-34,BYU -34
+401207145,Louisiana Tech,21,UTEP,17,Bovada,55.5,-14.5,Louisiana Tech -14.5
+401207145,Louisiana Tech,21,UTEP,17,Caesars,55.5,-14,Louisiana Tech -14
+401207145,Louisiana Tech,21,UTEP,17,SugarHouse,55.5,-14.5,Louisiana Tech -14.5
+401207145,Louisiana Tech,21,UTEP,17,consensus,55.5,-14.5,Louisiana Tech -14.5
+401207145,Louisiana Tech,21,UTEP,17,numberfire,51.5,-14.5,Louisiana Tech -14.5
+401207145,Louisiana Tech,21,UTEP,17,teamrankings,56,-14.5,Louisiana Tech -14.5
+401207143,Florida International,28,Middle Tennessee,31,Caesars,56.5,-6.5,Florida International -6.5
+401207143,Florida International,28,Middle Tennessee,31,SugarHouse,57.5,-6.5,Florida International -6.5
+401207143,Florida International,28,Middle Tennessee,31,consensus,57,-6.5,Florida International -6.5
+401207143,Florida International,28,Middle Tennessee,31,numberfire,56.5,-3.5,Florida International -3.5
+401207143,Florida International,28,Middle Tennessee,31,teamrankings,56.5,-6.5,Florida International -6.5
+401207143,Florida International,28,Middle Tennessee,31,Bovada,57.0,-7.0,Florida International -7.0
+401207142,North Texas,21,Charlotte,49,Bovada,66.0,3.0,Charlotte -3.0
+401207142,North Texas,21,Charlotte,49,Caesars,66.5,3,Charlotte -3
+401207142,North Texas,21,Charlotte,49,consensus,66,3,Charlotte -3
+401207142,North Texas,21,Charlotte,49,numberfire,68.5,2.5,Charlotte -2.5
+401207142,North Texas,21,Charlotte,49,teamrankings,66,3,Charlotte -3
+401212477,South Florida,24,East Carolina,44,Bovada,58.5,-6.0,South Florida -6.0
+401212477,South Florida,24,East Carolina,44,Caesars,58,-5.5,South Florida -5.5
+401212477,South Florida,24,East Carolina,44,consensus,58,-5.5,South Florida -5.5
+401212477,South Florida,24,East Carolina,44,numberfire,54.5,-4.5,South Florida -4.5
+401212477,South Florida,24,East Carolina,44,teamrankings,58.5,-5.5,South Florida -5.5
+401237106,Vanderbilt,7,South Carolina,41,Caesars,40.5,14,South Carolina -14
+401237106,Vanderbilt,7,South Carolina,41,consensus,40.5,14,South Carolina -14
+401237106,Vanderbilt,7,South Carolina,41,numberfire,41.5,12.5,South Carolina -12.5
+401237106,Vanderbilt,7,South Carolina,41,teamrankings,41.5,14.5,South Carolina -14.5
+401237106,Vanderbilt,7,South Carolina,41,Bovada,40.5,14.0,South Carolina -14.0
+401237104,Kentucky,24,Mississippi State,2,Bovada,58.0,-3.0,Kentucky -3.0
+401237104,Kentucky,24,Mississippi State,2,Caesars,57.5,-3.5,Kentucky -3.5
+401237104,Kentucky,24,Mississippi State,2,SugarHouse,57.5,-3.5,Kentucky -3.5
+401237104,Kentucky,24,Mississippi State,2,consensus,57.5,-3.5,Kentucky -3.5
+401237104,Kentucky,24,Mississippi State,2,numberfire,58.5,-1.5,Kentucky -1.5
+401237104,Kentucky,24,Mississippi State,2,teamrankings,57.5,-3.5,Kentucky -3.5
+401236004,TCU,14,Kansas State,21,Caesars,49.5,-11,TCU -11
+401236004,TCU,14,Kansas State,21,SugarHouse,49.5,-10.5,TCU -10.5
+401236004,TCU,14,Kansas State,21,consensus,49.5,-11,TCU -11
+401236004,TCU,14,Kansas State,21,numberfire,50.5,-9.5,TCU -9.5
+401236004,TCU,14,Kansas State,21,teamrankings,49.5,-11.5,TCU -11.5
+401236004,TCU,14,Kansas State,21,Bovada,49.5,-10.5,TCU -10.5
+401234608,Virginia,21,NC State,38,Bovada,59.0,-7.0,Virginia -7.0
+401234608,Virginia,21,NC State,38,Caesars,58.5,-7,Virginia -7
+401234608,Virginia,21,NC State,38,SugarHouse,58.5,-7,Virginia -7
+401234608,Virginia,21,NC State,38,consensus,58.5,-7,Virginia -7
+401234608,Virginia,21,NC State,38,numberfire,63.5,-9.5,Virginia -9.5
+401234608,Virginia,21,NC State,38,teamrankings,59,-7,Virginia -7
+401234605,Syracuse,24,Duke,38,Bovada,52.5,2.5,Duke -2.5
+401234605,Syracuse,24,Duke,38,Caesars,52.5,2.5,Duke -2.5
+401234605,Syracuse,24,Duke,38,SugarHouse,52.5,2,Duke -2
+401234605,Syracuse,24,Duke,38,consensus,52.5,2.5,Duke -2.5
+401234605,Syracuse,24,Duke,38,numberfire,51.5,2.5,Duke -2.5
+401234605,Syracuse,24,Duke,38,teamrankings,53.5,2.5,Duke -2.5
+401236003,Iowa State,31,Texas Tech,15,Caesars,62.5,-10,Iowa State -10
+401236003,Iowa State,31,Texas Tech,15,consensus,63.5,-10,Iowa State -10
+401236003,Iowa State,31,Texas Tech,15,numberfire,63.5,-12.5,Iowa State -12.5
+401236003,Iowa State,31,Texas Tech,15,teamrankings,63,-9.5,Iowa State -9.5
+401236003,Iowa State,31,Texas Tech,15,Bovada,63.0,-10.5,Iowa State -10.5
+401234607,North Carolina,56,Virginia Tech,45,Bovada,59.0,-3.5,North Carolina -3.5
+401234607,North Carolina,56,Virginia Tech,45,Caesars,58.5,-3,North Carolina -3
+401234607,North Carolina,56,Virginia Tech,45,SugarHouse,57.5,-2.5,North Carolina -2.5
+401234607,North Carolina,56,Virginia Tech,45,consensus,58.5,-3.5,North Carolina -3.5
+401234607,North Carolina,56,Virginia Tech,45,numberfire,59.5,-4.5,North Carolina -4.5
+401234607,North Carolina,56,Virginia Tech,45,teamrankings,59,-3.5,North Carolina -3.5
+401237101,Auburn,30,Arkansas,28,Caesars,45.5,-13.5,Auburn -13.5
+401237101,Auburn,30,Arkansas,28,SugarHouse,46.5,-14,Auburn -14
+401237101,Auburn,30,Arkansas,28,consensus,46,-13.5,Auburn -13.5
+401237101,Auburn,30,Arkansas,28,numberfire,46.5,-13.5,Auburn -13.5
+401237101,Auburn,30,Arkansas,28,teamrankings,46,-13,Auburn -13
+401237101,Auburn,30,Arkansas,28,Bovada,46.0,-13.5,Auburn -13.5
+401234606,Notre Dame,42,Florida State,26,Caesars,53.5,-20.5,Notre Dame -20.5
+401234606,Notre Dame,42,Florida State,26,SugarHouse,53.5,-20.5,Notre Dame -20.5
+401234606,Notre Dame,42,Florida State,26,consensus,53.5,-20.5,Notre Dame -20.5
+401234606,Notre Dame,42,Florida State,26,numberfire,51.5,-20.5,Notre Dame -20.5
+401234606,Notre Dame,42,Florida State,26,teamrankings,52.5,-20.5,Notre Dame -20.5
+401234606,Notre Dame,42,Florida State,26,Bovada,54.0,-21.0,Notre Dame -21.0
+401237102,Texas A&M,41,Florida,38,Bovada,61.0,6.0,Florida -6.0
+401237102,Texas A&M,41,Florida,38,Caesars,59,6,Florida -6
+401237102,Texas A&M,41,Florida,38,consensus,59.5,6,Florida -6
+401237102,Texas A&M,41,Florida,38,numberfire,57.5,6.5,Florida -6.5
+401237102,Texas A&M,41,Florida,38,teamrankings,59,5.5,Florida -5.5
+401237103,Georgia,44,Tennessee,21,Caesars,43,-12,Georgia -12
+401237103,Georgia,44,Tennessee,21,consensus,43,-12,Georgia -12
+401237103,Georgia,44,Tennessee,21,numberfire,43.5,-12.5,Georgia -12.5
+401237103,Georgia,44,Tennessee,21,teamrankings,44.5,-12.5,Georgia -12.5
+401237103,Georgia,44,Tennessee,21,Bovada,43.0,-12.0,Georgia -12.0
+401237100,Ole Miss,48,Alabama,63,Bovada,74.0,24.0,Alabama -24.0
+401237100,Ole Miss,48,Alabama,63,Caesars,74,23.5,Alabama -23.5
+401237100,Ole Miss,48,Alabama,63,SugarHouse,72.5,24,Alabama -24
+401237100,Ole Miss,48,Alabama,63,consensus,74,24,Alabama -24
+401237100,Ole Miss,48,Alabama,63,numberfire,73.5,24.5,Alabama -24.5
+401237100,Ole Miss,48,Alabama,63,teamrankings,74,24,Alabama -24
+401246425,Arkansas State,50,Central Arkansas,27,consensus,56,-15.5,Arkansas State -15.5
+401234604,Clemson,42,Miami,17,Bovada,60.5,-14.0,Clemson -14.0
+401234604,Clemson,42,Miami,17,Caesars,60,-14,Clemson -14
+401234604,Clemson,42,Miami,17,SugarHouse,58.5,-14.5,Clemson -14.5
+401234604,Clemson,42,Miami,17,consensus,60.5,-14.5,Clemson -14.5
+401234604,Clemson,42,Miami,17,numberfire,61.5,-14.5,Clemson -14.5
+401234604,Clemson,42,Miami,17,teamrankings,59.5,-14,Clemson -14
+401234601,Georgia Tech,46,Louisville,27,Bovada,63.0,5.0,Louisville -5.0
+401234601,Georgia Tech,46,Louisville,27,Caesars,63,4.5,Louisville -4.5
+401234601,Georgia Tech,46,Louisville,27,SugarHouse,63,5,Louisville -5
+401234601,Georgia Tech,46,Louisville,27,consensus,63,4.5,Louisville -4.5
+401234601,Georgia Tech,46,Louisville,27,numberfire,63.5,4.5,Louisville -4.5
+401234601,Georgia Tech,46,Louisville,27,teamrankings,62,4,Louisville -4
+401212523,Houston,49,Tulane,31,Bovada,58.5,-6.5,Houston -6.5
+401212523,Houston,49,Tulane,31,Caesars,58.5,-6.5,Houston -6.5
+401212523,Houston,49,Tulane,31,SugarHouse,58,-6.5,Houston -6.5
+401212523,Houston,49,Tulane,31,consensus,58,-6.5,Houston -6.5
+401212523,Houston,49,Tulane,31,numberfire,58.5,-6.5,Houston -6.5
+401212523,Houston,49,Tulane,31,teamrankings,58,-6,Houston -6
+401215308,Troy,37,Texas State,17,Caesars,59.5,-7,Troy -7
+401215308,Troy,37,Texas State,17,consensus,59.5,-7,Troy -7
+401215308,Troy,37,Texas State,17,numberfire,59.5,-7.5,Troy -7.5
+401215308,Troy,37,Texas State,17,teamrankings,59.5,-7,Troy -7
+401215308,Troy,37,Texas State,17,Bovada,59.0,-7.0,Troy -7.0
+401237107,Alabama,41,Georgia,24,Bovada,57.5,-6.0,Alabama -6.0
+401237107,Alabama,41,Georgia,24,Caesars,57.5,-6,Alabama -6
+401237107,Alabama,41,Georgia,24,SugarHouse,58.5,-6,Alabama -6
+401237107,Alabama,41,Georgia,24,consensus,57,-6,Alabama -6
+401237107,Alabama,41,Georgia,24,numberfire,56.5,-5.5,Alabama -5.5
+401237107,Alabama,41,Georgia,24,teamrankings,56.5,-5.5,Alabama -5.5
+401239872,Troy,31,Eastern Kentucky,29,Bovada,,-28.5,Troy -28.5
+401239872,Troy,31,Eastern Kentucky,29,consensus,60,-30,Troy -30
+401236007,West Virginia,38,Kansas,17,Caesars,48.5,-21,West Virginia -21
+401236007,West Virginia,38,Kansas,17,consensus,49.5,-21,West Virginia -21
+401236007,West Virginia,38,Kansas,17,numberfire,49.5,-20.5,West Virginia -20.5
+401236007,West Virginia,38,Kansas,17,teamrankings,49,-21,West Virginia -21
+401236007,West Virginia,38,Kansas,17,Bovada,49.0,-21.5,West Virginia -21.5
+401212487,Tulane,34,SMU,37,Caesars,65,6.5,SMU -6.5
+401212487,Tulane,34,SMU,37,SugarHouse,64.5,6.5,SMU -6.5
+401212487,Tulane,34,SMU,37,consensus,65,6.5,SMU -6.5
+401212487,Tulane,34,SMU,37,numberfire,65.5,6.5,SMU -6.5
+401212487,Tulane,34,SMU,37,teamrankings,65,6.5,SMU -6.5
+401212487,Tulane,34,SMU,37,Bovada,66.0,6.5,SMU -6.5
+401215311,Louisiana,27,Coastal Carolina,30,Caesars,58.5,-9,Louisiana -9
+401215311,Louisiana,27,Coastal Carolina,30,SugarHouse,58.5,-9.5,Louisiana -9.5
+401215311,Louisiana,27,Coastal Carolina,30,consensus,58.5,-9.5,Louisiana -9.5
+401215311,Louisiana,27,Coastal Carolina,30,numberfire,49.5,-7.5,Louisiana -7.5
+401215311,Louisiana,27,Coastal Carolina,30,teamrankings,58.5,-9,Louisiana -9
+401207149,Louisiana Tech,17,Marshall,35,Bovada,48.5,12.0,Marshall -12.0
+401207149,Louisiana Tech,17,Marshall,35,Caesars,48,12,Marshall -12
+401207149,Louisiana Tech,17,Marshall,35,consensus,48,12,Marshall -12
+401207149,Louisiana Tech,17,Marshall,35,numberfire,47.5,11.5,Marshall -11.5
+401207149,Louisiana Tech,17,Marshall,35,teamrankings,48.5,11.5,Marshall -11.5
+401207150,Middle Tennessee,35,North Texas,52,Bovada,71.5,-3.5,Middle Tennessee -3.5
+401207150,Middle Tennessee,35,North Texas,52,Caesars,72,-3.5,Middle Tennessee -3.5
+401207150,Middle Tennessee,35,North Texas,52,consensus,72,-3.5,Middle Tennessee -3.5
+401207150,Middle Tennessee,35,North Texas,52,numberfire,71.5,-3.5,Middle Tennessee -3.5
+401207150,Middle Tennessee,35,North Texas,52,teamrankings,70.5,-3.5,Middle Tennessee -3.5
+401240115,UT San Antonio,16,Army,28,Caesars,47,9,Army -9
+401240115,UT San Antonio,16,Army,28,consensus,46.5,8.5,Army -8.5
+401240115,UT San Antonio,16,Army,28,numberfire,48.5,8.5,Army -8.5
+401240115,UT San Antonio,16,Army,28,teamrankings,47,8.5,Army -8.5
+401237108,Arkansas,33,Ole Miss,21,Caesars,77,1,Ole Miss -1
+401237108,Arkansas,33,Ole Miss,21,consensus,77.5,-1,Arkansas -1
+401237108,Arkansas,33,Ole Miss,21,numberfire,78.5,0.5,Ole Miss -0.5
+401237108,Arkansas,33,Ole Miss,21,teamrankings,77.5,-1,Arkansas -1
+401237108,Arkansas,33,Ole Miss,21,Bovada,77.5,-1.0,Arkansas -1.0
+401234616,Wake Forest,40,Virginia,23,Bovada,57.0,-2.5,Wake Forest -2.5
+401234616,Wake Forest,40,Virginia,23,Caesars,56.5,-2,Wake Forest -2
+401234616,Wake Forest,40,Virginia,23,SugarHouse,55.5,-1.5,Wake Forest -1.5
+401234616,Wake Forest,40,Virginia,23,consensus,57,-2.5,Wake Forest -2.5
+401234616,Wake Forest,40,Virginia,23,numberfire,57.5,-2.5,Wake Forest -2.5
+401234616,Wake Forest,40,Virginia,23,teamrankings,57.5,-2.5,Wake Forest -2.5
+401234615,Syracuse,21,Liberty,38,Bovada,54.0,3.0,Liberty -3.0
+401234615,Syracuse,21,Liberty,38,Caesars,54,2.5,Liberty -2.5
+401234615,Syracuse,21,Liberty,38,SugarHouse,54,3,Liberty -3
+401234615,Syracuse,21,Liberty,38,consensus,54.5,3,Liberty -3
+401234615,Syracuse,21,Liberty,38,numberfire,53.5,2.5,Liberty -2.5
+401234615,Syracuse,21,Liberty,38,teamrankings,55,3,Liberty -3
+401234614,Miami,31,Pittsburgh,19,Caesars,47,-11.5,Miami -11.5
+401234614,Miami,31,Pittsburgh,19,SugarHouse,47,-13,Miami -13
+401234614,Miami,31,Pittsburgh,19,consensus,47,-11.5,Miami -11.5
+401234614,Miami,31,Pittsburgh,19,numberfire,46.5,-13.5,Miami -13.5
+401234614,Miami,31,Pittsburgh,19,teamrankings,48,-11.5,Miami -11.5
+401234614,Miami,31,Pittsburgh,19,Bovada,47.5,-12.5,Miami -12.5
+401234611,NC State,31,Duke,20,Bovada,60.0,-3.5,NC State -3.5
+401234611,NC State,31,Duke,20,Caesars,59.5,-3.5,NC State -3.5
+401234611,NC State,31,Duke,20,consensus,59.5,-3.5,NC State -3.5
+401234611,NC State,31,Duke,20,numberfire,59.5,-4.5,NC State -4.5
+401234611,NC State,31,Duke,20,teamrankings,59.5,-3.5,NC State -3.5
+401234609,Virginia Tech,40,Boston College,14,Bovada,62.0,-13.0,Virginia Tech -13.0
+401234609,Virginia Tech,40,Boston College,14,Caesars,62,-13.5,Virginia Tech -13.5
+401234609,Virginia Tech,40,Boston College,14,SugarHouse,62.5,-13,Virginia Tech -13
+401234609,Virginia Tech,40,Boston College,14,consensus,61.5,-13,Virginia Tech -13
+401234609,Virginia Tech,40,Boston College,14,numberfire,61.5,-12.5,Virginia Tech -12.5
+401234609,Virginia Tech,40,Boston College,14,teamrankings,61.5,-13,Virginia Tech -13
+401215313,South Alabama,30,Texas State,20,Caesars,57.5,-5,South Alabama -5
+401215313,South Alabama,30,Texas State,20,consensus,57.5,-5,South Alabama -5
+401215313,South Alabama,30,Texas State,20,numberfire,56.5,-4.5,South Alabama -4.5
+401215313,South Alabama,30,Texas State,20,teamrankings,58,-4.5,South Alabama -4.5
+401215313,South Alabama,30,Texas State,20,Bovada,57.5,-4.5,South Alabama -4.5
+401212548,East Carolina,23,Navy,27,Bovada,56.0,3.5,Navy -3.5
+401212548,East Carolina,23,Navy,27,Caesars,55,3.5,Navy -3.5
+401212548,East Carolina,23,Navy,27,consensus,55.5,3.5,Navy -3.5
+401212548,East Carolina,23,Navy,27,numberfire,55.5,3.5,Navy -3.5
+401212548,East Carolina,23,Navy,27,teamrankings,55.5,3,Navy -3
+401212478,Temple,39,South Florida,37,Caesars,52.5,-14,Temple -14
+401212478,Temple,39,South Florida,37,SugarHouse,53,-13,Temple -13
+401212478,Temple,39,South Florida,37,consensus,52.5,-14,Temple -14
+401212478,Temple,39,South Florida,37,numberfire,53.5,-14.5,Temple -14.5
+401212478,Temple,39,South Florida,37,teamrankings,52.5,-13.5,Temple -13.5
+401212478,Temple,39,South Florida,37,Bovada,53.0,-14.0,Temple -14.0
+401237111,Tennessee,7,Kentucky,34,Caesars,46.5,-6.5,Tennessee -6.5
+401237111,Tennessee,7,Kentucky,34,SugarHouse,44.5,-6.5,Tennessee -6.5
+401237111,Tennessee,7,Kentucky,34,consensus,45.5,-6.5,Tennessee -6.5
+401237111,Tennessee,7,Kentucky,34,numberfire,44.5,-6.5,Tennessee -6.5
+401237111,Tennessee,7,Kentucky,34,teamrankings,46.5,-6,Tennessee -6
+401237111,Tennessee,7,Kentucky,34,Bovada,45.5,-6.0,Tennessee -6.0
+401212537,Memphis,50,UCF,49,Bovada,77.0,3.0,UCF -3.0
+401212537,Memphis,50,UCF,49,Caesars,77,3,UCF -3
+401212537,Memphis,50,UCF,49,SugarHouse,76.5,3,UCF -3
+401212537,Memphis,50,UCF,49,consensus,77,3,UCF -3
+401212537,Memphis,50,UCF,49,numberfire,76.5,2.5,UCF -2.5
+401212537,Memphis,50,UCF,49,teamrankings,76.5,3,UCF -3
+401234612,Florida State,31,North Carolina,28,Bovada,65.0,14.0,North Carolina -14.0
+401234612,Florida State,31,North Carolina,28,Caesars,64.5,13.5,North Carolina -13.5
+401234612,Florida State,31,North Carolina,28,consensus,64.5,13.5,North Carolina -13.5
+401234612,Florida State,31,North Carolina,28,numberfire,65.5,13.5,North Carolina -13.5
+401234612,Florida State,31,North Carolina,28,teamrankings,65,13.5,North Carolina -13.5
+401237112,Mississippi State,14,Texas A&M,28,Caesars,55.5,4.5,Texas A&M -4.5
+401237112,Mississippi State,14,Texas A&M,28,SugarHouse,56,4,Texas A&M -4
+401237112,Mississippi State,14,Texas A&M,28,consensus,55.5,4.5,Texas A&M -4.5
+401237112,Mississippi State,14,Texas A&M,28,numberfire,55.5,4.5,Texas A&M -4.5
+401237112,Mississippi State,14,Texas A&M,28,teamrankings,56,3.5,Texas A&M -3.5
+401237112,Mississippi State,14,Texas A&M,28,Bovada,56.0,4.5,Texas A&M -4.5
+401237109,South Carolina,30,Auburn,22,Caesars,53.5,2.5,Auburn -2.5
+401237109,South Carolina,30,Auburn,22,consensus,53.5,2.5,Auburn -2.5
+401237109,South Carolina,30,Auburn,22,numberfire,53.5,2.5,Auburn -2.5
+401237109,South Carolina,30,Auburn,22,teamrankings,53.5,3,Auburn -3
+401237109,South Carolina,30,Auburn,22,Bovada,54.0,2.5,Auburn -2.5
+401234613,Notre Dame,12,Louisville,7,Caesars,62,-16,Notre Dame -16
+401234613,Notre Dame,12,Louisville,7,consensus,62,-15.5,Notre Dame -15.5
+401234613,Notre Dame,12,Louisville,7,numberfire,62.5,-16.5,Notre Dame -16.5
+401234613,Notre Dame,12,Louisville,7,teamrankings,62,-15.5,Notre Dame -15.5
+401234613,Notre Dame,12,Louisville,7,Bovada,62.5,-16.0,Notre Dame -16.0
+401234610,Georgia Tech,7,Clemson,73,Caesars,64.5,27,Clemson -27
+401234610,Georgia Tech,7,Clemson,73,consensus,64.5,26.5,Clemson -26.5
+401234610,Georgia Tech,7,Clemson,73,numberfire,64.5,26.5,Clemson -26.5
+401234610,Georgia Tech,7,Clemson,73,teamrankings,64,26.5,Clemson -26.5
+401234610,Georgia Tech,7,Clemson,73,Bovada,65.5,27.0,Clemson -27.0
+401212551,Houston,26,BYU,43,Caesars,62,3,BYU -3
+401212551,Houston,26,BYU,43,SugarHouse,62.5,3.5,BYU -3.5
+401212551,Houston,26,BYU,43,consensus,62.5,3,BYU -3
+401212551,Houston,26,BYU,43,numberfire,62.5,3.5,BYU -3.5
+401212551,Houston,26,BYU,43,teamrankings,62,3,BYU -3
+401215310,Arkansas State,59,Georgia State,52,Caesars,72.5,-3.5,Arkansas State -3.5
+401215310,Arkansas State,59,Georgia State,52,SugarHouse,72.5,-3.5,Arkansas State -3.5
+401215310,Arkansas State,59,Georgia State,52,consensus,72.5,-3.5,Arkansas State -3.5
+401215310,Arkansas State,59,Georgia State,52,numberfire,72.5,-3.5,Arkansas State -3.5
+401215310,Arkansas State,59,Georgia State,52,teamrankings,72.5,-3.5,Arkansas State -3.5
+401215310,Arkansas State,59,Georgia State,52,Bovada,72.5,-3.5,Arkansas State -3.5
+401250215,Georgia Southern,41,UMass,0,Bovada,62.0,-30.5,Georgia Southern -30.5
+401250215,Georgia Southern,41,UMass,0,Caesars,62,-30,Georgia Southern -30
+401250215,Georgia Southern,41,UMass,0,consensus,61.5,-31,Georgia Southern -31
+401250215,Georgia Southern,41,UMass,0,numberfire,61.5,-30.5,Georgia Southern -30.5
+401250215,Georgia Southern,41,UMass,0,teamrankings,62,-31,Georgia Southern -31
+401207153,UAB,37,Western Kentucky,14,Caesars,44,-11.5,UAB -11.5
+401207153,UAB,37,Western Kentucky,14,SugarHouse,43.5,-11.5,UAB -11.5
+401207153,UAB,37,Western Kentucky,14,consensus,44,-11.5,UAB -11.5
+401207153,UAB,37,Western Kentucky,14,numberfire,43.5,-11.5,UAB -11.5
+401207153,UAB,37,Western Kentucky,14,teamrankings,44,-10.5,UAB -10.5
+401207153,UAB,37,Western Kentucky,14,Bovada,44.0,-11.0,UAB -11.0
+401234620,Miami,19,Virginia,14,Bovada,54.0,-14.0,Miami -14.0
+401234620,Miami,19,Virginia,14,Caesars,54,-14,Miami -14
+401234620,Miami,19,Virginia,14,consensus,54,-13.5,Miami -13.5
+401234620,Miami,19,Virginia,14,numberfire,53.5,-13.5,Miami -13.5
+401234620,Miami,19,Virginia,14,teamrankings,54.5,-13.5,Miami -13.5
+401248997,Boise State,42,Utah State,13,Bovada,51.5,-17.0,Boise State -17.0
+401248997,Boise State,42,Utah State,13,Caesars,51.5,-17,Boise State -17
+401248997,Boise State,42,Utah State,13,consensus,51.5,-17,Boise State -17
+401248997,Boise State,42,Utah State,13,numberfire,51.5,-17.5,Boise State -17.5
+401248997,Boise State,42,Utah State,13,teamrankings,51,-17,Boise State -17
+401207102,Western Kentucky,13,Chattanooga,10,SugarHouse,53,-14,Western Kentucky -14
+401207102,Western Kentucky,13,Chattanooga,10,consensus,53.5,-14,Western Kentucky -14
+401247299,Michigan State,27,Rutgers,38,consensus,44.5,-9.5,Michigan State -9.5
+401247299,Michigan State,27,Rutgers,38,numberfire,45.5,-9.5,Michigan State -9.5
+401247299,Michigan State,27,Rutgers,38,teamrankings,44.5,-9.5,Michigan State -9.5
+401247299,Michigan State,27,Rutgers,38,Bovada,45.0,-9.5,Michigan State -9.5
+401234618,Clemson,47,Syracuse,21,Caesars,63,-48,Clemson -48
+401234618,Clemson,47,Syracuse,21,SugarHouse,63.5,-47.5,Clemson -47.5
+401234618,Clemson,47,Syracuse,21,consensus,63,-47.5,Clemson -47.5
+401234618,Clemson,47,Syracuse,21,numberfire,63.5,-47.5,Clemson -47.5
+401234618,Clemson,47,Syracuse,21,teamrankings,64.5,-47.5,Clemson -47.5
+401234618,Clemson,47,Syracuse,21,Bovada,64.0,-48.0,Clemson -48.0
+401247297,Wisconsin,45,Illinois,7,Bovada,51.5,-20.0,Wisconsin -20.0
+401247297,Wisconsin,45,Illinois,7,Caesars,52,-20.5,Wisconsin -20.5
+401247297,Wisconsin,45,Illinois,7,consensus,51.5,-20.5,Wisconsin -20.5
+401247297,Wisconsin,45,Illinois,7,numberfire,51.5,-20.5,Wisconsin -20.5
+401247297,Wisconsin,45,Illinois,7,teamrankings,51.5,-20.5,Wisconsin -20.5
+401212479,South Florida,13,Tulsa,42,Bovada,51.5,12.0,Tulsa -12.0
+401212479,South Florida,13,Tulsa,42,Caesars,51.5,12,Tulsa -12
+401212479,South Florida,13,Tulsa,42,SugarHouse,50.5,11.5,Tulsa -11.5
+401212479,South Florida,13,Tulsa,42,consensus,51.5,12,Tulsa -12
+401212479,South Florida,13,Tulsa,42,numberfire,51.5,10.5,Tulsa -10.5
+401212479,South Florida,13,Tulsa,42,teamrankings,51.5,11.5,Tulsa -11.5
+401250783,Florida International,10,Jacksonville State,19,consensus,55.5,-10.5,Florida International -10.5
+401237122,Missouri,20,Kentucky,10,Caesars,47,3,Kentucky -3
+401237122,Missouri,20,Kentucky,10,consensus,47,3,Kentucky -3
+401237122,Missouri,20,Kentucky,10,numberfire,45.5,3.5,Kentucky -3.5
+401237122,Missouri,20,Kentucky,10,teamrankings,47,3,Kentucky -3
+401237122,Missouri,20,Kentucky,10,Bovada,47.0,3.5,Kentucky -3.5
+401207160,Liberty,56,Southern Mississippi,35,Caesars,59.5,-14,Liberty -14
+401207160,Liberty,56,Southern Mississippi,35,Bovada,60.0,-14.5,Liberty -14.5
+401207160,Liberty,56,Southern Mississippi,35,SugarHouse,60.5,-14,Liberty -14
+401207160,Liberty,56,Southern Mississippi,35,consensus,59.5,-14,Liberty -14
+401207160,Liberty,56,Southern Mississippi,35,numberfire,58.5,-14.5,Liberty -14.5
+401207160,Liberty,56,Southern Mississippi,35,teamrankings,59.5,-14,Liberty -14
+401215317,Troy,34,Georgia State,36,Bovada,68.5,-2.5,Troy -2.5
+401215317,Troy,34,Georgia State,36,Caesars,68.5,-2.5,Troy -2.5
+401215317,Troy,34,Georgia State,36,SugarHouse,68.5,-2.5,Troy -2.5
+401215317,Troy,34,Georgia State,36,consensus,68.5,-2.5,Troy -2.5
+401215317,Troy,34,Georgia State,36,numberfire,68.5,-2.5,Troy -2.5
+401215317,Troy,34,Georgia State,36,teamrankings,68.5,-1.5,Troy -1.5
+401207156,Marshall,20,Florida Atlantic,9,Bovada,51.0,-19.5,Marshall -19.5
+401207156,Marshall,20,Florida Atlantic,9,Caesars,51,-19,Marshall -19
+401207156,Marshall,20,Florida Atlantic,9,SugarHouse,51,-18,Marshall -18
+401207156,Marshall,20,Florida Atlantic,9,consensus,51,-19,Marshall -19
+401207156,Marshall,20,Florida Atlantic,9,numberfire,50.5,-18.5,Marshall -18.5
+401207156,Marshall,20,Florida Atlantic,9,teamrankings,50.5,-20,Marshall -20
+401240998,BYU,52,Texas State,14,Bovada,61.5,-30.5,BYU -30.5
+401240998,BYU,52,Texas State,14,Caesars,62,-30,BYU -30
+401240998,BYU,52,Texas State,14,SugarHouse,61.5,-29,BYU -29
+401240998,BYU,52,Texas State,14,consensus,61.5,-30,BYU -30
+401240998,BYU,52,Texas State,14,numberfire,62.5,-29.5,BYU -29.5
+401240998,BYU,52,Texas State,14,teamrankings,62,-30,BYU -30
+401236012,Texas Tech,34,West Virginia,27,Bovada,54.0,3.0,West Virginia -3.0
+401236012,Texas Tech,34,West Virginia,27,Caesars,54,2.5,West Virginia -2.5
+401236012,Texas Tech,34,West Virginia,27,consensus,54,2.5,West Virginia -2.5
+401236012,Texas Tech,34,West Virginia,27,numberfire,54.5,2.5,West Virginia -2.5
+401236012,Texas Tech,34,West Virginia,27,teamrankings,54,2.5,West Virginia -2.5
+401236010,Kansas State,55,Kansas,14,Caesars,46,-19,Kansas State -19
+401236010,Kansas State,55,Kansas,14,SugarHouse,46.5,-19,Kansas State -19
+401236010,Kansas State,55,Kansas,14,consensus,46,-19,Kansas State -19
+401236010,Kansas State,55,Kansas,14,numberfire,46.5,-18.5,Kansas State -18.5
+401236010,Kansas State,55,Kansas,14,teamrankings,46,-18.5,Kansas State -18.5
+401236010,Kansas State,55,Kansas,14,Bovada,46.0,-19.5,Kansas State -19.5
+401234623,Wake Forest,23,Virginia Tech,16,Bovada,69.0,11.0,Virginia Tech -11.0
+401234623,Wake Forest,23,Virginia Tech,16,Caesars,68.5,10.5,Virginia Tech -10.5
+401234623,Wake Forest,23,Virginia Tech,16,SugarHouse,68,10.5,Virginia Tech -10.5
+401234623,Wake Forest,23,Virginia Tech,16,consensus,68.5,10.5,Virginia Tech -10.5
+401234623,Wake Forest,23,Virginia Tech,16,numberfire,68.5,10.5,Virginia Tech -10.5
+401234623,Wake Forest,23,Virginia Tech,16,teamrankings,69,10.5,Virginia Tech -10.5
+401234619,Louisville,48,Florida State,16,Caesars,62,-5.5,Louisville -5.5
+401234619,Louisville,48,Florida State,16,SugarHouse,60.5,-6,Louisville -6
+401234619,Louisville,48,Florida State,16,consensus,62.5,-5.5,Louisville -5.5
+401234619,Louisville,48,Florida State,16,numberfire,62.5,-5.5,Louisville -5.5
+401234619,Louisville,48,Florida State,16,teamrankings,62,-5,Louisville -5
+401234619,Louisville,48,Florida State,16,Bovada,63.0,-5.0,Louisville -5.0
+401234617,Boston College,48,Georgia Tech,27,Caesars,56.5,-3.5,Boston College -3.5
+401234617,Boston College,48,Georgia Tech,27,SugarHouse,56.5,-3.5,Boston College -3.5
+401234617,Boston College,48,Georgia Tech,27,consensus,57.5,-3.5,Boston College -3.5
+401234617,Boston College,48,Georgia Tech,27,numberfire,57.5,-3.5,Boston College -3.5
+401234617,Boston College,48,Georgia Tech,27,teamrankings,57.5,-3.5,Boston College -3.5
+401234617,Boston College,48,Georgia Tech,27,Bovada,57.0,-3.5,Boston College -3.5
+401207158,Rice,34,Middle Tennessee,40,Caesars,49,-4,Rice -4
+401207158,Rice,34,Middle Tennessee,40,SugarHouse,49,-3.5,Rice -3.5
+401207158,Rice,34,Middle Tennessee,40,consensus,48,-3.5,Rice -3.5
+401207158,Rice,34,Middle Tennessee,40,numberfire,48.5,-3.5,Rice -3.5
+401207158,Rice,34,Middle Tennessee,40,teamrankings,48,-4.5,Rice -4.5
+401207158,Rice,34,Middle Tennessee,40,Bovada,48.0,-4.0,Rice -4.0
+401207157,UT San Antonio,27,Louisiana Tech,26,Caesars,54,2,Louisiana Tech -2
+401207157,UT San Antonio,27,Louisiana Tech,26,SugarHouse,53.5,2.5,Louisiana Tech -2.5
+401207157,UT San Antonio,27,Louisiana Tech,26,consensus,54,2.5,Louisiana Tech -2.5
+401207157,UT San Antonio,27,Louisiana Tech,26,numberfire,53.5,2.5,Louisiana Tech -2.5
+401207157,UT San Antonio,27,Louisiana Tech,26,teamrankings,52.5,2.5,Louisiana Tech -2.5
+401207154,Charlotte,38,UTEP,28,Bovada,50.0,-17.5,Charlotte -17.5
+401207154,Charlotte,38,UTEP,28,Caesars,50,-17.5,Charlotte -17.5
+401207154,Charlotte,38,UTEP,28,SugarHouse,49.5,-17,Charlotte -17
+401207154,Charlotte,38,UTEP,28,consensus,50,-17.5,Charlotte -17.5
+401207154,Charlotte,38,UTEP,28,numberfire,49.5,-17.5,Charlotte -17.5
+401207154,Charlotte,38,UTEP,28,teamrankings,50,-17.5,Charlotte -17.5
+401212552,Navy,21,Houston,37,Bovada,56.5,15.5,Houston -15.5
+401212552,Navy,21,Houston,37,Caesars,56,15.5,Houston -15.5
+401212552,Navy,21,Houston,37,SugarHouse,55.5,15.5,Houston -15.5
+401212552,Navy,21,Houston,37,consensus,56,15.5,Houston -15.5
+401212552,Navy,21,Houston,37,numberfire,55.5,15.5,Houston -15.5
+401212552,Navy,21,Houston,37,teamrankings,56,14.5,Houston -14.5
+401212516,Memphis,41,Temple,29,Bovada,70.0,-14.0,Memphis -14.0
+401212516,Memphis,41,Temple,29,Caesars,70,-14,Memphis -14
+401212516,Memphis,41,Temple,29,SugarHouse,70,-13.5,Memphis -13.5
+401212516,Memphis,41,Temple,29,consensus,70,-14,Memphis -14
+401212516,Memphis,41,Temple,29,numberfire,70.5,-14.5,Memphis -14.5
+401212516,Memphis,41,Temple,29,teamrankings,70,-14.5,Memphis -14.5
+401215316,Coastal Carolina,28,Georgia Southern,14,Bovada,49.0,-1.5,Coastal Carolina -1.5
+401215316,Coastal Carolina,28,Georgia Southern,14,Caesars,49,-1,Coastal Carolina -1
+401215316,Coastal Carolina,28,Georgia Southern,14,SugarHouse,49,-4,Coastal Carolina -4
+401215316,Coastal Carolina,28,Georgia Southern,14,consensus,49,-1,Coastal Carolina -1
+401215316,Coastal Carolina,28,Georgia Southern,14,numberfire,48.5,-1.5,Coastal Carolina -1.5
+401215316,Coastal Carolina,28,Georgia Southern,14,teamrankings,48,-1,Coastal Carolina -1
+401212524,UCF,51,Tulane,34,Bovada,71.0,-21.0,UCF -21.0
+401212524,UCF,51,Tulane,34,Caesars,71,-21,UCF -21
+401212524,UCF,51,Tulane,34,consensus,71,-21,UCF -21
+401212524,UCF,51,Tulane,34,numberfire,70.5,-21.5,UCF -21.5
+401212524,UCF,51,Tulane,34,teamrankings,71,-21,UCF -21
+401212488,SMU,13,Cincinnati,42,Bovada,57.0,0.0,Cincinnati -0.0
+401212488,SMU,13,Cincinnati,42,Caesars,57,-1,SMU -1
+401212488,SMU,13,Cincinnati,42,consensus,57,-1,SMU -1
+401212488,SMU,13,Cincinnati,42,numberfire,56.5,-1.5,SMU -1.5
+401212488,SMU,13,Cincinnati,42,teamrankings,56.5,-1.5,SMU -1.5
+401234621,North Carolina,48,NC State,21,Caesars,61.5,-14.5,North Carolina -14.5
+401234621,North Carolina,48,NC State,21,SugarHouse,60.5,-16,North Carolina -16
+401234621,North Carolina,48,NC State,21,consensus,61.5,-15,North Carolina -15
+401234621,North Carolina,48,NC State,21,numberfire,61.5,-14.5,North Carolina -14.5
+401234621,North Carolina,48,NC State,21,teamrankings,61.5,-14.5,North Carolina -14.5
+401234621,North Carolina,48,NC State,21,Bovada,62.0,-15.0,North Carolina -15.0
+401236009,Oklahoma State,24,Iowa State,21,Caesars,53.5,-3,Oklahoma State -3
+401236009,Oklahoma State,24,Iowa State,21,SugarHouse,52,-3,Oklahoma State -3
+401236009,Oklahoma State,24,Iowa State,21,consensus,53,-2.5,Oklahoma State -2.5
+401236009,Oklahoma State,24,Iowa State,21,numberfire,53.5,-2.5,Oklahoma State -2.5
+401236009,Oklahoma State,24,Iowa State,21,teamrankings,54,-2.5,Oklahoma State -2.5
+401236009,Oklahoma State,24,Iowa State,21,Bovada,54.0,-3.0,Oklahoma State -3.0
+401237115,Ole Miss,28,Auburn,35,Bovada,73.0,3.5,Auburn -3.5
+401237115,Ole Miss,28,Auburn,35,Caesars,72,3.5,Auburn -3.5
+401237115,Ole Miss,28,Auburn,35,SugarHouse,73,4,Auburn -4
+401237115,Ole Miss,28,Auburn,35,consensus,73.5,3.5,Auburn -3.5
+401237115,Ole Miss,28,Auburn,35,numberfire,73.5,3.5,Auburn -3.5
+401237115,Ole Miss,28,Auburn,35,teamrankings,74,3.5,Auburn -3.5
+401234622,Pittsburgh,3,Notre Dame,45,Bovada,43.5,10.0,Notre Dame -10.0
+401234622,Pittsburgh,3,Notre Dame,45,Caesars,43.5,10,Notre Dame -10
+401234622,Pittsburgh,3,Notre Dame,45,SugarHouse,43.5,9.5,Notre Dame -9.5
+401234622,Pittsburgh,3,Notre Dame,45,consensus,43.5,10,Notre Dame -10
+401234622,Pittsburgh,3,Notre Dame,45,numberfire,43.5,9.5,Notre Dame -9.5
+401234622,Pittsburgh,3,Notre Dame,45,teamrankings,43.5,10,Notre Dame -10
+401237118,LSU,52,South Carolina,24,Bovada,55.0,-4.5,LSU -4.5
+401237118,LSU,52,South Carolina,24,Caesars,55,-4.5,LSU -4.5
+401237118,LSU,52,South Carolina,24,consensus,54.5,-4.5,LSU -4.5
+401237118,LSU,52,South Carolina,24,numberfire,54.5,-4.5,LSU -4.5
+401237118,LSU,52,South Carolina,24,teamrankings,54,-4.5,LSU -4.5
+401236011,TCU,14,Oklahoma,33,Caesars,59,6.5,Oklahoma -6.5
+401236011,TCU,14,Oklahoma,33,SugarHouse,59,6.5,Oklahoma -6.5
+401236011,TCU,14,Oklahoma,33,consensus,58.5,6.5,Oklahoma -6.5
+401236011,TCU,14,Oklahoma,33,numberfire,59.5,6.5,Oklahoma -6.5
+401236011,TCU,14,Oklahoma,33,teamrankings,59,6.5,Oklahoma -6.5
+401236011,TCU,14,Oklahoma,33,Bovada,59.0,7.0,Oklahoma -7.0
+401237114,Tennessee,17,Alabama,48,Bovada,67.0,23.0,Alabama -23.0
+401237114,Tennessee,17,Alabama,48,Caesars,66.5,21.5,Alabama -21.5
+401237114,Tennessee,17,Alabama,48,SugarHouse,66,21.5,Alabama -21.5
+401237114,Tennessee,17,Alabama,48,consensus,66.5,21.5,Alabama -21.5
+401237114,Tennessee,17,Alabama,48,numberfire,66.5,22.5,Alabama -22.5
+401237114,Tennessee,17,Alabama,48,teamrankings,67,21.5,Alabama -21.5
+401238036,UAB,20,Louisiana,24,Caesars,50.5,2.5,Louisiana -2.5
+401238036,UAB,20,Louisiana,24,SugarHouse,49.5,2.5,Louisiana -2.5
+401238036,UAB,20,Louisiana,24,consensus,50.5,2.5,Louisiana -2.5
+401238036,UAB,20,Louisiana,24,numberfire,50.5,2.5,Louisiana -2.5
+401238036,UAB,20,Louisiana,24,teamrankings,49.5,2.5,Louisiana -2.5
+401238036,UAB,20,Louisiana,24,Bovada,50.5,2.5,Louisiana -2.5
+401247298,Northwestern,43,Maryland,3,Bovada,52.0,-13.0,Northwestern -13.0
+401247298,Northwestern,43,Maryland,3,Caesars,53,-13,Northwestern -13
+401247298,Northwestern,43,Maryland,3,SugarHouse,52.5,-13,Northwestern -13
+401247298,Northwestern,43,Maryland,3,consensus,52.5,-13,Northwestern -13
+401247298,Northwestern,43,Maryland,3,numberfire,52.5,-12.5,Northwestern -12.5
+401247298,Northwestern,43,Maryland,3,teamrankings,51,-14,Northwestern -14
+401247296,Purdue,24,Iowa,20,Caesars,51.5,3.5,Iowa -3.5
+401247296,Purdue,24,Iowa,20,SugarHouse,52,3.5,Iowa -3.5
+401247296,Purdue,24,Iowa,20,consensus,52,3.5,Iowa -3.5
+401247296,Purdue,24,Iowa,20,numberfire,51.5,3.5,Iowa -3.5
+401247296,Purdue,24,Iowa,20,teamrankings,52,3,Iowa -3
+401247296,Purdue,24,Iowa,20,Bovada,52.0,3.5,Iowa -3.5
+401247295,Indiana,36,Penn State,35,Bovada,62.0,7.0,Penn State -7.0
+401247295,Indiana,36,Penn State,35,Caesars,62,6,Penn State -6
+401247295,Indiana,36,Penn State,35,SugarHouse,61.5,6.5,Penn State -6.5
+401247295,Indiana,36,Penn State,35,consensus,61.5,6.5,Penn State -6.5
+401247295,Indiana,36,Penn State,35,numberfire,61.5,6.5,Penn State -6.5
+401247295,Indiana,36,Penn State,35,teamrankings,62,7,Penn State -7
+401247294,Minnesota,24,Michigan,49,Bovada,54.0,3.0,Michigan -3.0
+401247294,Minnesota,24,Michigan,49,Caesars,53,3,Michigan -3
+401247294,Minnesota,24,Michigan,49,SugarHouse,53,3,Michigan -3
+401247294,Minnesota,24,Michigan,49,consensus,53.5,3,Michigan -3
+401247294,Minnesota,24,Michigan,49,numberfire,54.5,2.5,Michigan -2.5
+401247294,Minnesota,24,Michigan,49,teamrankings,53,3,Michigan -3
+401247293,Ohio State,52,Nebraska,17,Bovada,69.5,-28.5,Ohio State -28.5
+401247293,Ohio State,52,Nebraska,17,Caesars,68,-28,Ohio State -28
+401247293,Ohio State,52,Nebraska,17,SugarHouse,68.5,-27.5,Ohio State -27.5
+401247293,Ohio State,52,Nebraska,17,consensus,69.5,-27.5,Ohio State -27.5
+401247293,Ohio State,52,Nebraska,17,numberfire,69.5,-27.5,Ohio State -27.5
+401247293,Ohio State,52,Nebraska,17,teamrankings,69.5,-28,Ohio State -28
+401248998,Nevada,37,Wyoming,34,Bovada,54.0,3.0,Wyoming -3.0
+401248998,Nevada,37,Wyoming,34,Caesars,54,3,Wyoming -3
+401248998,Nevada,37,Wyoming,34,consensus,54,3,Wyoming -3
+401248998,Nevada,37,Wyoming,34,numberfire,54.5,2.5,Wyoming -2.5
+401248998,Nevada,37,Wyoming,34,teamrankings,54,3,Wyoming -3
+401248996,San Diego State,34,UNLV,6,Bovada,51.0,-14.0,San Diego State -14.0
+401248996,San Diego State,34,UNLV,6,Caesars,50,-14,San Diego State -14
+401248996,San Diego State,34,UNLV,6,consensus,50.5,-14,San Diego State -14
+401248996,San Diego State,34,UNLV,6,numberfire,50.5,-14.5,San Diego State -14.5
+401248996,San Diego State,34,UNLV,6,teamrankings,51,-14,San Diego State -14
+401248994,Fresno State,19,Hawai'i,34,Bovada,64.5,-3.0,Fresno State -3.0
+401248994,Fresno State,19,Hawai'i,34,Caesars,65.5,-2.5,Fresno State -2.5
+401248994,Fresno State,19,Hawai'i,34,SugarHouse,64.5,-3,Fresno State -3
+401248994,Fresno State,19,Hawai'i,34,consensus,64.5,-3,Fresno State -3
+401248994,Fresno State,19,Hawai'i,34,numberfire,64.5,-2.5,Fresno State -2.5
+401248994,Fresno State,19,Hawai'i,34,teamrankings,64.5,-2.5,Fresno State -2.5
+401248993,San José State,17,Air Force,6,Bovada,64.0,7.5,Air Force -7.5
+401248993,San José State,17,Air Force,6,Caesars,64,7.5,Air Force -7.5
+401248993,San José State,17,Air Force,6,consensus,64,7.5,Air Force -7.5
+401248993,San José State,17,Air Force,6,numberfire,63.5,7.5,Air Force -7.5
+401248993,San José State,17,Air Force,6,teamrankings,63.5,7.5,Air Force -7.5
+401250784,South Alabama,38,Louisiana Monroe,14,Bovada,57.0,-14.5,South Alabama -14.5
+401250784,South Alabama,38,Louisiana Monroe,14,Caesars,56.5,-14.5,South Alabama -14.5
+401250784,South Alabama,38,Louisiana Monroe,14,consensus,57,-14.5,South Alabama -14.5
+401250784,South Alabama,38,Louisiana Monroe,14,numberfire,56.5,-14.5,South Alabama -14.5
+401240642,Appalachian State,45,Arkansas State,17,Bovada,69.5,-13.5,Appalachian State -13.5
+401240642,Appalachian State,45,Arkansas State,17,Caesars,69.5,-13.5,Appalachian State -13.5
+401240642,Appalachian State,45,Arkansas State,17,SugarHouse,69.5,-13.5,Appalachian State -13.5
+401240642,Appalachian State,45,Arkansas State,17,consensus,69.5,-13.5,Appalachian State -13.5
+401240642,Appalachian State,45,Arkansas State,17,numberfire,70.5,-13.5,Appalachian State -13.5
+401240642,Appalachian State,45,Arkansas State,17,teamrankings,69.5,-14,Appalachian State -14
+401236008,Texas,27,Baylor,16,Bovada,61.5,-11.0,Texas -11.0
+401236008,Texas,27,Baylor,16,Caesars,61.5,-11,Texas -11
+401236008,Texas,27,Baylor,16,SugarHouse,60.5,-10.5,Texas -10.5
+401236008,Texas,27,Baylor,16,consensus,61.5,-11,Texas -11
+401236008,Texas,27,Baylor,16,numberfire,61.5,-10.5,Texas -10.5
+401236008,Texas,27,Baylor,16,teamrankings,61.5,-11,Texas -11
+401234627,Louisville,35,Virginia Tech,42,Caesars,67.5,5,Virginia Tech -5
+401234627,Louisville,35,Virginia Tech,42,consensus,67.5,5,Virginia Tech -5
+401234627,Louisville,35,Virginia Tech,42,numberfire,67.5,3.5,Virginia Tech -3.5
+401234627,Louisville,35,Virginia Tech,42,teamrankings,67.5,4,Virginia Tech -4
+401234627,Louisville,35,Virginia Tech,42,Bovada,,3.0,Virginia Tech -3.0
+401212543,Cincinnati,49,Memphis,10,Caesars,57.5,-6.5,Cincinnati -6.5
+401212543,Cincinnati,49,Memphis,10,SugarHouse,55.5,-6.5,Cincinnati -6.5
+401212543,Cincinnati,49,Memphis,10,consensus,57.5,-6.5,Cincinnati -6.5
+401212543,Cincinnati,49,Memphis,10,numberfire,57.5,-6.5,Cincinnati -6.5
+401212543,Cincinnati,49,Memphis,10,teamrankings,56.5,-6.5,Cincinnati -6.5
+401212543,Cincinnati,49,Memphis,10,Bovada,,-7.0,Cincinnati -7.0
+401247302,Maryland,45,Minnesota,44,Bovada,,20.5,Minnesota -20.5
+401247302,Maryland,45,Minnesota,44,Caesars,60,18,Minnesota -18
+401247302,Maryland,45,Minnesota,44,SugarHouse,60.5,18.5,Minnesota -18.5
+401247302,Maryland,45,Minnesota,44,consensus,60.5,18.5,Minnesota -18.5
+401247302,Maryland,45,Minnesota,44,numberfire,60.5,18.5,Minnesota -18.5
+401247302,Maryland,45,Minnesota,44,teamrankings,60.5,17.5,Minnesota -17.5
+401239887,BYU,41,Western Kentucky,10,Caesars,52,-31,BYU -31
+401239887,BYU,41,Western Kentucky,10,SugarHouse,52.5,-30.5,BYU -30.5
+401239887,BYU,41,Western Kentucky,10,consensus,52.5,-31,BYU -31
+401239887,BYU,41,Western Kentucky,10,numberfire,52.5,-30.5,BYU -30.5
+401239887,BYU,41,Western Kentucky,10,teamrankings,52,-30.5,BYU -30.5
+401239887,BYU,41,Western Kentucky,10,Bovada,,-28.5,BYU -28.5
+401237117,Kentucky,3,Georgia,14,Bovada,,14.5,Georgia -14.5
+401237117,Kentucky,3,Georgia,14,Caesars,42,17,Georgia -17
+401237117,Kentucky,3,Georgia,14,SugarHouse,43,17.5,Georgia -17.5
+401237117,Kentucky,3,Georgia,14,consensus,42,17,Georgia -17
+401237117,Kentucky,3,Georgia,14,numberfire,42.5,16.5,Georgia -16.5
+401237117,Kentucky,3,Georgia,14,teamrankings,42,17,Georgia -17
+401247305,Michigan,24,Michigan State,27,Caesars,51.5,-21.5,Michigan -21.5
+401247305,Michigan,24,Michigan State,27,SugarHouse,51.5,-21.5,Michigan -21.5
+401247305,Michigan,24,Michigan State,27,consensus,51.5,-21.5,Michigan -21.5
+401247305,Michigan,24,Michigan State,27,numberfire,51.5,-21.5,Michigan -21.5
+401247305,Michigan,24,Michigan State,27,teamrankings,51.5,-22,Michigan -22
+401247305,Michigan,24,Michigan State,27,Bovada,,-25.0,Michigan -25.0
+401215319,Louisiana Monroe,13,Appalachian State,31,Caesars,56.5,29.5,Appalachian State -29.5
+401215319,Louisiana Monroe,13,Appalachian State,31,consensus,56.5,28.5,Appalachian State -28.5
+401215319,Louisiana Monroe,13,Appalachian State,31,numberfire,57.5,28.5,Appalachian State -28.5
+401215319,Louisiana Monroe,13,Appalachian State,31,teamrankings,56,29,Appalachian State -29
+401215319,Louisiana Monroe,13,Appalachian State,31,Bovada,,31.5,Appalachian State -31.5
+401207163,Louisiana Tech,37,UAB,34,Caesars,47,13,UAB -13
+401207163,Louisiana Tech,37,UAB,34,SugarHouse,47.5,12.5,UAB -12.5
+401207163,Louisiana Tech,37,UAB,34,consensus,47.5,13,UAB -13
+401207163,Louisiana Tech,37,UAB,34,numberfire,46.5,12.5,UAB -12.5
+401207163,Louisiana Tech,37,UAB,34,teamrankings,47,13,UAB -13
+401207163,Louisiana Tech,37,UAB,34,Bovada,,10.0,UAB -10.0
+401207162,Florida Atlantic,24,UT San Antonio,3,Caesars,47,-5,Florida Atlantic -5
+401207162,Florida Atlantic,24,UT San Antonio,3,SugarHouse,46,-4.5,Florida Atlantic -4.5
+401207162,Florida Atlantic,24,UT San Antonio,3,consensus,47,-5,Florida Atlantic -5
+401207162,Florida Atlantic,24,UT San Antonio,3,numberfire,45.5,-4.5,Florida Atlantic -4.5
+401207162,Florida Atlantic,24,UT San Antonio,3,teamrankings,47,-4.5,Florida Atlantic -4.5
+401237123,Vanderbilt,21,Ole Miss,54,Caesars,63,17,Ole Miss -17
+401237123,Vanderbilt,21,Ole Miss,54,consensus,63.5,17,Ole Miss -17
+401237123,Vanderbilt,21,Ole Miss,54,numberfire,63.5,16.5,Ole Miss -16.5
+401237123,Vanderbilt,21,Ole Miss,54,teamrankings,63.5,17,Ole Miss -17
+401237123,Vanderbilt,21,Ole Miss,54,Bovada,,18.0,Ole Miss -18.0
+401236015,West Virginia,37,Kansas State,10,Caesars,46,-5.5,West Virginia -5.5
+401236015,West Virginia,37,Kansas State,10,SugarHouse,46,-5,West Virginia -5
+401236015,West Virginia,37,Kansas State,10,consensus,46,-5,West Virginia -5
+401236015,West Virginia,37,Kansas State,10,numberfire,46.5,-4.5,West Virginia -4.5
+401236015,West Virginia,37,Kansas State,10,teamrankings,46,-5,West Virginia -5
+401236015,West Virginia,37,Kansas State,10,Bovada,,-3.0,West Virginia -3.0
+401236013,Baylor,23,TCU,33,Caesars,47,2.5,TCU -2.5
+401236013,Baylor,23,TCU,33,SugarHouse,47.5,2.5,TCU -2.5
+401236013,Baylor,23,TCU,33,consensus,47.5,2.5,TCU -2.5
+401236013,Baylor,23,TCU,33,numberfire,47.5,2.5,TCU -2.5
+401236013,Baylor,23,TCU,33,teamrankings,47.5,2.5,TCU -2.5
+401236013,Baylor,23,TCU,33,Bovada,,3.0,TCU -3.0
+401234629,Syracuse,14,Wake Forest,38,Caesars,59.5,14,Wake Forest -14
+401234629,Syracuse,14,Wake Forest,38,SugarHouse,58.5,14,Wake Forest -14
+401234629,Syracuse,14,Wake Forest,38,consensus,59.5,14,Wake Forest -14
+401234629,Syracuse,14,Wake Forest,38,numberfire,60.5,13.5,Wake Forest -13.5
+401234629,Syracuse,14,Wake Forest,38,teamrankings,59.5,14,Wake Forest -14
+401234629,Syracuse,14,Wake Forest,38,Bovada,,11.0,Wake Forest -11.0
+401234625,Duke,53,Charlotte,19,Caesars,55,-11,Duke -11
+401234625,Duke,53,Charlotte,19,SugarHouse,55,-11.5,Duke -11.5
+401234625,Duke,53,Charlotte,19,consensus,55,-10.5,Duke -10.5
+401234625,Duke,53,Charlotte,19,numberfire,54.5,-10.5,Duke -10.5
+401234625,Duke,53,Charlotte,19,teamrankings,55,-11.5,Duke -11.5
+401234625,Duke,53,Charlotte,19,Bovada,,-10.5,Duke -10.5
+401215322,Texas State,34,Louisiana,44,Caesars,57,16.5,Louisiana -16.5
+401215322,Texas State,34,Louisiana,44,consensus,57,16.5,Louisiana -16.5
+401215322,Texas State,34,Louisiana,44,numberfire,56.5,16.5,Louisiana -16.5
+401215322,Texas State,34,Louisiana,44,teamrankings,56.5,16,Louisiana -16
+401215322,Texas State,34,Louisiana,44,Bovada,,17.0,Louisiana -17.0
+401215320,Arkansas State,10,Troy,38,Caesars,69.5,-3.5,Arkansas State -3.5
+401215320,Arkansas State,10,Troy,38,SugarHouse,69.5,-3.5,Arkansas State -3.5
+401215320,Arkansas State,10,Troy,38,consensus,69.5,-3.5,Arkansas State -3.5
+401215320,Arkansas State,10,Troy,38,numberfire,69.5,-3.5,Arkansas State -3.5
+401215320,Arkansas State,10,Troy,38,teamrankings,70,-3.5,Arkansas State -3.5
+401215320,Arkansas State,10,Troy,38,Bovada,,-3.5,Arkansas State -3.5
+401212517,Tulane,38,Temple,3,Caesars,56.5,-7,Tulane -7
+401212517,Tulane,38,Temple,3,SugarHouse,58.5,-6.5,Tulane -6.5
+401212517,Tulane,38,Temple,3,consensus,58.5,-7,Tulane -7
+401212517,Tulane,38,Temple,3,numberfire,57.5,-6.5,Tulane -6.5
+401212517,Tulane,38,Temple,3,teamrankings,56,-7,Tulane -7
+401212517,Tulane,38,Temple,3,Bovada,,-3.0,Tulane -3.0
+401212489,SMU,51,Navy,37,Caesars,59,-13,SMU -13
+401212489,SMU,51,Navy,37,SugarHouse,58.5,-14,SMU -14
+401212489,SMU,51,Navy,37,consensus,58.5,-13,SMU -13
+401212489,SMU,51,Navy,37,numberfire,58.5,-13.5,SMU -13.5
+401212489,SMU,51,Navy,37,teamrankings,58.5,-13,SMU -13
+401212489,SMU,51,Navy,37,Bovada,,-14.0,SMU -14.0
+401207166,Southern Mississippi,6,Rice,30,SugarHouse,58.5,0,Rice -0
+401207166,Southern Mississippi,6,Rice,30,consensus,59,1,Rice -1
+401207166,Southern Mississippi,6,Rice,30,numberfire,59.5,1.5,Rice -1.5
+401207166,Southern Mississippi,6,Rice,30,teamrankings,58.5,1.5,Rice -1.5
+401207166,Southern Mississippi,6,Rice,30,Bovada,,-3.0,Southern Mississippi -3.0
+401236014,Kansas,22,Iowa State,52,Caesars,49.5,27,Iowa State -27
+401236014,Kansas,22,Iowa State,52,SugarHouse,50.5,27.5,Iowa State -27.5
+401236014,Kansas,22,Iowa State,52,consensus,49.5,27.5,Iowa State -27.5
+401236014,Kansas,22,Iowa State,52,numberfire,48.5,27.5,Iowa State -27.5
+401236014,Kansas,22,Iowa State,52,teamrankings,49.5,28,Iowa State -28
+401236014,Kansas,22,Iowa State,52,Bovada,,28.5,Iowa State -28.5
+401212538,Houston,21,UCF,44,Bovada,,3.0,UCF -3.0
+401212538,Houston,21,UCF,44,Caesars,81.5,3,UCF -3
+401212538,Houston,21,UCF,44,SugarHouse,81.5,3.5,UCF -3.5
+401212538,Houston,21,UCF,44,consensus,81.5,3,UCF -3
+401212538,Houston,21,UCF,44,numberfire,82.5,3.5,UCF -3.5
+401212538,Houston,21,UCF,44,teamrankings,81,3,UCF -3
+401234628,Virginia,44,North Carolina,41,Caesars,61,7.5,North Carolina -7.5
+401234628,Virginia,44,North Carolina,41,consensus,61,7.5,North Carolina -7.5
+401234628,Virginia,44,North Carolina,41,numberfire,61.5,7.5,North Carolina -7.5
+401234628,Virginia,44,North Carolina,41,teamrankings,61,7.5,North Carolina -7.5
+401234628,Virginia,44,North Carolina,41,Bovada,,7.0,North Carolina -7.0
+401236017,Oklahoma State,34,Texas,41,Caesars,58.5,-3.5,Oklahoma State -3.5
+401236017,Oklahoma State,34,Texas,41,SugarHouse,58.5,-3.5,Oklahoma State -3.5
+401236017,Oklahoma State,34,Texas,41,consensus,58.5,-3.5,Oklahoma State -3.5
+401236017,Oklahoma State,34,Texas,41,numberfire,57.5,-3.5,Oklahoma State -3.5
+401236017,Oklahoma State,34,Texas,41,teamrankings,57.5,-3.5,Oklahoma State -3.5
+401236017,Oklahoma State,34,Texas,41,Bovada,,-3.5,Oklahoma State -3.5
+401237120,Texas A&M,42,Arkansas,31,Caesars,54,-14.5,Texas A&M -14.5
+401237120,Texas A&M,42,Arkansas,31,consensus,54.5,-14.5,Texas A&M -14.5
+401237120,Texas A&M,42,Arkansas,31,numberfire,54.5,-14.5,Texas A&M -14.5
+401237120,Texas A&M,42,Arkansas,31,teamrankings,53.5,-14,Texas A&M -14
+401237120,Texas A&M,42,Arkansas,31,Bovada,,-10.5,Texas A&M -10.5
+401234626,Georgia Tech,13,Notre Dame,31,Caesars,58.5,20,Notre Dame -20
+401234626,Georgia Tech,13,Notre Dame,31,SugarHouse,58.5,20.5,Notre Dame -20.5
+401234626,Georgia Tech,13,Notre Dame,31,consensus,58.5,20.5,Notre Dame -20.5
+401234626,Georgia Tech,13,Notre Dame,31,numberfire,58.5,20.5,Notre Dame -20.5
+401234626,Georgia Tech,13,Notre Dame,31,teamrankings,58,20.5,Notre Dame -20.5
+401234626,Georgia Tech,13,Notre Dame,31,Bovada,,19.5,Notre Dame -19.5
+401237121,Auburn,48,LSU,11,Bovada,,2.0,LSU -2.0
+401237121,Auburn,48,LSU,11,SugarHouse,63.5,-1,Auburn -1
+401237121,Auburn,48,LSU,11,consensus,63.5,-1,Auburn -1
+401237121,Auburn,48,LSU,11,numberfire,63.5,-0.5,Auburn -0.5
+401237121,Auburn,48,LSU,11,teamrankings,63.5,0,LSU -0
+401236016,Texas Tech,28,Oklahoma,62,Caesars,66.5,16,Oklahoma -16
+401236016,Texas Tech,28,Oklahoma,62,consensus,66.5,16,Oklahoma -16
+401236016,Texas Tech,28,Oklahoma,62,numberfire,65.5,15.5,Oklahoma -15.5
+401236016,Texas Tech,28,Oklahoma,62,teamrankings,66.5,16,Oklahoma -16
+401236016,Texas Tech,28,Oklahoma,62,Bovada,,14.5,Oklahoma -14.5
+401237119,Alabama,41,Mississippi State,0,Caesars,63.5,-30,Alabama -30
+401237119,Alabama,41,Mississippi State,0,SugarHouse,63.5,-29.5,Alabama -29.5
+401237119,Alabama,41,Mississippi State,0,consensus,63.5,-29.5,Alabama -29.5
+401237119,Alabama,41,Mississippi State,0,numberfire,63.5,-29.5,Alabama -29.5
+401237119,Alabama,41,Mississippi State,0,teamrankings,63.5,-28.5,Alabama -28.5
+401237119,Alabama,41,Mississippi State,0,Bovada,,-32.0,Alabama -32.0
+401234624,Clemson,34,Boston College,28,Caesars,56,-26,Clemson -26
+401234624,Clemson,34,Boston College,28,SugarHouse,58.5,-26.5,Clemson -26.5
+401234624,Clemson,34,Boston College,28,consensus,56,-26.5,Clemson -26.5
+401234624,Clemson,34,Boston College,28,numberfire,55.5,-26.5,Clemson -26.5
+401234624,Clemson,34,Boston College,28,teamrankings,56,-26,Clemson -26
+401234624,Clemson,34,Boston College,28,Bovada,,-31.5,Clemson -31.5
+401212533,Tulsa,34,East Carolina,30,Bovada,,-18.0,Tulsa -18.0
+401212533,Tulsa,34,East Carolina,30,Caesars,59.5,-17,Tulsa -17
+401212533,Tulsa,34,East Carolina,30,SugarHouse,59.5,-17,Tulsa -17
+401212533,Tulsa,34,East Carolina,30,consensus,59.5,-17,Tulsa -17
+401212533,Tulsa,34,East Carolina,30,numberfire,59.5,-16.5,Tulsa -16.5
+401212533,Tulsa,34,East Carolina,30,teamrankings,59.5,-17,Tulsa -17
+401237116,Florida,41,Missouri,17,Bovada,,-13.0,Florida -13.0
+401237116,Florida,41,Missouri,17,Caesars,63.5,-13.5,Florida -13.5
+401237116,Florida,41,Missouri,17,consensus,63.5,-13.5,Florida -13.5
+401237116,Florida,41,Missouri,17,numberfire,64.5,-13.5,Florida -13.5
+401237116,Florida,41,Missouri,17,teamrankings,64,-13.5,Florida -13.5
+401247306,Penn State,25,Ohio State,38,Caesars,63,10,Ohio State -10
+401247306,Penn State,25,Ohio State,38,SugarHouse,63,10,Ohio State -10
+401247306,Penn State,25,Ohio State,38,consensus,63,10,Ohio State -10
+401247306,Penn State,25,Ohio State,38,numberfire,63.5,10.5,Ohio State -10.5
+401247306,Penn State,25,Ohio State,38,teamrankings,63,10.5,Ohio State -10.5
+401247306,Penn State,25,Ohio State,38,Bovada,,13.0,Ohio State -13.0
+401247303,Iowa,20,Northwestern,21,SugarHouse,42.5,1,Northwestern -1
+401247303,Iowa,20,Northwestern,21,consensus,42.5,1,Northwestern -1
+401247303,Iowa,20,Northwestern,21,numberfire,42.5,0.5,Northwestern -0.5
+401247303,Iowa,20,Northwestern,21,teamrankings,42,1,Northwestern -1
+401247303,Iowa,20,Northwestern,21,Bovada,,-3.0,Iowa -3.0
+401247301,Illinois,24,Purdue,31,Caesars,55.5,10,Purdue -10
+401247301,Illinois,24,Purdue,31,SugarHouse,56.5,9.5,Purdue -9.5
+401247301,Illinois,24,Purdue,31,consensus,55.5,9.5,Purdue -9.5
+401247301,Illinois,24,Purdue,31,numberfire,55.5,9.5,Purdue -9.5
+401247301,Illinois,24,Purdue,31,teamrankings,54.5,10,Purdue -10
+401247301,Illinois,24,Purdue,31,Bovada,,7.0,Purdue -7.0
+401247300,Rutgers,21,Indiana,37,consensus,54,11.5,Indiana -11.5
+401247300,Rutgers,21,Indiana,37,numberfire,52.5,11.5,Indiana -11.5
+401247300,Rutgers,21,Indiana,37,teamrankings,54,11.5,Indiana -11.5
+401247300,Rutgers,21,Indiana,37,Bovada,,12.0,Indiana -12.0
+401249004,Utah State,7,San Diego State,38,Caesars,41,9,San Diego State -9
+401249004,Utah State,7,San Diego State,38,SugarHouse,43.5,8,San Diego State -8
+401249004,Utah State,7,San Diego State,38,consensus,40.5,9,San Diego State -9
+401249004,Utah State,7,San Diego State,38,numberfire,41.5,8.5,San Diego State -8.5
+401249004,Utah State,7,San Diego State,38,teamrankings,42.5,9,San Diego State -9
+401249004,Utah State,7,San Diego State,38,Bovada,,7.5,San Diego State -7.5
+401249003,New Mexico,21,San José State,38,Caesars,55.5,-13.5,New Mexico -13.5
+401249003,New Mexico,21,San José State,38,SugarHouse,56,-13.5,New Mexico -13.5
+401249003,New Mexico,21,San José State,38,consensus,55.5,-13.5,New Mexico -13.5
+401249003,New Mexico,21,San José State,38,numberfire,57.5,-13.5,New Mexico -13.5
+401249003,New Mexico,21,San José State,38,teamrankings,56.5,-13.5,New Mexico -13.5
+401249003,New Mexico,21,San José State,38,Bovada,,9.5,San José State -9.5
+401249002,UNLV,19,Nevada,37,Caesars,59.5,13.5,Nevada -13.5
+401249002,UNLV,19,Nevada,37,SugarHouse,59,13.5,Nevada -13.5
+401249002,UNLV,19,Nevada,37,consensus,59.5,13.5,Nevada -13.5
+401249002,UNLV,19,Nevada,37,numberfire,59.5,13.5,Nevada -13.5
+401249002,UNLV,19,Nevada,37,teamrankings,60,13.5,Nevada -13.5
+401249002,UNLV,19,Nevada,37,Bovada,,10.5,Nevada -10.5
+401249001,Wyoming,31,Hawai'i,7,Bovada,,2.0,Hawai'i -2.0
+401249001,Wyoming,31,Hawai'i,7,Caesars,60,3,Hawai'i -3
+401249001,Wyoming,31,Hawai'i,7,consensus,60,3,Hawai'i -3
+401249001,Wyoming,31,Hawai'i,7,numberfire,60.5,1.5,Hawai'i -1.5
+401249001,Wyoming,31,Hawai'i,7,teamrankings,60,2.5,Hawai'i -2.5
+401248999,Air Force,30,Boise State,49,Caesars,49,13.5,Boise State -13.5
+401248999,Air Force,30,Boise State,49,SugarHouse,49,14.5,Boise State -14.5
+401248999,Air Force,30,Boise State,49,consensus,49,13.5,Boise State -13.5
+401248999,Air Force,30,Boise State,49,numberfire,48.5,13.5,Boise State -13.5
+401248999,Air Force,30,Boise State,49,teamrankings,49,12.5,Boise State -12.5
+401248999,Air Force,30,Boise State,49,Bovada,,10.5,Boise State -10.5
+401215321,Georgia Southern,24,South Alabama,17,Caesars,52,-3.5,Georgia Southern -3.5
+401215321,Georgia Southern,24,South Alabama,17,consensus,52,-3.5,Georgia Southern -3.5
+401215321,Georgia Southern,24,South Alabama,17,numberfire,52.5,-3.5,Georgia Southern -3.5
+401215321,Georgia Southern,24,South Alabama,17,teamrankings,51.5,-3,Georgia Southern -3
+401215321,Georgia Southern,24,South Alabama,17,Bovada,,-7.0,Georgia Southern -7.0
+401215318,Georgia State,0,Coastal Carolina,51,Bovada,,3.5,Coastal Carolina -3.5
+401215318,Georgia State,0,Coastal Carolina,51,Caesars,60,3.5,Coastal Carolina -3.5
+401215318,Georgia State,0,Coastal Carolina,51,SugarHouse,60.5,3.5,Coastal Carolina -3.5
+401215318,Georgia State,0,Coastal Carolina,51,consensus,60.5,3.5,Coastal Carolina -3.5
+401215318,Georgia State,0,Coastal Carolina,51,numberfire,61.5,3.5,Coastal Carolina -3.5
+401215318,Georgia State,0,Coastal Carolina,51,teamrankings,60.5,4,Coastal Carolina -4
+401249000,Fresno State,38,Colorado State,17,Bovada,,1.5,Colorado State -1.5
+401249000,Fresno State,38,Colorado State,17,Caesars,58.5,2.5,Colorado State -2.5
+401249000,Fresno State,38,Colorado State,17,consensus,58,2.5,Colorado State -2.5
+401249000,Fresno State,38,Colorado State,17,numberfire,58.5,2.5,Colorado State -2.5
+401249000,Fresno State,38,Colorado State,17,teamrankings,58,2.5,Colorado State -2.5
+401249397,Oregon State,28,Washington State,38,Bovada,64.5,-2.5,Oregon State -2.5
+401249397,Oregon State,28,Washington State,38,Caesars,63.5,-3.5,Oregon State -3.5
+401249397,Oregon State,28,Washington State,38,consensus,63.5,-3,Oregon State -3
+401249397,Oregon State,28,Washington State,38,numberfire,62.5,-3.5,Oregon State -3.5
+401249397,Oregon State,28,Washington State,38,teamrankings,63.5,-3,Oregon State -3
+401237124,Arkansas,24,Tennessee,13,Bovada,52.5,1.5,Tennessee -1.5
+401237124,Arkansas,24,Tennessee,13,Caesars,55,2,Tennessee -2
+401237124,Arkansas,24,Tennessee,13,consensus,55,2,Tennessee -2
+401237124,Arkansas,24,Tennessee,13,numberfire,54.5,2.5,Tennessee -2.5
+401237124,Arkansas,24,Tennessee,13,teamrankings,54,2.5,Tennessee -2.5
+401247308,Illinois,14,Minnesota,41,Bovada,61.5,7.0,Minnesota -7.0
+401247308,Illinois,14,Minnesota,41,Caesars,65,7.5,Minnesota -7.5
+401247308,Illinois,14,Minnesota,41,consensus,65,7.5,Minnesota -7.5
+401247308,Illinois,14,Minnesota,41,numberfire,65.5,7.5,Minnesota -7.5
+401247308,Illinois,14,Minnesota,41,teamrankings,64.5,7.5,Minnesota -7.5
+401249008,San Diego State,17,San José State,28,Bovada,48.0,-9.0,San Diego State -9.0
+401249008,San Diego State,17,San José State,28,Caesars,50,-10.5,San Diego State -10.5
+401249008,San Diego State,17,San José State,28,consensus,50.5,-10.5,San Diego State -10.5
+401249008,San Diego State,17,San José State,28,numberfire,50.5,-10.5,San Diego State -10.5
+401249008,San Diego State,17,San José State,28,teamrankings,49.5,-10,San Diego State -10
+401234630,NC State,41,Miami,44,Bovada,58.5,10.0,Miami -10.0
+401234630,NC State,41,Miami,44,Caesars,58.5,10.5,Miami -10.5
+401234630,NC State,41,Miami,44,consensus,58.5,10.5,Miami -10.5
+401234630,NC State,41,Miami,44,numberfire,58.5,9.5,Miami -9.5
+401234630,NC State,41,Miami,44,teamrankings,57.5,10,Miami -10
+401249010,Colorado State,34,Wyoming,24,Bovada,52.5,4.0,Wyoming -4.0
+401249010,Colorado State,34,Wyoming,24,Caesars,54,3,Wyoming -3
+401249010,Colorado State,34,Wyoming,24,consensus,53,3.5,Wyoming -3.5
+401249010,Colorado State,34,Wyoming,24,numberfire,54.5,2.5,Wyoming -2.5
+401249010,Colorado State,34,Wyoming,24,teamrankings,53.5,3.5,Wyoming -3.5
+401249859,Northern Illinois,30,Buffalo,49,Bovada,52.0,11.0,Buffalo -11.0
+401249859,Northern Illinois,30,Buffalo,49,Caesars,53,14.5,Buffalo -14.5
+401249859,Northern Illinois,30,Buffalo,49,consensus,53.5,14.5,Buffalo -14.5
+401249859,Northern Illinois,30,Buffalo,49,numberfire,53.5,14.5,Buffalo -14.5
+401249859,Northern Illinois,30,Buffalo,49,teamrankings,53,14,Buffalo -14
+401207169,Florida Atlantic,10,Western Kentucky,6,Bovada,41.0,-7.0,Florida Atlantic -7.0
+401207169,Florida Atlantic,10,Western Kentucky,6,Caesars,38,-7,Florida Atlantic -7
+401207169,Florida Atlantic,10,Western Kentucky,6,consensus,38,-7,Florida Atlantic -7
+401207169,Florida Atlantic,10,Western Kentucky,6,numberfire,37.5,-6.5,Florida Atlantic -6.5
+401207169,Florida Atlantic,10,Western Kentucky,6,teamrankings,38.5,-6.5,Florida Atlantic -6.5
+401215326,Georgia Southern,20,Troy,13,Bovada,52.0,3.0,Troy -3.0
+401215326,Georgia Southern,20,Troy,13,Caesars,52,3,Troy -3
+401215326,Georgia Southern,20,Troy,13,consensus,52,3,Troy -3
+401215326,Georgia Southern,20,Troy,13,numberfire,52.5,3.5,Troy -3.5
+401215326,Georgia Southern,20,Troy,13,teamrankings,51.5,2.5,Troy -2.5
+401240035,Southern Mississippi,24,North Alabama,13,consensus,51.5,-17.5,Southern Mississippi -17.5
+401237126,Mississippi State,24,Vanderbilt,17,Bovada,48.0,-19.5,Mississippi State -19.5
+401237126,Mississippi State,24,Vanderbilt,17,Caesars,45,-18,Mississippi State -18
+401237126,Mississippi State,24,Vanderbilt,17,consensus,45,-18,Mississippi State -18
+401237126,Mississippi State,24,Vanderbilt,17,numberfire,45.5,-17.5,Mississippi State -17.5
+401237126,Mississippi State,24,Vanderbilt,17,teamrankings,45,-18.5,Mississippi State -18.5
+401236021,TCU,34,Texas Tech,18,Bovada,61.5,-9.5,TCU -9.5
+401236021,TCU,34,Texas Tech,18,Caesars,60,-9.5,TCU -9.5
+401236021,TCU,34,Texas Tech,18,consensus,60,-9.5,TCU -9.5
+401236021,TCU,34,Texas Tech,18,numberfire,59.5,-9.5,TCU -9.5
+401236021,TCU,34,Texas Tech,18,teamrankings,60,-9.5,TCU -9.5
+401234636,Virginia Tech,35,Liberty,38,Bovada,67.5,-14.5,Virginia Tech -14.5
+401234636,Virginia Tech,35,Liberty,38,Caesars,68,-17,Virginia Tech -17
+401234636,Virginia Tech,35,Liberty,38,consensus,67.5,-17,Virginia Tech -17
+401234636,Virginia Tech,35,Liberty,38,numberfire,66.5,-17.5,Virginia Tech -17.5
+401234636,Virginia Tech,35,Liberty,38,teamrankings,67.5,-16.5,Virginia Tech -16.5
+401234634,Florida State,17,Pittsburgh,41,Bovada,51.0,-2.5,Florida State -2.5
+401234634,Florida State,17,Pittsburgh,41,Caesars,52.5,1.5,Pittsburgh -1.5
+401234634,Florida State,17,Pittsburgh,41,consensus,52.5,1.5,Pittsburgh -1.5
+401234634,Florida State,17,Pittsburgh,41,numberfire,53.5,1.5,Pittsburgh -1.5
+401234634,Florida State,17,Pittsburgh,41,teamrankings,52.5,2,Pittsburgh -2
+401234631,Syracuse,13,Boston College,16,Bovada,53.5,14.0,Boston College -14.0
+401234631,Syracuse,13,Boston College,16,Caesars,54,14,Boston College -14
+401234631,Syracuse,13,Boston College,16,consensus,54,14.5,Boston College -14.5
+401234631,Syracuse,13,Boston College,16,numberfire,54.5,14.5,Boston College -14.5
+401234631,Syracuse,13,Boston College,16,teamrankings,53.5,15,Boston College -15
+401236018,Iowa State,38,Baylor,31,Bovada,48.0,-14.0,Iowa State -14.0
+401236018,Iowa State,38,Baylor,31,Caesars,47,-14,Iowa State -14
+401236018,Iowa State,38,Baylor,31,consensus,47,-14,Iowa State -14
+401236018,Iowa State,38,Baylor,31,numberfire,46.5,-13.5,Iowa State -13.5
+401236018,Iowa State,38,Baylor,31,teamrankings,46.5,-14,Iowa State -14
+401212544,Cincinnati,38,Houston,10,Bovada,57.0,-13.5,Cincinnati -13.5
+401212544,Cincinnati,38,Houston,10,Caesars,51.5,-12.5,Cincinnati -12.5
+401212544,Cincinnati,38,Houston,10,consensus,51.5,-12.5,Cincinnati -12.5
+401212544,Cincinnati,38,Houston,10,numberfire,51.5,-11.5,Cincinnati -11.5
+401212544,Cincinnati,38,Houston,10,teamrankings,51.5,-12.5,Cincinnati -12.5
+401234633,Duke,24,North Carolina,56,Bovada,62.5,10.5,North Carolina -10.5
+401234633,Duke,24,North Carolina,56,Caesars,63.5,11.5,North Carolina -11.5
+401234633,Duke,24,North Carolina,56,consensus,63.5,11.5,North Carolina -11.5
+401234633,Duke,24,North Carolina,56,numberfire,63.5,11.5,North Carolina -11.5
+401234633,Duke,24,North Carolina,56,teamrankings,63,11.5,North Carolina -11.5
+401236020,Kansas State,18,Oklahoma State,20,Bovada,46.5,12.5,Oklahoma State -12.5
+401236020,Kansas State,18,Oklahoma State,20,Caesars,48.5,14,Oklahoma State -14
+401236020,Kansas State,18,Oklahoma State,20,consensus,48.5,14,Oklahoma State -14
+401236020,Kansas State,18,Oklahoma State,20,numberfire,48.5,13.5,Oklahoma State -13.5
+401236020,Kansas State,18,Oklahoma State,20,teamrankings,48.5,14,Oklahoma State -14
+401236022,Texas,17,West Virginia,13,Bovada,55.0,-6.5,Texas -6.5
+401236022,Texas,17,West Virginia,13,Caesars,55,-6.5,Texas -6.5
+401236022,Texas,17,West Virginia,13,consensus,55,-6.5,Texas -6.5
+401236022,Texas,17,West Virginia,13,numberfire,55.5,-6.5,Texas -6.5
+401236022,Texas,17,West Virginia,13,teamrankings,55.5,-6,Texas -6
+401237127,South Carolina,3,Texas A&M,48,Bovada,57.5,10.0,Texas A&M -10.0
+401237127,South Carolina,3,Texas A&M,48,Caesars,58,9.5,Texas A&M -9.5
+401237127,South Carolina,3,Texas A&M,48,consensus,58,9.5,Texas A&M -9.5
+401237127,South Carolina,3,Texas A&M,48,numberfire,58.5,9.5,Texas A&M -9.5
+401237127,South Carolina,3,Texas A&M,48,teamrankings,58.5,9.5,Texas A&M -9.5
+401236019,Oklahoma,62,Kansas,9,Caesars,63,-38.5,Oklahoma -38.5
+401236019,Oklahoma,62,Kansas,9,consensus,63,-38.5,Oklahoma -38.5
+401236019,Oklahoma,62,Kansas,9,numberfire,63.5,-38.5,Oklahoma -38.5
+401236019,Oklahoma,62,Kansas,9,teamrankings,62,-38.5,Oklahoma -38.5
+401236019,Oklahoma,62,Kansas,9,Bovada,65.5,-38.0,Oklahoma -38.0
+401237125,Georgia,28,Florida,44,Caesars,54.5,-3,Georgia -3
+401237125,Georgia,28,Florida,44,consensus,54.5,-3,Georgia -3
+401237125,Georgia,28,Florida,44,numberfire,54.5,-2.5,Georgia -2.5
+401237125,Georgia,28,Florida,44,teamrankings,54.5,-2.5,Georgia -2.5
+401237125,Georgia,28,Florida,44,Bovada,54.0,-3.5,Georgia -3.5
+401212490,Temple,23,SMU,47,Caesars,64,17.5,SMU -17.5
+401212490,Temple,23,SMU,47,consensus,63.5,17.5,SMU -17.5
+401212490,Temple,23,SMU,47,numberfire,64.5,16.5,SMU -16.5
+401212490,Temple,23,SMU,47,teamrankings,63.5,17,SMU -17
+401247313,Iowa,49,Michigan State,7,Bovada,47.0,-6.5,Iowa -6.5
+401247313,Iowa,49,Michigan State,7,Caesars,46,-5.5,Iowa -5.5
+401247313,Iowa,49,Michigan State,7,consensus,46,-5.5,Iowa -5.5
+401247313,Iowa,49,Michigan State,7,numberfire,45.5,-4.5,Iowa -4.5
+401247313,Iowa,49,Michigan State,7,teamrankings,46,-5.5,Iowa -5.5
+401247312,Penn State,19,Maryland,35,Bovada,62.0,-25.0,Penn State -25.0
+401247312,Penn State,19,Maryland,35,Caesars,63.5,-27.5,Penn State -27.5
+401247312,Penn State,19,Maryland,35,consensus,63,-27.5,Penn State -27.5
+401247312,Penn State,19,Maryland,35,numberfire,63.5,-27.5,Penn State -27.5
+401247312,Penn State,19,Maryland,35,teamrankings,62.5,-27,Penn State -27
+401247310,Ohio State,49,Rutgers,27,Bovada,64.5,-38.0,Ohio State -38.0
+401247310,Ohio State,49,Rutgers,27,consensus,62.5,-37.5,Ohio State -37.5
+401247310,Ohio State,49,Rutgers,27,numberfire,62.5,-37.5,Ohio State -37.5
+401247310,Ohio State,49,Rutgers,27,teamrankings,62,-37.5,Ohio State -37.5
+401247309,Indiana,38,Michigan,21,Bovada,51.5,3.0,Michigan -3.0
+401247309,Indiana,38,Michigan,21,Caesars,55,4.5,Michigan -4.5
+401247309,Indiana,38,Michigan,21,consensus,55,4,Michigan -4
+401247309,Indiana,38,Michigan,21,numberfire,55.5,4.5,Michigan -4.5
+401247309,Indiana,38,Michigan,21,teamrankings,54.5,4.5,Michigan -4.5
+401247307,Northwestern,21,Nebraska,13,Bovada,55.0,-3.5,Northwestern -3.5
+401247307,Northwestern,21,Nebraska,13,Caesars,54,-4,Northwestern -4
+401247307,Northwestern,21,Nebraska,13,consensus,54,-4,Northwestern -4
+401247307,Northwestern,21,Nebraska,13,numberfire,54.5,-4.5,Northwestern -4.5
+401247307,Northwestern,21,Nebraska,13,teamrankings,53,-4,Northwestern -4
+401249006,UNLV,27,Fresno State,40,Bovada,58.0,11.0,Fresno State -11.0
+401249006,UNLV,27,Fresno State,40,Caesars,58,11.5,Fresno State -11.5
+401249006,UNLV,27,Fresno State,40,consensus,57.5,11.5,Fresno State -11.5
+401249006,UNLV,27,Fresno State,40,numberfire,57.5,11.5,Fresno State -11.5
+401249006,UNLV,27,Fresno State,40,teamrankings,57.5,11,Fresno State -11
+401249005,Boise State,17,BYU,51,Bovada,59.0,3.0,BYU -3.0
+401249005,Boise State,17,BYU,51,Caesars,62.5,5,BYU -5
+401249005,Boise State,17,BYU,51,consensus,62.5,4.5,BYU -4.5
+401249005,Boise State,17,BYU,51,numberfire,63.5,4.5,BYU -4.5
+401249005,Boise State,17,BYU,51,teamrankings,62.5,4,BYU -4
+401249402,Colorado,48,UCLA,42,Bovada,56.5,6.5,UCLA -6.5
+401249402,Colorado,48,UCLA,42,Caesars,57,6.5,UCLA -6.5
+401249402,Colorado,48,UCLA,42,consensus,56.5,6.5,UCLA -6.5
+401249402,Colorado,48,UCLA,42,numberfire,56.5,6.5,UCLA -6.5
+401249402,Colorado,48,UCLA,42,teamrankings,55.5,6.5,UCLA -6.5
+401249399,Oregon,35,Stanford,14,Bovada,52.5,-10.5,Oregon -10.5
+401249399,Oregon,35,Stanford,14,Caesars,50,-12,Oregon -12
+401249399,Oregon,35,Stanford,14,consensus,49,-11.5,Oregon -11.5
+401249399,Oregon,35,Stanford,14,numberfire,51.5,-10.5,Oregon -10.5
+401249399,Oregon,35,Stanford,14,teamrankings,49,-12,Oregon -12
+401249889,Miami (OH),38,Ball State,31,Bovada,55.5,-2.0,Miami (OH) -2.0
+401249889,Miami (OH),38,Ball State,31,Caesars,56,1,Ball State -1
+401249889,Miami (OH),38,Ball State,31,consensus,56.5,1,Ball State -1
+401249889,Miami (OH),38,Ball State,31,numberfire,55.5,0.5,Ball State -0.5
+401249889,Miami (OH),38,Ball State,31,teamrankings,56.5,1,Ball State -1
+401249860,Central Michigan,30,Ohio,27,Bovada,59.0,1.0,Ohio -1.0
+401249860,Central Michigan,30,Ohio,27,Caesars,54,3,Ohio -3
+401249860,Central Michigan,30,Ohio,27,consensus,54,2.5,Ohio -2.5
+401249860,Central Michigan,30,Ohio,27,numberfire,53.5,2.5,Ohio -2.5
+401249860,Central Michigan,30,Ohio,27,teamrankings,54.5,3,Ohio -3
+401249858,Toledo,38,Bowling Green,3,Bovada,62.0,-22.0,Toledo -22.0
+401249858,Toledo,38,Bowling Green,3,Caesars,63.5,-24,Toledo -24
+401249858,Toledo,38,Bowling Green,3,consensus,63.5,-24,Toledo -24
+401249858,Toledo,38,Bowling Green,3,numberfire,62.5,-23.5,Toledo -23.5
+401249858,Toledo,38,Bowling Green,3,teamrankings,63,-24,Toledo -24
+401249857,Akron,13,Western Michigan,58,Bovada,54.0,18.0,Western Michigan -18.0
+401249857,Akron,13,Western Michigan,58,Caesars,52,20.5,Western Michigan -20.5
+401249857,Akron,13,Western Michigan,58,consensus,52,20.5,Western Michigan -20.5
+401249857,Akron,13,Western Michigan,58,numberfire,51.5,20.5,Western Michigan -20.5
+401249857,Akron,13,Western Michigan,58,teamrankings,52,20,Western Michigan -20
+401253924,Louisiana,27,Arkansas State,20,Bovada,66.0,-14.0,Louisiana -14.0
+401253924,Louisiana,27,Arkansas State,20,Caesars,68,-14.5,Louisiana -14.5
+401253924,Louisiana,27,Arkansas State,20,consensus,68.5,-14.5,Louisiana -14.5
+401253924,Louisiana,27,Arkansas State,20,numberfire,69.5,-13.5,Louisiana -13.5
+401212525,East Carolina,21,Tulane,38,Bovada,60.5,5.0,Tulane -5.0
+401212525,East Carolina,21,Tulane,38,Caesars,63.5,3.5,Tulane -3.5
+401212525,East Carolina,21,Tulane,38,consensus,63.5,3.5,Tulane -3.5
+401212525,East Carolina,21,Tulane,38,numberfire,63.5,3.5,Tulane -3.5
+401212525,East Carolina,21,Tulane,38,teamrankings,63.5,3.5,Tulane -3.5
+401215327,Georgia State,52,Louisiana Monroe,34,Bovada,58.5,-18.0,Georgia State -18.0
+401215327,Georgia State,52,Louisiana Monroe,34,Caesars,59,-19,Georgia State -19
+401215327,Georgia State,52,Louisiana Monroe,34,consensus,59,-18.5,Georgia State -18.5
+401215327,Georgia State,52,Louisiana Monroe,34,numberfire,59.5,-18.5,Georgia State -18.5
+401215327,Georgia State,52,Louisiana Monroe,34,teamrankings,60,-18.5,Georgia State -18.5
+401212480,Memphis,34,South Florida,33,Bovada,65.0,-18.0,Memphis -18.0
+401212480,Memphis,34,South Florida,33,Caesars,67.5,-17.5,Memphis -17.5
+401212480,Memphis,34,South Florida,33,consensus,67.5,-17.5,Memphis -17.5
+401212480,Memphis,34,South Florida,33,numberfire,67.5,-18.5,Memphis -18.5
+401212480,Memphis,34,South Florida,33,teamrankings,67,-17.5,Memphis -17.5
+401215325,Coastal Carolina,23,South Alabama,6,Bovada,54.0,-17.0,Coastal Carolina -17.0
+401215325,Coastal Carolina,23,South Alabama,6,Caesars,57,-17,Coastal Carolina -17
+401215325,Coastal Carolina,23,South Alabama,6,consensus,57.5,-17,Coastal Carolina -17
+401215325,Coastal Carolina,23,South Alabama,6,numberfire,57.5,-15.5,Coastal Carolina -15.5
+401215325,Coastal Carolina,23,South Alabama,6,teamrankings,56.5,-17,Coastal Carolina -17
+401215324,Texas State,17,Appalachian State,38,Bovada,57.5,17.5,Appalachian State -17.5
+401215324,Texas State,17,Appalachian State,38,Caesars,58.5,21.5,Appalachian State -21.5
+401215324,Texas State,17,Appalachian State,38,consensus,58.5,21.5,Appalachian State -21.5
+401215324,Texas State,17,Appalachian State,38,numberfire,58.5,21.5,Appalachian State -21.5
+401215324,Texas State,17,Appalachian State,38,teamrankings,58,21.5,Appalachian State -21.5
+401249007,Hawai'i,39,New Mexico,33,Bovada,61.5,-15.5,Hawai'i -15.5
+401249007,Hawai'i,39,New Mexico,33,Caesars,65.5,-14,Hawai'i -14
+401249007,Hawai'i,39,New Mexico,33,consensus,65.5,-14,Hawai'i -14
+401249007,Hawai'i,39,New Mexico,33,numberfire,65.5,-14.5,Hawai'i -14.5
+401249007,Hawai'i,39,New Mexico,33,teamrankings,61.5,-15,Hawai'i -15
+401251931,Marshall,51,UMass,10,Bovada,55.0,-44.5,Marshall -44.5
+401251931,Marshall,51,UMass,10,Caesars,55.5,-44.5,Marshall -44.5
+401251931,Marshall,51,UMass,10,consensus,55.5,-44.5,Marshall -44.5
+401251931,Marshall,51,UMass,10,numberfire,55.5,-44.5,Marshall -44.5
+401251931,Marshall,51,UMass,10,teamrankings,56,-44.5,Marshall -44.5
+401249400,USC,28,Arizona State,27,Bovada,58.0,-11.0,USC -11.0
+401249400,USC,28,Arizona State,27,Caesars,57.5,-11.5,USC -11.5
+401249400,USC,28,Arizona State,27,consensus,57.5,-11.5,USC -11.5
+401249400,USC,28,Arizona State,27,numberfire,57.5,-11.5,USC -11.5
+401249400,USC,28,Arizona State,27,teamrankings,56.5,-11.5,USC -11.5
+401249856,Kent State,27,Eastern Michigan,23,Bovada,62.0,-6.0,Kent State -6.0
+401249856,Kent State,27,Eastern Michigan,23,Caesars,65.5,-4.5,Kent State -4.5
+401249856,Kent State,27,Eastern Michigan,23,consensus,65.5,-4.5,Kent State -4.5
+401249856,Kent State,27,Eastern Michigan,23,numberfire,65.5,-5.5,Kent State -5.5
+401249856,Kent State,27,Eastern Michigan,23,teamrankings,65.5,-4.5,Kent State -4.5
+401249009,Nevada,34,Utah State,9,Bovada,56.0,-16.0,Nevada -16.0
+401249009,Nevada,34,Utah State,9,Caesars,58,-17,Nevada -17
+401249009,Nevada,34,Utah State,9,consensus,58.5,-17,Nevada -17
+401249009,Nevada,34,Utah State,9,numberfire,57.5,-17.5,Nevada -17.5
+401249009,Nevada,34,Utah State,9,teamrankings,57.5,-17,Nevada -17
+401234632,Notre Dame,47,Clemson,40,Bovada,52.0,6.0,Clemson -6.0
+401234632,Notre Dame,47,Clemson,40,Caesars,50.5,5,Clemson -5
+401234632,Notre Dame,47,Clemson,40,consensus,50.5,5,Clemson -5
+401234632,Notre Dame,47,Clemson,40,numberfire,50.5,5.5,Clemson -5.5
+401234632,Notre Dame,47,Clemson,40,teamrankings,50,5,Clemson -5
+401237129,Florida,63,Arkansas,35,Caesars,61.5,-17,Florida -17
+401237129,Florida,63,Arkansas,35,consensus,62,-17,Florida -17
+401237129,Florida,63,Arkansas,35,numberfire,61.5,-16.5,Florida -16.5
+401237129,Florida,63,Arkansas,35,teamrankings,61.5,-17,Florida -17
+401237129,Florida,63,Arkansas,35,Bovada,62.0,-17.0,Florida -17.0
+401215331,Georgia Southern,40,Texas State,38,Bovada,50.0,-12.0,Georgia Southern -12.0
+401215331,Georgia Southern,40,Texas State,38,Caesars,49.5,-12.5,Georgia Southern -12.5
+401215331,Georgia Southern,40,Texas State,38,consensus,49.5,-11.5,Georgia Southern -11.5
+401215331,Georgia Southern,40,Texas State,38,numberfire,49.5,-12.5,Georgia Southern -12.5
+401215331,Georgia Southern,40,Texas State,38,teamrankings,50,-11,Georgia Southern -11
+401247314,Rutgers,20,Illinois,23,Bovada,51.5,-5.5,Rutgers -5.5
+401247314,Rutgers,20,Illinois,23,consensus,51.5,-5.5,Rutgers -5.5
+401247314,Rutgers,20,Illinois,23,numberfire,51.5,-4.5,Rutgers -4.5
+401247314,Rutgers,20,Illinois,23,teamrankings,51.5,-5.5,Rutgers -5.5
+401249016,San José State,34,UNLV,17,Caesars,61,-17,San José State -17
+401249016,San José State,34,UNLV,17,consensus,61.5,-17,San José State -17
+401249016,San José State,34,UNLV,17,numberfire,58.5,-16.5,San José State -16.5
+401249016,San José State,34,UNLV,17,teamrankings,58,-16,San José State -16
+401249016,San José State,34,UNLV,17,Bovada,62.0,-17.0,San José State -17.0
+401237133,Ole Miss,59,South Carolina,42,Caesars,72,-13,Ole Miss -13
+401237133,Ole Miss,59,South Carolina,42,consensus,72.5,-12.5,Ole Miss -12.5
+401237133,Ole Miss,59,South Carolina,42,numberfire,70.5,-12.5,Ole Miss -12.5
+401237133,Ole Miss,59,South Carolina,42,teamrankings,70.5,-13,Ole Miss -13
+401237133,Ole Miss,59,South Carolina,42,Bovada,73.0,-12.5,Ole Miss -12.5
+401234639,NC State,38,Florida State,22,Caesars,60.5,-11.5,NC State -11.5
+401234639,NC State,38,Florida State,22,consensus,61.5,-11.5,NC State -11.5
+401234639,NC State,38,Florida State,22,numberfire,61.5,-10.5,NC State -10.5
+401234639,NC State,38,Florida State,22,teamrankings,61,-11.5,NC State -11.5
+401234639,NC State,38,Florida State,22,Bovada,61.0,-12.0,NC State -12.0
+401212518,UCF,38,Temple,13,Caesars,72.5,-29,UCF -29
+401212518,UCF,38,Temple,13,consensus,72.5,-28.5,UCF -28.5
+401212518,UCF,38,Temple,13,numberfire,76.5,-26.5,UCF -26.5
+401212518,UCF,38,Temple,13,teamrankings,73.5,-29,UCF -29
+401212518,UCF,38,Temple,13,Bovada,72.5,-29.0,UCF -29.0
+401247319,Michigan,11,Wisconsin,49,Caesars,51.5,7,Wisconsin -7
+401247319,Michigan,11,Wisconsin,49,consensus,51.5,7,Wisconsin -7
+401247319,Michigan,11,Wisconsin,49,numberfire,51.5,6.5,Wisconsin -6.5
+401247319,Michigan,11,Wisconsin,49,teamrankings,52,7,Wisconsin -7
+401247319,Michigan,11,Wisconsin,49,Bovada,51.5,7.0,Wisconsin -7.0
+401247315,Purdue,20,Northwestern,27,Bovada,48.0,3.5,Northwestern -3.5
+401247315,Purdue,20,Northwestern,27,Caesars,48,3.5,Northwestern -3.5
+401247315,Purdue,20,Northwestern,27,consensus,48,3.5,Northwestern -3.5
+401247315,Purdue,20,Northwestern,27,numberfire,48.5,3.5,Northwestern -3.5
+401247315,Purdue,20,Northwestern,27,teamrankings,48.5,3.5,Northwestern -3.5
+401236023,Texas Tech,24,Baylor,23,Bovada,54.5,-1.0,Texas Tech -1.0
+401236023,Texas Tech,24,Baylor,23,Caesars,54.5,1,Baylor -1
+401236023,Texas Tech,24,Baylor,23,consensus,54.5,-1,Texas Tech -1
+401236023,Texas Tech,24,Baylor,23,numberfire,54.5,-0.5,Texas Tech -0.5
+401236023,Texas Tech,24,Baylor,23,teamrankings,54.5,-1,Texas Tech -1
+401249014,San Diego State,34,Hawai'i,10,Bovada,51.0,-10.0,San Diego State -10.0
+401249014,San Diego State,34,Hawai'i,10,Caesars,51,-10,San Diego State -10
+401249014,San Diego State,34,Hawai'i,10,consensus,51,-10,San Diego State -10
+401249014,San Diego State,34,Hawai'i,10,numberfire,50.5,-9.5,San Diego State -9.5
+401249014,San Diego State,34,Hawai'i,10,teamrankings,51,-9.5,San Diego State -9.5
+401257934,Virginia,31,Louisville,17,Bovada,63.5,-6.0,Virginia -6.0
+401257934,Virginia,31,Louisville,17,Caesars,63.5,-5.5,Virginia -5.5
+401257934,Virginia,31,Louisville,17,consensus,63.5,-6,Virginia -6
+401257934,Virginia,31,Louisville,17,numberfire,64.5,-5.5,Virginia -5.5
+401212481,Houston,56,South Florida,21,Bovada,58.5,-14.5,Houston -14.5
+401212481,Houston,56,South Florida,21,Caesars,58.5,-14.5,Houston -14.5
+401212481,Houston,56,South Florida,21,consensus,58.5,-14.5,Houston -14.5
+401212481,Houston,56,South Florida,21,numberfire,58.5,-14.5,Houston -14.5
+401212481,Houston,56,South Florida,21,teamrankings,58.5,-15,Houston -15
+401207178,Western Kentucky,10,Southern Mississippi,7,Bovada,45.0,-7.5,Western Kentucky -7.5
+401207178,Western Kentucky,10,Southern Mississippi,7,Caesars,45,-8,Western Kentucky -8
+401207178,Western Kentucky,10,Southern Mississippi,7,consensus,45,-7.5,Western Kentucky -7.5
+401207178,Western Kentucky,10,Southern Mississippi,7,numberfire,44.5,-7.5,Western Kentucky -7.5
+401207178,Western Kentucky,10,Southern Mississippi,7,teamrankings,45,-8,Western Kentucky -8
+401234637,Boston College,31,Notre Dame,45,Bovada,52.0,13.0,Notre Dame -13.0
+401234637,Boston College,31,Notre Dame,45,Caesars,52,13,Notre Dame -13
+401234637,Boston College,31,Notre Dame,45,consensus,51.5,13,Notre Dame -13
+401234637,Boston College,31,Notre Dame,45,numberfire,51.5,12.5,Notre Dame -12.5
+401234637,Boston College,31,Notre Dame,45,teamrankings,51.5,13,Notre Dame -13
+401207179,UT San Antonio,52,UTEP,21,Bovada,45.5,-6.0,UT San Antonio -6.0
+401207179,UT San Antonio,52,UTEP,21,Caesars,45,-6,UT San Antonio -6
+401207179,UT San Antonio,52,UTEP,21,consensus,45.5,-6,UT San Antonio -6
+401207179,UT San Antonio,52,UTEP,21,numberfire,45.5,-5.5,UT San Antonio -5.5
+401207179,UT San Antonio,52,UTEP,21,teamrankings,45,-5.5,UT San Antonio -5.5
+401249013,Utah State,16,Fresno State,35,Bovada,51.5,11.0,Fresno State -11.0
+401249013,Utah State,16,Fresno State,35,Caesars,51.5,11,Fresno State -11
+401249013,Utah State,16,Fresno State,35,consensus,51.5,11,Fresno State -11
+401249013,Utah State,16,Fresno State,35,numberfire,51.5,10.5,Fresno State -10.5
+401249013,Utah State,16,Fresno State,35,teamrankings,51.5,10.5,Fresno State -10.5
+401215328,Appalachian State,17,Georgia State,13,Bovada,63.0,-18.0,Appalachian State -18.0
+401215328,Appalachian State,17,Georgia State,13,Caesars,63,-18,Appalachian State -18
+401215328,Appalachian State,17,Georgia State,13,consensus,63,-17.5,Appalachian State -17.5
+401215328,Appalachian State,17,Georgia State,13,numberfire,63.5,-17.5,Appalachian State -17.5
+401215328,Appalachian State,17,Georgia State,13,teamrankings,63,-18,Appalachian State -18
+401215332,Louisiana,38,South Alabama,10,Bovada,53.0,-14.0,Louisiana -14.0
+401215332,Louisiana,38,South Alabama,10,Caesars,53.5,-14,Louisiana -14
+401215332,Louisiana,38,South Alabama,10,consensus,53.5,-14,Louisiana -14
+401215332,Louisiana,38,South Alabama,10,numberfire,53.5,-14.5,Louisiana -14.5
+401215332,Louisiana,38,South Alabama,10,teamrankings,53,-14,Louisiana -14
+401237132,Kentucky,38,Vanderbilt,35,Caesars,41.5,-17,Kentucky -17
+401237132,Kentucky,38,Vanderbilt,35,consensus,41.5,-17.5,Kentucky -17.5
+401237132,Kentucky,38,Vanderbilt,35,numberfire,41.5,-17.5,Kentucky -17.5
+401237132,Kentucky,38,Vanderbilt,35,teamrankings,41.5,-17.5,Kentucky -17.5
+401237132,Kentucky,38,Vanderbilt,35,Bovada,41.5,-17.5,Kentucky -17.5
+401247320,Nebraska,30,Penn State,23,Bovada,57.5,3.0,Penn State -3.0
+401247320,Nebraska,30,Penn State,23,Caesars,57.5,2.5,Penn State -2.5
+401247320,Nebraska,30,Penn State,23,consensus,57.5,2.5,Penn State -2.5
+401247320,Nebraska,30,Penn State,23,numberfire,57.5,2.5,Penn State -2.5
+401247320,Nebraska,30,Penn State,23,teamrankings,57.5,2,Penn State -2
+401249864,Northern Illinois,10,Central Michigan,40,Bovada,58.0,6.5,Central Michigan -6.5
+401249864,Northern Illinois,10,Central Michigan,40,Caesars,57.5,6,Central Michigan -6
+401249864,Northern Illinois,10,Central Michigan,40,consensus,57.5,6,Central Michigan -6
+401249864,Northern Illinois,10,Central Michigan,40,numberfire,57.5,6.5,Central Michigan -6.5
+401249864,Northern Illinois,10,Central Michigan,40,teamrankings,57.5,6,Central Michigan -6
+401249015,New Mexico,20,Nevada,27,Caesars,63,17,Nevada -17
+401249015,New Mexico,20,Nevada,27,consensus,62.5,17.5,Nevada -17.5
+401249015,New Mexico,20,Nevada,27,numberfire,62.5,17.5,Nevada -17.5
+401249015,New Mexico,20,Nevada,27,teamrankings,62,17.5,Nevada -17.5
+401249015,New Mexico,20,Nevada,27,Bovada,62.5,17.5,Nevada -17.5
+401247316,Michigan State,0,Indiana,24,Caesars,52.5,7.5,Indiana -7.5
+401247316,Michigan State,0,Indiana,24,consensus,52.5,7.5,Indiana -7.5
+401247316,Michigan State,0,Indiana,24,numberfire,52.5,7.5,Indiana -7.5
+401247316,Michigan State,0,Indiana,24,teamrankings,52.5,7.5,Indiana -7.5
+401247316,Michigan State,0,Indiana,24,Bovada,53.0,7.5,Indiana -7.5
+401249866,Western Michigan,41,Toledo,38,Bovada,59.5,-1.5,Western Michigan -1.5
+401249866,Western Michigan,41,Toledo,38,Caesars,59,-1.5,Western Michigan -1.5
+401249866,Western Michigan,41,Toledo,38,consensus,58.5,-1.5,Western Michigan -1.5
+401249866,Western Michigan,41,Toledo,38,numberfire,58.5,-1.5,Western Michigan -1.5
+401249866,Western Michigan,41,Toledo,38,teamrankings,58.5,-1.5,Western Michigan -1.5
+401249865,Ball State,38,Eastern Michigan,31,Bovada,62.0,-8.0,Ball State -8.0
+401249865,Ball State,38,Eastern Michigan,31,Caesars,61.5,-8.5,Ball State -8.5
+401249865,Ball State,38,Eastern Michigan,31,consensus,61.5,-8.5,Ball State -8.5
+401249865,Ball State,38,Eastern Michigan,31,numberfire,61.5,-8.5,Ball State -8.5
+401249865,Ball State,38,Eastern Michigan,31,teamrankings,61,-8,Ball State -8
+401249890,Buffalo,42,Miami (OH),10,Bovada,57.0,-7.5,Buffalo -7.5
+401249890,Buffalo,42,Miami (OH),10,Caesars,56,-7.5,Buffalo -7.5
+401249890,Buffalo,42,Miami (OH),10,consensus,56.5,-7.5,Buffalo -7.5
+401249890,Buffalo,42,Miami (OH),10,numberfire,55.5,-8.5,Buffalo -8.5
+401249890,Buffalo,42,Miami (OH),10,teamrankings,55,-7.5,Buffalo -7.5
+401249862,Bowling Green,24,Kent State,62,Bovada,55.0,21.0,Kent State -21.0
+401249862,Bowling Green,24,Kent State,62,Caesars,55,21,Kent State -21
+401249862,Bowling Green,24,Kent State,62,consensus,55,20.5,Kent State -20.5
+401249862,Bowling Green,24,Kent State,62,numberfire,55.5,20.5,Kent State -20.5
+401249862,Bowling Green,24,Kent State,62,teamrankings,55,20.5,Kent State -20.5
+401207218,Liberty,58,Western Carolina,14,consensus,63,-39,Liberty -39
+401207176,Marshall,42,Middle Tennessee,14,Bovada,55.5,-24.0,Marshall -24.0
+401207176,Marshall,42,Middle Tennessee,14,Caesars,55.5,-24,Marshall -24
+401207176,Marshall,42,Middle Tennessee,14,consensus,55.5,-23.5,Marshall -23.5
+401207176,Marshall,42,Middle Tennessee,14,numberfire,55.5,-23.5,Marshall -23.5
+401207176,Marshall,42,Middle Tennessee,14,teamrankings,55.5,-23.5,Marshall -23.5
+401236024,West Virginia,24,TCU,6,Bovada,44.5,-3.0,West Virginia -3.0
+401236024,West Virginia,24,TCU,6,Caesars,44.5,-3,West Virginia -3
+401236024,West Virginia,24,TCU,6,consensus,44.5,-3,West Virginia -3
+401236024,West Virginia,24,TCU,6,numberfire,44.5,-2.5,West Virginia -2.5
+401236024,West Virginia,24,TCU,6,teamrankings,44,-3,West Virginia -3
+401234641,Virginia Tech,24,Miami,25,Caesars,68,-2,Virginia Tech -2
+401234641,Virginia Tech,24,Miami,25,consensus,68,-2,Virginia Tech -2
+401234641,Virginia Tech,24,Miami,25,numberfire,68.5,-2.5,Virginia Tech -2.5
+401234641,Virginia Tech,24,Miami,25,teamrankings,67.5,-2,Virginia Tech -2
+401234641,Virginia Tech,24,Miami,25,Bovada,67.5,-2.0,Virginia Tech -2.0
+401207200,Tulane,38,Army,12,Bovada,46.5,-3.0,Tulane -3.0
+401207200,Tulane,38,Army,12,Caesars,46,-3,Tulane -3
+401207200,Tulane,38,Army,12,consensus,46.5,-3,Tulane -3
+401207200,Tulane,38,Army,12,numberfire,46.5,-3.5,Tulane -3.5
+401207200,Tulane,38,Army,12,teamrankings,46.5,-3,Tulane -3
+401212545,Cincinnati,55,East Carolina,17,Bovada,57.0,-27.5,Cincinnati -27.5
+401212545,Cincinnati,55,East Carolina,17,Caesars,57.5,-27.5,Cincinnati -27.5
+401212545,Cincinnati,55,East Carolina,17,consensus,56.5,-27.5,Cincinnati -27.5
+401212545,Cincinnati,55,East Carolina,17,numberfire,56.5,-27.5,Cincinnati -27.5
+401212545,Cincinnati,55,East Carolina,17,teamrankings,56.5,-27.5,Cincinnati -27.5
+401234642,North Carolina,59,Wake Forest,53,Bovada,70.5,-13.0,North Carolina -13.0
+401234642,North Carolina,59,Wake Forest,53,Caesars,71.5,-13,North Carolina -13
+401234642,North Carolina,59,Wake Forest,53,consensus,70.5,-12.5,North Carolina -12.5
+401234642,North Carolina,59,Wake Forest,53,numberfire,70.5,-12.5,North Carolina -12.5
+401234642,North Carolina,59,Wake Forest,53,teamrankings,70.5,-13,North Carolina -13
+401207174,Florida International,19,Florida Atlantic,38,Bovada,42.0,9.5,Florida Atlantic -9.5
+401207174,Florida International,19,Florida Atlantic,38,Caesars,42,9.5,Florida Atlantic -9.5
+401207174,Florida International,19,Florida Atlantic,38,consensus,41.5,9.5,Florida Atlantic -9.5
+401207174,Florida International,19,Florida Atlantic,38,numberfire,41.5,9.5,Florida Atlantic -9.5
+401207174,Florida International,19,Florida Atlantic,38,teamrankings,42,9.5,Florida Atlantic -9.5
+401247317,Minnesota,7,Iowa,35,Bovada,58.0,3.0,Iowa -3.0
+401247317,Minnesota,7,Iowa,35,Caesars,58,3,Iowa -3
+401247317,Minnesota,7,Iowa,35,consensus,58,3,Iowa -3
+401247317,Minnesota,7,Iowa,35,numberfire,58.5,3.5,Iowa -3.5
+401247317,Minnesota,7,Iowa,35,teamrankings,58,3,Iowa -3
+401249012,Boise State,52,Colorado State,21,Bovada,62.5,-14.0,Boise State -14.0
+401249012,Boise State,52,Colorado State,21,Caesars,63,-14,Boise State -14
+401249012,Boise State,52,Colorado State,21,consensus,62.5,-14,Boise State -14
+401249012,Boise State,52,Colorado State,21,numberfire,61.5,-13.5,Boise State -13.5
+401249012,Boise State,52,Colorado State,21,teamrankings,62,-14.5,Boise State -14.5
+401249406,Stanford,32,Colorado,35,Bovada,55.0,-9.5,Stanford -9.5
+401249406,Stanford,32,Colorado,35,Caesars,55,-9.5,Stanford -9.5
+401249406,Stanford,32,Colorado,35,consensus,55.5,-9.5,Stanford -9.5
+401249406,Stanford,32,Colorado,35,numberfire,54.5,-9.5,Stanford -9.5
+401249406,Stanford,32,Colorado,35,teamrankings,55.5,-9.5,Stanford -9.5
+401249403,Arizona,30,USC,34,Bovada,67.5,15.5,USC -15.5
+401249403,Arizona,30,USC,34,Caesars,68,15,USC -15
+401249403,Arizona,30,USC,34,consensus,67.5,15,USC -15
+401249403,Arizona,30,USC,34,numberfire,67.5,14.5,USC -14.5
+401249403,Arizona,30,USC,34,teamrankings,67,15,USC -15
+401249861,Ohio,24,Akron,10,Bovada,59.0,-27.0,Ohio -27.0
+401249861,Ohio,24,Akron,10,Caesars,59,-27.5,Ohio -27.5
+401249861,Ohio,24,Akron,10,consensus,59,-27.5,Ohio -27.5
+401249861,Ohio,24,Akron,10,numberfire,58.5,-26.5,Ohio -26.5
+401249861,Ohio,24,Akron,10,teamrankings,58,-27,Ohio -27
+401249404,Washington,27,Oregon State,21,Caesars,51.5,-13.5,Washington -13.5
+401249404,Washington,27,Oregon State,21,consensus,51,-13.5,Washington -13.5
+401249404,Washington,27,Oregon State,21,numberfire,50.5,-13.5,Washington -13.5
+401249404,Washington,27,Oregon State,21,teamrankings,51.5,-14,Washington -14
+401249404,Washington,27,Oregon State,21,Bovada,51.0,-13.5,Washington -13.5
+401249405,Washington State,29,Oregon,43,Caesars,58,10.5,Oregon -10.5
+401249405,Washington State,29,Oregon,43,consensus,57.5,10.5,Oregon -10.5
+401249405,Washington State,29,Oregon,43,numberfire,57.5,9.5,Oregon -9.5
+401249405,Washington State,29,Oregon,43,teamrankings,56.5,10.5,Oregon -10.5
+401249405,Washington State,29,Oregon,43,Bovada,58.0,11.0,Oregon -11.0
+401212491,Tulsa,28,SMU,24,Caesars,65,1,SMU -1
+401212491,Tulsa,28,SMU,24,consensus,64.5,2,SMU -2
+401212491,Tulsa,28,SMU,24,numberfire,64.5,-0.5,Tulsa -0.5
+401212491,Tulsa,28,SMU,24,teamrankings,63.5,1,SMU -1
+401212491,Tulsa,28,SMU,24,Bovada,64.0,2.0,SMU -2.0
+401237139,Georgia,31,Mississippi State,24,Bovada,44.0,-26.0,Georgia -26.0
+401237139,Georgia,31,Mississippi State,24,Caesars,44,-26.5,Georgia -26.5
+401237139,Georgia,31,Mississippi State,24,consensus,44,-26.5,Georgia -26.5
+401237139,Georgia,31,Mississippi State,24,numberfire,44.5,-25.5,Georgia -25.5
+401237139,Georgia,31,Mississippi State,24,teamrankings,44.5,-25.5,Georgia -25.5
+401247327,Penn State,21,Iowa,41,Caesars,45.5,0,Iowa -0
+401247327,Penn State,21,Iowa,41,consensus,45.5,-1,Penn State -1
+401247327,Penn State,21,Iowa,41,numberfire,45.5,0.5,Iowa -0.5
+401247327,Penn State,21,Iowa,41,teamrankings,45.5,1.5,Iowa -1.5
+401247327,Penn State,21,Iowa,41,Bovada,45.5,1.0,Iowa -1.0
+401249017,Hawai'i,32,Boise State,40,Bovada,56.0,14.0,Boise State -14.0
+401249017,Hawai'i,32,Boise State,40,Caesars,55.5,13.5,Boise State -13.5
+401249017,Hawai'i,32,Boise State,40,consensus,55.5,13.5,Boise State -13.5
+401249017,Hawai'i,32,Boise State,40,numberfire,55.5,13.5,Boise State -13.5
+401249017,Hawai'i,32,Boise State,40,teamrankings,55.5,13.5,Boise State -13.5
+401249410,Utah,17,USC,33,Bovada,59.0,1.0,USC -1.0
+401249410,Utah,17,USC,33,Caesars,59,1,USC -1
+401249410,Utah,17,USC,33,consensus,59,-1,Utah -1
+401249410,Utah,17,USC,33,numberfire,57.5,2.5,USC -2.5
+401249410,Utah,17,USC,33,teamrankings,57.5,2.5,USC -2.5
+401249413,Washington,44,Arizona,27,Bovada,53.5,-12.0,Washington -12.0
+401249413,Washington,44,Arizona,27,Caesars,54,-11.5,Washington -11.5
+401249413,Washington,44,Arizona,27,consensus,53.5,-12,Washington -12
+401249413,Washington,44,Arizona,27,numberfire,53.5,-11.5,Washington -11.5
+401249413,Washington,44,Arizona,27,teamrankings,53.5,-11.5,Washington -11.5
+401247324,Rutgers,42,Michigan,48,Bovada,52.5,12.0,Michigan -12.0
+401247324,Rutgers,42,Michigan,48,consensus,52,12,Michigan -12
+401247324,Rutgers,42,Michigan,48,numberfire,52.5,12.5,Michigan -12.5
+401247324,Rutgers,42,Michigan,48,teamrankings,52.5,13.5,Michigan -13.5
+401236027,Oklahoma,41,Oklahoma State,13,Caesars,60.5,-7,Oklahoma -7
+401236027,Oklahoma,41,Oklahoma State,13,consensus,60.5,-6.5,Oklahoma -6.5
+401236027,Oklahoma,41,Oklahoma State,13,Bovada,61.0,-6.5,Oklahoma -6.5
+401236027,Oklahoma,41,Oklahoma State,13,numberfire,59.5,-7.5,Oklahoma -7.5
+401236027,Oklahoma,41,Oklahoma State,13,teamrankings,59.5,-5.5,Oklahoma -5.5
+401248275,Virginia,55,Abilene Christian,15,consensus,61.5,-38.5,Virginia -38.5
+401237135,Alabama,63,Kentucky,3,Caesars,58,-32,Alabama -32
+401237135,Alabama,63,Kentucky,3,consensus,57.5,-31.5,Alabama -31.5
+401237135,Alabama,63,Kentucky,3,numberfire,57.5,-31.5,Alabama -31.5
+401237135,Alabama,63,Kentucky,3,teamrankings,57.5,-31.5,Alabama -31.5
+401237135,Alabama,63,Kentucky,3,Bovada,57.5,-31.5,Alabama -31.5
+401249019,Nevada,26,San Diego State,21,Caesars,46.5,1.5,San Diego State -1.5
+401249019,Nevada,26,San Diego State,21,consensus,46.5,1.5,San Diego State -1.5
+401249019,Nevada,26,San Diego State,21,numberfire,45.5,1.5,San Diego State -1.5
+401249019,Nevada,26,San Diego State,21,teamrankings,46.5,1.5,San Diego State -1.5
+401249019,Nevada,26,San Diego State,21,Bovada,46.5,1.5,San Diego State -1.5
+401249411,Oregon State,31,California,27,Caesars,47,1,California -1
+401249411,Oregon State,31,California,27,consensus,46.5,1,California -1
+401249411,Oregon State,31,California,27,numberfire,45.5,0.5,California -0.5
+401249411,Oregon State,31,California,27,teamrankings,45.5,1.5,California -1.5
+401249411,Oregon State,31,California,27,Bovada,46.5,1.0,California -1.0
+401247323,Northwestern,17,Wisconsin,7,Caesars,43.5,7.5,Wisconsin -7.5
+401247323,Northwestern,17,Wisconsin,7,consensus,44.5,7.5,Wisconsin -7.5
+401247323,Northwestern,17,Wisconsin,7,numberfire,44.5,8.5,Wisconsin -8.5
+401247323,Northwestern,17,Wisconsin,7,teamrankings,42.5,7.5,Wisconsin -7.5
+401247323,Northwestern,17,Wisconsin,7,Bovada,43.0,7.5,Wisconsin -7.5
+401237136,Arkansas,24,LSU,27,Bovada,65.0,1.5,LSU -1.5
+401237136,Arkansas,24,LSU,27,Caesars,65,1,LSU -1
+401237136,Arkansas,24,LSU,27,consensus,65,1.5,LSU -1.5
+401237136,Arkansas,24,LSU,27,numberfire,65.5,1.5,LSU -1.5
+401237136,Arkansas,24,LSU,27,teamrankings,64.5,1.5,LSU -1.5
+401247321,Nebraska,23,Illinois,41,Caesars,61,-16.5,Nebraska -16.5
+401247321,Nebraska,23,Illinois,41,consensus,61.5,-16.5,Nebraska -16.5
+401247321,Nebraska,23,Illinois,41,numberfire,60.5,-16.5,Nebraska -16.5
+401247321,Nebraska,23,Illinois,41,teamrankings,60.5,-16.5,Nebraska -16.5
+401247321,Nebraska,23,Illinois,41,Bovada,61.0,-17.0,Nebraska -17.0
+401237138,Vanderbilt,17,Florida,38,Bovada,68.5,31.0,Florida -31.0
+401237138,Vanderbilt,17,Florida,38,Caesars,68.5,32.5,Florida -32.5
+401237138,Vanderbilt,17,Florida,38,consensus,68.5,31.5,Florida -31.5
+401237138,Vanderbilt,17,Florida,38,numberfire,68.5,31.5,Florida -31.5
+401237138,Vanderbilt,17,Florida,38,teamrankings,68.5,31.5,Florida -31.5
+401247326,Ohio State,42,Indiana,35,Caesars,67.5,-21,Ohio State -21
+401247326,Ohio State,42,Indiana,35,consensus,67.5,-21,Ohio State -21
+401247326,Ohio State,42,Indiana,35,numberfire,67.5,-21.5,Ohio State -21.5
+401247326,Ohio State,42,Indiana,35,teamrankings,66.5,-21.5,Ohio State -21.5
+401247326,Ohio State,42,Indiana,35,Bovada,67.0,-21.0,Ohio State -21.0
+401249415,Oregon,38,UCLA,35,Caesars,61.5,-17.5,Oregon -17.5
+401249415,Oregon,38,UCLA,35,consensus,61.5,-17.5,Oregon -17.5
+401249415,Oregon,38,UCLA,35,numberfire,61.5,-17.5,Oregon -17.5
+401249415,Oregon,38,UCLA,35,teamrankings,61.5,-18.5,Oregon -18.5
+401249415,Oregon,38,UCLA,35,Bovada,62.0,-18.5,Oregon -18.5
+401249018,Air Force,28,New Mexico,0,teamrankings,56.5,-8.5,Air Force -8.5
+401249018,Air Force,28,New Mexico,0,Bovada,55.0,-8.0,Air Force -8.0
+401249018,Air Force,28,New Mexico,0,Caesars,55.5,-8,Air Force -8
+401249018,Air Force,28,New Mexico,0,consensus,55.5,-8,Air Force -8
+401249018,Air Force,28,New Mexico,0,numberfire,56.5,-9.5,Air Force -9.5
+401247325,Minnesota,34,Purdue,31,Caesars,61.5,2,Purdue -2
+401247325,Minnesota,34,Purdue,31,consensus,61.5,2.5,Purdue -2.5
+401247325,Minnesota,34,Purdue,31,numberfire,60.5,-0.5,Minnesota -0.5
+401247325,Minnesota,34,Purdue,31,teamrankings,60.5,2.5,Purdue -2.5
+401234643,Louisville,30,Syracuse,0,Bovada,55.5,-19.5,Louisville -19.5
+401234643,Louisville,30,Syracuse,0,Caesars,55.5,-19.5,Louisville -19.5
+401234643,Louisville,30,Syracuse,0,consensus,55.5,-19.5,Louisville -19.5
+401234643,Louisville,30,Syracuse,0,numberfire,54.5,-19.5,Louisville -19.5
+401234643,Louisville,30,Syracuse,0,teamrankings,55.5,-20.5,Louisville -20.5
+401249872,Central Michigan,44,Western Michigan,52,Bovada,60.0,1.0,Western Michigan -1.0
+401249872,Central Michigan,44,Western Michigan,52,Caesars,59.5,0,Western Michigan -0
+401249872,Central Michigan,44,Western Michigan,52,consensus,59.5,1,Western Michigan -1
+401249872,Central Michigan,44,Western Michigan,52,numberfire,59.5,0.5,Western Michigan -0.5
+401249872,Central Michigan,44,Western Michigan,52,teamrankings,59.5,1,Western Michigan -1
+401249871,Eastern Michigan,28,Toledo,45,Bovada,62.5,7.0,Toledo -7.0
+401249871,Eastern Michigan,28,Toledo,45,Caesars,62,6.5,Toledo -6.5
+401249871,Eastern Michigan,28,Toledo,45,consensus,62,6.5,Toledo -6.5
+401249871,Eastern Michigan,28,Toledo,45,numberfire,61.5,6.5,Toledo -6.5
+401249871,Eastern Michigan,28,Toledo,45,teamrankings,62.5,6.5,Toledo -6.5
+401249870,Ball State,31,Northern Illinois,25,Bovada,60.0,-14.5,Ball State -14.5
+401249870,Ball State,31,Northern Illinois,25,Caesars,60,-14.5,Ball State -14.5
+401249870,Ball State,31,Northern Illinois,25,consensus,59.5,-14.5,Ball State -14.5
+401249870,Ball State,31,Northern Illinois,25,numberfire,60.5,-14.5,Ball State -14.5
+401249870,Ball State,31,Northern Illinois,25,teamrankings,59.5,-14.5,Ball State -14.5
+401249867,Kent State,69,Akron,35,Bovada,60.0,-26.0,Kent State -26.0
+401249867,Kent State,69,Akron,35,Caesars,60,-26.5,Kent State -26.5
+401249867,Kent State,69,Akron,35,consensus,60,-26,Kent State -26
+401249867,Kent State,69,Akron,35,numberfire,59.5,-25.5,Kent State -25.5
+401249867,Kent State,69,Akron,35,teamrankings,59,-26.5,Kent State -26.5
+401261674,Florida Atlantic,24,UMass,2,Bovada,51.0,-34.0,Florida Atlantic -34.0
+401261674,Florida Atlantic,24,UMass,2,Caesars,50.5,-34,Florida Atlantic -34
+401261674,Florida Atlantic,24,UMass,2,consensus,50.5,-34,Florida Atlantic -34
+401261674,Florida Atlantic,24,UMass,2,numberfire,50.5,-33.5,Florida Atlantic -33.5
+401261674,Florida Atlantic,24,UMass,2,teamrankings,50.5,-33.5,Florida Atlantic -33.5
+401249868,Bowling Green,17,Buffalo,42,Bovada,58.5,32.0,Buffalo -32.0
+401249868,Bowling Green,17,Buffalo,42,Caesars,58.5,31.5,Buffalo -31.5
+401249868,Bowling Green,17,Buffalo,42,consensus,58.5,31.5,Buffalo -31.5
+401249868,Bowling Green,17,Buffalo,42,numberfire,58.5,31.5,Buffalo -31.5
+401249868,Bowling Green,17,Buffalo,42,teamrankings,57.5,31.5,Buffalo -31.5
+401261454,UCLA,34,California,10,Caesars,58,3.5,California -3.5
+401261454,UCLA,34,California,10,Bovada,57.5,3.5,California -3.5
+401261454,UCLA,34,California,10,consensus,57.5,3.5,California -3.5
+401261454,UCLA,34,California,10,numberfire,56.5,3.5,California -3.5
+401261454,UCLA,34,California,10,teamrankings,57.5,3,California -3
+401240641,Troy,17,Middle Tennessee,20,Bovada,60.0,-11.0,Troy -11.0
+401240641,Troy,17,Middle Tennessee,20,Caesars,60.5,-11.5,Troy -11.5
+401240641,Troy,17,Middle Tennessee,20,consensus,60.5,-11,Troy -11
+401240641,Troy,17,Middle Tennessee,20,numberfire,60.5,-10.5,Troy -10.5
+401240641,Troy,17,Middle Tennessee,20,teamrankings,60.5,-11.5,Troy -11.5
+401235975,Army,28,Georgia Southern,27,Bovada,38.5,-3.5,Army -3.5
+401235975,Army,28,Georgia Southern,27,Caesars,39,-3,Army -3
+401235975,Army,28,Georgia Southern,27,consensus,38.5,-3.5,Army -3.5
+401235975,Army,28,Georgia Southern,27,numberfire,38.5,-3.5,Army -3.5
+401235975,Army,28,Georgia Southern,27,teamrankings,38.5,-3.5,Army -3.5
+401237141,South Carolina,10,Missouri,17,Caesars,57,5.5,Missouri -5.5
+401237141,South Carolina,10,Missouri,17,consensus,57.5,4.5,Missouri -4.5
+401237141,South Carolina,10,Missouri,17,numberfire,57.5,4.5,Missouri -4.5
+401237141,South Carolina,10,Missouri,17,teamrankings,57.5,4.5,Missouri -4.5
+401237141,South Carolina,10,Missouri,17,Bovada,57.5,5.0,Missouri -5.0
+401215335,South Alabama,14,Georgia State,31,numberfire,58.5,3.5,Georgia State -3.5
+401215335,South Alabama,14,Georgia State,31,teamrankings,59.5,3.5,Georgia State -3.5
+401215335,South Alabama,14,Georgia State,31,Bovada,59.0,4.0,Georgia State -4.0
+401215335,South Alabama,14,Georgia State,31,Caesars,58.5,4,Georgia State -4
+401215335,South Alabama,14,Georgia State,31,consensus,58.5,3.5,Georgia State -3.5
+401215334,Texas State,47,Arkansas State,45,Bovada,69.0,4.5,Arkansas State -4.5
+401215334,Texas State,47,Arkansas State,45,Caesars,69,4.5,Arkansas State -4.5
+401215334,Texas State,47,Arkansas State,45,consensus,69,4.5,Arkansas State -4.5
+401215334,Texas State,47,Arkansas State,45,numberfire,68.5,4.5,Arkansas State -4.5
+401215334,Texas State,47,Arkansas State,45,teamrankings,69.5,4.5,Arkansas State -4.5
+401215333,Coastal Carolina,34,Appalachian State,23,Caesars,48.5,-3,Coastal Carolina -3
+401215333,Coastal Carolina,34,Appalachian State,23,consensus,48.5,-3,Coastal Carolina -3
+401215333,Coastal Carolina,34,Appalachian State,23,numberfire,48.5,-3.5,Coastal Carolina -3.5
+401215333,Coastal Carolina,34,Appalachian State,23,teamrankings,47.5,-3.5,Coastal Carolina -3.5
+401215333,Coastal Carolina,34,Appalachian State,23,Bovada,48.5,-3.0,Coastal Carolina -3.0
+401212526,Tulsa,30,Tulane,24,Bovada,56.5,-5.0,Tulsa -5.0
+401212526,Tulsa,30,Tulane,24,Caesars,56,-5,Tulsa -5
+401212526,Tulsa,30,Tulane,24,consensus,56,-5,Tulsa -5
+401212526,Tulsa,30,Tulane,24,numberfire,55.5,-5.5,Tulsa -5.5
+401212526,Tulsa,30,Tulane,24,teamrankings,55.5,-5.5,Tulsa -5.5
+401212519,Temple,3,East Carolina,28,Bovada,53.0,7.0,East Carolina -7.0
+401212519,Temple,3,East Carolina,28,Caesars,53,7,East Carolina -7
+401212519,Temple,3,East Carolina,28,consensus,53,7,East Carolina -7
+401212519,Temple,3,East Carolina,28,numberfire,53.5,6.5,East Carolina -6.5
+401212519,Temple,3,East Carolina,28,teamrankings,54.5,6.5,East Carolina -6.5
+401236025,Iowa State,45,Kansas State,0,Caesars,48,-13.5,Iowa State -13.5
+401236025,Iowa State,45,Kansas State,0,consensus,48,-13.5,Iowa State -13.5
+401236025,Iowa State,45,Kansas State,0,numberfire,47.5,-13.5,Iowa State -13.5
+401236025,Iowa State,45,Kansas State,0,teamrankings,47.5,-13.5,Iowa State -13.5
+401236025,Iowa State,45,Kansas State,0,Bovada,48.0,-13.5,Iowa State -13.5
+401212540,UCF,33,Cincinnati,36,Caesars,65.5,4.5,Cincinnati -4.5
+401212540,UCF,33,Cincinnati,36,consensus,65.5,4.5,Cincinnati -4.5
+401212540,UCF,33,Cincinnati,36,numberfire,65.5,4.5,Cincinnati -4.5
+401212540,UCF,33,Cincinnati,36,teamrankings,66.5,3.5,Cincinnati -3.5
+401212540,UCF,33,Cincinnati,36,Bovada,66.0,4.5,Cincinnati -4.5
+401237137,Auburn,30,Tennessee,17,Caesars,51,-10.5,Auburn -10.5
+401237137,Auburn,30,Tennessee,17,consensus,50.5,-10.5,Auburn -10.5
+401237137,Auburn,30,Tennessee,17,numberfire,50.5,-10.5,Auburn -10.5
+401237137,Auburn,30,Tennessee,17,teamrankings,51.5,-10.5,Auburn -10.5
+401237137,Auburn,30,Tennessee,17,Bovada,51.0,-10.5,Auburn -10.5
+401247374,Memphis,56,Stephen F. Austin,14,consensus,61,-31,Memphis -31
+401209818,BYU,66,North Alabama,14,consensus,63,-50,BYU -50
+401207185,Southern Mississippi,20,UT San Antonio,23,Bovada,53.0,9.0,UT San Antonio -9.0
+401207185,Southern Mississippi,20,UT San Antonio,23,Caesars,52.5,9,UT San Antonio -9
+401207185,Southern Mississippi,20,UT San Antonio,23,consensus,51.5,9,UT San Antonio -9
+401207185,Southern Mississippi,20,UT San Antonio,23,numberfire,52.5,9.5,UT San Antonio -9.5
+401207185,Southern Mississippi,20,UT San Antonio,23,teamrankings,52.5,9.5,UT San Antonio -9.5
+401207184,North Texas,27,Rice,17,Bovada,65.0,-2.5,North Texas -2.5
+401207184,North Texas,27,Rice,17,consensus,65.5,-2.5,North Texas -2.5
+401207184,North Texas,27,Rice,17,numberfire,65.5,-2.5,North Texas -2.5
+401207184,North Texas,27,Rice,17,teamrankings,65.5,-2.5,North Texas -2.5
+401207181,Western Kentucky,38,Florida International,21,Bovada,42.0,-7.0,Western Kentucky -7.0
+401207181,Western Kentucky,38,Florida International,21,Caesars,42.5,-7,Western Kentucky -7
+401207181,Western Kentucky,38,Florida International,21,consensus,42,-7,Western Kentucky -7
+401207181,Western Kentucky,38,Florida International,21,numberfire,41.5,-7.5,Western Kentucky -7.5
+401207181,Western Kentucky,38,Florida International,21,teamrankings,41.5,-6.5,Western Kentucky -6.5
+401234648,Pittsburgh,47,Virginia Tech,14,Caesars,53,6,Virginia Tech -6
+401234648,Pittsburgh,47,Virginia Tech,14,consensus,53,6.5,Virginia Tech -6.5
+401234648,Pittsburgh,47,Virginia Tech,14,numberfire,52.5,6.5,Virginia Tech -6.5
+401234648,Pittsburgh,47,Virginia Tech,14,teamrankings,53.5,6.5,Virginia Tech -6.5
+401234648,Pittsburgh,47,Virginia Tech,14,Bovada,52.5,6.5,Virginia Tech -6.5
+401234647,NC State,15,Liberty,14,Caesars,67,-4,NC State -4
+401234647,NC State,15,Liberty,14,consensus,66.5,-4,NC State -4
+401234647,NC State,15,Liberty,14,numberfire,66.5,-4.5,NC State -4.5
+401234647,NC State,15,Liberty,14,teamrankings,66.5,-4.5,NC State -4.5
+401234647,NC State,15,Liberty,14,Bovada,66.5,-4.0,NC State -4.0
+401265734,Colorado,20,San Diego State,10,Bovada,51.0,-6.0,Colorado -6.0
+401265734,Colorado,20,San Diego State,10,Caesars,51.5,-6,Colorado -6
+401265734,Colorado,20,San Diego State,10,consensus,51.5,-5,Colorado -5
+401265734,Colorado,20,San Diego State,10,numberfire,50.5,-5.5,Colorado -5.5
+401265734,Colorado,20,San Diego State,10,teamrankings,51,-6,Colorado -6
+401249024,Hawai'i,24,Nevada,21,Bovada,63.0,7.0,Nevada -7.0
+401249024,Hawai'i,24,Nevada,21,Caesars,63,7.5,Nevada -7.5
+401249024,Hawai'i,24,Nevada,21,consensus,63,7,Nevada -7
+401249024,Hawai'i,24,Nevada,21,numberfire,61.5,7.5,Nevada -7.5
+401249024,Hawai'i,24,Nevada,21,teamrankings,61.5,7,Nevada -7
+401249421,UCLA,27,Arizona,10,Bovada,70.0,-10.0,UCLA -10.0
+401249421,UCLA,27,Arizona,10,Caesars,71,-8.5,UCLA -8.5
+401249421,UCLA,27,Arizona,10,consensus,70.5,-7.5,UCLA -7.5
+401249421,UCLA,27,Arizona,10,numberfire,70.5,-10.5,UCLA -10.5
+401249421,UCLA,27,Arizona,10,teamrankings,70,-10,UCLA -10
+401264080,Navy,7,Memphis,10,Bovada,63.0,13.5,Memphis -13.5
+401264080,Navy,7,Memphis,10,Caesars,63,13,Memphis -13
+401264080,Navy,7,Memphis,10,consensus,62.5,13.5,Memphis -13.5
+401264080,Navy,7,Memphis,10,numberfire,62.5,13.5,Memphis -13.5
+401264080,Navy,7,Memphis,10,teamrankings,62.5,13.5,Memphis -13.5
+401247328,Purdue,30,Rutgers,37,Bovada,61.0,-12.5,Purdue -12.5
+401247328,Purdue,30,Rutgers,37,consensus,61,-12.5,Purdue -12.5
+401247328,Purdue,30,Rutgers,37,numberfire,60.5,-12.5,Purdue -12.5
+401247328,Purdue,30,Rutgers,37,teamrankings,61,-12,Purdue -12
+401247330,Michigan State,29,Northwestern,20,Bovada,41.0,14.0,Northwestern -14.0
+401247330,Michigan State,29,Northwestern,20,Caesars,40.5,13.5,Northwestern -13.5
+401247330,Michigan State,29,Northwestern,20,consensus,40.5,13.5,Northwestern -13.5
+401247330,Michigan State,29,Northwestern,20,numberfire,41.5,13.5,Northwestern -13.5
+401247330,Michigan State,29,Northwestern,20,teamrankings,40,13.5,Northwestern -13.5
+401215340,Louisiana Monroe,20,Louisiana,70,Bovada,58.0,29.0,Louisiana -29.0
+401215340,Louisiana Monroe,20,Louisiana,70,Caesars,59,29.5,Louisiana -29.5
+401215340,Louisiana Monroe,20,Louisiana,70,consensus,58,29.5,Louisiana -29.5
+401215340,Louisiana Monroe,20,Louisiana,70,numberfire,58.5,28.5,Louisiana -28.5
+401215340,Louisiana Monroe,20,Louisiana,70,teamrankings,58,29.5,Louisiana -29.5
+401249892,Akron,7,Miami (OH),38,Bovada,55.5,14.0,Miami (OH) -14.0
+401249892,Akron,7,Miami (OH),38,Caesars,55,14,Miami (OH) -14
+401249892,Akron,7,Miami (OH),38,consensus,55.5,14,Miami (OH) -14
+401249892,Akron,7,Miami (OH),38,numberfire,55.5,14.5,Miami (OH) -14.5
+401249892,Akron,7,Miami (OH),38,teamrankings,55,14,Miami (OH) -14
+401249873,Toledo,24,Ball State,27,Bovada,67.5,-10.0,Toledo -10.0
+401249873,Toledo,24,Ball State,27,Caesars,67,-10,Toledo -10
+401249873,Toledo,24,Ball State,27,consensus,67.5,-10,Toledo -10
+401249873,Toledo,24,Ball State,27,numberfire,66.5,-9.5,Toledo -9.5
+401249873,Toledo,24,Ball State,27,teamrankings,67,-9.5,Toledo -9.5
+401249877,Buffalo,70,Kent State,41,Bovada,70.0,-7.0,Buffalo -7.0
+401249877,Buffalo,70,Kent State,41,Caesars,69.5,-7.5,Buffalo -7.5
+401249877,Buffalo,70,Kent State,41,consensus,69.5,-7.5,Buffalo -7.5
+401249877,Buffalo,70,Kent State,41,numberfire,69.5,-7.5,Buffalo -7.5
+401249877,Buffalo,70,Kent State,41,teamrankings,70,-7.5,Buffalo -7.5
+401249876,Ohio,52,Bowling Green,10,Bovada,55.0,-23.0,Ohio -23.0
+401249876,Ohio,52,Bowling Green,10,Caesars,54.5,-23,Ohio -23
+401249876,Ohio,52,Bowling Green,10,consensus,54.5,-22.5,Ohio -22.5
+401249876,Ohio,52,Bowling Green,10,numberfire,54.5,-22.5,Ohio -22.5
+401249876,Ohio,52,Bowling Green,10,teamrankings,55,-22.5,Ohio -22.5
+401249875,Western Michigan,30,Northern Illinois,27,Caesars,64.5,-19.5,Western Michigan -19.5
+401249875,Western Michigan,30,Northern Illinois,27,Bovada,64.5,-19.0,Western Michigan -19.0
+401249875,Western Michigan,30,Northern Illinois,27,consensus,64.5,-18.5,Western Michigan -18.5
+401249875,Western Michigan,30,Northern Illinois,27,numberfire,64.5,-18.5,Western Michigan -18.5
+401249875,Western Michigan,30,Northern Illinois,27,teamrankings,64.5,-18.5,Western Michigan -18.5
+401247333,Michigan,17,Penn State,27,Bovada,56.0,-1.0,Michigan -1.0
+401247333,Michigan,17,Penn State,27,Caesars,56.5,0,Penn State -0
+401247333,Michigan,17,Penn State,27,consensus,56.5,-1,Michigan -1
+401247333,Michigan,17,Penn State,27,numberfire,56.5,-0.5,Michigan -0.5
+401247333,Michigan,17,Penn State,27,teamrankings,56,0,Penn State -0
+401249418,Oregon State,41,Oregon,38,Bovada,65.0,13.5,Oregon -13.5
+401249418,Oregon State,41,Oregon,38,Caesars,64.5,13,Oregon -13
+401249418,Oregon State,41,Oregon,38,consensus,64.5,13,Oregon -13
+401249418,Oregon State,41,Oregon,38,numberfire,64.5,12.5,Oregon -12.5
+401249418,Oregon State,41,Oregon,38,teamrankings,64.5,13,Oregon -13
+401249874,Eastern Michigan,23,Central Michigan,31,Caesars,59,6.5,Central Michigan -6.5
+401249874,Eastern Michigan,23,Central Michigan,31,consensus,59,6.5,Central Michigan -6.5
+401249874,Eastern Michigan,23,Central Michigan,31,numberfire,58.5,6.5,Central Michigan -6.5
+401249874,Eastern Michigan,23,Central Michigan,31,Bovada,59.0,6.5,Central Michigan -6.5
+401249874,Eastern Michigan,23,Central Michigan,31,teamrankings,59,6,Central Michigan -6
+401249417,California,23,Stanford,24,Bovada,51.5,2.0,Stanford -2.0
+401249417,California,23,Stanford,24,Caesars,51,1.5,Stanford -1.5
+401249417,California,23,Stanford,24,consensus,51.5,1.5,Stanford -1.5
+401249417,California,23,Stanford,24,numberfire,51.5,2.5,Stanford -2.5
+401249417,California,23,Stanford,24,teamrankings,51,2,Stanford -2
+401249028,UNLV,14,Wyoming,45,Caesars,52,16.5,Wyoming -16.5
+401249028,UNLV,14,Wyoming,45,consensus,52,16.5,Wyoming -16.5
+401249028,UNLV,14,Wyoming,45,numberfire,52.5,17.5,Wyoming -17.5
+401249028,UNLV,14,Wyoming,45,teamrankings,52,17,Wyoming -17
+401249028,UNLV,14,Wyoming,45,Bovada,52.0,16.5,Wyoming -16.5
+401247332,Iowa,26,Nebraska,20,Caesars,54,-13,Iowa -13
+401247332,Iowa,26,Nebraska,20,Bovada,53.0,-13.0,Iowa -13.0
+401247332,Iowa,26,Nebraska,20,consensus,53.5,-12.5,Iowa -12.5
+401247332,Iowa,26,Nebraska,20,numberfire,53.5,-11.5,Iowa -11.5
+401247332,Iowa,26,Nebraska,20,teamrankings,53.5,-12.5,Iowa -12.5
+401251926,Liberty,45,UMass,0,Bovada,58.5,-36.0,Liberty -36.0
+401251926,Liberty,45,UMass,0,Caesars,57,-36,Liberty -36
+401251926,Liberty,45,UMass,0,consensus,57.5,-35.5,Liberty -35.5
+401251926,Liberty,45,UMass,0,numberfire,57.5,-35.5,Liberty -35.5
+401251926,Liberty,45,UMass,0,teamrankings,57.5,-35,Liberty -35
+401249025,Utah State,41,New Mexico,27,Bovada,49.0,6.0,New Mexico -6.0
+401249025,Utah State,41,New Mexico,27,Caesars,49,6,New Mexico -6
+401249025,Utah State,41,New Mexico,27,consensus,49,6,New Mexico -6
+401249025,Utah State,41,New Mexico,27,numberfire,51.5,5.5,New Mexico -5.5
+401249025,Utah State,41,New Mexico,27,teamrankings,49,6,New Mexico -6
+401265458,Washington,24,Utah,21,Bovada,47.0,-9.5,Washington -9.5
+401265458,Washington,24,Utah,21,Caesars,47.5,-8.5,Washington -8.5
+401265458,Washington,24,Utah,21,consensus,47.5,-9,Washington -9
+401265458,Washington,24,Utah,21,numberfire,46.5,-7.5,Washington -7.5
+401265458,Washington,24,Utah,21,teamrankings,47,-8,Washington -8
+401234649,Boston College,34,Louisville,27,Bovada,56.5,-1.0,Boston College -1.0
+401234649,Boston College,34,Louisville,27,Caesars,56,-1,Boston College -1
+401234649,Boston College,34,Louisville,27,consensus,56.5,-1,Boston College -1
+401234649,Boston College,34,Louisville,27,numberfire,55.5,-1.5,Boston College -1.5
+401234649,Boston College,34,Louisville,27,teamrankings,57,-1,Boston College -1
+401247329,Indiana,27,Maryland,11,Bovada,65.0,-11.0,Indiana -11.0
+401247329,Indiana,27,Maryland,11,Caesars,66,-11.5,Indiana -11.5
+401247329,Indiana,27,Maryland,11,consensus,62.5,-11.5,Indiana -11.5
+401247329,Indiana,27,Maryland,11,numberfire,62.5,-11.5,Indiana -11.5
+401247329,Indiana,27,Maryland,11,teamrankings,65,-11.5,Indiana -11.5
+401234651,Clemson,52,Pittsburgh,17,Bovada,59.0,-24.0,Clemson -24.0
+401234651,Clemson,52,Pittsburgh,17,Caesars,59,-24,Clemson -24
+401234651,Clemson,52,Pittsburgh,17,consensus,58.5,-24,Clemson -24
+401234651,Clemson,52,Pittsburgh,17,numberfire,58.5,-23.5,Clemson -23.5
+401234651,Clemson,52,Pittsburgh,17,teamrankings,58.5,-23.5,Clemson -23.5
+401212483,South Florida,46,UCF,58,Caesars,70.5,25.5,UCF -25.5
+401212483,South Florida,46,UCF,58,consensus,70.5,25,UCF -25
+401212483,South Florida,46,UCF,58,numberfire,69.5,25.5,UCF -25.5
+401212483,South Florida,46,UCF,58,teamrankings,70.5,25,UCF -25
+401212483,South Florida,46,UCF,58,Bovada,70.5,26.0,UCF -26.0
+401234650,North Carolina,17,Notre Dame,31,Bovada,70.0,4.5,Notre Dame -4.5
+401234650,North Carolina,17,Notre Dame,31,Caesars,71,5,Notre Dame -5
+401234650,North Carolina,17,Notre Dame,31,consensus,69.5,4.5,Notre Dame -4.5
+401234650,North Carolina,17,Notre Dame,31,numberfire,68.5,5.5,Notre Dame -5.5
+401234650,North Carolina,17,Notre Dame,31,teamrankings,69.5,4.5,Notre Dame -4.5
+401212513,East Carolina,52,SMU,38,Bovada,72.0,12.0,SMU -12.0
+401212513,East Carolina,52,SMU,38,Caesars,72,12,SMU -12
+401212513,East Carolina,52,SMU,38,consensus,72,11.5,SMU -11.5
+401212513,East Carolina,52,SMU,38,numberfire,70.5,11.5,SMU -11.5
+401212513,East Carolina,52,SMU,38,teamrankings,72,12,SMU -12
+401215339,Georgia State,30,Georgia Southern,24,Bovada,51.0,-3.0,Georgia State -3.0
+401215339,Georgia State,30,Georgia Southern,24,Caesars,51,-2.5,Georgia State -2.5
+401215339,Georgia State,30,Georgia Southern,24,consensus,51,-2.5,Georgia State -2.5
+401215339,Georgia State,30,Georgia Southern,24,numberfire,51.5,-2.5,Georgia State -2.5
+401215339,Georgia State,30,Georgia Southern,24,teamrankings,51.5,-2.5,Georgia State -2.5
+401215338,Texas State,14,Coastal Carolina,49,Bovada,58.5,17.5,Coastal Carolina -17.5
+401215338,Texas State,14,Coastal Carolina,49,Caesars,58,17.5,Coastal Carolina -17.5
+401215338,Texas State,14,Coastal Carolina,49,consensus,58.5,16.5,Coastal Carolina -16.5
+401215338,Texas State,14,Coastal Carolina,49,numberfire,58.5,16.5,Coastal Carolina -16.5
+401215338,Texas State,14,Coastal Carolina,49,teamrankings,59,16.5,Coastal Carolina -16.5
+401215337,Arkansas State,31,South Alabama,38,Bovada,64.0,-7.5,Arkansas State -7.5
+401215337,Arkansas State,31,South Alabama,38,Caesars,63,-7.5,Arkansas State -7.5
+401215337,Arkansas State,31,South Alabama,38,consensus,63.5,-7.5,Arkansas State -7.5
+401215337,Arkansas State,31,South Alabama,38,numberfire,62.5,-7.5,Arkansas State -7.5
+401215337,Arkansas State,31,South Alabama,38,teamrankings,63.5,-7,Arkansas State -7
+401236032,Oklahoma State,50,Texas Tech,44,Bovada,57.0,-12.0,Oklahoma State -12.0
+401236032,Oklahoma State,50,Texas Tech,44,Caesars,57.5,-12.5,Oklahoma State -12.5
+401236032,Oklahoma State,50,Texas Tech,44,consensus,57,-11.5,Oklahoma State -11.5
+401236032,Oklahoma State,50,Texas Tech,44,numberfire,56.5,-11.5,Oklahoma State -11.5
+401236032,Oklahoma State,50,Texas Tech,44,teamrankings,57,-12,Oklahoma State -12
+401236029,Texas,20,Iowa State,23,Bovada,59.0,2.0,Iowa State -2.0
+401236029,Texas,20,Iowa State,23,Caesars,58,1.5,Iowa State -1.5
+401236029,Texas,20,Iowa State,23,consensus,57.5,1.5,Iowa State -1.5
+401236029,Texas,20,Iowa State,23,numberfire,57.5,1.5,Iowa State -1.5
+401236029,Texas,20,Iowa State,23,teamrankings,58,2,Iowa State -2
+401237144,Florida,34,Kentucky,10,Bovada,61.0,-24.0,Florida -24.0
+401237144,Florida,34,Kentucky,10,Caesars,60,-24,Florida -24
+401237144,Florida,34,Kentucky,10,consensus,60.5,-24,Florida -24
+401237144,Florida,34,Kentucky,10,numberfire,60.5,-23.5,Florida -23.5
+401237144,Florida,34,Kentucky,10,teamrankings,60.5,-23.5,Florida -23.5
+401237146,Texas A&M,20,LSU,7,Bovada,61.0,-15.5,Texas A&M -15.5
+401237146,Texas A&M,20,LSU,7,Caesars,60.5,-15.5,Texas A&M -15.5
+401237146,Texas A&M,20,LSU,7,consensus,60.5,-15.5,Texas A&M -15.5
+401237146,Texas A&M,20,LSU,7,numberfire,60.5,-15.5,Texas A&M -15.5
+401237146,Texas A&M,20,LSU,7,teamrankings,60.5,-16,Texas A&M -16
+401237145,South Carolina,16,Georgia,45,Bovada,51.0,22.0,Georgia -22.0
+401237145,South Carolina,16,Georgia,45,Caesars,50,22,Georgia -22
+401237145,South Carolina,16,Georgia,45,consensus,50.5,22,Georgia -22
+401237145,South Carolina,16,Georgia,45,numberfire,49.5,22.5,Georgia -22.5
+401237145,South Carolina,16,Georgia,45,teamrankings,49.5,22,Georgia -22
+401237142,Alabama,42,Auburn,13,Bovada,65.0,-24.5,Alabama -24.5
+401237142,Alabama,42,Auburn,13,Caesars,66,-24.5,Alabama -24.5
+401237142,Alabama,42,Auburn,13,consensus,64.5,-24.5,Alabama -24.5
+401237142,Alabama,42,Auburn,13,numberfire,62.5,-24.5,Alabama -24.5
+401237142,Alabama,42,Auburn,13,teamrankings,65,-24.5,Alabama -24.5
+401207191,UT San Antonio,49,North Texas,17,Bovada,67.0,-1.5,UT San Antonio -1.5
+401207191,UT San Antonio,49,North Texas,17,Caesars,67,-2,UT San Antonio -2
+401207191,UT San Antonio,49,North Texas,17,consensus,67.5,-1,UT San Antonio -1
+401207191,UT San Antonio,49,North Texas,17,numberfire,67.5,-1.5,UT San Antonio -1.5
+401207191,UT San Antonio,49,North Texas,17,teamrankings,67,-1.5,UT San Antonio -1.5
+401215336,Appalachian State,47,Troy,10,Bovada,50.5,-14.0,Appalachian State -14.0
+401215336,Appalachian State,47,Troy,10,Caesars,51,-14,Appalachian State -14
+401215336,Appalachian State,47,Troy,10,consensus,50.5,-14,Appalachian State -14
+401215336,Appalachian State,47,Troy,10,numberfire,50.5,-13.5,Appalachian State -13.5
+401215336,Appalachian State,47,Troy,10,teamrankings,50.5,-14,Appalachian State -14
+401237147,Ole Miss,31,Mississippi State,24,Bovada,70.5,-9.5,Ole Miss -9.5
+401237147,Ole Miss,31,Mississippi State,24,Caesars,71,-9.5,Ole Miss -9.5
+401237147,Ole Miss,31,Mississippi State,24,consensus,70.5,-9.5,Ole Miss -9.5
+401237147,Ole Miss,31,Mississippi State,24,numberfire,70.5,-9.5,Ole Miss -9.5
+401237147,Ole Miss,31,Mississippi State,24,teamrankings,70,-10,Ole Miss -10
+401237143,Missouri,41,Vanderbilt,0,Bovada,52.5,2.0,Vanderbilt -2.0
+401237143,Missouri,41,Vanderbilt,0,Caesars,51,-14.5,Missouri -14.5
+401237143,Missouri,41,Vanderbilt,0,consensus,51.5,-14,Missouri -14
+401237143,Missouri,41,Vanderbilt,0,numberfire,51.5,-14.5,Missouri -14.5
+401237143,Missouri,41,Vanderbilt,0,teamrankings,52.5,2,Vanderbilt -2
+401236030,Kansas,23,TCU,59,Bovada,51.5,23.0,TCU -23.0
+401236030,Kansas,23,TCU,59,Caesars,51.5,23,TCU -23
+401236030,Kansas,23,TCU,59,consensus,51,23,TCU -23
+401236030,Kansas,23,TCU,59,numberfire,51.5,23.5,TCU -23.5
+401236030,Kansas,23,TCU,59,teamrankings,51.5,23.5,TCU -23.5
+401236028,Baylor,32,Kansas State,31,Bovada,44.5,-5.5,Baylor -5.5
+401236028,Baylor,32,Kansas State,31,Caesars,44.5,-5,Baylor -5
+401236028,Baylor,32,Kansas State,31,consensus,44.5,-5.5,Baylor -5.5
+401236028,Baylor,32,Kansas State,31,numberfire,44.5,-6.5,Baylor -6.5
+401236028,Baylor,32,Kansas State,31,teamrankings,44.5,-5.5,Baylor -5.5
+401234655,Syracuse,29,NC State,36,Bovada,50.0,17.0,NC State -17.0
+401234655,Syracuse,29,NC State,36,Caesars,50,17,NC State -17
+401234655,Syracuse,29,NC State,36,consensus,50.5,17,NC State -17
+401234655,Syracuse,29,NC State,36,numberfire,50.5,17.5,NC State -17.5
+401234655,Syracuse,29,NC State,36,teamrankings,50.5,17.5,NC State -17.5
+401234652,Georgia Tech,56,Duke,33,Bovada,58.0,2.5,Duke -2.5
+401234652,Georgia Tech,56,Duke,33,Caesars,58,2,Duke -2
+401234652,Georgia Tech,56,Duke,33,consensus,57.5,2.5,Duke -2.5
+401234652,Georgia Tech,56,Duke,33,numberfire,57.5,2.5,Duke -2.5
+401234652,Georgia Tech,56,Duke,33,teamrankings,57,1.5,Duke -1.5
+401266789,Charlotte,19,Western Kentucky,37,Bovada,46.0,-2.5,Charlotte -2.5
+401266789,Charlotte,19,Western Kentucky,37,Caesars,46.5,-2.5,Charlotte -2.5
+401266789,Charlotte,19,Western Kentucky,37,consensus,46.5,-2.5,Charlotte -2.5
+401266789,Charlotte,19,Western Kentucky,37,numberfire,46.5,-1.5,Charlotte -1.5
+401266789,Charlotte,19,Western Kentucky,37,teamrankings,47,-3,Charlotte -3
+401249427,USC,38,Washington State,13,Bovada,68.5,-11.0,USC -11.0
+401249427,USC,38,Washington State,13,Caesars,68.5,-11,USC -11
+401249427,USC,38,Washington State,13,consensus,68.5,-11,USC -11
+401249427,USC,38,Washington State,13,numberfire,68.5,-11.5,USC -11.5
+401249427,USC,38,Washington State,13,teamrankings,68.5,-11.5,USC -11.5
+401266134,Duke,0,Miami,48,Bovada,63.0,15.0,Miami -15.0
+401266134,Duke,0,Miami,48,Caesars,62.5,15,Miami -15
+401266134,Duke,0,Miami,48,consensus,62.5,14.5,Miami -14.5
+401266134,Duke,0,Miami,48,numberfire,62.5,15.5,Miami -15.5
+401266134,Duke,0,Miami,48,teamrankings,62,14.5,Miami -14.5
+401264082,Tulane,35,Memphis,21,Bovada,64.0,-3.0,Tulane -3.0
+401264082,Tulane,35,Memphis,21,Caesars,64,-3.5,Tulane -3.5
+401264082,Tulane,35,Memphis,21,consensus,64,-3,Tulane -3
+401264082,Tulane,35,Memphis,21,numberfire,63.5,-2.5,Tulane -2.5
+401247340,Michigan State,12,Ohio State,52,Caesars,59,22.5,Ohio State -22.5
+401247340,Michigan State,12,Ohio State,52,consensus,59,22.5,Ohio State -22.5
+401247340,Michigan State,12,Ohio State,52,numberfire,58.5,22.5,Ohio State -22.5
+401247340,Michigan State,12,Ohio State,52,teamrankings,59,22,Ohio State -22
+401247340,Michigan State,12,Ohio State,52,Bovada,59.0,22.5,Ohio State -22.5
+401264083,Navy,6,Tulsa,19,Caesars,45.5,12,Tulsa -12
+401264083,Navy,6,Tulsa,19,Bovada,45.0,12.0,Tulsa -12.0
+401264083,Navy,6,Tulsa,19,consensus,45.5,12,Tulsa -12
+401264083,Navy,6,Tulsa,19,numberfire,45.5,11.5,Tulsa -11.5
+401264083,Navy,6,Tulsa,19,teamrankings,46,12,Tulsa -12
+401237151,Tennessee,19,Florida,31,Bovada,63.0,18.5,Florida -18.5
+401237151,Tennessee,19,Florida,31,Caesars,62.5,18,Florida -18
+401237151,Tennessee,19,Florida,31,consensus,62.5,18,Florida -18
+401237151,Tennessee,19,Florida,31,numberfire,63.5,18.5,Florida -18.5
+401237151,Tennessee,19,Florida,31,teamrankings,63,18.5,Florida -18.5
+401234657,Virginia Tech,10,Clemson,45,Bovada,67.0,23.5,Clemson -23.5
+401234657,Virginia Tech,10,Clemson,45,Caesars,66.5,23.5,Clemson -23.5
+401234657,Virginia Tech,10,Clemson,45,consensus,66.5,23,Clemson -23
+401234657,Virginia Tech,10,Clemson,45,numberfire,67.5,23.5,Clemson -23.5
+401234657,Virginia Tech,10,Clemson,45,teamrankings,67,23.5,Clemson -23.5
+401234662,Notre Dame,45,Syracuse,21,Bovada,51.0,-34.0,Notre Dame -34.0
+401234662,Notre Dame,45,Syracuse,21,Caesars,51,-34,Notre Dame -34
+401234662,Notre Dame,45,Syracuse,21,consensus,51,-34,Notre Dame -34
+401234662,Notre Dame,45,Syracuse,21,numberfire,50.5,-34.5,Notre Dame -34.5
+401234662,Notre Dame,45,Syracuse,21,teamrankings,51,-34.5,Notre Dame -34.5
+401265817,LSU,17,Alabama,55,Bovada,64.0,29.5,Alabama -29.5
+401265817,LSU,17,Alabama,55,Caesars,65,29.5,Alabama -29.5
+401265817,LSU,17,Alabama,55,consensus,64,28.5,Alabama -28.5
+401265817,LSU,17,Alabama,55,numberfire,64.5,28.5,Alabama -28.5
+401265817,LSU,17,Alabama,55,teamrankings,64.5,29,Alabama -29
+401265818,Missouri,50,Arkansas,48,Bovada,55.0,-2.5,Missouri -2.5
+401265818,Missouri,50,Arkansas,48,Caesars,55,-2.5,Missouri -2.5
+401265818,Missouri,50,Arkansas,48,consensus,54.5,-2.5,Missouri -2.5
+401265818,Missouri,50,Arkansas,48,numberfire,54.5,-2.5,Missouri -2.5
+401265818,Missouri,50,Arkansas,48,teamrankings,55.5,-2,Missouri -2
+401265703,North Texas,31,Louisiana Tech,42,Bovada,65.5,1.0,Louisiana Tech -1.0
+401265703,North Texas,31,Louisiana Tech,42,Caesars,65.5,1,Louisiana Tech -1
+401265703,North Texas,31,Louisiana Tech,42,consensus,65.5,1,Louisiana Tech -1
+401265703,North Texas,31,Louisiana Tech,42,numberfire,65.5,-0.5,North Texas -0.5
+401265703,North Texas,31,Louisiana Tech,42,teamrankings,64.5,1,Louisiana Tech -1
+401252117,Appalachian State,21,Louisiana,24,Bovada,53.0,-3.0,Appalachian State -3.0
+401252117,Appalachian State,21,Louisiana,24,Caesars,52,-3,Appalachian State -3
+401252117,Appalachian State,21,Louisiana,24,consensus,51.5,-3,Appalachian State -3
+401252117,Appalachian State,21,Louisiana,24,numberfire,51.5,-2.5,Appalachian State -2.5
+401252117,Appalachian State,21,Louisiana,24,teamrankings,51,-3,Appalachian State -3
+401249029,Utah State,7,Air Force,35,Bovada,52.0,13.5,Air Force -13.5
+401249029,Utah State,7,Air Force,35,Caesars,51,13,Air Force -13
+401249029,Utah State,7,Air Force,35,consensus,51.5,13.5,Air Force -13.5
+401249029,Utah State,7,Air Force,35,numberfire,51.5,13.5,Air Force -13.5
+401249029,Utah State,7,Air Force,35,teamrankings,51,13.5,Air Force -13.5
+401262494,South Alabama,0,Troy,29,Caesars,54,4,Troy -4
+401262494,South Alabama,0,Troy,29,consensus,54,4,Troy -4
+401262494,South Alabama,0,Troy,29,numberfire,53.5,4.5,Troy -4.5
+401262493,Arkansas State,48,Louisiana Monroe,15,Bovada,71.0,-20.0,Arkansas State -20.0
+401262493,Arkansas State,48,Louisiana Monroe,15,Caesars,71,-20.5,Arkansas State -20.5
+401262493,Arkansas State,48,Louisiana Monroe,15,consensus,71,-20,Arkansas State -20
+401262493,Arkansas State,48,Louisiana Monroe,15,numberfire,71.5,-20.5,Arkansas State -20.5
+401261675,Georgia Southern,20,Florida Atlantic,3,Bovada,40.5,2.5,Florida Atlantic -2.5
+401261675,Georgia Southern,20,Florida Atlantic,3,Caesars,41,2,Florida Atlantic -2
+401261675,Georgia Southern,20,Florida Atlantic,3,consensus,40.5,2.5,Florida Atlantic -2.5
+401261675,Georgia Southern,20,Florida Atlantic,3,numberfire,40.5,2.5,Florida Atlantic -2.5
+401261675,Georgia Southern,20,Florida Atlantic,3,teamrankings,40.5,2.5,Florida Atlantic -2.5
+401249422,Utah,30,Oregon State,24,Bovada,51.0,-13.5,Utah -13.5
+401249422,Utah,30,Oregon State,24,Caesars,51.5,-14,Utah -14
+401249422,Utah,30,Oregon State,24,consensus,51,-14,Utah -14
+401249422,Utah,30,Oregon State,24,numberfire,50.5,-13.5,Utah -13.5
+401249422,Utah,30,Oregon State,24,teamrankings,51.5,-13.5,Utah -13.5
+401249032,Nevada,37,Fresno State,26,Bovada,59.0,-6.5,Nevada -6.5
+401249032,Nevada,37,Fresno State,26,Caesars,59,-6.5,Nevada -6.5
+401249032,Nevada,37,Fresno State,26,consensus,59,-6.5,Nevada -6.5
+401249032,Nevada,37,Fresno State,26,numberfire,59.5,-6.5,Nevada -6.5
+401249032,Nevada,37,Fresno State,26,teamrankings,59,-6.5,Nevada -6.5
+401257812,Marshall,0,Rice,20,Bovada,43.0,-22.5,Marshall -22.5
+401257812,Marshall,0,Rice,20,Caesars,43,-24,Marshall -24
+401257812,Marshall,0,Rice,20,consensus,42.5,-24.5,Marshall -24.5
+401257812,Marshall,0,Rice,20,numberfire,42.5,-24.5,Marshall -24.5
+401257812,Marshall,0,Rice,20,teamrankings,42.5,-24.5,Marshall -24.5
+401236033,Oklahoma,27,Baylor,14,Bovada,61.0,-24.0,Oklahoma -24.0
+401236033,Oklahoma,27,Baylor,14,Caesars,61,-23,Oklahoma -23
+401236033,Oklahoma,27,Baylor,14,consensus,61,-23.5,Oklahoma -23.5
+401236033,Oklahoma,27,Baylor,14,numberfire,60.5,-22.5,Oklahoma -22.5
+401236033,Oklahoma,27,Baylor,14,teamrankings,61.5,-22,Oklahoma -22
+401247338,Wisconsin,6,Indiana,14,Bovada,44.5,-13.0,Wisconsin -13.0
+401247338,Wisconsin,6,Indiana,14,Caesars,44.5,-13.5,Wisconsin -13.5
+401247338,Wisconsin,6,Indiana,14,consensus,44.5,-13.5,Wisconsin -13.5
+401247338,Wisconsin,6,Indiana,14,numberfire,44.5,-12.5,Wisconsin -12.5
+401247338,Wisconsin,6,Indiana,14,teamrankings,44.5,-12.5,Wisconsin -12.5
+401249423,California,21,Oregon,17,Bovada,59.5,9.0,Oregon -9.0
+401249423,California,21,Oregon,17,Caesars,60,9.5,Oregon -9.5
+401249423,California,21,Oregon,17,consensus,59.5,9,Oregon -9
+401249423,California,21,Oregon,17,numberfire,59.5,9.5,Oregon -9.5
+401249423,California,21,Oregon,17,teamrankings,59,9.5,Oregon -9.5
+401248781,North Carolina,49,Western Carolina,9,Bovada,69.0,-50.0,North Carolina -50.0
+401248781,North Carolina,49,Western Carolina,9,consensus,69.5,-48.5,North Carolina -48.5
+401249034,New Mexico,17,Wyoming,16,Bovada,51.0,15.0,Wyoming -15.0
+401249034,New Mexico,17,Wyoming,16,Caesars,51,16,Wyoming -16
+401249034,New Mexico,17,Wyoming,16,consensus,51,15.5,Wyoming -15.5
+401249034,New Mexico,17,Wyoming,16,numberfire,51.5,18.5,Wyoming -18.5
+401249034,New Mexico,17,Wyoming,16,teamrankings,52,18,Wyoming -18
+401249033,San José State,35,Hawai'i,24,Bovada,59.5,-6.0,San José State -6.0
+401249033,San José State,35,Hawai'i,24,Caesars,60,3,Hawai'i -3
+401249033,San José State,35,Hawai'i,24,consensus,59.5,2.5,Hawai'i -2.5
+401249033,San José State,35,Hawai'i,24,numberfire,59.5,2.5,Hawai'i -2.5
+401249033,San José State,35,Hawai'i,24,teamrankings,59,2.5,Hawai'i -2.5
+401247337,Illinois,21,Iowa,35,Bovada,52.5,14.0,Iowa -14.0
+401247337,Illinois,21,Iowa,35,Caesars,52.5,14,Iowa -14
+401247337,Illinois,21,Iowa,35,consensus,52.5,13.5,Iowa -13.5
+401247337,Illinois,21,Iowa,35,numberfire,52.5,14.5,Iowa -14.5
+401247337,Illinois,21,Iowa,35,teamrankings,53,13.5,Iowa -13.5
+401249881,Akron,31,Bowling Green,3,Bovada,55.0,-3.0,Akron -3.0
+401249881,Akron,31,Bowling Green,3,Caesars,55,-2.5,Akron -2.5
+401249881,Akron,31,Bowling Green,3,consensus,55.5,-2.5,Akron -2.5
+401249881,Akron,31,Bowling Green,3,numberfire,54.5,-2.5,Akron -2.5
+401249881,Akron,31,Bowling Green,3,teamrankings,54.5,-2.5,Akron -2.5
+401249880,Northern Illinois,24,Toledo,41,Bovada,53.5,10.0,Toledo -10.0
+401249880,Northern Illinois,24,Toledo,41,Caesars,54,10,Toledo -10
+401249880,Northern Illinois,24,Toledo,41,consensus,53.5,9.5,Toledo -9.5
+401249880,Northern Illinois,24,Toledo,41,numberfire,53.5,9.5,Toledo -9.5
+401249880,Northern Illinois,24,Toledo,41,teamrankings,53.5,9,Toledo -9
+401249879,Western Michigan,42,Eastern Michigan,53,Bovada,67.5,-13.5,Western Michigan -13.5
+401249879,Western Michigan,42,Eastern Michigan,53,Caesars,67,-13.5,Western Michigan -13.5
+401249879,Western Michigan,42,Eastern Michigan,53,consensus,67.5,-13.5,Western Michigan -13.5
+401249879,Western Michigan,42,Eastern Michigan,53,numberfire,67.5,-13.5,Western Michigan -13.5
+401249879,Western Michigan,42,Eastern Michigan,53,teamrankings,67.5,-13.5,Western Michigan -13.5
+401249878,Central Michigan,20,Ball State,45,Bovada,63.0,3.0,Ball State -3.0
+401249878,Central Michigan,20,Ball State,45,Caesars,63,2.5,Ball State -2.5
+401249878,Central Michigan,20,Ball State,45,consensus,63,2.5,Ball State -2.5
+401249878,Central Michigan,20,Ball State,45,numberfire,63.5,2.5,Ball State -2.5
+401249878,Central Michigan,20,Ball State,45,teamrankings,62.5,2.5,Ball State -2.5
+401249426,Arizona,13,Colorado,24,Bovada,56.0,9.5,Colorado -9.5
+401249426,Arizona,13,Colorado,24,Caesars,56.5,9,Colorado -9
+401249426,Arizona,13,Colorado,24,consensus,57.5,9.5,Colorado -9.5
+401249426,Arizona,13,Colorado,24,numberfire,57.5,7.5,Colorado -7.5
+401249426,Arizona,13,Colorado,24,teamrankings,57,9.5,Colorado -9.5
+401249425,Arizona State,18,UCLA,25,Bovada,57.5,-3.0,Arizona State -3.0
+401249425,Arizona State,18,UCLA,25,Caesars,58,-2.5,Arizona State -2.5
+401249425,Arizona State,18,UCLA,25,consensus,57.5,-2.5,Arizona State -2.5
+401249425,Arizona State,18,UCLA,25,numberfire,56.5,-2.5,Arizona State -2.5
+401249425,Arizona State,18,UCLA,25,teamrankings,56,-3,Arizona State -3
+401249424,Washington,26,Stanford,31,Bovada,50.0,-12.0,Washington -12.0
+401249424,Washington,26,Stanford,31,Caesars,49.5,-12,Washington -12
+401249424,Washington,26,Stanford,31,consensus,49.5,-12,Washington -12
+401249424,Washington,26,Stanford,31,numberfire,49.5,-12.5,Washington -12.5
+401249424,Washington,26,Stanford,31,teamrankings,49.5,-12,Washington -12
+401249031,San Diego State,29,Colorado State,17,Bovada,45.5,-7.5,San Diego State -7.5
+401249031,San Diego State,29,Colorado State,17,Caesars,46,-7.5,San Diego State -7.5
+401249031,San Diego State,29,Colorado State,17,consensus,46.5,-7.5,San Diego State -7.5
+401249031,San Diego State,29,Colorado State,17,numberfire,45.5,-7.5,San Diego State -7.5
+401249031,San Diego State,29,Colorado State,17,teamrankings,45,-7.5,San Diego State -7.5
+401236037,TCU,29,Oklahoma State,22,Caesars,52.5,2.5,Oklahoma State -2.5
+401236037,TCU,29,Oklahoma State,22,consensus,52.5,2.5,Oklahoma State -2.5
+401236037,TCU,29,Oklahoma State,22,numberfire,52.5,2.5,Oklahoma State -2.5
+401236037,TCU,29,Oklahoma State,22,teamrankings,53,2.5,Oklahoma State -2.5
+401236037,TCU,29,Oklahoma State,22,Bovada,52.5,2.5,Oklahoma State -2.5
+401236036,Kansas State,31,Texas,69,Bovada,53.5,7.0,Texas -7.0
+401236036,Kansas State,31,Texas,69,Caesars,53.5,7,Texas -7
+401236036,Kansas State,31,Texas,69,consensus,53.5,7.5,Texas -7.5
+401236036,Kansas State,31,Texas,69,numberfire,52.5,7.5,Texas -7.5
+401236036,Kansas State,31,Texas,69,teamrankings,53.5,7,Texas -7
+401237514,Coastal Carolina,22,BYU,17,Bovada,53.5,-11.0,Coastal Carolina -11.0
+401237514,Coastal Carolina,22,BYU,17,Caesars,62.5,10.5,BYU -10.5
+401237514,Coastal Carolina,22,BYU,17,consensus,62.5,10.5,BYU -10.5
+401237514,Coastal Carolina,22,BYU,17,numberfire,62.5,10.5,BYU -10.5
+401237514,Coastal Carolina,22,BYU,17,teamrankings,63,10,BYU -10
+401237153,Kentucky,41,South Carolina,18,Bovada,47.0,-12.0,Kentucky -12.0
+401237153,Kentucky,41,South Carolina,18,Caesars,46.5,-11.5,Kentucky -11.5
+401237153,Kentucky,41,South Carolina,18,consensus,47,-11.5,Kentucky -11.5
+401237153,Kentucky,41,South Carolina,18,numberfire,46.5,-11.5,Kentucky -11.5
+401237153,Kentucky,41,South Carolina,18,teamrankings,46,-12,Kentucky -12
+401236035,Texas Tech,16,Kansas,13,Bovada,63.5,-26.5,Texas Tech -26.5
+401236035,Texas Tech,16,Kansas,13,Caesars,64,-26.5,Texas Tech -26.5
+401236035,Texas Tech,16,Kansas,13,consensus,63.5,-26.5,Texas Tech -26.5
+401236035,Texas Tech,16,Kansas,13,numberfire,63.5,-26.5,Texas Tech -26.5
+401236035,Texas Tech,16,Kansas,13,teamrankings,63.5,-27,Texas Tech -27
+401234659,NC State,23,Georgia Tech,13,Bovada,61.0,-7.0,NC State -7.0
+401234659,NC State,23,Georgia Tech,13,Caesars,61,-7,NC State -7
+401234659,NC State,23,Georgia Tech,13,consensus,60.5,-7,NC State -7
+401234659,NC State,23,Georgia Tech,13,numberfire,60.5,-6.5,NC State -6.5
+401234659,NC State,23,Georgia Tech,13,teamrankings,61.5,-7,NC State -7
+401234656,Virginia,43,Boston College,32,Bovada,54.5,-6.0,Virginia -6.0
+401234656,Virginia,43,Boston College,32,Caesars,54,-6.5,Virginia -6.5
+401234656,Virginia,43,Boston College,32,consensus,54,-6,Virginia -6
+401234656,Virginia,43,Boston College,32,numberfire,52.5,-6.5,Virginia -6.5
+401234656,Virginia,43,Boston College,32,teamrankings,53,-6.5,Virginia -6.5
+401236034,Iowa State,42,West Virginia,6,Caesars,48,-6,Iowa State -6
+401236034,Iowa State,42,West Virginia,6,Bovada,48.0,-6.0,Iowa State -6.0
+401236034,Iowa State,42,West Virginia,6,consensus,48,-6,Iowa State -6
+401236034,Iowa State,42,West Virginia,6,numberfire,47.5,-5.5,Iowa State -5.5
+401236034,Iowa State,42,West Virginia,6,teamrankings,47.5,-5.5,Iowa State -5.5
+401247336,Rutgers,7,Penn State,23,consensus,51,13,Penn State -13
+401247336,Rutgers,7,Penn State,23,numberfire,51.5,12.5,Penn State -12.5
+401247336,Rutgers,7,Penn State,23,teamrankings,51.5,13,Penn State -13
+401247336,Rutgers,7,Penn State,23,Bovada,51.0,13.0,Penn State -13.0
+401247335,Purdue,27,Nebraska,37,Caesars,64,-1,Purdue -1
+401247335,Purdue,27,Nebraska,37,consensus,64,-1,Purdue -1
+401247335,Purdue,27,Nebraska,37,numberfire,64.5,0.5,Nebraska -0.5
+401247335,Purdue,27,Nebraska,37,teamrankings,64.5,-1.5,Purdue -1.5
+401247335,Purdue,27,Nebraska,37,Bovada,64.0,-1.0,Purdue -1.0
+401237150,Auburn,20,Texas A&M,31,Caesars,48.5,6,Texas A&M -6
+401237150,Auburn,20,Texas A&M,31,consensus,48.5,6,Texas A&M -6
+401237150,Auburn,20,Texas A&M,31,numberfire,48.5,5.5,Texas A&M -5.5
+401237150,Auburn,20,Texas A&M,31,teamrankings,49,5,Texas A&M -5
+401237150,Auburn,20,Texas A&M,31,Bovada,49.0,6.0,Texas A&M -6.0
+401249432,Oregon State,24,Stanford,27,Bovada,55.0,2.5,Stanford -2.5
+401249432,Oregon State,24,Stanford,27,William Hill (New Jersey),55.5,2.5,Stanford -2.5
+401249432,Oregon State,24,Stanford,27,consensus,55.5,2.5,Stanford -2.5
+401249432,Oregon State,24,Stanford,27,numberfire,54.5,2.5,Stanford -2.5
+401249432,Oregon State,24,Stanford,27,teamrankings,55,2.5,Stanford -2.5
+401267164,Arkansas,3,Alabama,52,Bovada,70.5,29.5,Alabama -29.5
+401267164,Arkansas,3,Alabama,52,William Hill (New Jersey),69.5,28.5,Alabama -28.5
+401267164,Arkansas,3,Alabama,52,consensus,69.5,30,Alabama -30
+401267164,Arkansas,3,Alabama,52,numberfire,68.5,29.5,Alabama -29.5
+401267164,Arkansas,3,Alabama,52,teamrankings,69.5,28.5,Alabama -28.5
+401267163,Vanderbilt,17,Tennessee,42,Bovada,50.5,15.5,Tennessee -15.5
+401267163,Vanderbilt,17,Tennessee,42,William Hill (New Jersey),51,15.5,Tennessee -15.5
+401267163,Vanderbilt,17,Tennessee,42,consensus,50.5,14.5,Tennessee -14.5
+401267163,Vanderbilt,17,Tennessee,42,numberfire,50.5,14.5,Tennessee -14.5
+401267163,Vanderbilt,17,Tennessee,42,teamrankings,51,15,Tennessee -15
+401267161,Missouri,14,Georgia,49,Bovada,54.5,14.0,Georgia -14.0
+401267161,Missouri,14,Georgia,49,William Hill (New Jersey),54.5,14,Georgia -14
+401267161,Missouri,14,Georgia,49,consensus,54.5,14,Georgia -14
+401267161,Missouri,14,Georgia,49,numberfire,53.5,13.5,Georgia -13.5
+401267161,Missouri,14,Georgia,49,teamrankings,54.5,14,Georgia -14
+401266711,TCU,52,Louisiana Tech,10,Bovada,50.0,-21.5,TCU -21.5
+401266711,TCU,52,Louisiana Tech,10,William Hill (New Jersey),50,-21.5,TCU -21.5
+401266711,TCU,52,Louisiana Tech,10,consensus,50,-21.5,TCU -21.5
+401266711,TCU,52,Louisiana Tech,10,numberfire,50.5,-21.5,TCU -21.5
+401266711,TCU,52,Louisiana Tech,10,teamrankings,50,-21.5,TCU -21.5
+401266696,Louisville,45,Wake Forest,21,Bovada,61.5,1.5,Wake Forest -1.5
+401266696,Louisville,45,Wake Forest,21,William Hill (New Jersey),62,1,Wake Forest -1
+401266696,Louisville,45,Wake Forest,21,consensus,62.5,-2.5,Louisville -2.5
+401266696,Louisville,45,Wake Forest,21,numberfire,62.5,-1.5,Louisville -1.5
+401266694,Florida State,56,Duke,35,Bovada,57.0,-3.0,Florida State -3.0
+401266694,Florida State,56,Duke,35,William Hill (New Jersey),57,-3.5,Florida State -3.5
+401266694,Florida State,56,Duke,35,consensus,57,-3,Florida State -3
+401266694,Florida State,56,Duke,35,numberfire,57.5,-2.5,Florida State -2.5
+401266694,Florida State,56,Duke,35,teamrankings,56.5,-3,Florida State -3
+401264084,Memphis,30,Houston,27,Bovada,65.0,6.5,Houston -6.5
+401264084,Memphis,30,Houston,27,William Hill (New Jersey),64.5,6,Houston -6
+401264084,Memphis,30,Houston,27,consensus,64.5,6.5,Houston -6.5
+401264084,Memphis,30,Houston,27,numberfire,63.5,7.5,Houston -7.5
+401257816,UTEP,43,North Texas,45,William Hill (New Jersey),64.5,10,North Texas -10
+401257816,UTEP,43,North Texas,45,consensus,66.5,-10,UTEP -10
+401257816,UTEP,43,North Texas,45,numberfire,66.5,10.5,North Texas -10.5
+401257816,UTEP,43,North Texas,45,teamrankings,67,10,North Texas -10
+401257815,Rice,16,UAB,21,Bovada,42.5,7.0,UAB -7.0
+401257815,Rice,16,UAB,21,William Hill (New Jersey),42.5,7,UAB -7
+401257815,Rice,16,UAB,21,consensus,42.5,7,UAB -7
+401257815,Rice,16,UAB,21,numberfire,42.5,6.5,UAB -6.5
+401257815,Rice,16,UAB,21,teamrankings,42.5,7,UAB -7
+401250713,Baylor,3,Oklahoma State,42,Bovada,49.0,6.5,Oklahoma State -6.5
+401250713,Baylor,3,Oklahoma State,42,William Hill (New Jersey),49,6,Oklahoma State -6
+401250713,Baylor,3,Oklahoma State,42,consensus,49.5,6,Oklahoma State -6
+401250713,Baylor,3,Oklahoma State,42,numberfire,48.5,4.5,Oklahoma State -4.5
+401250713,Baylor,3,Oklahoma State,42,teamrankings,49.5,6,Oklahoma State -6
+401249431,UCLA,38,USC,43,Bovada,65.0,3.5,USC -3.5
+401249431,UCLA,38,USC,43,William Hill (New Jersey),65,3.5,USC -3.5
+401249431,UCLA,38,USC,43,consensus,65,3.5,USC -3.5
+401249431,UCLA,38,USC,43,numberfire,63.5,3.5,USC -3.5
+401249431,UCLA,38,USC,43,teamrankings,64,3.5,USC -3.5
+401247347,Iowa,28,Wisconsin,7,Bovada,40.0,1.0,Wisconsin -1.0
+401247347,Iowa,28,Wisconsin,7,William Hill (New Jersey),41,2,Wisconsin -2
+401247347,Iowa,28,Wisconsin,7,consensus,41,2,Wisconsin -2
+401247347,Iowa,28,Wisconsin,7,numberfire,40.5,0.5,Wisconsin -0.5
+401247347,Iowa,28,Wisconsin,7,teamrankings,39,1,Wisconsin -1
+401259671,Troy,38,Coastal Carolina,42,William Hill (New Jersey),52.5,13,Coastal Carolina -13
+401259671,Troy,38,Coastal Carolina,42,consensus,52.5,12.5,Coastal Carolina -12.5
+401259671,Troy,38,Coastal Carolina,42,numberfire,53.5,11.5,Coastal Carolina -11.5
+401259671,Troy,38,Coastal Carolina,42,teamrankings,51.5,13.5,Coastal Carolina -13.5
+401247344,Northwestern,28,Illinois,10,Bovada,41.5,-13.0,Northwestern -13.0
+401247344,Northwestern,28,Illinois,10,William Hill (New Jersey),42,-13.5,Northwestern -13.5
+401247344,Northwestern,28,Illinois,10,consensus,42,-13.5,Northwestern -13.5
+401247344,Northwestern,28,Illinois,10,numberfire,41.5,-13.5,Northwestern -13.5
+401247344,Northwestern,28,Illinois,10,teamrankings,41,-13,Northwestern -13
+401249435,BYU,28,San Diego State,14,Bovada,47.5,-17.0,BYU -17.0
+401249435,BYU,28,San Diego State,14,William Hill (New Jersey),47.5,-16.5,BYU -16.5
+401249435,BYU,28,San Diego State,14,consensus,47.5,-16.5,BYU -16.5
+401249435,BYU,28,San Diego State,14,numberfire,47.5,-16.5,BYU -16.5
+401249435,BYU,28,San Diego State,14,teamrankings,47,-16.5,BYU -16.5
+401251100,Florida,34,LSU,37,Bovada,66.0,-23.5,Florida -23.5
+401251100,Florida,34,LSU,37,William Hill (New Jersey),66.5,-23,Florida -23
+401251100,Florida,34,LSU,37,consensus,65.5,-23,Florida -23
+401251100,Florida,34,LSU,37,numberfire,66.5,-22.5,Florida -22.5
+401251100,Florida,34,LSU,37,teamrankings,65.5,-23,Florida -23
+401249037,San José State,30,Nevada,20,Bovada,61.5,2.5,Nevada -2.5
+401249037,San José State,30,Nevada,20,William Hill (New Jersey),61.5,2.5,Nevada -2.5
+401249037,San José State,30,Nevada,20,consensus,61.5,2.5,Nevada -2.5
+401249037,San José State,30,Nevada,20,numberfire,59.5,-0.5,San José State -0.5
+401249037,San José State,30,Nevada,20,teamrankings,60.5,1.5,Nevada -1.5
+401261245,Georgia Tech,20,Pittsburgh,34,Bovada,55.5,7.5,Pittsburgh -7.5
+401261245,Georgia Tech,20,Pittsburgh,34,William Hill (New Jersey),55,7,Pittsburgh -7
+401261245,Georgia Tech,20,Pittsburgh,34,consensus,55.5,7.5,Pittsburgh -7.5
+401261245,Georgia Tech,20,Pittsburgh,34,numberfire,55.5,7.5,Pittsburgh -7.5
+401234661,Miami,26,North Carolina,62,William Hill (New Jersey),71,-3,Miami -3
+401234661,Miami,26,North Carolina,62,consensus,72,-3,Miami -3
+401234661,Miami,26,North Carolina,62,numberfire,71.5,-2.5,Miami -2.5
+401234661,Miami,26,North Carolina,62,teamrankings,72.5,-3,Miami -3
+401234661,Miami,26,North Carolina,62,Bovada,72.5,-3.0,Miami -3.0
+401249429,Arizona,7,Arizona State,70,Bovada,58.0,8.0,Arizona State -8.0
+401249429,Arizona,7,Arizona State,70,William Hill (New Jersey),55.5,11,Arizona State -11
+401249429,Arizona,7,Arizona State,70,consensus,56.5,9,Arizona State -9
+401249429,Arizona,7,Arizona State,70,numberfire,56.5,8.5,Arizona State -8.5
+401249429,Arizona,7,Arizona State,70,teamrankings,57,9,Arizona State -9
+401249428,Colorado,21,Utah,38,Bovada,49.5,3.0,Utah -3.0
+401249428,Colorado,21,Utah,38,William Hill (New Jersey),48.5,2.5,Utah -2.5
+401249428,Colorado,21,Utah,38,consensus,49,2.5,Utah -2.5
+401249428,Colorado,21,Utah,38,numberfire,49.5,2.5,Utah -2.5
+401249428,Colorado,21,Utah,38,teamrankings,49,2.5,Utah -2.5
+401257813,Southern Mississippi,45,Florida Atlantic,31,Bovada,44.0,9.5,Florida Atlantic -9.5
+401257813,Southern Mississippi,45,Florida Atlantic,31,William Hill (New Jersey),43,9.5,Florida Atlantic -9.5
+401257813,Southern Mississippi,45,Florida Atlantic,31,consensus,44,9.5,Florida Atlantic -9.5
+401257813,Southern Mississippi,45,Florida Atlantic,31,numberfire,43.5,9.5,Florida Atlantic -9.5
+401257813,Southern Mississippi,45,Florida Atlantic,31,teamrankings,43,9,Florida Atlantic -9
+401260157,Mississippi State,10,Auburn,24,Bovada,51.0,5.5,Auburn -5.5
+401260157,Mississippi State,10,Auburn,24,William Hill (New Jersey),50.5,5.5,Auburn -5.5
+401260157,Mississippi State,10,Auburn,24,consensus,50.5,5.5,Auburn -5.5
+401260157,Mississippi State,10,Auburn,24,numberfire,50.5,5.5,Auburn -5.5
+401249038,Hawai'i,38,UNLV,21,Bovada,60.0,-19.5,Hawai'i -19.5
+401249038,Hawai'i,38,UNLV,21,William Hill (New Jersey),60,-19,Hawai'i -19
+401249038,Hawai'i,38,UNLV,21,consensus,60,-18.5,Hawai'i -18.5
+401249038,Hawai'i,38,UNLV,21,numberfire,60.5,-19.5,Hawai'i -19.5
+401249038,Hawai'i,38,UNLV,21,teamrankings,60,-19.5,Hawai'i -19.5
+401249035,Wyoming,9,Boise State,17,Bovada,47.5,9.5,Boise State -9.5
+401249035,Wyoming,9,Boise State,17,William Hill (New Jersey),46.5,9.5,Boise State -9.5
+401249035,Wyoming,9,Boise State,17,consensus,46.5,9.5,Boise State -9.5
+401249035,Wyoming,9,Boise State,17,numberfire,46.5,9.5,Boise State -9.5
+401249035,Wyoming,9,Boise State,17,teamrankings,47,9,Boise State -9
+401247346,Penn State,39,Michigan State,24,Bovada,46.5,-14.5,Penn State -14.5
+401247346,Penn State,39,Michigan State,24,William Hill (New Jersey),46,-14.5,Penn State -14.5
+401247346,Penn State,39,Michigan State,24,consensus,46,-14.5,Penn State -14.5
+401247346,Penn State,39,Michigan State,24,numberfire,45.5,-14.5,Penn State -14.5
+401247346,Penn State,39,Michigan State,24,teamrankings,45.5,-14.5,Penn State -14.5
+401247345,Nebraska,17,Minnesota,24,Bovada,59.5,-10.5,Nebraska -10.5
+401247345,Nebraska,17,Minnesota,24,William Hill (New Jersey),61.5,-9.5,Nebraska -9.5
+401247345,Nebraska,17,Minnesota,24,consensus,61.5,-9.5,Nebraska -9.5
+401247345,Nebraska,17,Minnesota,24,numberfire,61.5,-8.5,Nebraska -8.5
+401247345,Nebraska,17,Minnesota,24,teamrankings,61.5,-8.5,Nebraska -8.5
+401247342,Maryland,24,Rutgers,27,Bovada,54.5,-3.0,Maryland -3.0
+401247342,Maryland,24,Rutgers,27,Caesars (Pennsylvania),54.5,-3,Maryland -3
+401247342,Maryland,24,Rutgers,27,consensus,55,-3,Maryland -3
+401247342,Maryland,24,Rutgers,27,numberfire,54.5,-3.5,Maryland -3.5
+401247342,Maryland,24,Rutgers,27,teamrankings,54,-3,Maryland -3
+401215309,Georgia Southern,26,Appalachian State,34,Bovada,45.0,9.0,Appalachian State -9.0
+401215309,Georgia Southern,26,Appalachian State,34,William Hill (New Jersey),45,9.5,Appalachian State -9.5
+401215309,Georgia Southern,26,Appalachian State,34,consensus,45,9.5,Appalachian State -9.5
+401215309,Georgia Southern,26,Appalachian State,34,numberfire,45.5,9.5,Appalachian State -9.5
+401215309,Georgia Southern,26,Appalachian State,34,teamrankings,45,9,Appalachian State -9
+401249036,New Mexico,49,Fresno State,39,Bovada,57.0,14.5,Fresno State -14.5
+401249036,New Mexico,49,Fresno State,39,William Hill (New Jersey),55.5,14.5,Fresno State -14.5
+401249036,New Mexico,49,Fresno State,39,consensus,55.5,14.5,Fresno State -14.5
+401249036,New Mexico,49,Fresno State,39,numberfire,56.5,14.5,Fresno State -14.5
+401249036,New Mexico,49,Fresno State,39,teamrankings,56.5,15,Fresno State -15
+401249886,Buffalo,56,Akron,7,Bovada,59.0,-33.5,Buffalo -33.5
+401249886,Buffalo,56,Akron,7,William Hill (New Jersey),58.5,-33,Buffalo -33
+401249886,Buffalo,56,Akron,7,consensus,58.5,-33,Buffalo -33
+401249886,Buffalo,56,Akron,7,numberfire,58.5,-32.5,Buffalo -32.5
+401249886,Buffalo,56,Akron,7,teamrankings,58.5,-33.5,Buffalo -33.5
+401249885,Ball State,30,Western Michigan,27,Bovada,66.0,2.0,Western Michigan -2.0
+401249885,Ball State,30,Western Michigan,27,William Hill (New Jersey),66,2,Western Michigan -2
+401249885,Ball State,30,Western Michigan,27,consensus,65.5,2,Western Michigan -2
+401249885,Ball State,30,Western Michigan,27,numberfire,66.5,2.5,Western Michigan -2.5
+401249885,Ball State,30,Western Michigan,27,teamrankings,66.5,2,Western Michigan -2
+401249884,Eastern Michigan,41,Northern Illinois,33,Bovada,55.5,-6.5,Eastern Michigan -6.5
+401249884,Eastern Michigan,41,Northern Illinois,33,William Hill (New Jersey),55.5,-6.5,Eastern Michigan -6.5
+401249884,Eastern Michigan,41,Northern Illinois,33,consensus,55.5,-6.5,Eastern Michigan -6.5
+401249884,Eastern Michigan,41,Northern Illinois,33,numberfire,55.5,-5.5,Eastern Michigan -5.5
+401249884,Eastern Michigan,41,Northern Illinois,33,teamrankings,55.5,-6,Eastern Michigan -6
+401249883,Toledo,24,Central Michigan,23,Bovada,54.5,-10.0,Toledo -10.0
+401249883,Toledo,24,Central Michigan,23,William Hill (New Jersey),54,-11,Toledo -11
+401249883,Toledo,24,Central Michigan,23,consensus,54.5,-11,Toledo -11
+401249883,Toledo,24,Central Michigan,23,numberfire,54.5,-10.5,Toledo -10.5
+401249883,Toledo,24,Central Michigan,23,teamrankings,54.5,-10,Toledo -10
+401207203,Army,15,Navy,0,Bovada,35.5,-7.5,Army -7.5
+401207203,Army,15,Navy,0,William Hill (New Jersey),36,-7.5,Army -7.5
+401207203,Army,15,Navy,0,consensus,36,-7.5,Army -7.5
+401207203,Army,15,Navy,0,numberfire,35.5,-7.5,Army -7.5
+401207203,Army,15,Navy,0,teamrankings,35.5,-7.5,Army -7.5
+401234572,Virginia Tech,33,Virginia,15,Bovada,64.5,-3.0,Virginia Tech -3.0
+401234572,Virginia Tech,33,Virginia,15,William Hill (New Jersey),64,-3,Virginia Tech -3
+401234572,Virginia Tech,33,Virginia,15,consensus,64,-3,Virginia Tech -3
+401234572,Virginia Tech,33,Virginia,15,numberfire,64.5,-2.5,Virginia Tech -2.5
+401234572,Virginia Tech,33,Virginia,15,teamrankings,64,-3,Virginia Tech -3
+401237074,Florida,,Alabama,,Bovada,72.5,14.0,Alabama -14.0
+401256001,Notre Dame,,Clemson,,Bovada,61.0,10.5,Clemson -10.5
+401262060,Iowa State,,Oklahoma,,Bovada,59.0,5.0,Oklahoma -5.0

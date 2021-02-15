@@ -1,0 +1,2175 @@
+id,homeTeam,homeScore,awayTeam,awayScore,lineProvider,overUnder,spread,formattedSpread
+332412579,South Carolina,27,North Carolina,10,consensus,,-11.5,South Carolina -11.5
+332412579,South Carolina,27,North Carolina,10,numberfire,56,-11,South Carolina -11
+332412579,South Carolina,27,North Carolina,10,teamrankings,56,-11,South Carolina -11
+332410062,Hawai'i,13,USC,30,consensus,,21.5,USC -21.5
+332410062,Hawai'i,13,USC,30,numberfire,51.5,23.5,USC -23.5
+332410062,Hawai'i,13,USC,30,teamrankings,52,23.5,USC -23.5
+332412309,Kent State,17,Liberty,10,consensus,,2,Liberty -2
+332410154,Wake Forest,31,Presbyterian College,7,consensus,,-30,Wake Forest -30
+332410189,Bowling Green,34,Tulsa,7,consensus,,3,Tulsa -3
+332410189,Bowling Green,34,Tulsa,7,numberfire,50,-2.5,Bowling Green -2.5
+332410189,Bowling Green,34,Tulsa,7,teamrankings,50.5,-3,Bowling Green -3
+332410084,Indiana,73,Indiana State,35,consensus,,-30.5,Indiana -30.5
+332410135,Minnesota,51,UNLV,23,consensus,,-17,Minnesota -17
+332410135,Minnesota,51,UNLV,23,numberfire,52.5,-13.5,Minnesota -13.5
+332410135,Minnesota,51,UNLV,23,teamrankings,52,-13.5,Minnesota -13.5
+332412050,Ball State,51,Illinois State,28,consensus,,-30.5,Ball State -30.5
+332412116,UCF,38,Akron,7,consensus,,-28,UCF -28
+332412116,UCF,38,Akron,7,numberfire,55.5,-23.5,UCF -23.5
+332412116,UCF,38,Akron,7,teamrankings,55.5,-24,UCF -24
+332412393,Middle Tennessee,45,Western Carolina,24,consensus,,-12,Middle Tennessee -12
+332410006,South Alabama,21,Southern Utah,22,consensus,,-41,South Alabama -41
+332410041,Connecticut,18,Towson,33,consensus,,-20,Connecticut -20
+332412655,Tulane,34,Jackson State,7,consensus,,-15,Tulane -15
+332410254,Utah,30,Utah State,26,consensus,,-4.5,Utah -4.5
+332410254,Utah,30,Utah State,26,numberfire,52.5,-1,Utah -1
+332410254,Utah,30,Utah State,26,teamrankings,52,-2,Utah -2
+332410238,Vanderbilt,35,Ole Miss,39,consensus,,-1.5,Vanderbilt -1.5
+332410238,Vanderbilt,35,Ole Miss,39,numberfire,52,3,Ole Miss -3
+332410238,Vanderbilt,35,Ole Miss,39,teamrankings,52,3,Ole Miss -3
+332410023,San José State,24,Sacramento State,0,consensus,,-33,San José State -33
+332410278,Fresno State,52,Rutgers,51,consensus,,-8.5,Fresno State -8.5
+332410278,Fresno State,52,Rutgers,51,numberfire,54.5,-10.5,Fresno State -10.5
+332410278,Fresno State,52,Rutgers,51,teamrankings,54.5,-10,Fresno State -10
+332420349,Army,28,Morgan State,12,consensus,,-31,Army -31
+332422247,Georgia State,21,Samford,31,consensus,,7,Samford -7
+332420127,Michigan State,26,Western Michigan,13,consensus,,-24,Michigan State -24
+332420127,Michigan State,26,Western Michigan,13,numberfire,44.5,-28,Michigan State -28
+332420127,Michigan State,26,Western Michigan,13,teamrankings,44,-27.5,Michigan State -27.5
+332422390,Miami,34,Florida Atlantic,6,consensus,,-31,Miami -31
+332422390,Miami,34,Florida Atlantic,6,numberfire,54,-31,Miami -31
+332422390,Miami,34,Florida Atlantic,6,teamrankings,54.5,-31,Miami -31
+332422567,SMU,23,Texas Tech,41,consensus,,2.5,Texas Tech -2.5
+332422567,SMU,23,Texas Tech,41,numberfire,59.5,4.5,Texas Tech -4.5
+332422567,SMU,23,Texas Tech,41,teamrankings,59.5,4,Texas Tech -4
+332420248,Houston,62,Southern,13,consensus,,-38.5,Houston -38.5
+332422306,Kansas State,21,North Dakota State,24,consensus,,-14.5,Kansas State -14.5
+332420012,Arizona,35,Northern Arizona,0,consensus,,-35,Arizona -35
+332430259,Virginia Tech,10,Alabama,35,consensus,,18.5,Alabama -18.5
+332430259,Virginia Tech,10,Alabama,35,numberfire,44.5,21.5,Alabama -21.5
+332430259,Virginia Tech,10,Alabama,35,teamrankings,45,21.5,Alabama -21.5
+332430194,Ohio State,40,Buffalo,20,consensus,,-33.5,Ohio State -33.5
+332430194,Ohio State,40,Buffalo,20,numberfire,56,-33.5,Ohio State -33.5
+332430194,Ohio State,40,Buffalo,20,teamrankings,55.5,-34,Ohio State -34
+332432483,Oregon,66,Nicholls,3,consensus,,-58.5,Oregon -58.5
+332430228,Clemson,38,Georgia,35,consensus,,-2,Clemson -2
+332430228,Clemson,38,Georgia,35,numberfire,71,1.5,Georgia -1.5
+332430228,Clemson,38,Georgia,35,teamrankings,70.5,1.5,Georgia -1.5
+332430245,Texas A&M,52,Rice,31,consensus,,-28,Texas A&M -28
+332430245,Texas A&M,52,Rice,31,numberfire,69.5,-28,Texas A&M -28
+332430245,Texas A&M,52,Rice,31,teamrankings,69,-28,Texas A&M -28
+332430057,Florida,24,Toledo,6,consensus,,-21,Florida -21
+332430057,Florida,24,Toledo,6,numberfire,55,-22,Florida -22
+332430057,Florida,24,Toledo,6,teamrankings,55.5,-23.5,Florida -23.5
+332432628,TCU,27,LSU,37,consensus,,5,LSU -5
+332432628,TCU,27,LSU,37,numberfire,47.5,4,LSU -4
+332432628,TCU,27,LSU,37,teamrankings,47.5,4,LSU -4
+332430197,Oklahoma State,21,Mississippi State,3,consensus,,-13,Oklahoma State -13
+332430197,Oklahoma State,21,Mississippi State,3,numberfire,63,-12.5,Oklahoma State -12.5
+332430197,Oklahoma State,21,Mississippi State,3,teamrankings,63,-12,Oklahoma State -12
+332430087,Notre Dame,28,Temple,6,consensus,,-24.5,Notre Dame -24.5
+332430087,Notre Dame,28,Temple,6,numberfire,52.5,-27.5,Notre Dame -27.5
+332430087,Notre Dame,28,Temple,6,teamrankings,53,-27.5,Notre Dame -27.5
+332430251,Texas,56,New Mexico State,7,consensus,,-42,Texas -42
+332430251,Texas,56,New Mexico State,7,numberfire,53.5,-43.5,Texas -43.5
+332430251,Texas,56,New Mexico State,7,teamrankings,54,-44.5,Texas -44.5
+332430201,Oklahoma,34,Louisiana Monroe,0,consensus,,-23,Oklahoma -23
+332430201,Oklahoma,34,Louisiana Monroe,0,numberfire,60.5,-22.5,Oklahoma -22.5
+332430201,Oklahoma,34,Louisiana Monroe,0,teamrankings,61,-21.5,Oklahoma -21.5
+332430130,Michigan,59,Central Michigan,9,consensus,,-26,Michigan -26
+332430130,Michigan,59,Central Michigan,9,numberfire,52.5,-31.5,Michigan -31.5
+332430130,Michigan,59,Central Michigan,9,teamrankings,53.5,-31.5,Michigan -31.5
+332430158,Nebraska,37,Wyoming,34,consensus,,-21.5,Nebraska -21.5
+332430158,Nebraska,37,Wyoming,34,numberfire,65.5,-31,Nebraska -31
+332430158,Nebraska,37,Wyoming,34,teamrankings,65.5,-31,Nebraska -31
+332430264,Washington,38,Boise State,6,consensus,,-2.5,Washington -2.5
+332430264,Washington,38,Boise State,6,numberfire,54,-3.5,Washington -3.5
+332430264,Washington,38,Boise State,6,teamrankings,54,-4,Washington -4
+332430026,UCLA,58,Nevada,20,consensus,,-14.5,UCLA -14.5
+332430026,UCLA,58,Nevada,20,numberfire,67.5,-20.5,UCLA -20.5
+332430026,UCLA,58,Nevada,20,teamrankings,68,-20.5,UCLA -20.5
+332430025,California,30,Northwestern,44,consensus,,8.5,Northwestern -8.5
+332430025,California,30,Northwestern,44,numberfire,62,6,Northwestern -6
+332430025,California,30,Northwestern,44,teamrankings,62,5.5,Northwestern -5.5
+332430275,Wisconsin,45,UMass,0,consensus,,-45,Wisconsin -45
+332430275,Wisconsin,45,UMass,0,numberfire,54,-42.5,Wisconsin -42.5
+332430275,Wisconsin,45,UMass,0,teamrankings,54.5,-44.5,Wisconsin -44.5
+332430204,Oregon State,46,Eastern Washington,49,consensus,,-28,Oregon State -28
+332430059,Georgia Tech,70,Elon,0,consensus,,-47,Georgia Tech -47
+332430103,Boston College,24,Villanova,14,consensus,,-19,Boston College -19
+332430277,West Virginia,24,William & Mary,17,consensus,,-32,West Virginia -32
+332430356,Illinois,42,Southern Illinois,34,consensus,,-24,Illinois -24
+332432132,Cincinnati,42,Purdue,7,consensus,,-14,Cincinnati -14
+332432132,Cincinnati,42,Purdue,7,numberfire,49.5,-10,Cincinnati -10
+332432132,Cincinnati,42,Purdue,7,teamrankings,49.5,-10,Cincinnati -10
+332430120,Maryland,43,Florida International,10,consensus,,-15,Maryland -15
+332430120,Maryland,43,Florida International,10,numberfire,48.5,-21,Maryland -21
+332430120,Maryland,43,Florida International,10,teamrankings,49.5,-21,Maryland -21
+332430152,NC State,40,Louisiana Tech,14,consensus,,-10.5,NC State -10.5
+332430152,NC State,40,Louisiana Tech,14,numberfire,61.5,-14,NC State -14
+332430152,NC State,40,Louisiana Tech,14,teamrankings,62,-14,NC State -14
+332432005,Air Force,38,Colgate,13,consensus,,-31.5,Air Force -31.5
+332432294,Iowa,27,Northern Illinois,30,consensus,,-6.5,Iowa -6.5
+332432294,Iowa,27,Northern Illinois,30,numberfire,53,-2,Iowa -2
+332432294,Iowa,27,Northern Illinois,30,teamrankings,53,-3,Iowa -3
+332430258,Virginia,19,BYU,16,consensus,,4,BYU -4
+332430258,Virginia,19,BYU,16,numberfire,50,2.5,BYU -2.5
+332430258,Virginia,19,BYU,16,teamrankings,49,2.5,BYU -2.5
+332430213,Penn State,23,Syracuse,17,consensus,,5,Syracuse -5
+332430213,Penn State,23,Syracuse,17,numberfire,50.5,-8,Penn State -8
+332430213,Penn State,23,Syracuse,17,teamrankings,50.5,8,Syracuse -8
+332430008,Arkansas,34,Louisiana,14,consensus,,-14,Arkansas -14
+332430008,Arkansas,34,Louisiana,14,numberfire,55,-10,Arkansas -10
+332430008,Arkansas,34,Louisiana,14,teamrankings,55,-10.5,Arkansas -10.5
+332430150,Duke,45,North Carolina Central,0,consensus,,-35,Duke -35
+332432633,Tennessee,45,Austin Peay,0,consensus,,-51,Tennessee -51
+332432199,Eastern Michigan,34,Howard,24,consensus,,-13,Eastern Michigan -13
+332430276,Marshall,52,Miami (OH),14,consensus,,-13,Marshall -13
+332430276,Marshall,52,Miami (OH),14,numberfire,67.5,-20.5,Marshall -20.5
+332430276,Marshall,52,Miami (OH),14,teamrankings,67.5,-20.5,Marshall -20.5
+332432032,Arkansas State,62,Arkansas-Pine Bluff,11,consensus,,-17.5,Arkansas State -17.5
+332432653,Troy,34,UAB,31,consensus,,-6,Troy -6
+332432653,Troy,34,UAB,31,numberfire,62.5,-4.5,Troy -4.5
+332432653,Troy,34,UAB,31,teamrankings,62.5,-4.5,Troy -4.5
+332432572,Southern Mississippi,15,Texas State,22,consensus,,-9.5,Southern Mississippi -9.5
+332432572,Southern Mississippi,15,Texas State,22,numberfire,55.5,-8,Southern Mississippi -8
+332432572,Southern Mississippi,15,Texas State,22,teamrankings,56.5,-7.5,Southern Mississippi -7.5
+332430249,North Texas,40,Idaho,6,consensus,,-17,North Texas -17
+332430249,North Texas,40,Idaho,6,numberfire,55,-16.5,North Texas -16.5
+332430249,North Texas,40,Idaho,6,teamrankings,55,-16.5,North Texas -16.5
+332430151,East Carolina,52,Old Dominion,38,consensus,,-14.5,East Carolina -14.5
+332430002,Auburn,31,Washington State,24,consensus,,-13.5,Auburn -13.5
+332430002,Auburn,31,Washington State,24,numberfire,60.5,-14,Auburn -14
+332430002,Auburn,31,Washington State,24,teamrankings,60.5,-14,Auburn -14
+332430142,Missouri,58,Murray State,14,consensus,,-38,Missouri -38
+332430058,South Florida,21,McNeese,53,consensus,,-20.5,South Florida -20.5
+332430098,Western Kentucky,35,Kentucky,26,consensus,,3,Kentucky -3
+332430098,Western Kentucky,35,Kentucky,26,numberfire,56,5.5,Kentucky -5.5
+332430098,Western Kentucky,35,Kentucky,26,teamrankings,56,5.5,Kentucky -5.5
+332430239,Baylor,69,Wofford,3,consensus,,-28,Baylor -28
+332430167,New Mexico,13,UT San Antonio,21,consensus,,-6,New Mexico -6
+332430167,New Mexico,13,UT San Antonio,21,teamrankings,54,-3.5,New Mexico -3.5
+332430066,Iowa State,20,Northern Iowa,28,consensus,,-5.5,Iowa State -5.5
+332430021,San Diego State,19,Eastern Illinois,40,consensus,,-19,San Diego State -19
+332440097,Louisville,49,Ohio,7,consensus,,-16,Louisville -16
+332440097,Louisville,49,Ohio,7,numberfire,58.5,-21,Louisville -21
+332440097,Louisville,49,Ohio,7,teamrankings,58,-20.5,Louisville -20.5
+332440036,Colorado State,27,Colorado,41,consensus,,1.5,Colorado -1.5
+332440036,Colorado State,27,Colorado,41,numberfire,50.5,-3,Colorado State -3
+332440036,Colorado State,27,Colorado,41,teamrankings,50,-3,Colorado State -3
+332450221,Pittsburgh,13,Florida State,41,consensus,,10.5,Florida State -10.5
+332450221,Pittsburgh,13,Florida State,41,numberfire,47,12,Florida State -12
+332450221,Pittsburgh,13,Florida State,41,teamrankings,47,11.5,Florida State -11.5
+332480151,East Carolina,31,Florida Atlantic,13,consensus,,-15,East Carolina -15
+332480151,East Carolina,31,Florida Atlantic,13,numberfire,56.5,-19,East Carolina -19
+332480151,East Carolina,31,Florida Atlantic,13,teamrankings,56.5,-19,East Carolina -19
+332480009,Arizona State,55,Sacramento State,0,consensus,,-35,Arizona State -35
+332490103,Boston College,24,Wake Forest,10,consensus,,-5,Boston College -5
+332490103,Boston College,24,Wake Forest,10,numberfire,47.5,-2.5,Boston College -2.5
+332490103,Boston College,24,Wake Forest,10,teamrankings,47,-3,Boston College -3
+332492229,Florida International,0,UCF,38,consensus,,22,UCF -22
+332492229,Florida International,0,UCF,38,numberfire,53,25,UCF -25
+332492229,Florida International,0,UCF,38,teamrankings,53,24,UCF -24
+332500258,Virginia,10,Oregon,59,consensus,,23.5,Oregon -23.5
+332500258,Virginia,10,Oregon,59,numberfire,60,25.5,Oregon -25.5
+332500258,Virginia,10,Oregon,59,teamrankings,60,26.5,Oregon -26.5
+332500194,Ohio State,42,San Diego State,7,consensus,,-24,Ohio State -24
+332500194,Ohio State,42,San Diego State,7,numberfire,55,-28,Ohio State -28
+332500194,Ohio State,42,San Diego State,7,teamrankings,55,-28,Ohio State -28
+332500228,Clemson,52,South Carolina State,13,consensus,,-52,Clemson -52
+332500024,Stanford,34,San José State,13,consensus,,-20,Stanford -20
+332500024,Stanford,34,San José State,13,numberfire,48.5,-24.5,Stanford -24.5
+332500024,Stanford,34,San José State,13,teamrankings,48.5,-24.5,Stanford -24.5
+332500061,Georgia,41,South Carolina,30,consensus,,-4.5,Georgia -4.5
+332500061,Georgia,41,South Carolina,30,numberfire,55.5,-3.5,Georgia -3.5
+332500061,Georgia,41,South Carolina,30,teamrankings,55,-3,Georgia -3
+332500245,Texas A&M,65,Sam Houston State,28,consensus,,-45,Texas A&M -45
+332500097,Louisville,44,Eastern Kentucky,7,consensus,,-40,Louisville -40
+332500099,LSU,56,UAB,17,consensus,,-33.5,LSU -33.5
+332500099,LSU,56,UAB,17,numberfire,59.5,-34.5,LSU -34.5
+332500099,LSU,56,UAB,17,teamrankings,59,-34.5,LSU -34.5
+332502390,Miami,21,Florida,16,consensus,,2,Florida -2
+332502390,Miami,21,Florida,16,numberfire,47,3,Florida -3
+332502390,Miami,21,Florida,16,teamrankings,47,3,Florida -3
+332502636,UT San Antonio,35,Oklahoma State,56,consensus,,28.5,Oklahoma State -28.5
+332502636,UT San Antonio,35,Oklahoma State,56,teamrankings,59.5,28,Oklahoma State -28
+332500130,Michigan,41,Notre Dame,30,consensus,,-3,Michigan -3
+332500130,Michigan,41,Notre Dame,30,numberfire,48,-4.5,Michigan -4.5
+332500130,Michigan,41,Notre Dame,30,teamrankings,48,-4.5,Michigan -4.5
+332500252,BYU,40,Texas,21,consensus,,6,Texas -6
+332500252,BYU,40,Texas,21,numberfire,56,7.5,Texas -7.5
+332500252,BYU,40,Texas,21,teamrankings,56.5,7,Texas -7
+332500077,Northwestern,48,Syracuse,27,consensus,,-12,Northwestern -12
+332500077,Northwestern,48,Syracuse,27,numberfire,54,-17,Northwestern -17
+332500077,Northwestern,48,Syracuse,27,teamrankings,54.5,-17,Northwestern -17
+332500275,Wisconsin,48,Tennessee Tech,0,consensus,,-45,Wisconsin -45
+332500158,Nebraska,56,Southern Mississippi,13,consensus,,-29,Nebraska -29
+332500158,Nebraska,56,Southern Mississippi,13,numberfire,60,-28,Nebraska -28
+332500158,Nebraska,56,Southern Mississippi,13,teamrankings,60,-28,Nebraska -28
+332500239,Baylor,70,Buffalo,13,consensus,,-21.5,Baylor -21.5
+332500239,Baylor,70,Buffalo,13,numberfire,67.5,-28.5,Baylor -28.5
+332500239,Baylor,70,Buffalo,13,teamrankings,67.5,-28.5,Baylor -28.5
+332502628,TCU,38,Southeastern Louisiana,17,consensus,,-42.5,TCU -42.5
+332500030,USC,7,Washington State,10,consensus,,-15,USC -15
+332500030,USC,7,Washington State,10,numberfire,53.5,-16,USC -16
+332500030,USC,7,Washington State,10,teamrankings,54,-16,USC -16
+332500096,Kentucky,41,Miami (OH),7,consensus,,-14.5,Kentucky -14.5
+332500096,Kentucky,41,Miami (OH),7,numberfire,54,-17.5,Kentucky -17.5
+332500096,Kentucky,41,Miami (OH),7,teamrankings,54.5,-17.5,Kentucky -17.5
+332500127,Michigan State,21,South Florida,6,consensus,,-17.5,Michigan State -17.5
+332500127,Michigan State,21,South Florida,6,numberfire,41.5,-21.5,Michigan State -21.5
+332500127,Michigan State,21,South Florida,6,teamrankings,41.5,-21.5,Michigan State -21.5
+332500213,Penn State,45,Eastern Michigan,7,consensus,,-24,Penn State -24
+332500213,Penn State,45,Eastern Michigan,7,numberfire,49,-28,Penn State -28
+332500213,Penn State,45,Eastern Michigan,7,teamrankings,48.5,-28,Penn State -28
+332500218,Temple,13,Houston,22,consensus,,2.5,Houston -2.5
+332500218,Temple,13,Houston,22,numberfire,67,3,Houston -3
+332500218,Temple,13,Houston,22,teamrankings,67,3,Houston -3
+332500164,Rutgers,38,Norfolk State,0,consensus,,-37.5,Rutgers -37.5
+332500356,Illinois,45,Cincinnati,17,consensus,,10.5,Cincinnati -10.5
+332500356,Illinois,45,Cincinnati,17,numberfire,56,7.5,Cincinnati -7.5
+332500356,Illinois,45,Cincinnati,17,teamrankings,55.5,7.5,Cincinnati -7.5
+332502294,Iowa,28,Missouri State,14,consensus,,-24,Iowa -24
+332502309,Kent State,22,Bowling Green,41,consensus,,8,Bowling Green -8
+332502309,Kent State,22,Bowling Green,41,numberfire,43.5,6.5,Bowling Green -6.5
+332502309,Kent State,22,Bowling Green,41,teamrankings,43,6.5,Bowling Green -6.5
+332502509,Purdue,20,Indiana State,14,consensus,,-17,Purdue -17
+332502633,Tennessee,52,Western Kentucky,20,consensus,,-12.5,Tennessee -12.5
+332502633,Tennessee,52,Western Kentucky,20,numberfire,58.5,-14.5,Tennessee -14.5
+332502633,Tennessee,52,Western Kentucky,20,teamrankings,59.5,-14,Tennessee -14
+332500153,North Carolina,40,Middle Tennessee,20,consensus,,-21.5,North Carolina -21.5
+332500153,North Carolina,40,Middle Tennessee,20,numberfire,67,-19.5,North Carolina -19.5
+332500153,North Carolina,40,Middle Tennessee,20,teamrankings,67,-19.5,North Carolina -19.5
+332502050,Ball State,40,Army,14,consensus,,-8,Ball State -8
+332502050,Ball State,40,Army,14,numberfire,59.5,-9.5,Ball State -9.5
+332502050,Ball State,40,Army,14,teamrankings,59.5,-10,Ball State -10
+332500259,Virginia Tech,45,Western Carolina,3,consensus,,-41,Virginia Tech -41
+332502247,Georgia State,14,Chattanooga,42,consensus,,10,Chattanooga -10
+332500254,Utah,70,Weber State,7,consensus,,-23,Utah -23
+332500113,UMass,14,Maine,24,consensus,,3,Maine -3
+332500068,Boise State,63,UT Martin,14,consensus,,-35.5,Boise State -35.5
+332502117,Central Michigan,24,New Hampshire,21,consensus,,-3.5,Central Michigan -3.5
+332500344,Mississippi State,51,Alcorn State,7,consensus,,-42.5,Mississippi State -42.5
+332502005,Air Force,20,Utah State,52,consensus,,8,Utah State -8
+332502005,Air Force,20,Utah State,52,numberfire,57.5,8,Utah State -8
+332502005,Air Force,20,Utah State,52,teamrankings,57.5,8,Utah State -8
+332500142,Missouri,38,Toledo,23,consensus,,-11.5,Missouri -11.5
+332500142,Missouri,38,Toledo,23,numberfire,65,-14.5,Missouri -14.5
+332500142,Missouri,38,Toledo,23,teamrankings,65,-14,Missouri -14
+332502655,Tulane,39,South Alabama,41,consensus,,-7,Tulane -7
+332502655,Tulane,39,South Alabama,41,numberfire,49.5,-4.5,Tulane -4.5
+332502655,Tulane,39,South Alabama,41,teamrankings,48.5,-4.5,Tulane -4.5
+332502751,Wyoming,42,Idaho,10,consensus,,-23,Wyoming -23
+332502751,Wyoming,42,Idaho,10,numberfire,63.5,-28.5,Wyoming -28.5
+332502751,Wyoming,42,Idaho,10,teamrankings,63.5,-28,Wyoming -28
+332500120,Maryland,47,Old Dominion,10,consensus,,-18.5,Maryland -18.5
+332500235,Memphis,14,Duke,28,consensus,,6,Duke -6
+332500235,Memphis,14,Duke,28,numberfire,52,3.5,Duke -3.5
+332500235,Memphis,14,Duke,28,teamrankings,52,3.5,Duke -3.5
+332500025,California,37,Portland State,30,consensus,,-27,California -27
+332500084,Indiana,35,Navy,41,consensus,,-7.5,Indiana -7.5
+332500084,Indiana,35,Navy,41,numberfire,67,-12,Indiana -12
+332500084,Indiana,35,Navy,41,teamrankings,67,-12.5,Indiana -12.5
+332500152,NC State,23,Richmond,21,consensus,,-23,NC State -23
+332502006,Akron,35,James Madison,33,consensus,,-3,Akron -3
+332500276,Marshall,55,Gardner-Webb,0,consensus,,-42,Marshall -42
+332502306,Kansas State,48,Louisiana,27,consensus,,-12,Kansas State -12
+332502306,Kansas State,48,Louisiana,27,numberfire,60.5,-12.5,Kansas State -12.5
+332502306,Kansas State,48,Louisiana,27,teamrankings,60,-12.5,Kansas State -12.5
+332502433,Louisiana Monroe,48,Grambling,10,consensus,,-38.5,Louisiana Monroe -38.5
+332502348,Louisiana Tech,27,Lamar,14,consensus,,-28,Louisiana Tech -28
+332502305,Kansas,31,South Dakota,14,consensus,,-23.5,Kansas -23.5
+332502641,Texas Tech,61,Stephen F. Austin,13,consensus,,-35,Texas Tech -35
+332502653,Troy,66,Savannah State,3,consensus,,-45,Troy -45
+332500326,Texas State,28,Prairie View,3,consensus,,-30,Texas State -30
+332500145,Ole Miss,31,Southeast Missouri State,13,consensus,,-49,Ole Miss -49
+332500195,Ohio,27,North Texas,21,consensus,,-6.5,Ohio -6.5
+332500195,Ohio,27,North Texas,21,numberfire,58.5,-3.5,Ohio -3.5
+332500195,Ohio,27,North Texas,21,teamrankings,58.5,-3.5,Ohio -3.5
+332500202,Tulsa,30,Colorado State,27,consensus,,-12,Tulsa -12
+332500202,Tulsa,30,Colorado State,27,numberfire,55,-14,Tulsa -14
+332500202,Tulsa,30,Colorado State,27,teamrankings,55,-13.5,Tulsa -13.5
+332500008,Arkansas,31,Samford,21,consensus,,-32.5,Arkansas -32.5
+332502711,Western Michigan,23,Nicholls,27,consensus,,-27,Western Michigan -27
+332500238,Vanderbilt,38,Austin Peay,3,consensus,,-46.5,Vanderbilt -46.5
+332500038,Colorado,38,Central Arkansas,24,consensus,,-14,Colorado -14
+332500204,Oregon State,33,Hawai'i,14,consensus,,-24.5,Oregon State -24.5
+332500204,Oregon State,33,Hawai'i,14,numberfire,55.5,-26.5,Oregon State -26.5
+332500204,Oregon State,33,Hawai'i,14,teamrankings,55,-26,Oregon State -26
+332500166,New Mexico State,21,Minnesota,44,consensus,,17.5,Minnesota -17.5
+332500166,New Mexico State,21,Minnesota,44,numberfire,52,16,Minnesota -16
+332500166,New Mexico State,21,Minnesota,44,teamrankings,52,16,Minnesota -16
+332502638,UTEP,35,New Mexico,42,consensus,,-7,UTEP -7
+332502638,UTEP,35,New Mexico,42,numberfire,50.5,-7,UTEP -7
+332502638,UTEP,35,New Mexico,42,teamrankings,50,-7,UTEP -7
+332502567,SMU,31,Montana State,30,consensus,,-10,SMU -10
+332502440,Nevada,36,UC Davis,7,consensus,,-20,Nevada -20
+332500278,Fresno State,41,Cal Poly,25,consensus,,-27,Fresno State -27
+332502439,UNLV,13,Arizona,58,consensus,,13,Arizona -13
+332502439,UNLV,13,Arizona,58,numberfire,63.5,14,Arizona -14
+332502439,UNLV,13,Arizona,58,teamrankings,64,14,Arizona -14
+332552641,Texas Tech,20,TCU,10,consensus,,6,TCU -6
+332552641,Texas Tech,20,TCU,10,numberfire,59.5,3,TCU -3
+332552641,Texas Tech,20,TCU,10,teamrankings,59.5,3,TCU -3
+332552032,Arkansas State,41,Troy,34,consensus,,-10,Arkansas State -10
+332552032,Arkansas State,41,Troy,34,numberfire,67.5,-6.5,Arkansas State -6.5
+332552032,Arkansas State,41,Troy,34,teamrankings,67.5,-6.5,Arkansas State -6.5
+332552348,Louisiana Tech,15,Tulane,24,consensus,,-7.5,Louisiana Tech -7.5
+332552348,Louisiana Tech,15,Tulane,24,teamrankings,58.5,-7,Louisiana Tech -7
+332560068,Boise State,42,Air Force,20,consensus,,-24,Boise State -24
+332560068,Boise State,42,Air Force,20,numberfire,58,-23,Boise State -23
+332560068,Boise State,42,Air Force,20,teamrankings,58,-23,Boise State -23
+332570245,Texas A&M,42,Alabama,49,consensus,,7,Alabama -7
+332570245,Texas A&M,42,Alabama,49,numberfire,63,8.5,Alabama -8.5
+332570245,Texas A&M,42,Alabama,49,teamrankings,63,8.5,Alabama -8.5
+332572483,Oregon,59,Tennessee,14,consensus,,-21.5,Oregon -21.5
+332572483,Oregon,59,Tennessee,14,numberfire,69,-28.5,Oregon -28.5
+332572483,Oregon,59,Tennessee,14,teamrankings,69.5,-28,Oregon -28
+332570025,California,34,Ohio State,52,consensus,,14.5,Ohio State -14.5
+332570025,California,34,Ohio State,52,numberfire,62.5,12.5,Ohio State -12.5
+332570025,California,34,Ohio State,52,teamrankings,62.5,12.5,Ohio State -12.5
+332570349,Army,20,Stanford,34,consensus,,28.5,Stanford -28.5
+332570349,Army,20,Stanford,34,numberfire,49.5,30.5,Stanford -30.5
+332570349,Army,20,Stanford,34,teamrankings,50,30.5,Stanford -30.5
+332570096,Kentucky,13,Louisville,27,consensus,,10.5,Louisville -10.5
+332570096,Kentucky,13,Louisville,27,numberfire,58.5,12.5,Louisville -12.5
+332570096,Kentucky,13,Louisville,27,teamrankings,58.5,12,Louisville -12
+332570099,LSU,45,Kent State,13,consensus,,-38,LSU -38
+332570099,LSU,45,Kent State,13,numberfire,54.5,-36,LSU -36
+332570099,LSU,45,Kent State,13,teamrankings,54.5,-35.5,LSU -35.5
+332570052,Florida State,62,Nevada,7,consensus,,-31,Florida State -31
+332570052,Florida State,62,Nevada,7,numberfire,61.5,-36,Florida State -36
+332570052,Florida State,62,Nevada,7,teamrankings,61.5,-35.5,Florida State -35.5
+332570130,Michigan,28,Akron,24,consensus,,-35.5,Michigan -35.5
+332570130,Michigan,28,Akron,24,numberfire,58.5,-35.5,Michigan -35.5
+332570130,Michigan,28,Akron,24,teamrankings,59.5,-35.5,Michigan -35.5
+332570197,Oklahoma State,59,Lamar,3,consensus,,-47,Oklahoma State -47
+332572579,South Carolina,35,Vanderbilt,25,consensus,,-12.5,South Carolina -12.5
+332572579,South Carolina,35,Vanderbilt,25,numberfire,48,-10.5,South Carolina -10.5
+332572579,South Carolina,35,Vanderbilt,25,teamrankings,48.5,-10.5,South Carolina -10.5
+332570201,Oklahoma,51,Tulsa,20,consensus,,-27.5,Oklahoma -27.5
+332570201,Oklahoma,51,Tulsa,20,numberfire,50.5,-22.5,Oklahoma -22.5
+332570201,Oklahoma,51,Tulsa,20,teamrankings,50,-23,Oklahoma -23
+332570158,Nebraska,21,UCLA,41,consensus,,-4,Nebraska -4
+332570158,Nebraska,21,UCLA,41,numberfire,70.5,-1,Nebraska -1
+332570158,Nebraska,21,UCLA,41,teamrankings,71.5,-1.5,Nebraska -1.5
+332570077,Northwestern,38,Western Michigan,17,consensus,,-34,Northwestern -34
+332570077,Northwestern,38,Western Michigan,17,numberfire,58,-28,Northwestern -28
+332570077,Northwestern,38,Western Michigan,17,teamrankings,57.5,-28,Northwestern -28
+332570356,Illinois,24,Washington,34,consensus,,7,Washington -7
+332570356,Illinois,24,Washington,34,numberfire,61.5,10.5,Washington -10.5
+332570356,Illinois,24,Washington,34,teamrankings,62,10.5,Washington -10.5
+332570009,Arizona State,32,Wisconsin,30,consensus,,-5.5,Arizona State -5.5
+332570009,Arizona State,32,Wisconsin,30,numberfire,55.5,-7,Arizona State -7
+332570009,Arizona State,32,Wisconsin,30,teamrankings,55,-6.5,Arizona State -6.5
+332572509,Purdue,24,Notre Dame,31,consensus,,21.5,Notre Dame -21.5
+332572509,Purdue,24,Notre Dame,31,numberfire,47,17,Notre Dame -17
+332572509,Purdue,24,Notre Dame,31,teamrankings,47,17,Notre Dame -17
+332570251,Texas,23,Ole Miss,44,consensus,,-3,Texas -3
+332570251,Texas,23,Ole Miss,44,numberfire,63.5,-1.5,Texas -1.5
+332570251,Texas,23,Ole Miss,44,teamrankings,63,-2.5,Texas -2.5
+332570084,Indiana,42,Bowling Green,10,consensus,,-4,Indiana -4
+332570084,Indiana,42,Bowling Green,10,numberfire,61,-2.5,Indiana -2.5
+332570084,Indiana,42,Bowling Green,10,teamrankings,61,-2.5,Indiana -2.5
+332570135,Minnesota,29,Western Illinois,12,consensus,,-31,Minnesota -31
+332570151,East Carolina,10,Virginia Tech,15,consensus,,7,Virginia Tech -7
+332570151,East Carolina,10,Virginia Tech,15,numberfire,46,8,Virginia Tech -8
+332570151,East Carolina,10,Virginia Tech,15,teamrankings,46.5,8,Virginia Tech -8
+332570277,West Virginia,41,Georgia State,7,consensus,,-38,West Virginia -38
+332570277,West Virginia,41,Georgia State,7,numberfire,55.5,-41.5,West Virginia -41.5
+332570277,West Virginia,41,Georgia State,7,teamrankings,56.5,-41,West Virginia -41
+332570008,Arkansas,24,Southern Mississippi,3,consensus,,-21,Arkansas -21
+332570008,Arkansas,24,Southern Mississippi,3,numberfire,49.5,-24,Arkansas -24
+332570008,Arkansas,24,Southern Mississippi,3,teamrankings,49.5,-24.5,Arkansas -24.5
+332570221,Pittsburgh,49,New Mexico,27,consensus,,-20.5,Pittsburgh -20.5
+332570221,Pittsburgh,49,New Mexico,27,numberfire,47,-22,Pittsburgh -22
+332570221,Pittsburgh,49,New Mexico,27,teamrankings,47,-21.5,Pittsburgh -21.5
+332570154,Wake Forest,19,Louisiana Monroe,21,consensus,,-3.5,Wake Forest -3.5
+332570154,Wake Forest,19,Louisiana Monroe,21,numberfire,49.5,-1.5,Wake Forest -1.5
+332570154,Wake Forest,19,Louisiana Monroe,21,teamrankings,50,-1.5,Wake Forest -1.5
+332570164,Rutgers,28,Eastern Michigan,10,consensus,,-29,Rutgers -29
+332570164,Rutgers,28,Eastern Michigan,10,numberfire,53.5,-28,Rutgers -28
+332570164,Rutgers,28,Eastern Michigan,10,teamrankings,54,-28,Rutgers -28
+332570218,Temple,29,Fordham,30,consensus,,-24,Temple -24
+332570127,Michigan State,55,Youngstown State,17,consensus,,-27,Michigan State -27
+332570030,USC,35,Boston College,7,consensus,,-16,USC -16
+332570030,USC,35,Boston College,7,numberfire,41.5,-15.5,USC -15.5
+332570030,USC,35,Boston College,7,teamrankings,42.5,-14.5,USC -14.5
+332570036,Colorado State,34,Cal Poly,17,consensus,,-11.5,Colorado State -11.5
+332570150,Duke,14,Georgia Tech,38,consensus,,9,Georgia Tech -9
+332570150,Duke,14,Georgia Tech,38,numberfire,55.5,8.5,Georgia Tech -8.5
+332570150,Duke,14,Georgia Tech,38,teamrankings,55,8.5,Georgia Tech -8.5
+332572084,Buffalo,26,Stony Brook,23,consensus,,-6,Buffalo -6
+332572426,Navy,51,Delaware,7,consensus,,-17,Navy -17
+332572751,Wyoming,35,Northern Colorado,7,consensus,,-27,Wyoming -27
+332570249,North Texas,34,Ball State,27,consensus,,1.5,Ball State -1.5
+332570249,North Texas,34,Ball State,27,numberfire,58.5,3,Ball State -3
+332570249,North Texas,34,Ball State,27,teamrankings,59,3,Ball State -3
+332570070,Idaho,35,Northern Illinois,45,consensus,,24,Northern Illinois -24
+332570070,Idaho,35,Northern Illinois,45,numberfire,63,30,Northern Illinois -30
+332570070,Idaho,35,Northern Illinois,45,teamrankings,63,30,Northern Illinois -30
+332570066,Iowa State,21,Iowa,27,consensus,,3,Iowa -3
+332570066,Iowa State,21,Iowa,27,numberfire,46.5,1,Iowa -1
+332570066,Iowa State,21,Iowa,27,teamrankings,45.5,,Iowa -null
+332570213,Penn State,31,UCF,34,consensus,,-3.5,Penn State -3.5
+332570213,Penn State,31,UCF,34,numberfire,50,-4.5,Penn State -4.5
+332570213,Penn State,31,UCF,34,teamrankings,50,-4.5,Penn State -4.5
+332572229,Florida International,13,Bethune-Cookman,34,consensus,,-3,Florida International -3
+332570265,Washington State,48,Southern Utah,10,consensus,,-35,Washington State -35
+332572306,Kansas State,37,UMass,7,consensus,,-37,Kansas State -37
+332572306,Kansas State,37,UMass,7,numberfire,56,-37.5,Kansas State -37.5
+332572306,Kansas State,37,UMass,7,teamrankings,56,-37.5,Kansas State -37.5
+332572393,Middle Tennessee,17,Memphis,15,consensus,,-4,Middle Tennessee -4
+332572393,Middle Tennessee,17,Memphis,15,numberfire,50.5,-8,Middle Tennessee -8
+332572132,Cincinnati,66,Northwestern State,9,consensus,,-31,Cincinnati -31
+332570309,Louisiana,70,Nicholls,7,consensus,,-28,Louisiana -28
+332572649,Toledo,33,Eastern Washington,21,consensus,,-7.5,Toledo -7.5
+332570058,South Florida,10,Florida Atlantic,28,consensus,,-10.5,South Florida -10.5
+332570058,South Florida,10,Florida Atlantic,28,numberfire,44.5,-12,South Florida -12
+332570058,South Florida,10,Florida Atlantic,28,teamrankings,45,-12,South Florida -12
+332570002,Auburn,24,Mississippi State,20,consensus,,-6,Auburn -6
+332570002,Auburn,24,Mississippi State,20,numberfire,50.5,-6.5,Auburn -6.5
+332570002,Auburn,24,Mississippi State,20,teamrankings,50,-6.5,Auburn -6.5
+332570006,South Alabama,31,Western Kentucky,24,consensus,,10,Western Kentucky -10
+332570006,South Alabama,31,Western Kentucky,24,numberfire,55.5,7,Western Kentucky -7
+332570006,South Alabama,31,Western Kentucky,24,teamrankings,56,7,Western Kentucky -7
+332570041,Connecticut,21,Maryland,32,consensus,,8,Maryland -8
+332570041,Connecticut,21,Maryland,32,numberfire,47,4.5,Maryland -4.5
+332570041,Connecticut,21,Maryland,32,teamrankings,47,4.5,Maryland -4.5
+332570242,Rice,23,Kansas,14,consensus,,-2,Rice -2
+332570242,Rice,23,Kansas,14,numberfire,59,-6,Rice -6
+332570242,Rice,23,Kansas,14,teamrankings,60,-6.5,Rice -6.5
+332570195,Ohio,34,Marshall,31,consensus,,6,Marshall -6
+332570195,Ohio,34,Marshall,31,numberfire,67.5,7.5,Marshall -7.5
+332570195,Ohio,34,Marshall,31,teamrankings,67,7.5,Marshall -7.5
+332570166,New Mexico State,21,UTEP,42,consensus,,6.5,UTEP -6.5
+332570166,New Mexico State,21,UTEP,42,numberfire,57,4,UTEP -4
+332570166,New Mexico State,21,UTEP,42,teamrankings,57,4,UTEP -4
+332570328,Utah State,70,Weber State,6,consensus,,-31.5,Utah State -31.5
+332570254,Utah,48,Oregon State,51,numberfire,54,-3.5,Utah -3.5
+332570254,Utah,48,Oregon State,51,teamrankings,53.5,-3.5,Utah -3.5
+332572439,UNLV,31,Central Michigan,21,consensus,,-11.5,UNLV -11.5
+332572439,UNLV,31,Central Michigan,21,numberfire,52,-7.5,UNLV -7.5
+332572439,UNLV,31,Central Michigan,21,teamrankings,51.5,-7.5,UNLV -7.5
+332570012,Arizona,38,UT San Antonio,13,consensus,,-24.5,Arizona -24.5
+332570012,Arizona,38,UT San Antonio,13,teamrankings,62.5,-24,Arizona -24
+332620152,NC State,14,Clemson,26,consensus,,13,Clemson -13
+332620152,NC State,14,Clemson,26,numberfire,65.5,12.5,Clemson -12.5
+332620152,NC State,14,Clemson,26,teamrankings,65,12.5,Clemson -12.5
+332630278,Fresno State,41,Boise State,40,consensus,,-3,Fresno State -3
+332630278,Fresno State,41,Boise State,40,numberfire,70,-3.5,Fresno State -3.5
+332630278,Fresno State,41,Boise State,40,teamrankings,69.5,-3.5,Fresno State -3.5
+332640333,Alabama,31,Colorado State,6,consensus,,-36.5,Alabama -36.5
+332640333,Alabama,31,Colorado State,6,numberfire,55,-39.5,Alabama -39.5
+332640333,Alabama,31,Colorado State,6,teamrankings,55,-40,Alabama -40
+332640194,Ohio State,76,Florida A&M,0,consensus,,-57,Ohio State -57
+332640024,Stanford,42,Arizona State,28,consensus,,-6.5,Stanford -6.5
+332640024,Stanford,42,Arizona State,28,numberfire,52,-7,Stanford -7
+332640024,Stanford,42,Arizona State,28,teamrankings,52,-6.5,Stanford -6.5
+332640099,LSU,35,Auburn,21,consensus,,-14,LSU -14
+332640099,LSU,35,Auburn,21,numberfire,54,-17,LSU -17
+332640099,LSU,35,Auburn,21,teamrankings,54,-17.5,LSU -17.5
+332640097,Louisville,72,Florida International,0,consensus,,-41,Louisville -41
+332640097,Louisville,72,Florida International,0,numberfire,55.5,-41,Louisville -41
+332640097,Louisville,72,Florida International,0,teamrankings,55.5,-41,Louisville -41
+332640052,Florida State,54,Bethune-Cookman,6,consensus,,-39,Florida State -39
+332640061,Georgia,45,North Texas,21,consensus,,-36.5,Georgia -36.5
+332640061,Georgia,45,North Texas,21,numberfire,64,-34,Georgia -34
+332640061,Georgia,45,North Texas,21,teamrankings,64,-33.5,Georgia -33.5
+332640245,Texas A&M,42,SMU,13,consensus,,-26.5,Texas A&M -26.5
+332640245,Texas A&M,42,SMU,13,numberfire,80.5,-27.5,Texas A&M -27.5
+332640245,Texas A&M,42,SMU,13,teamrankings,80,-27.5,Texas A&M -27.5
+332640026,UCLA,59,New Mexico State,13,consensus,,-38,UCLA -38
+332640026,UCLA,59,New Mexico State,13,numberfire,66.5,-44,UCLA -44
+332640026,UCLA,59,New Mexico State,13,teamrankings,66.5,-44,UCLA -44
+332640041,Connecticut,21,Michigan,24,consensus,,18,Michigan -18
+332640041,Connecticut,21,Michigan,24,numberfire,51,18.5,Michigan -18.5
+332640041,Connecticut,21,Michigan,24,teamrankings,50.5,18.5,Michigan -18.5
+332642390,Miami,77,Savannah State,7,consensus,,-55,Miami -55
+332640264,Washington,56,Idaho State,0,consensus,,-53,Washington -53
+332640077,Northwestern,35,Maine,21,consensus,,-33.5,Northwestern -33.5
+332640057,Florida,31,Tennessee,17,consensus,,-15.5,Florida -15.5
+332640057,Florida,31,Tennessee,17,numberfire,47.5,-16.5,Florida -16.5
+332640057,Florida,31,Tennessee,17,teamrankings,47.5,-16,Florida -16
+332640239,Baylor,70,Louisiana Monroe,7,consensus,,-30,Baylor -30
+332640239,Baylor,70,Louisiana Monroe,7,numberfire,74.5,-30.5,Baylor -30.5
+332640239,Baylor,70,Louisiana Monroe,7,teamrankings,74.5,-30,Baylor -30
+332640087,Notre Dame,17,Michigan State,13,consensus,,-6,Notre Dame -6
+332640087,Notre Dame,17,Michigan State,13,numberfire,42.5,-4,Notre Dame -4
+332640087,Notre Dame,17,Michigan State,13,teamrankings,42.5,-4,Notre Dame -4
+332640275,Wisconsin,41,Purdue,10,consensus,,-23,Wisconsin -23
+332640275,Wisconsin,41,Purdue,10,numberfire,48.5,-22,Wisconsin -22
+332640275,Wisconsin,41,Purdue,10,teamrankings,48.5,-21.5,Wisconsin -21.5
+332642641,Texas Tech,33,Texas State,7,consensus,,-25,Texas Tech -25
+332642641,Texas Tech,33,Texas State,7,numberfire,56.5,-27,Texas Tech -27
+332642641,Texas Tech,33,Texas State,7,teamrankings,56.5,-27,Texas Tech -27
+332640059,Georgia Tech,28,North Carolina,20,consensus,,-3.5,Georgia Tech -3.5
+332640059,Georgia Tech,28,North Carolina,20,numberfire,60,-7,Georgia Tech -7
+332640059,Georgia Tech,28,North Carolina,20,teamrankings,59.5,-6.5,Georgia Tech -6.5
+332640135,Minnesota,43,San José State,24,consensus,,-5.5,Minnesota -5.5
+332640135,Minnesota,43,San José State,24,numberfire,51.5,-4,Minnesota -4
+332640135,Minnesota,43,San José State,24,teamrankings,51,-4,Minnesota -4
+332640113,UMass,7,Vanderbilt,24,consensus,,36,Vanderbilt -36
+332640113,UMass,7,Vanderbilt,24,numberfire,55,29.5,Vanderbilt -29.5
+332640113,UMass,7,Vanderbilt,24,teamrankings,54.5,29,Vanderbilt -29
+332640259,Virginia Tech,29,Marshall,21,consensus,,-11,Virginia Tech -11
+332640259,Virginia Tech,29,Marshall,21,numberfire,48.5,-8,Virginia Tech -8
+332640259,Virginia Tech,29,Marshall,21,teamrankings,48.5,-8.5,Virginia Tech -8.5
+332640349,Army,11,Wake Forest,25,consensus,,3,Wake Forest -3
+332640349,Army,11,Wake Forest,25,numberfire,49,2.5,Wake Forest -2.5
+332640349,Army,11,Wake Forest,25,teamrankings,48,2.5,Wake Forest -2.5
+332642117,Central Michigan,17,Toledo,38,consensus,,14,Toledo -14
+332642117,Central Michigan,17,Toledo,38,numberfire,57.5,13.5,Toledo -13.5
+332642117,Central Michigan,17,Toledo,38,teamrankings,57.5,13.5,Toledo -13.5
+332642226,Florida Atlantic,35,Middle Tennessee,42,consensus,,4,Middle Tennessee -4
+332642226,Florida Atlantic,35,Middle Tennessee,42,numberfire,49.5,3,Middle Tennessee -3
+332642226,Florida Atlantic,35,Middle Tennessee,42,teamrankings,49.5,3,Middle Tennessee -3
+332642294,Iowa,59,Western Michigan,3,consensus,,-19,Iowa -19
+332642294,Iowa,59,Western Michigan,3,numberfire,47,-16,Iowa -16
+332642294,Iowa,59,Western Michigan,3,teamrankings,47,-16.5,Iowa -16.5
+332642305,Kansas,13,Louisiana Tech,10,consensus,,-9,Kansas -9
+332642305,Kansas,13,Louisiana Tech,10,numberfire,50.5,-10,Kansas -10
+332642305,Kansas,13,Louisiana Tech,10,teamrankings,51.5,-10,Kansas -10
+332640183,Syracuse,52,Tulane,17,consensus,,-10.5,Syracuse -10.5
+332640183,Syracuse,52,Tulane,17,numberfire,53,-17.5,Syracuse -17.5
+332640183,Syracuse,52,Tulane,17,teamrankings,52.5,-17,Syracuse -17
+332640150,Duke,55,Pittsburgh,58,consensus,,6,Pittsburgh -6
+332640150,Duke,55,Pittsburgh,58,numberfire,51.5,4,Pittsburgh -4
+332640150,Duke,55,Pittsburgh,58,teamrankings,51.5,4.5,Pittsburgh -4.5
+332642199,Eastern Michigan,20,Ball State,51,consensus,,8,Ball State -8
+332642199,Eastern Michigan,20,Ball State,51,numberfire,59,10,Ball State -10
+332642199,Eastern Michigan,20,Ball State,51,teamrankings,59.5,10,Ball State -10
+332642247,Georgia State,26,Jacksonville State,32,consensus,,8.5,Jacksonville State -8.5
+332640195,Ohio,38,Austin Peay,0,consensus,,-28,Ohio -28
+332640242,Rice,26,Houston,31,consensus,,-4,Rice -4
+332640242,Rice,26,Houston,31,numberfire,63,3,Houston -3
+332640242,Rice,26,Houston,31,teamrankings,62.5,3,Houston -3
+332640005,UAB,52,Northwestern State,28,consensus,,-24,UAB -24
+332640258,Virginia,49,VMI,0,consensus,,-35,Virginia -35
+332640030,USC,17,Utah State,14,consensus,,-7,USC -7
+332640030,USC,17,Utah State,14,numberfire,50,-7,USC -7
+332640030,USC,17,Utah State,14,teamrankings,49.5,-6.5,USC -6.5
+332640213,Penn State,34,Kent State,0,consensus,,-14.5,Penn State -14.5
+332640213,Penn State,34,Kent State,0,numberfire,54,-23.5,Penn State -23.5
+332640213,Penn State,34,Kent State,0,teamrankings,53.5,-22,Penn State -22
+332640158,Nebraska,59,South Dakota State,20,consensus,,-24.5,Nebraska -24.5
+332640164,Rutgers,28,Arkansas,24,numberfire,42.5,-1,Rutgers -1
+332640164,Rutgers,28,Arkansas,24,teamrankings,42.5,-1.5,Rutgers -1.5
+332640189,Bowling Green,48,Murray State,7,consensus,,-28,Bowling Green -28
+332640120,Maryland,37,West Virginia,0,consensus,,-4.5,Maryland -4.5
+332640120,Maryland,37,West Virginia,0,numberfire,54,-3.5,Maryland -3.5
+332640120,Maryland,37,West Virginia,0,teamrankings,54,-3.5,Maryland -3.5
+332640193,Miami (OH),0,Cincinnati,14,consensus,,24,Cincinnati -24
+332640193,Miami (OH),0,Cincinnati,14,numberfire,55,24.5,Cincinnati -24.5
+332640193,Miami (OH),0,Cincinnati,14,teamrankings,55,24.5,Cincinnati -24.5
+332640235,Memphis,31,Arkansas State,7,consensus,,3,Arkansas State -3
+332640235,Memphis,31,Arkansas State,7,numberfire,52.5,3.5,Arkansas State -3.5
+332640235,Memphis,31,Arkansas State,7,teamrankings,52,3.5,Arkansas State -3.5
+332642006,Akron,30,Louisiana,35,consensus,,6,Louisiana -6
+332642006,Akron,30,Louisiana,35,numberfire,63.5,7.5,Louisiana -7.5
+332642006,Akron,30,Louisiana,35,teamrankings,63.5,7.5,Louisiana -7.5
+332642459,Northern Illinois,43,Eastern Illinois,39,consensus,,-14,Northern Illinois -14
+332640098,Western Kentucky,58,Morgan State,17,consensus,,-33,Western Kentucky -33
+332640021,San Diego State,30,Oregon State,34,consensus,,8,Oregon State -8
+332640021,San Diego State,30,Oregon State,34,numberfire,54.5,7,Oregon State -7
+332640021,San Diego State,30,Oregon State,34,teamrankings,55,7,Oregon State -7
+332640344,Mississippi State,62,Troy,7,consensus,,-13,Mississippi State -13
+332640344,Mississippi State,62,Troy,7,numberfire,58.5,-13,Mississippi State -13
+332640344,Mississippi State,62,Troy,7,teamrankings,58,-13.5,Mississippi State -13.5
+332640084,Indiana,28,Missouri,45,consensus,,3,Missouri -3
+332640084,Indiana,28,Missouri,45,numberfire,70,3,Missouri -3
+332640084,Indiana,28,Missouri,45,teamrankings,70.5,3,Missouri -3
+332640251,Texas,31,Kansas State,21,consensus,,-7,Texas -7
+332640251,Texas,31,Kansas State,21,numberfire,60.5,-6,Texas -6
+332640251,Texas,31,Kansas State,21,teamrankings,61,-6,Texas -6
+332642638,UTEP,13,UT San Antonio,32,consensus,,-1,UTEP -1
+332642638,UTEP,13,UT San Antonio,32,teamrankings,59,2.5,UT San Antonio -2.5
+332642440,Nevada,31,Hawai'i,9,consensus,,-14,Nevada -14
+332642440,Nevada,31,Hawai'i,9,numberfire,53,-6,Nevada -6
+332642440,Nevada,31,Hawai'i,9,teamrankings,54,-6,Nevada -6
+332642439,UNLV,38,Western Illinois,7,consensus,,-16.5,UNLV -16.5
+332642005,Air Force,23,Wyoming,56,consensus,,2.5,Wyoming -2.5
+332642005,Air Force,23,Wyoming,56,numberfire,65.5,4,Wyoming -4
+332642005,Air Force,23,Wyoming,56,teamrankings,65.5,4,Wyoming -4
+332640252,BYU,13,Utah,20,consensus,,-6.5,BYU -6.5
+332640252,BYU,13,Utah,20,numberfire,60.5,-7,BYU -7
+332640252,BYU,13,Utah,20,teamrankings,60.5,-7,BYU -7
+332640265,Washington State,42,Idaho,0,consensus,,-35,Washington State -35
+332640265,Washington State,42,Idaho,0,numberfire,57,-31.5,Washington State -31.5
+332640265,Washington State,42,Idaho,0,teamrankings,57.5,-32,Washington State -32
+332690059,Georgia Tech,10,Virginia Tech,17,consensus,,-7,Georgia Tech -7
+332690059,Georgia Tech,10,Virginia Tech,17,numberfire,43.5,-7,Georgia Tech -7
+332690059,Georgia Tech,10,Virginia Tech,17,teamrankings,43,-7,Georgia Tech -7
+332690202,Tulsa,21,Iowa State,38,consensus,,-4,Tulsa -4
+332690202,Tulsa,21,Iowa State,38,numberfire,53,-3,Tulsa -3
+332690202,Tulsa,21,Iowa State,38,teamrankings,53.5,-3,Tulsa -3
+332700023,San José State,12,Utah State,40,consensus,,9.5,Utah State -9.5
+332700023,San José State,12,Utah State,40,numberfire,62,10,Utah State -10
+332700023,San José State,12,Utah State,40,teamrankings,62,10,Utah State -10
+332700252,BYU,37,Middle Tennessee,10,consensus,,-22,BYU -22
+332700252,BYU,37,Middle Tennessee,10,numberfire,58.5,-23.5,BYU -23.5
+332700252,BYU,37,Middle Tennessee,10,teamrankings,59,-23.5,BYU -23.5
+332710333,Alabama,25,Ole Miss,0,consensus,,-16,Alabama -16
+332710333,Alabama,25,Ole Miss,0,numberfire,54.5,-14,Alabama -14
+332710333,Alabama,25,Ole Miss,0,teamrankings,55,-14,Alabama -14
+332712483,Oregon,55,California,16,consensus,,-33,Oregon -33
+332712483,Oregon,55,California,16,numberfire,81.5,-38.5,Oregon -38.5
+332712483,Oregon,55,California,16,teamrankings,80,-38,Oregon -38
+332710228,Clemson,56,Wake Forest,7,consensus,,-28.5,Clemson -28.5
+332710228,Clemson,56,Wake Forest,7,numberfire,58,-28.5,Clemson -28.5
+332710228,Clemson,56,Wake Forest,7,teamrankings,58,-28.5,Clemson -28.5
+332710194,Ohio State,31,Wisconsin,24,consensus,,-7,Ohio State -7
+332710194,Ohio State,31,Wisconsin,24,numberfire,56,-6.5,Ohio State -6.5
+332710194,Ohio State,31,Wisconsin,24,teamrankings,56,-7,Ohio State -7
+332710265,Washington State,17,Stanford,55,consensus,,10,Stanford -10
+332710265,Washington State,17,Stanford,55,numberfire,47,9,Stanford -9
+332710265,Washington State,17,Stanford,55,teamrankings,46.5,9,Stanford -9
+332710061,Georgia,44,LSU,41,consensus,,-3,Georgia -3
+332710061,Georgia,44,LSU,41,numberfire,63,-3,Georgia -3
+332710061,Georgia,44,LSU,41,teamrankings,63,-3,Georgia -3
+332710103,Boston College,34,Florida State,48,consensus,,23,Florida State -23
+332710103,Boston College,34,Florida State,48,numberfire,53.5,24,Florida State -24
+332710103,Boston College,34,Florida State,48,teamrankings,53.5,23.5,Florida State -23.5
+332710008,Arkansas,33,Texas A&M,45,consensus,,3,Texas A&M -3
+332710008,Arkansas,33,Texas A&M,45,numberfire,64.5,13.5,Texas A&M -13.5
+332710008,Arkansas,33,Texas A&M,45,teamrankings,65.5,13.5,Texas A&M -13.5
+332710277,West Virginia,30,Oklahoma State,21,consensus,,21,Oklahoma State -21
+332710277,West Virginia,30,Oklahoma State,21,numberfire,59.5,19.5,Oklahoma State -19.5
+332710277,West Virginia,30,Oklahoma State,21,teamrankings,59.5,19.5,Oklahoma State -19.5
+332712116,UCF,25,South Carolina,28,consensus,,7.5,South Carolina -7.5
+332712116,UCF,25,South Carolina,28,numberfire,53.5,6.5,South Carolina -6.5
+332712116,UCF,25,South Carolina,28,teamrankings,53.5,7,South Carolina -7
+332710087,Notre Dame,21,Oklahoma,35,consensus,,3,Oklahoma -3
+332710087,Notre Dame,21,Oklahoma,35,numberfire,50.5,3.5,Oklahoma -3.5
+332710087,Notre Dame,21,Oklahoma,35,teamrankings,50,3.5,Oklahoma -3.5
+332710264,Washington,31,Arizona,13,consensus,,-7,Washington -7
+332710264,Washington,31,Arizona,13,numberfire,60,-8.5,Washington -8.5
+332710264,Washington,31,Arizona,13,teamrankings,60,-8.5,Washington -8.5
+332710096,Kentucky,7,Florida,24,consensus,,12.5,Florida -12.5
+332710096,Kentucky,7,Florida,24,numberfire,46,11,Florida -11
+332710096,Kentucky,7,Florida,24,teamrankings,46.5,11,Florida -11
+332710062,Hawai'i,37,Fresno State,42,consensus,,18.5,Fresno State -18.5
+332710062,Hawai'i,37,Fresno State,42,numberfire,59,17,Fresno State -17
+332712509,Purdue,24,Northern Illinois,55,consensus,,2.5,Northern Illinois -2.5
+332712509,Purdue,24,Northern Illinois,55,numberfire,59,3.5,Northern Illinois -3.5
+332712509,Purdue,24,Northern Illinois,55,teamrankings,59.5,3.5,Northern Illinois -3.5
+332712628,TCU,48,SMU,17,consensus,,-19.5,TCU -19.5
+332712628,TCU,48,SMU,17,numberfire,50,-17,TCU -17
+332712628,TCU,48,SMU,17,teamrankings,49.5,-17,TCU -17
+332710356,Illinois,50,Miami (OH),14,consensus,,-24,Illinois -24
+332710356,Illinois,50,Miami (OH),14,numberfire,48.5,-27.5,Illinois -27.5
+332710356,Illinois,50,Miami (OH),14,teamrankings,48.5,-27.5,Illinois -27.5
+332712633,Tennessee,31,South Alabama,24,consensus,,-21,Tennessee -21
+332712633,Tennessee,31,South Alabama,24,numberfire,55,-16,Tennessee -16
+332712633,Tennessee,31,South Alabama,24,teamrankings,55.5,-16,Tennessee -16
+332710153,North Carolina,31,East Carolina,55,consensus,,-10,North Carolina -10
+332710153,North Carolina,31,East Carolina,55,numberfire,60,-12.5,North Carolina -12.5
+332710153,North Carolina,31,East Carolina,55,teamrankings,60,-12.5,North Carolina -12.5
+332710221,Pittsburgh,14,Virginia,3,consensus,,-6.5,Pittsburgh -6.5
+332710221,Pittsburgh,14,Virginia,3,numberfire,50,-6,Pittsburgh -6
+332710221,Pittsburgh,14,Virginia,3,teamrankings,50,-6,Pittsburgh -6
+332710098,Western Kentucky,19,Navy,7,consensus,,2,Navy -2
+332710098,Western Kentucky,19,Navy,7,numberfire,59.5,3.5,Navy -3.5
+332710098,Western Kentucky,19,Navy,7,teamrankings,59.5,3.5,Navy -3.5
+332710189,Bowling Green,31,Akron,14,consensus,,-15.5,Bowling Green -15.5
+332710189,Bowling Green,31,Akron,14,numberfire,53.5,-14,Bowling Green -14
+332710189,Bowling Green,31,Akron,14,teamrankings,53.5,-14,Bowling Green -14
+332710204,Oregon State,44,Colorado,17,consensus,,-11,Oregon State -11
+332710204,Oregon State,44,Colorado,17,numberfire,55,-11.5,Oregon State -11.5
+332710204,Oregon State,44,Colorado,17,teamrankings,55.5,-12,Oregon State -12
+332710150,Duke,38,Troy,31,consensus,,-10,Duke -10
+332710150,Duke,38,Troy,31,numberfire,66.5,-13.5,Duke -13.5
+332710150,Duke,38,Troy,31,teamrankings,67,-13.5,Duke -13.5
+332712050,Ball State,31,Toledo,24,consensus,,-1,Ball State -1
+332712050,Ball State,31,Toledo,24,numberfire,67,-1.5,Ball State -1.5
+332712050,Ball State,31,Toledo,24,teamrankings,66.5,-1.5,Ball State -1.5
+332712084,Buffalo,41,Connecticut,12,consensus,,2.5,Connecticut -2.5
+332712084,Buffalo,41,Connecticut,12,numberfire,48,2,Connecticut -2
+332712084,Buffalo,41,Connecticut,12,teamrankings,47.5,2,Connecticut -2
+332710152,NC State,48,Central Michigan,14,consensus,,-24,NC State -24
+332710152,NC State,48,Central Michigan,14,numberfire,52,-23.5,NC State -23.5
+332710152,NC State,48,Central Michigan,14,teamrankings,52,-24,NC State -24
+332710135,Minnesota,7,Iowa,23,consensus,,-3.5,Minnesota -3.5
+332710135,Minnesota,7,Iowa,23,numberfire,44.5,2.5,Iowa -2.5
+332710135,Minnesota,7,Iowa,23,teamrankings,44.5,2.5,Iowa -2.5
+332710036,Colorado State,59,UTEP,42,consensus,,-10,Colorado State -10
+332710036,Colorado State,59,UTEP,42,numberfire,52,-13.5,Colorado State -13.5
+332710036,Colorado State,59,UTEP,42,teamrankings,52.5,-14,Colorado State -14
+332712348,Louisiana Tech,16,Army,35,consensus,,-1,Louisiana Tech -1
+332712348,Louisiana Tech,16,Army,35,numberfire,53,-3.5,Louisiana Tech -3.5
+332712348,Louisiana Tech,16,Army,35,teamrankings,53.5,-3.5,Louisiana Tech -3.5
+332712636,UT San Antonio,28,Houston,59,consensus,,2.5,Houston -2.5
+332712636,UT San Antonio,28,Houston,59,teamrankings,62.5,-2.5,UT San Antonio -2.5
+332710070,Idaho,26,Temple,24,consensus,,9.5,Temple -9.5
+332710070,Idaho,26,Temple,24,numberfire,57,7.5,Temple -7.5
+332710070,Idaho,26,Temple,24,teamrankings,57,7.5,Temple -7.5
+332712711,Western Michigan,14,Kent State,32,consensus,,-2,Western Michigan -2
+332712711,Western Michigan,14,Kent State,32,numberfire,51.5,2.5,Kent State -2.5
+332712711,Western Michigan,14,Kent State,32,teamrankings,51.5,2.5,Kent State -2.5
+332710326,Texas State,42,Wyoming,21,consensus,,10.5,Wyoming -10.5
+332710326,Texas State,42,Wyoming,21,numberfire,58,10,Wyoming -10
+332710326,Texas State,42,Wyoming,21,teamrankings,58,10.5,Wyoming -10.5
+332710242,Rice,18,Florida Atlantic,14,consensus,,-14,Rice -14
+332710242,Rice,18,Florida Atlantic,14,numberfire,53.5,-14.5,Rice -14.5
+332710242,Rice,18,Florida Atlantic,14,teamrankings,53,-14.5,Rice -14.5
+332712433,Louisiana Monroe,14,Tulane,31,consensus,,-11,Louisiana Monroe -11
+332712433,Louisiana Monroe,14,Tulane,31,numberfire,54.5,-12,Louisiana Monroe -12
+332712433,Louisiana Monroe,14,Tulane,31,teamrankings,54.5,-11.5,Louisiana Monroe -11.5
+332710142,Missouri,41,Arkansas State,19,consensus,,-21,Missouri -21
+332710142,Missouri,41,Arkansas State,19,numberfire,62,-21.5,Missouri -21.5
+332710142,Missouri,41,Arkansas State,19,teamrankings,62.5,-21.5,Missouri -21.5
+332710238,Vanderbilt,52,UAB,24,consensus,,-22,Vanderbilt -22
+332710238,Vanderbilt,52,UAB,24,numberfire,57.5,-20,Vanderbilt -20
+332710238,Vanderbilt,52,UAB,24,teamrankings,57.5,-20,Vanderbilt -20
+332710166,New Mexico State,16,San Diego State,26,consensus,,17,San Diego State -17
+332710166,New Mexico State,16,San Diego State,26,numberfire,54.5,16,San Diego State -16
+332710166,New Mexico State,16,San Diego State,26,teamrankings,55,16,San Diego State -16
+332710167,New Mexico,42,UNLV,56,consensus,,-1,New Mexico -1
+332710167,New Mexico,42,UNLV,56,numberfire,53.5,-2,New Mexico -2
+332710167,New Mexico,42,UNLV,56,teamrankings,53,-1.5,New Mexico -1.5
+332712440,Nevada,45,Air Force,42,consensus,,-7,Nevada -7
+332712440,Nevada,45,Air Force,42,numberfire,58.5,-11.5,Nevada -11.5
+332712440,Nevada,45,Air Force,42,teamrankings,58.5,-11,Nevada -11
+332710068,Boise State,60,Southern Mississippi,7,consensus,,-28,Boise State -28
+332710068,Boise State,60,Southern Mississippi,7,numberfire,57.5,-29,Boise State -29
+332710068,Boise State,60,Southern Mississippi,7,teamrankings,57.5,-29,Boise State -29
+332710009,Arizona State,62,USC,41,consensus,,-5,Arizona State -5
+332710009,Arizona State,62,USC,41,numberfire,49,-3.5,Arizona State -3.5
+332710009,Arizona State,62,USC,41,teamrankings,48.5,-4,Arizona State -4
+332760254,Utah,27,UCLA,34,consensus,,3.5,UCLA -3.5
+332760254,Utah,27,UCLA,34,numberfire,65,5,UCLA -5
+332760254,Utah,27,UCLA,34,teamrankings,64.5,5,UCLA -5
+332760066,Iowa State,30,Texas,31,consensus,,7.5,Texas -7.5
+332760066,Iowa State,30,Texas,31,numberfire,54.5,7,Texas -7
+332760066,Iowa State,30,Texas,31,teamrankings,54.5,7,Texas -7
+332762433,Louisiana Monroe,10,Western Kentucky,31,consensus,,3,Western Kentucky -3
+332762433,Louisiana Monroe,10,Western Kentucky,31,numberfire,49,7.5,Western Kentucky -7.5
+332762433,Louisiana Monroe,10,Western Kentucky,31,teamrankings,49,7.5,Western Kentucky -7.5
+332770328,Utah State,14,BYU,31,consensus,,-6,Utah State -6
+332770328,Utah State,14,BYU,31,numberfire,55.5,-6.5,Utah State -6.5
+332770328,Utah State,14,BYU,31,teamrankings,55.5,-6,Utah State -6
+332770021,San Diego State,51,Nevada,44,consensus,,-5.5,San Diego State -5.5
+332770021,San Diego State,51,Nevada,44,numberfire,60.5,-6.5,San Diego State -6.5
+332770021,San Diego State,51,Nevada,44,teamrankings,60.5,-6,San Diego State -6
+332780333,Alabama,45,Georgia State,3,consensus,,-56,Alabama -56
+332780333,Alabama,45,Georgia State,3,numberfire,58.5,-54.5,Alabama -54.5
+332780333,Alabama,45,Georgia State,3,teamrankings,59.5,-54.5,Alabama -54.5
+332780038,Colorado,16,Oregon,57,consensus,,36.5,Oregon -36.5
+332780038,Colorado,16,Oregon,57,numberfire,69.5,38,Oregon -38
+332780038,Colorado,16,Oregon,57,teamrankings,69.5,38,Oregon -38
+332780183,Syracuse,14,Clemson,49,consensus,,13.5,Clemson -13.5
+332780183,Syracuse,14,Clemson,49,numberfire,65,13.5,Clemson -13.5
+332780183,Syracuse,14,Clemson,49,teamrankings,65.5,14,Clemson -14
+332780077,Northwestern,30,Ohio State,40,consensus,,5.5,Ohio State -5.5
+332780077,Northwestern,30,Ohio State,40,numberfire,61,6.5,Ohio State -6.5
+332780077,Northwestern,30,Ohio State,40,teamrankings,61,6.5,Ohio State -6.5
+332780024,Stanford,31,Washington,28,consensus,,-6.5,Stanford -6.5
+332780024,Stanford,31,Washington,28,numberfire,52.5,-8,Stanford -8
+332780024,Stanford,31,Washington,28,teamrankings,52,-8.5,Stanford -8.5
+332782633,Tennessee,31,Georgia,34,consensus,,10.5,Georgia -10.5
+332782633,Tennessee,31,Georgia,34,numberfire,64.5,13.5,Georgia -13.5
+332782633,Tennessee,31,Georgia,34,teamrankings,64.5,13.5,Georgia -13.5
+332780218,Temple,7,Louisville,30,consensus,,30,Louisville -30
+332780218,Temple,7,Louisville,30,numberfire,58.5,33,Louisville -33
+332780218,Temple,7,Louisville,30,teamrankings,58.5,32.5,Louisville -32.5
+332780052,Florida State,63,Maryland,0,consensus,,-17,Florida State -17
+332780052,Florida State,63,Maryland,0,numberfire,57,-17.5,Florida State -17.5
+332780052,Florida State,63,Maryland,0,teamrankings,57,-17,Florida State -17
+332780344,Mississippi State,26,LSU,59,consensus,,9.5,LSU -9.5
+332780344,Mississippi State,26,LSU,59,numberfire,54.5,7,LSU -7
+332780344,Mississippi State,26,LSU,59,teamrankings,54.5,7,LSU -7
+332780201,Oklahoma,20,TCU,17,consensus,,-10,Oklahoma -10
+332780201,Oklahoma,20,TCU,17,numberfire,47,-10.5,Oklahoma -10.5
+332780201,Oklahoma,20,TCU,17,teamrankings,47,-10,Oklahoma -10
+332782579,South Carolina,35,Kentucky,28,consensus,,-21,South Carolina -21
+332782579,South Carolina,35,Kentucky,28,numberfire,54,-21.5,South Carolina -21.5
+332782579,South Carolina,35,Kentucky,28,teamrankings,54,-21.5,South Carolina -21.5
+332782390,Miami,45,Georgia Tech,30,consensus,,-4,Miami -4
+332782390,Miami,45,Georgia Tech,30,numberfire,56,-6,Miami -6
+332782390,Miami,45,Georgia Tech,30,teamrankings,56,-6,Miami -6
+332780239,Baylor,73,West Virginia,42,consensus,,-30,Baylor -30
+332780239,Baylor,73,West Virginia,42,numberfire,69,-30,Baylor -30
+332780239,Baylor,73,West Virginia,42,teamrankings,68.5,-30,Baylor -30
+332780057,Florida,30,Arkansas,10,consensus,,-12.5,Florida -12.5
+332780057,Florida,30,Arkansas,10,numberfire,40.5,-12.5,Florida -12.5
+332780057,Florida,30,Arkansas,10,teamrankings,40,-12.5,Florida -12.5
+332780130,Michigan,42,Minnesota,13,consensus,,-21,Michigan -21
+332780130,Michigan,42,Minnesota,13,numberfire,51,-18,Michigan -18
+332780130,Michigan,42,Minnesota,13,teamrankings,51,-18.5,Michigan -18.5
+332780197,Oklahoma State,33,Kansas State,29,consensus,,-15,Oklahoma State -15
+332780197,Oklahoma State,33,Kansas State,29,numberfire,61.5,-13,Oklahoma State -13
+332780197,Oklahoma State,33,Kansas State,29,teamrankings,61.5,-12.5,Oklahoma State -12.5
+332780087,Notre Dame,37,Arizona State,34,consensus,,6.5,Arizona State -6.5
+332780087,Notre Dame,37,Arizona State,34,numberfire,63.5,7,Arizona State -7
+332780087,Notre Dame,37,Arizona State,34,teamrankings,63.5,6.5,Arizona State -6.5
+332780070,Idaho,14,Fresno State,61,consensus,,25,Fresno State -25
+332780070,Idaho,14,Fresno State,61,numberfire,68.5,27.5,Fresno State -27.5
+332780070,Idaho,14,Fresno State,61,teamrankings,68.5,27.5,Fresno State -27.5
+332780002,Auburn,30,Ole Miss,22,consensus,,2,Ole Miss -2
+332780002,Auburn,30,Ole Miss,22,numberfire,58,2.5,Ole Miss -2.5
+332780002,Auburn,30,Ole Miss,22,teamrankings,58,3,Ole Miss -3
+332782426,Navy,28,Air Force,10,consensus,,-11,Navy -11
+332782426,Navy,28,Air Force,10,numberfire,56,-13.5,Navy -13.5
+332782426,Navy,28,Air Force,10,teamrankings,56,-13.5,Navy -13.5
+332782567,SMU,52,Rutgers,55,consensus,,4,Rutgers -4
+332782567,SMU,52,Rutgers,55,numberfire,54,3.5,Rutgers -3.5
+332782567,SMU,52,Rutgers,55,teamrankings,53.5,3.5,Rutgers -3.5
+332782084,Buffalo,42,Eastern Michigan,14,consensus,,-13,Buffalo -13
+332782084,Buffalo,42,Eastern Michigan,14,numberfire,52.5,-13,Buffalo -13
+332782084,Buffalo,42,Eastern Michigan,14,teamrankings,53,-13,Buffalo -13
+332782294,Iowa,14,Michigan State,26,consensus,,-2,Iowa -2
+332782294,Iowa,14,Michigan State,26,numberfire,37,-2,Iowa -2
+332782294,Iowa,14,Michigan State,26,teamrankings,37,-1.5,Iowa -1.5
+332780084,Indiana,44,Penn State,24,consensus,,4,Penn State -4
+332780084,Indiana,44,Penn State,24,numberfire,66.5,3.5,Penn State -3.5
+332780084,Indiana,44,Penn State,24,teamrankings,66.5,3.5,Penn State -3.5
+332780158,Nebraska,39,Illinois,19,consensus,,-10.5,Nebraska -10.5
+332780158,Nebraska,39,Illinois,19,numberfire,62.5,-8.5,Nebraska -8.5
+332780158,Nebraska,39,Illinois,19,teamrankings,64,-8.5,Nebraska -8.5
+332780258,Virginia,27,Ball State,48,consensus,,-6,Virginia -6
+332780258,Virginia,27,Ball State,48,numberfire,49,-3.5,Virginia -3.5
+332780258,Virginia,27,Ball State,48,teamrankings,49,-3.5,Virginia -3.5
+332780259,Virginia Tech,27,North Carolina,17,consensus,,-7,Virginia Tech -7
+332780259,Virginia Tech,27,North Carolina,17,numberfire,45.5,-8,Virginia Tech -8
+332780259,Virginia Tech,27,North Carolina,17,teamrankings,45.5,-8.5,Virginia Tech -8.5
+332780103,Boston College,48,Army,27,consensus,,-13,Boston College -13
+332780103,Boston College,48,Army,27,numberfire,50.5,-11,Boston College -11
+332780103,Boston College,48,Army,27,teamrankings,50.5,-11,Boston College -11
+332780193,Miami (OH),9,Central Michigan,21,consensus,,4.5,Central Michigan -4.5
+332780193,Miami (OH),9,Central Michigan,21,numberfire,48,3,Central Michigan -3
+332780193,Miami (OH),9,Central Michigan,21,teamrankings,48,2.5,Central Michigan -2.5
+332782653,Troy,34,South Alabama,33,consensus,,-2.5,Troy -2.5
+332782653,Troy,34,South Alabama,33,numberfire,62.5,-3.5,Troy -3.5
+332782653,Troy,34,South Alabama,33,teamrankings,62.5,-3.5,Troy -3.5
+332782006,Akron,3,Ohio,43,consensus,,6.5,Ohio -6.5
+332782006,Akron,3,Ohio,43,numberfire,56.5,3,Ohio -3
+332782006,Akron,3,Ohio,43,teamrankings,57,3,Ohio -3
+332780276,Marshall,34,UT San Antonio,10,consensus,,-11,Marshall -11
+332780276,Marshall,34,UT San Antonio,10,teamrankings,65,-16.5,Marshall -16.5
+332780005,UAB,23,Florida Atlantic,37,consensus,,-7,UAB -7
+332780005,UAB,23,Florida Atlantic,37,numberfire,52.5,-3.5,UAB -3.5
+332780005,UAB,23,Florida Atlantic,37,teamrankings,53,-3,UAB -3
+332782649,Toledo,47,Western Michigan,20,consensus,,-19,Toledo -19
+332782649,Toledo,47,Western Michigan,20,numberfire,58.5,-23.5,Toledo -23.5
+332782649,Toledo,47,Western Michigan,20,teamrankings,58,-23.5,Toledo -23.5
+332782655,Tulane,24,North Texas,21,consensus,,2,North Texas -2
+332782655,Tulane,24,North Texas,21,numberfire,53.5,3,North Texas -3
+332782655,Tulane,24,North Texas,21,teamrankings,53,3,North Texas -3
+332780202,Tulsa,27,Rice,30,consensus,,-2.5,Tulsa -2.5
+332780202,Tulsa,27,Rice,30,numberfire,54.5,-3,Tulsa -3
+332780202,Tulsa,27,Rice,30,teamrankings,54.5,-3,Tulsa -3
+332782309,Kent State,24,Northern Illinois,38,consensus,,9.5,Northern Illinois -9.5
+332782309,Kent State,24,Northern Illinois,38,numberfire,64,8.5,Northern Illinois -8.5
+332782309,Kent State,24,Northern Illinois,38,teamrankings,64.5,8,Northern Illinois -8
+332782393,Middle Tennessee,17,East Carolina,24,consensus,,8,East Carolina -8
+332782393,Middle Tennessee,17,East Carolina,24,numberfire,62.5,8,East Carolina -8
+332780154,Wake Forest,28,NC State,13,consensus,,8,NC State -8
+332780154,Wake Forest,28,NC State,13,numberfire,47.5,8,NC State -8
+332780154,Wake Forest,28,NC State,13,teamrankings,47.5,7.5,NC State -7.5
+332780189,Bowling Green,28,UMass,7,consensus,,-23,Bowling Green -23
+332780189,Bowling Green,28,UMass,7,numberfire,48.5,-26.5,Bowling Green -26.5
+332780189,Bowling Green,28,UMass,7,teamrankings,48.5,-27,Bowling Green -27
+332780025,California,22,Washington State,44,consensus,,-1.5,California -1.5
+332780025,California,22,Washington State,44,numberfire,66,1.5,Washington State -1.5
+332780025,California,22,Washington State,44,teamrankings,66,1.5,Washington State -1.5
+332782572,Southern Mississippi,23,Florida International,24,consensus,,-17,Southern Mississippi -17
+332782572,Southern Mississippi,23,Florida International,24,numberfire,48,-16.5,Southern Mississippi -16.5
+332782572,Southern Mississippi,23,Florida International,24,teamrankings,48.5,-16.5,Southern Mississippi -16.5
+332780235,Memphis,17,UCF,24,consensus,,10.5,UCF -10.5
+332780235,Memphis,17,UCF,24,numberfire,48,9,UCF -9
+332780235,Memphis,17,UCF,24,teamrankings,47.5,9.5,UCF -9.5
+332780309,Louisiana,48,Texas State,24,consensus,,-10,Louisiana -10
+332780309,Louisiana,48,Texas State,24,numberfire,55,-10.5,Louisiana -10.5
+332780309,Louisiana,48,Texas State,24,teamrankings,54.5,-11,Louisiana -11
+332780167,New Mexico,66,New Mexico State,17,consensus,,-7,New Mexico -7
+332780167,New Mexico,66,New Mexico State,17,numberfire,59.5,-12,New Mexico -12
+332780167,New Mexico,66,New Mexico State,17,teamrankings,59.5,-12,New Mexico -12
+332780058,South Florida,26,Cincinnati,20,consensus,,13.5,Cincinnati -13.5
+332780058,South Florida,26,Cincinnati,20,numberfire,47,10.5,Cincinnati -10.5
+332780058,South Florida,26,Cincinnati,20,teamrankings,46.5,10.5,Cincinnati -10.5
+332782638,UTEP,35,Louisiana Tech,38,consensus,,-1.5,UTEP -1.5
+332782638,UTEP,35,Louisiana Tech,38,numberfire,60.5,1.5,Louisiana Tech -1.5
+332782638,UTEP,35,Louisiana Tech,38,teamrankings,61,1.5,Louisiana Tech -1.5
+332780238,Vanderbilt,28,Missouri,51,consensus,,-2.5,Vanderbilt -2.5
+332780238,Vanderbilt,28,Missouri,51,numberfire,56.5,2.5,Missouri -2.5
+332780238,Vanderbilt,28,Missouri,51,teamrankings,56,2.5,Missouri -2.5
+332780062,Hawai'i,27,San José State,37,consensus,,4.5,San José State -4.5
+332780062,Hawai'i,27,San José State,37,numberfire,57,3.5,San José State -3.5
+332830097,Louisville,24,Rutgers,10,consensus,,-16.5,Louisville -16.5
+332830097,Louisville,24,Rutgers,10,numberfire,55.5,-19,Louisville -19
+332830097,Louisville,24,Rutgers,10,teamrankings,55.5,-19.5,Louisville -19.5
+332832005,Air Force,20,San Diego State,27,consensus,,3.5,San Diego State -3.5
+332832005,Air Force,20,San Diego State,27,numberfire,53.5,3.5,San Diego State -3.5
+332832005,Air Force,20,San Diego State,27,teamrankings,53.5,3.5,San Diego State -3.5
+332830030,USC,38,Arizona,31,consensus,,-5,USC -5
+332830030,USC,38,Arizona,31,numberfire,48,-5.5,USC -5.5
+332830030,USC,38,Arizona,31,teamrankings,48,-5.5,USC -5.5
+332842132,Cincinnati,38,Temple,20,consensus,,-20,Cincinnati -20
+332842132,Cincinnati,38,Temple,20,numberfire,54.5,-20.5,Cincinnati -20.5
+332842132,Cincinnati,38,Temple,20,teamrankings,54.5,-20.5,Cincinnati -20.5
+332850096,Kentucky,7,Alabama,48,consensus,,27,Alabama -27
+332850096,Kentucky,7,Alabama,48,numberfire,51.5,26.5,Alabama -26.5
+332850096,Kentucky,7,Alabama,48,teamrankings,51,26.5,Alabama -26.5
+332850264,Washington,24,Oregon,45,consensus,,10.5,Oregon -10.5
+332850264,Washington,24,Oregon,45,numberfire,75.5,12,Oregon -12
+332850264,Washington,24,Oregon,45,teamrankings,75.5,11.5,Oregon -11.5
+332850228,Clemson,24,Boston College,14,consensus,,-23,Clemson -23
+332850228,Clemson,24,Boston College,14,numberfire,64,-24,Clemson -24
+332850228,Clemson,24,Boston College,14,teamrankings,64,-24,Clemson -24
+332850254,Utah,27,Stanford,21,consensus,,9.5,Stanford -9.5
+332850254,Utah,27,Stanford,21,numberfire,52.5,7.5,Stanford -7.5
+332850254,Utah,27,Stanford,21,teamrankings,52.5,7.5,Stanford -7.5
+332850061,Georgia,26,Missouri,41,consensus,,-10,Georgia -10
+332850061,Georgia,26,Missouri,41,numberfire,66,-6.5,Georgia -6.5
+332850061,Georgia,26,Missouri,41,teamrankings,66.5,-6.5,Georgia -6.5
+332850145,Ole Miss,38,Texas A&M,41,consensus,,4,Texas A&M -4
+332850145,Ole Miss,38,Texas A&M,41,numberfire,77.5,7,Texas A&M -7
+332850145,Ole Miss,38,Texas A&M,41,teamrankings,77.5,7,Texas A&M -7
+332850099,LSU,17,Florida,6,consensus,,-5,LSU -5
+332850099,LSU,17,Florida,6,numberfire,49,-9,LSU -9
+332850099,LSU,17,Florida,6,teamrankings,49.5,-9,LSU -9
+332850026,UCLA,37,California,10,consensus,,-23,UCLA -23
+332850026,UCLA,37,California,10,numberfire,73.5,-26,UCLA -26
+332850026,UCLA,37,California,10,teamrankings,73.5,-26,UCLA -26
+332850008,Arkansas,7,South Carolina,52,consensus,,7,South Carolina -7
+332850008,Arkansas,7,South Carolina,52,numberfire,49.5,4.5,South Carolina -4.5
+332850008,Arkansas,7,South Carolina,52,teamrankings,49.5,4.5,South Carolina -4.5
+332852306,Kansas State,25,Baylor,35,consensus,,10.5,Baylor -10.5
+332852306,Kansas State,25,Baylor,35,numberfire,73.5,17,Baylor -17
+332852306,Kansas State,25,Baylor,35,teamrankings,73,17,Baylor -17
+332850213,Penn State,43,Michigan,40,consensus,,1,Michigan -1
+332850213,Penn State,43,Michigan,40,numberfire,51.5,1.5,Michigan -1.5
+332850213,Penn State,43,Michigan,40,teamrankings,51,2,Michigan -2
+332850275,Wisconsin,35,Northwestern,6,consensus,,-10,Wisconsin -10
+332850275,Wisconsin,35,Northwestern,6,numberfire,58,-11,Wisconsin -11
+332850275,Wisconsin,35,Northwestern,6,teamrankings,58.5,-11,Wisconsin -11
+332852641,Texas Tech,42,Iowa State,35,consensus,,-16.5,Texas Tech -16.5
+332852641,Texas Tech,42,Iowa State,35,numberfire,58,-14.5,Texas Tech -14.5
+332852641,Texas Tech,42,Iowa State,35,teamrankings,58,-14,Texas Tech -14
+332852459,Northern Illinois,27,Akron,20,consensus,,-21.5,Northern Illinois -21.5
+332852459,Northern Illinois,27,Akron,20,numberfire,64,-24,Northern Illinois -24
+332852459,Northern Illinois,27,Akron,20,teamrankings,63.5,-24.5,Northern Illinois -24.5
+332850259,Virginia Tech,19,Pittsburgh,9,consensus,,-9.5,Virginia Tech -9.5
+332850259,Virginia Tech,19,Pittsburgh,9,numberfire,43,-7,Virginia Tech -7
+332850259,Virginia Tech,19,Pittsburgh,9,teamrankings,43,-7,Virginia Tech -7
+332850041,Connecticut,10,South Florida,13,consensus,,-6,Connecticut -6
+332850041,Connecticut,10,South Florida,13,numberfire,40,-4,Connecticut -4
+332850041,Connecticut,10,South Florida,13,teamrankings,40.5,-4,Connecticut -4
+332850127,Michigan State,42,Indiana,28,consensus,,-7.5,Michigan State -7.5
+332850127,Michigan State,42,Indiana,28,numberfire,53.5,-10,Michigan State -10
+332850127,Michigan State,42,Indiana,28,teamrankings,54,-10,Michigan State -10
+332850248,Houston,25,Memphis,15,consensus,,-11,Houston -11
+332850248,Houston,25,Memphis,15,numberfire,53.5,-7.5,Houston -7.5
+332850248,Houston,25,Memphis,15,teamrankings,53.5,-7.5,Houston -7.5
+332850349,Army,50,Eastern Michigan,25,consensus,,-7.5,Army -7.5
+332850349,Army,50,Eastern Michigan,25,numberfire,58,-10.5,Army -10.5
+332850349,Army,50,Eastern Michigan,25,teamrankings,58,-10,Army -10
+332852509,Purdue,7,Nebraska,44,consensus,,14,Nebraska -14
+332852509,Purdue,7,Nebraska,44,numberfire,57.5,13.5,Nebraska -13.5
+332852509,Purdue,7,Nebraska,44,teamrankings,58,13,Nebraska -13
+332852628,TCU,27,Kansas,17,consensus,,-24,TCU -24
+332852628,TCU,27,Kansas,17,numberfire,45.5,-24.5,TCU -24.5
+332852628,TCU,27,Kansas,17,teamrankings,45,-24,TCU -24
+332850150,Duke,35,Navy,7,consensus,,-3.5,Duke -3.5
+332850150,Duke,35,Navy,7,numberfire,56.5,-4,Duke -4
+332850150,Duke,35,Navy,7,teamrankings,57,-4,Duke -4
+332850002,Auburn,62,Western Carolina,3,consensus,,-43.5,Auburn -43.5
+332850195,Ohio,23,Central Michigan,26,consensus,,-14.5,Ohio -14.5
+332850195,Ohio,23,Central Michigan,26,numberfire,51.5,-20,Ohio -20
+332850195,Ohio,23,Central Michigan,26,teamrankings,51.5,-20,Ohio -20
+332852711,Western Michigan,0,Buffalo,33,consensus,,11,Buffalo -11
+332852711,Western Michigan,0,Buffalo,33,numberfire,50,10,Buffalo -10
+332852711,Western Michigan,0,Buffalo,33,teamrankings,50,9.5,Buffalo -9.5
+332852050,Ball State,27,Kent State,24,consensus,,-11,Ball State -11
+332852050,Ball State,27,Kent State,24,numberfire,63.5,-13.5,Ball State -13.5
+332852050,Ball State,27,Kent State,24,teamrankings,63,-13,Ball State -13
+332850113,UMass,17,Miami (OH),10,consensus,,-2.5,UMass -2.5
+332850113,UMass,17,Miami (OH),10,numberfire,45.5,-6.5,UMass -6.5
+332850113,UMass,17,Miami (OH),10,teamrankings,45,-6.5,UMass -6.5
+332850120,Maryland,27,Virginia,26,consensus,,-5.5,Maryland -5.5
+332850120,Maryland,27,Virginia,26,numberfire,40.5,-6,Maryland -6
+332850120,Maryland,27,Virginia,26,teamrankings,40.5,-6,Maryland -6
+332850152,NC State,10,Syracuse,24,consensus,,-4.5,NC State -4.5
+332850152,NC State,10,Syracuse,24,numberfire,52.5,-6.5,NC State -6.5
+332850152,NC State,10,Syracuse,24,teamrankings,52.5,-6.5,NC State -6.5
+332850036,Colorado State,27,San José State,34,consensus,,-3.5,Colorado State -3.5
+332850036,Colorado State,27,San José State,34,numberfire,61,-3,Colorado State -3
+332850036,Colorado State,27,San José State,34,teamrankings,61,-3,Colorado State -3
+332852247,Georgia State,28,Troy,35,consensus,,16,Troy -16
+332852247,Georgia State,28,Troy,35,numberfire,62,15,Troy -15
+332852247,Georgia State,28,Troy,35,teamrankings,62,15,Troy -15
+332852751,Wyoming,38,New Mexico,31,consensus,,-14.5,Wyoming -14.5
+332852751,Wyoming,38,New Mexico,31,numberfire,71,-13,Wyoming -13
+332852751,Wyoming,38,New Mexico,31,teamrankings,70,-12.5,Wyoming -12.5
+332852655,Tulane,36,East Carolina,33,consensus,,9,East Carolina -9
+332852655,Tulane,36,East Carolina,33,numberfire,53.5,13.5,East Carolina -13.5
+332852655,Tulane,36,East Carolina,33,teamrankings,53,13.5,East Carolina -13.5
+332852636,UT San Antonio,21,Rice,27,consensus,,4.5,Rice -4.5
+332852636,UT San Antonio,21,Rice,27,teamrankings,52.5,1,Rice -1
+332852226,Florida Atlantic,23,Marshall,24,consensus,,13,Marshall -13
+332852226,Florida Atlantic,23,Marshall,24,numberfire,56.5,9.5,Marshall -9.5
+332852226,Florida Atlantic,23,Marshall,24,teamrankings,56,10,Marshall -10
+332852032,Arkansas State,48,Idaho,24,consensus,,-24,Arkansas State -24
+332852032,Arkansas State,48,Idaho,24,numberfire,62.5,-27,Arkansas State -27
+332852032,Arkansas State,48,Idaho,24,teamrankings,61.5,-27,Arkansas State -27
+332850326,Texas State,14,Louisiana Monroe,21,consensus,,-6,Texas State -6
+332850326,Texas State,14,Louisiana Monroe,21,numberfire,44.5,-6,Texas State -6
+332850326,Texas State,14,Louisiana Monroe,21,teamrankings,45,-6,Texas State -6
+332850252,BYU,38,Georgia Tech,20,consensus,,-4,BYU -4
+332850252,BYU,38,Georgia Tech,20,numberfire,54.5,-7,BYU -7
+332850252,BYU,38,Georgia Tech,20,teamrankings,54,-7,BYU -7
+332850249,North Texas,34,Middle Tennessee,7,consensus,,-4.5,North Texas -4.5
+332850249,North Texas,34,Middle Tennessee,7,numberfire,54,-6.5,North Texas -6.5
+332850249,North Texas,34,Middle Tennessee,7,teamrankings,54,-6.5,North Texas -6.5
+332850344,Mississippi State,21,Bowling Green,20,consensus,,-8.5,Mississippi State -8.5
+332850344,Mississippi State,21,Bowling Green,20,numberfire,52,-11.5,Mississippi State -11.5
+332850344,Mississippi State,21,Bowling Green,20,teamrankings,52,-11.5,Mississippi State -11.5
+332852229,Florida International,24,UAB,27,consensus,,7,UAB -7
+332852229,Florida International,24,UAB,27,numberfire,52.5,6,UAB -6
+332852229,Florida International,24,UAB,27,teamrankings,52.5,6,UAB -6
+332852439,UNLV,39,Hawai'i,37,consensus,,-7,UNLV -7
+332852439,UNLV,39,Hawai'i,37,numberfire,58,-7.5,UNLV -7.5
+332852439,UNLV,39,Hawai'i,37,teamrankings,58,-7.5,UNLV -7.5
+332852638,UTEP,20,Tulsa,34,consensus,,10,Tulsa -10
+332852638,UTEP,20,Tulsa,34,numberfire,65,10,Tulsa -10
+332852638,UTEP,20,Tulsa,34,teamrankings,65.5,9.5,Tulsa -9.5
+332850328,Utah State,23,Boise State,34,consensus,,7.5,Boise State -7.5
+332850328,Utah State,23,Boise State,34,numberfire,51,5,Boise State -5
+332850328,Utah State,23,Boise State,34,teamrankings,50.5,5,Boise State -5
+332850009,Arizona State,54,Colorado,13,consensus,,-23.5,Arizona State -23.5
+332850009,Arizona State,54,Colorado,13,numberfire,68.5,-28.5,Arizona State -28.5
+332850009,Arizona State,54,Colorado,13,teamrankings,68.5,-28.5,Arizona State -28.5
+332850265,Washington State,24,Oregon State,52,consensus,,-3,Washington State -3
+332850265,Washington State,24,Oregon State,52,numberfire,62,2.5,Oregon State -2.5
+332850265,Washington State,24,Oregon State,52,teamrankings,62.5,2,Oregon State -2
+332880098,Western Kentucky,20,Louisiana,37,consensus,,-3.5,Western Kentucky -3.5
+332880098,Western Kentucky,20,Louisiana,37,numberfire,62,-3,Western Kentucky -3
+332880098,Western Kentucky,20,Louisiana,37,teamrankings,62,-3,Western Kentucky -3
+332900153,North Carolina,23,Miami,27,consensus,,7.5,Miami -7.5
+332900153,North Carolina,23,Miami,27,numberfire,66,9.5,Miami -9.5
+332900153,North Carolina,23,Miami,27,teamrankings,66,9,Miami -9
+332910097,Louisville,35,UCF,38,consensus,,-17.5,Louisville -17.5
+332910097,Louisville,35,UCF,38,numberfire,55.5,-14,Louisville -14
+332910097,Louisville,35,UCF,38,teamrankings,55.5,-14,Louisville -14
+332920333,Alabama,52,Arkansas,0,consensus,,-28,Alabama -28
+332920333,Alabama,52,Arkansas,0,numberfire,48,-29.5,Alabama -29.5
+332920333,Alabama,52,Arkansas,0,teamrankings,48,-29,Alabama -29
+332922483,Oregon,62,Washington State,38,consensus,,-39,Oregon -39
+332922483,Oregon,62,Washington State,38,numberfire,71.5,-40,Oregon -40
+332922483,Oregon,62,Washington State,38,teamrankings,71.5,-40,Oregon -40
+332920228,Clemson,14,Florida State,51,consensus,,3,Florida State -3
+332920228,Clemson,14,Florida State,51,numberfire,63.5,4.5,Florida State -4.5
+332920228,Clemson,14,Florida State,51,teamrankings,63,5,Florida State -5
+332920194,Ohio State,34,Iowa,24,consensus,,-17,Ohio State -17
+332920194,Ohio State,34,Iowa,24,numberfire,54.5,-18.5,Ohio State -18.5
+332920194,Ohio State,34,Iowa,24,teamrankings,54.5,-18.5,Ohio State -18.5
+332920145,Ole Miss,27,LSU,24,consensus,,8,LSU -8
+332920145,Ole Miss,27,LSU,24,numberfire,60,9.5,LSU -9.5
+332920145,Ole Miss,27,LSU,24,teamrankings,60,9.5,LSU -9.5
+332920245,Texas A&M,41,Auburn,45,consensus,,-12,Texas A&M -12
+332920245,Texas A&M,41,Auburn,45,numberfire,72.5,-13,Texas A&M -13
+332920245,Texas A&M,41,Auburn,45,teamrankings,73,-12.5,Texas A&M -12.5
+332922633,Tennessee,23,South Carolina,21,consensus,,7,South Carolina -7
+332922633,Tennessee,23,South Carolina,21,numberfire,55,7,South Carolina -7
+332922633,Tennessee,23,South Carolina,21,teamrankings,55.5,7,South Carolina -7
+332920239,Baylor,71,Iowa State,7,consensus,,-33,Baylor -33
+332920239,Baylor,71,Iowa State,7,numberfire,76.5,-32,Baylor -32
+332920239,Baylor,71,Iowa State,7,teamrankings,77,-32,Baylor -32
+332920142,Missouri,36,Florida,17,consensus,,1.5,Florida -1.5
+332920142,Missouri,36,Florida,17,numberfire,44,3,Florida -3
+332920142,Missouri,36,Florida,17,teamrankings,44,3,Florida -3
+332920238,Vanderbilt,31,Georgia,27,consensus,,9.5,Georgia -9.5
+332920238,Vanderbilt,31,Georgia,27,numberfire,63.5,6.5,Georgia -6.5
+332920238,Vanderbilt,31,Georgia,27,teamrankings,64.5,6.5,Georgia -6.5
+332920277,West Virginia,27,Texas Tech,37,consensus,,6.5,Texas Tech -6.5
+332920277,West Virginia,27,Texas Tech,37,numberfire,58,4,Texas Tech -4
+332920277,West Virginia,27,Texas Tech,37,teamrankings,58,4.5,Texas Tech -4.5
+332920278,Fresno State,38,UNLV,14,consensus,,-21,Fresno State -21
+332920278,Fresno State,38,UNLV,14,numberfire,75,-25,Fresno State -25
+332920278,Fresno State,38,UNLV,14,teamrankings,75,-25,Fresno State -25
+332922305,Kansas,19,Oklahoma,34,consensus,,24,Oklahoma -24
+332922305,Kansas,19,Oklahoma,34,numberfire,49.5,21,Oklahoma -21
+332922305,Kansas,19,Oklahoma,34,teamrankings,49.5,21,Oklahoma -21
+332920009,Arizona State,53,Washington,24,consensus,,-3,Arizona State -3
+332920009,Arizona State,53,Washington,24,numberfire,67.5,-3.5,Arizona State -3.5
+332920009,Arizona State,53,Washington,24,teamrankings,68,-3.5,Arizona State -3.5
+332920197,Oklahoma State,24,TCU,10,consensus,,-7,Oklahoma State -7
+332920197,Oklahoma State,24,TCU,10,numberfire,52,-6.5,Oklahoma State -6.5
+332920197,Oklahoma State,24,TCU,10,teamrankings,52,-6.5,Oklahoma State -6.5
+332922117,Central Michigan,17,Northern Illinois,38,consensus,,17,Northern Illinois -17
+332922117,Central Michigan,17,Northern Illinois,38,numberfire,59,14.5,Northern Illinois -14.5
+332922117,Central Michigan,17,Northern Illinois,38,teamrankings,59,14.5,Northern Illinois -14.5
+332920356,Illinois,32,Wisconsin,56,consensus,,10,Wisconsin -10
+332920356,Illinois,32,Wisconsin,56,numberfire,56,14.5,Wisconsin -14.5
+332920356,Illinois,32,Wisconsin,56,teamrankings,55,14.5,Wisconsin -14.5
+332920077,Northwestern,17,Minnesota,20,consensus,,-13,Northwestern -13
+332920077,Northwestern,17,Minnesota,20,numberfire,52,-12.5,Northwestern -12.5
+332920077,Northwestern,17,Minnesota,20,teamrankings,52,-12.5,Northwestern -12.5
+332920127,Michigan State,14,Purdue,0,consensus,,-21,Michigan State -21
+332920127,Michigan State,14,Purdue,0,numberfire,44.5,-27.5,Michigan State -27.5
+332920127,Michigan State,14,Purdue,0,teamrankings,44.5,-28,Michigan State -28
+332920151,East Carolina,55,Southern Mississippi,14,consensus,,-21,East Carolina -21
+332920151,East Carolina,55,Southern Mississippi,14,numberfire,55,-24,East Carolina -24
+332920151,East Carolina,55,Southern Mississippi,14,teamrankings,54.5,-23.5,East Carolina -23.5
+332920235,Memphis,29,SMU,34,consensus,,-1,Memphis -1
+332920235,Memphis,29,SMU,34,numberfire,48,-3,Memphis -3
+332920235,Memphis,29,SMU,34,teamrankings,48,-3,Memphis -3
+332922132,Cincinnati,41,Connecticut,16,consensus,,-14.5,Cincinnati -14.5
+332922132,Cincinnati,41,Connecticut,16,numberfire,45.5,-15.5,Cincinnati -15.5
+332922132,Cincinnati,41,Connecticut,16,teamrankings,45.5,-14.5,Cincinnati -14.5
+332922649,Toledo,45,Navy,44,consensus,,-6,Toledo -6
+332922649,Toledo,45,Navy,44,numberfire,55,-9.5,Toledo -9.5
+332922649,Toledo,45,Navy,44,teamrankings,54.5,-9.5,Toledo -9.5
+332920059,Georgia Tech,56,Syracuse,0,consensus,,-9.5,Georgia Tech -9.5
+332920059,Georgia Tech,56,Syracuse,0,numberfire,54,-8.5,Georgia Tech -8.5
+332920059,Georgia Tech,56,Syracuse,0,teamrankings,54,-8,Georgia Tech -8
+332920193,Miami (OH),17,Akron,24,consensus,,6,Akron -6
+332920193,Miami (OH),17,Akron,24,numberfire,45,6,Akron -6
+332920193,Miami (OH),17,Akron,24,teamrankings,45,6,Akron -6
+332920218,Temple,33,Army,14,consensus,,1.5,Army -1.5
+332920218,Temple,33,Army,14,numberfire,60.5,1,Army -1
+332920218,Temple,33,Army,14,teamrankings,60.5,1,Army -1
+332922199,Eastern Michigan,28,Ohio,56,consensus,,20,Ohio -20
+332922199,Eastern Michigan,28,Ohio,56,numberfire,55,13.5,Ohio -13.5
+332922199,Eastern Michigan,28,Ohio,56,teamrankings,55,14.5,Ohio -14.5
+332922711,Western Michigan,17,Ball State,38,consensus,,21,Ball State -21
+332922711,Western Michigan,17,Ball State,38,numberfire,58.5,19,Ball State -19
+332922711,Western Michigan,17,Ball State,38,teamrankings,59.5,19,Ball State -19
+332922751,Wyoming,22,Colorado State,52,consensus,,-6.5,Wyoming -6.5
+332922751,Wyoming,22,Colorado State,52,numberfire,66.5,-6.5,Wyoming -6.5
+332922751,Wyoming,22,Colorado State,52,teamrankings,66,-6.5,Wyoming -6.5
+332920038,Colorado,43,Charleston Southern,10,consensus,,-20,Colorado -20
+332920006,South Alabama,38,Kent State,21,consensus,,-6.5,South Alabama -6.5
+332920006,South Alabama,38,Kent State,21,numberfire,55,-7.5,South Alabama -7.5
+332920006,South Alabama,38,Kent State,21,teamrankings,55,-7.5,South Alabama -7.5
+332920154,Wake Forest,34,Maryland,10,consensus,,7,Maryland -7
+332920154,Wake Forest,34,Maryland,10,numberfire,52.5,4.5,Maryland -4.5
+332920154,Wake Forest,34,Maryland,10,teamrankings,52.5,4.5,Maryland -4.5
+332920130,Michigan,63,Indiana,47,consensus,,-10.5,Michigan -10.5
+332920130,Michigan,63,Indiana,47,numberfire,67,-8.5,Michigan -8.5
+332920130,Michigan,63,Indiana,47,teamrankings,67.5,-8.5,Michigan -8.5
+332920248,Houston,46,BYU,47,consensus,,9,BYU -9
+332920248,Houston,46,BYU,47,numberfire,64.5,10,BYU -10
+332920248,Houston,46,BYU,47,teamrankings,64.5,10,BYU -10
+332920258,Virginia,22,Duke,35,consensus,,-4,Virginia -4
+332920258,Virginia,22,Duke,35,numberfire,53,-2.5,Virginia -2.5
+332920258,Virginia,22,Duke,35,teamrankings,53,-2.5,Virginia -2.5
+332922084,Buffalo,32,UMass,3,consensus,,-20.5,Buffalo -20.5
+332922084,Buffalo,32,UMass,3,numberfire,46.5,-20,Buffalo -20
+332922084,Buffalo,32,UMass,3,teamrankings,47,-20,Buffalo -20
+332922348,Louisiana Tech,13,North Texas,28,consensus,,7,North Texas -7
+332922348,Louisiana Tech,13,North Texas,28,numberfire,52.5,3.5,North Texas -3.5
+332922348,Louisiana Tech,13,North Texas,28,teamrankings,52,3.5,North Texas -3.5
+332920326,Texas State,24,Georgia State,17,consensus,,-19,Texas State -19
+332920326,Texas State,24,Georgia State,17,numberfire,49.5,-16.5,Texas State -16.5
+332920326,Texas State,24,Georgia State,17,teamrankings,50,-16.5,Texas State -16.5
+332920221,Pittsburgh,35,Old Dominion,24,consensus,,-17.5,Pittsburgh -17.5
+332920087,Notre Dame,14,USC,10,consensus,,-1.5,Notre Dame -1.5
+332920087,Notre Dame,14,USC,10,numberfire,49.5,-4.5,Notre Dame -4.5
+332920087,Notre Dame,14,USC,10,teamrankings,51,-2.5,Notre Dame -2.5
+332920166,New Mexico State,19,Rice,45,consensus,,19,Rice -19
+332920166,New Mexico State,19,Rice,45,numberfire,56.5,18,Rice -18
+332920166,New Mexico State,19,Rice,45,teamrankings,56.5,18,Rice -18
+332920068,Boise State,34,Nevada,17,consensus,,-21.5,Boise State -21.5
+332920068,Boise State,34,Nevada,17,numberfire,67.5,-24,Boise State -24
+332920068,Boise State,34,Nevada,17,teamrankings,68.5,-23.5,Boise State -23.5
+332920167,New Mexico,10,Utah State,45,consensus,,10,Utah State -10
+332920167,New Mexico,10,Utah State,45,numberfire,51,14,Utah State -14
+332920167,New Mexico,10,Utah State,45,teamrankings,51,14,Utah State -14
+332920012,Arizona,35,Utah,24,consensus,,-4.5,Arizona -4.5
+332920012,Arizona,35,Utah,24,numberfire,61.5,-3.5,Arizona -3.5
+332920012,Arizona,35,Utah,24,teamrankings,62,-3.5,Arizona -3.5
+332920025,California,17,Oregon State,49,consensus,,7.5,Oregon State -7.5
+332920025,California,17,Oregon State,49,numberfire,71.5,11.5,Oregon State -11.5
+332920025,California,17,Oregon State,49,teamrankings,71.5,11.5,Oregon State -11.5
+332952032,Arkansas State,7,Louisiana,23,consensus,,6.5,Louisiana -6.5
+332952032,Arkansas State,7,Louisiana,23,numberfire,69,1,Louisiana -1
+332952032,Arkansas State,7,Louisiana,23,teamrankings,69,,Louisiana -null
+332970344,Mississippi State,28,Kentucky,22,consensus,,-11,Mississippi State -11
+332970344,Mississippi State,28,Kentucky,22,numberfire,53.5,-12.5,Mississippi State -12.5
+332970344,Mississippi State,28,Kentucky,22,teamrankings,54,-12,Mississippi State -12
+332972393,Middle Tennessee,51,Marshall,49,consensus,,10.5,Marshall -10.5
+332972393,Middle Tennessee,51,Marshall,49,numberfire,56.5,10,Marshall -10
+332980252,BYU,37,Boise State,20,consensus,,-7,BYU -7
+332980252,BYU,37,Boise State,20,numberfire,61,-6.5,BYU -6.5
+332980252,BYU,37,Boise State,20,teamrankings,60.5,-6.5,BYU -6.5
+332990333,Alabama,45,Tennessee,10,consensus,,-26.5,Alabama -26.5
+332990333,Alabama,45,Tennessee,10,numberfire,49.5,-27.5,Alabama -27.5
+332990333,Alabama,45,Tennessee,10,teamrankings,50,-28,Alabama -28
+332990052,Florida State,49,NC State,17,consensus,,-27.5,Florida State -27.5
+332990052,Florida State,49,NC State,17,numberfire,58,-34.5,Florida State -34.5
+332990052,Florida State,49,NC State,17,teamrankings,59,-34,Florida State -34
+332992483,Oregon,42,UCLA,14,consensus,,-20,Oregon -20
+332992483,Oregon,42,UCLA,14,numberfire,74.5,-23.5,Oregon -23.5
+332992483,Oregon,42,UCLA,14,teamrankings,75,-23.5,Oregon -23.5
+332990194,Ohio State,63,Penn State,14,consensus,,-14,Ohio State -14
+332990194,Ohio State,63,Penn State,14,numberfire,56,-16,Ohio State -16
+332990194,Ohio State,63,Penn State,14,teamrankings,57,-15,Ohio State -15
+332990142,Missouri,24,South Carolina,27,consensus,,-2.5,Missouri -2.5
+332990142,Missouri,24,South Carolina,27,numberfire,54,-3,Missouri -3
+332990142,Missouri,24,South Carolina,27,teamrankings,54,-3,Missouri -3
+332990204,Oregon State,12,Stanford,20,consensus,,6,Stanford -6
+332990204,Oregon State,12,Stanford,20,numberfire,56,3.5,Stanford -3.5
+332990204,Oregon State,12,Stanford,20,teamrankings,56.5,3.5,Stanford -3.5
+332992390,Miami,24,Wake Forest,21,consensus,,-22,Miami -22
+332992390,Miami,24,Wake Forest,21,numberfire,54.5,-24,Miami -24
+332992390,Miami,24,Wake Forest,21,teamrankings,55.5,-26,Miami -26
+332992305,Kansas,14,Baylor,59,consensus,,35.5,Baylor -35.5
+332992305,Kansas,14,Baylor,59,numberfire,65.5,35,Baylor -35
+332992305,Kansas,14,Baylor,59,teamrankings,66,34.5,Baylor -34.5
+332990120,Maryland,27,Clemson,40,consensus,,13,Clemson -13
+332990120,Maryland,27,Clemson,40,numberfire,59,16.5,Clemson -16.5
+332990120,Maryland,27,Clemson,40,teamrankings,58.5,16.5,Clemson -16.5
+332990201,Oklahoma,38,Texas Tech,30,consensus,,-7,Oklahoma -7
+332990201,Oklahoma,38,Texas Tech,30,numberfire,59,-7,Oklahoma -7
+332990201,Oklahoma,38,Texas Tech,30,teamrankings,59,-7,Oklahoma -7
+332990002,Auburn,45,Florida Atlantic,10,consensus,,-26.5,Auburn -26.5
+332990002,Auburn,45,Florida Atlantic,10,numberfire,52.5,-23,Auburn -23
+332990002,Auburn,45,Florida Atlantic,10,teamrankings,51.5,-23,Auburn -23
+332990099,LSU,48,Furman,16,consensus,,-47.5,LSU -47.5
+332990259,Virginia Tech,10,Duke,13,consensus,,-13.5,Virginia Tech -13.5
+332990259,Virginia Tech,10,Duke,13,numberfire,47.5,-12.5,Virginia Tech -12.5
+332990259,Virginia Tech,10,Duke,13,teamrankings,47,-12,Virginia Tech -12
+332990245,Texas A&M,56,Vanderbilt,24,consensus,,-18,Texas A&M -18
+332990245,Texas A&M,56,Vanderbilt,24,numberfire,69.5,-17,Texas A&M -17
+332990245,Texas A&M,56,Vanderbilt,24,teamrankings,70,-17.5,Texas A&M -17.5
+332990021,San Diego State,28,Fresno State,35,consensus,,9.5,Fresno State -9.5
+332990021,San Diego State,28,Fresno State,35,numberfire,65,6.5,Fresno State -6.5
+332990021,San Diego State,28,Fresno State,35,teamrankings,65.5,6.5,Fresno State -6.5
+332992459,Northern Illinois,59,Eastern Michigan,20,consensus,,-30.5,Northern Illinois -30.5
+332992459,Northern Illinois,59,Eastern Michigan,20,numberfire,67.5,-31.5,Northern Illinois -31.5
+332992459,Northern Illinois,59,Eastern Michigan,20,teamrankings,67.5,-33,Northern Illinois -33
+332990066,Iowa State,27,Oklahoma State,58,consensus,,14,Oklahoma State -14
+332990066,Iowa State,27,Oklahoma State,58,numberfire,56,12.5,Oklahoma State -12.5
+332990066,Iowa State,27,Oklahoma State,58,teamrankings,56.5,13.5,Oklahoma State -13.5
+332990058,South Florida,3,Louisville,34,consensus,,21,Louisville -21
+332990058,South Florida,3,Louisville,34,numberfire,46.5,21,Louisville -21
+332990058,South Florida,3,Louisville,34,teamrankings,45,20,Louisville -20
+332992116,UCF,62,Connecticut,17,consensus,,-23,UCF -23
+332992116,UCF,62,Connecticut,17,numberfire,52,-24,UCF -24
+332992116,UCF,62,Connecticut,17,teamrankings,52.5,-24,UCF -24
+332990135,Minnesota,34,Nebraska,23,consensus,,8.5,Nebraska -8.5
+332990135,Minnesota,34,Nebraska,23,numberfire,52.5,10,Nebraska -10
+332990135,Minnesota,34,Nebraska,23,teamrankings,52.5,10.5,Nebraska -10.5
+332990164,Rutgers,14,Houston,49,consensus,,-9.5,Rutgers -9.5
+332990164,Rutgers,14,Houston,49,numberfire,59.5,-6.5,Rutgers -6.5
+332990164,Rutgers,14,Houston,49,teamrankings,59.5,-5.5,Rutgers -5.5
+332992006,Akron,24,Ball State,42,consensus,,11.5,Ball State -11.5
+332992006,Akron,24,Ball State,42,numberfire,53.5,10,Ball State -10
+332992006,Akron,24,Ball State,42,teamrankings,56,10,Ball State -10
+332992294,Iowa,17,Northwestern,10,consensus,,-3,Iowa -3
+332992294,Iowa,17,Northwestern,10,numberfire,52.5,-3.5,Iowa -3.5
+332992294,Iowa,17,Northwestern,10,teamrankings,53.5,-3.5,Iowa -3.5
+332990258,Virginia,25,Georgia Tech,35,consensus,,8.5,Georgia Tech -8.5
+332990258,Virginia,25,Georgia Tech,35,numberfire,48.5,10,Georgia Tech -10
+332990258,Virginia,25,Georgia Tech,35,teamrankings,49.5,10,Georgia Tech -10
+332992426,Navy,24,Pittsburgh,21,consensus,,6.5,Pittsburgh -6.5
+332992426,Navy,24,Pittsburgh,21,numberfire,51,4,Pittsburgh -4
+332992426,Navy,24,Pittsburgh,21,teamrankings,51,4,Pittsburgh -4
+332990195,Ohio,41,Miami (OH),16,consensus,,-24,Ohio -24
+332990195,Ohio,41,Miami (OH),16,numberfire,50,-26,Ohio -26
+332990195,Ohio,41,Miami (OH),16,teamrankings,50,-26,Ohio -26
+332990189,Bowling Green,25,Toledo,28,consensus,,-3,Bowling Green -3
+332990189,Bowling Green,25,Toledo,28,numberfire,53.5,-4,Bowling Green -4
+332990189,Bowling Green,25,Toledo,28,teamrankings,53.5,-4,Bowling Green -4
+332990113,UMass,30,Western Michigan,31,consensus,,-2,UMass -2
+332990113,UMass,30,Western Michigan,31,numberfire,46,-4,UMass -4
+332990113,UMass,30,Western Michigan,31,teamrankings,46.5,-4,UMass -4
+332992567,SMU,59,Temple,49,consensus,,-10.5,SMU -10.5
+332992567,SMU,59,Temple,49,numberfire,60,-14,SMU -14
+332992567,SMU,59,Temple,49,teamrankings,59,-14,SMU -14
+332992655,Tulane,14,Tulsa,7,consensus,,3.5,Tulsa -3.5
+332992655,Tulane,14,Tulsa,7,numberfire,49.5,3,Tulsa -3
+332992655,Tulane,14,Tulsa,7,teamrankings,49.5,3,Tulsa -3
+332992309,Kent State,21,Buffalo,41,consensus,,2,Buffalo -2
+332992309,Kent State,21,Buffalo,41,numberfire,49,2.5,Buffalo -2.5
+332992309,Kent State,21,Buffalo,41,teamrankings,49,3,Buffalo -3
+332990153,North Carolina,34,Boston College,10,consensus,,-10,North Carolina -10
+332990153,North Carolina,34,Boston College,10,numberfire,59,-5.5,North Carolina -5.5
+332990153,North Carolina,34,Boston College,10,teamrankings,58,-5.5,North Carolina -5.5
+332990242,Rice,45,UTEP,7,consensus,,-18,Rice -18
+332990242,Rice,45,UTEP,7,numberfire,58.5,-18.5,Rice -18.5
+332990242,Rice,45,UTEP,7,teamrankings,59.5,-19.5,Rice -19.5
+332990356,Illinois,3,Michigan State,42,consensus,,13,Michigan State -13
+332990356,Illinois,3,Michigan State,42,numberfire,48.5,8,Michigan State -8
+332990356,Illinois,3,Michigan State,42,teamrankings,48.5,7.5,Michigan State -7.5
+332992306,Kansas State,35,West Virginia,12,consensus,,-7,Kansas State -7
+332992306,Kansas State,35,West Virginia,12,numberfire,52,-13,Kansas State -13
+332992306,Kansas State,35,West Virginia,12,teamrankings,52.5,-13.5,Kansas State -13.5
+332990030,USC,19,Utah,3,consensus,,-6.5,USC -6.5
+332990030,USC,19,Utah,3,numberfire,51,-5,USC -5
+332990030,USC,19,Utah,3,teamrankings,51,-5,USC -5
+332990098,Western Kentucky,26,Troy,32,consensus,,-7.5,Western Kentucky -7.5
+332990098,Western Kentucky,26,Troy,32,numberfire,62.5,-10.5,Western Kentucky -10.5
+332990098,Western Kentucky,26,Troy,32,teamrankings,63,-10.5,Western Kentucky -10.5
+332992005,Air Force,10,Notre Dame,45,consensus,,19.5,Notre Dame -19.5
+332992005,Air Force,10,Notre Dame,45,numberfire,55.5,19.5,Notre Dame -19.5
+332992005,Air Force,10,Notre Dame,45,teamrankings,55.5,19.5,Notre Dame -19.5
+332992636,UT San Antonio,52,UAB,31,consensus,,-3.5,UT San Antonio -3.5
+332992636,UT San Antonio,52,UAB,31,teamrankings,60.5,-7.5,UT San Antonio -7.5
+332992229,Florida International,7,Louisiana Tech,23,consensus,,6,Louisiana Tech -6
+332992229,Florida International,7,Louisiana Tech,23,numberfire,49.5,4.5,Louisiana Tech -4.5
+332992229,Florida International,7,Louisiana Tech,23,teamrankings,49,4.5,Louisiana Tech -4.5
+332992440,Nevada,22,UNLV,27,consensus,,-3.5,Nevada -3.5
+332992440,Nevada,22,UNLV,27,numberfire,68,-6.5,Nevada -6.5
+332992440,Nevada,22,UNLV,27,teamrankings,68.5,-6.5,Nevada -6.5
+332992433,Louisiana Monroe,38,Georgia State,10,consensus,,-11.5,Louisiana Monroe -11.5
+332992433,Louisiana Monroe,38,Georgia State,10,numberfire,52,-15.5,Louisiana Monroe -15.5
+332992433,Louisiana Monroe,38,Georgia State,10,teamrankings,52,-15.5,Louisiana Monroe -15.5
+332990326,Texas State,33,South Alabama,31,consensus,,1,South Alabama -1
+332990326,Texas State,33,South Alabama,31,numberfire,49.5,2.5,South Alabama -2.5
+332990326,Texas State,33,South Alabama,31,teamrankings,49,2.5,South Alabama -2.5
+332992572,Southern Mississippi,14,North Texas,55,consensus,,9.5,North Texas -9.5
+332992572,Southern Mississippi,14,North Texas,55,numberfire,50,12,North Texas -12
+332992572,Southern Mississippi,14,North Texas,55,teamrankings,49.5,12,North Texas -12
+332990023,San José State,51,Wyoming,44,consensus,,-5.5,San José State -5.5
+332990023,San José State,51,Wyoming,44,numberfire,71,-10.5,San José State -10.5
+332990023,San José State,51,Wyoming,44,teamrankings,72.5,-10,San José State -10
+332990145,Ole Miss,59,Idaho,14,consensus,,-40.5,Ole Miss -40.5
+332990145,Ole Miss,59,Idaho,14,numberfire,58.5,-41.5,Ole Miss -41.5
+332990145,Ole Miss,59,Idaho,14,teamrankings,58,-41,Ole Miss -41
+332992628,TCU,7,Texas,30,consensus,,-3.5,TCU -3.5
+332992628,TCU,7,Texas,30,numberfire,49,-3,TCU -3
+332992628,TCU,7,Texas,30,teamrankings,49,-3,TCU -3
+332990038,Colorado,20,Arizona,44,consensus,,16.5,Arizona -16.5
+332990038,Colorado,20,Arizona,44,numberfire,59,12,Arizona -12
+332990038,Colorado,20,Arizona,44,teamrankings,59.5,12,Arizona -12
+332990166,New Mexico State,34,Abilene Christian,29,consensus,,1.5,Abilene Christian -1.5
+332990264,Washington,41,California,17,consensus,,-23,Washington -23
+332990264,Washington,41,California,17,numberfire,66.5,-28,Washington -28
+332990264,Washington,41,California,17,teamrankings,66,-28,Washington -28
+332990062,Hawai'i,28,Colorado State,35,consensus,,5,Colorado State -5
+332990062,Hawai'i,28,Colorado State,35,numberfire,57.5,1.5,Colorado State -1.5
+333030235,Memphis,21,Cincinnati,34,consensus,,3,Cincinnati -3
+333030235,Memphis,21,Cincinnati,34,numberfire,45,2,Cincinnati -2
+333030235,Memphis,21,Cincinnati,34,teamrankings,44.5,2,Cincinnati -2
+333040249,North Texas,28,Rice,16,consensus,,-2.5,North Texas -2.5
+333040249,North Texas,28,Rice,16,numberfire,53,-2.5,North Texas -2.5
+333040249,North Texas,28,Rice,16,teamrankings,53,-2.5,North Texas -2.5
+333042653,Troy,37,Louisiana Monroe,49,consensus,,-3,Troy -3
+333042653,Troy,37,Louisiana Monroe,49,numberfire,60.5,-3,Troy -3
+333042653,Troy,37,Louisiana Monroe,49,teamrankings,61,-3.5,Troy -3.5
+333040265,Washington State,21,Arizona State,55,consensus,,13.5,Arizona State -13.5
+333040265,Washington State,21,Arizona State,55,numberfire,69,11,Arizona State -11
+333040265,Washington State,21,Arizona State,55,teamrankings,69.5,11,Arizona State -11
+333050204,Oregon State,14,USC,31,consensus,,-2,Oregon State -2
+333050204,Oregon State,14,USC,31,numberfire,51.5,-4.5,Oregon State -4.5
+333050204,Oregon State,14,USC,31,teamrankings,51.5,-5.5,Oregon State -5.5
+333060052,Florida State,41,Miami,14,consensus,,-21,Florida State -21
+333060052,Florida State,41,Miami,14,numberfire,63,-21.5,Florida State -21.5
+333060052,Florida State,41,Miami,14,teamrankings,64,-21.5,Florida State -21.5
+333062509,Purdue,0,Ohio State,56,consensus,,31,Ohio State -31
+333062509,Purdue,0,Ohio State,56,numberfire,57.5,31.5,Ohio State -31.5
+333062509,Purdue,0,Ohio State,56,teamrankings,58.5,31.5,Ohio State -31.5
+333060258,Virginia,10,Clemson,59,consensus,,20,Clemson -20
+333060258,Virginia,10,Clemson,59,numberfire,55.5,17.5,Clemson -17.5
+333060258,Virginia,10,Clemson,59,teamrankings,56,17.5,Clemson -17.5
+333060142,Missouri,31,Tennessee,3,consensus,,-13,Missouri -13
+333060142,Missouri,31,Tennessee,3,numberfire,55,-11,Missouri -11
+333060142,Missouri,31,Tennessee,3,teamrankings,55,-11,Missouri -11
+333060008,Arkansas,17,Auburn,35,consensus,,8,Auburn -8
+333060008,Arkansas,17,Auburn,35,numberfire,54.5,8.5,Auburn -8.5
+333060008,Arkansas,17,Auburn,35,teamrankings,54.5,9.5,Auburn -9.5
+333060245,Texas A&M,57,UTEP,7,consensus,,-45.5,Texas A&M -45.5
+333060245,Texas A&M,57,UTEP,7,numberfire,77.5,-47.5,Texas A&M -47.5
+333060245,Texas A&M,57,UTEP,7,teamrankings,78.5,-47.5,Texas A&M -47.5
+333062579,South Carolina,34,Mississippi State,16,consensus,,-11.5,South Carolina -11.5
+333062579,South Carolina,34,Mississippi State,16,numberfire,52,-12.5,South Carolina -12.5
+333062579,South Carolina,34,Mississippi State,16,teamrankings,53,-13.5,South Carolina -13.5
+333062641,Texas Tech,34,Oklahoma State,52,consensus,,2.5,Oklahoma State -2.5
+333062641,Texas Tech,34,Oklahoma State,52,numberfire,69.5,2,Oklahoma State -2
+333062641,Texas Tech,34,Oklahoma State,52,teamrankings,69.5,2,Oklahoma State -2
+333060278,Fresno State,41,Nevada,23,consensus,,-23,Fresno State -23
+333060278,Fresno State,41,Nevada,23,numberfire,74,-21.5,Fresno State -21.5
+333060278,Fresno State,41,Nevada,23,teamrankings,74,-21.5,Fresno State -21.5
+333060113,UMass,19,Northern Illinois,63,consensus,,24,Northern Illinois -24
+333060113,UMass,19,Northern Illinois,63,numberfire,60,26.5,Northern Illinois -26.5
+333060113,UMass,19,Northern Illinois,63,teamrankings,60,28,Northern Illinois -28
+333060026,UCLA,45,Colorado,23,consensus,,-24,UCLA -24
+333060026,UCLA,45,Colorado,23,numberfire,59,-30.5,UCLA -30.5
+333060026,UCLA,45,Colorado,23,teamrankings,60,-29.5,UCLA -29.5
+333060127,Michigan State,29,Michigan,6,consensus,,-3.5,Michigan State -3.5
+333060127,Michigan State,29,Michigan,6,numberfire,44.5,-4,Michigan State -4
+333060127,Michigan State,29,Michigan,6,teamrankings,44.5,-4,Michigan State -4
+333062294,Iowa,9,Wisconsin,28,consensus,,7,Wisconsin -7
+333062294,Iowa,9,Wisconsin,28,numberfire,48,9.5,Wisconsin -9.5
+333062294,Iowa,9,Wisconsin,28,teamrankings,49,9,Wisconsin -9
+333060087,Notre Dame,38,Navy,34,consensus,,-17,Notre Dame -17
+333060087,Notre Dame,38,Navy,34,numberfire,48.5,-16.5,Notre Dame -16.5
+333060087,Notre Dame,38,Navy,34,teamrankings,48.5,-16.5,Notre Dame -16.5
+333060103,Boston College,34,Virginia Tech,27,consensus,,6,Virginia Tech -6
+333060103,Boston College,34,Virginia Tech,27,numberfire,40,4,Virginia Tech -4
+333060103,Boston College,34,Virginia Tech,27,teamrankings,40,4,Virginia Tech -4
+333060164,Rutgers,23,Temple,20,consensus,,-14,Rutgers -14
+333060164,Rutgers,23,Temple,20,numberfire,57.5,-12,Rutgers -12
+333060164,Rutgers,23,Temple,20,teamrankings,57.5,-11.5,Rutgers -11.5
+333060213,Penn State,24,Illinois,17,consensus,,-10,Penn State -10
+333060213,Penn State,24,Illinois,17,numberfire,54.5,-11,Penn State -11
+333060213,Penn State,24,Illinois,17,teamrankings,57,-13,Penn State -13
+333060276,Marshall,61,Southern Mississippi,13,consensus,,-28.5,Marshall -28.5
+333060276,Marshall,61,Southern Mississippi,13,numberfire,56.5,-32,Marshall -32
+333060276,Marshall,61,Southern Mississippi,13,teamrankings,59,-31.5,Marshall -31.5
+333062005,Air Force,42,Army,28,consensus,,-1.5,Air Force -1.5
+333062005,Air Force,42,Army,28,numberfire,53.5,-1,Air Force -1
+333062005,Air Force,42,Army,28,teamrankings,54.5,1,Army -1
+333060183,Syracuse,13,Wake Forest,0,consensus,,-3.5,Syracuse -3.5
+333060183,Syracuse,13,Wake Forest,0,numberfire,51.5,-5,Syracuse -5
+333060183,Syracuse,13,Wake Forest,0,teamrankings,52,-3.5,Syracuse -3.5
+333060152,NC State,19,North Carolina,27,consensus,,3,North Carolina -3
+333060152,NC State,19,North Carolina,27,numberfire,58,5,North Carolina -5
+333060152,NC State,19,North Carolina,27,teamrankings,57,5,North Carolina -5
+333060005,UAB,21,Middle Tennessee,24,consensus,,6,Middle Tennessee -6
+333060005,UAB,21,Middle Tennessee,24,numberfire,63.5,3.5,Middle Tennessee -3.5
+333060005,UAB,21,Middle Tennessee,24,teamrankings,64.5,3.5,Middle Tennessee -3.5
+333062247,Georgia State,28,Western Kentucky,44,consensus,,19,Western Kentucky -19
+333062247,Georgia State,28,Western Kentucky,44,numberfire,56,18.5,Western Kentucky -18.5
+333062247,Georgia State,28,Western Kentucky,44,teamrankings,56,18.5,Western Kentucky -18.5
+333062006,Akron,16,Kent State,7,consensus,,2.5,Kent State -2.5
+333062006,Akron,16,Kent State,7,numberfire,52.5,-2,Akron -2
+333062006,Akron,16,Kent State,7,teamrankings,52.5,-2,Akron -2
+333062306,Kansas State,41,Iowa State,7,consensus,,-14.5,Kansas State -14.5
+333062306,Kansas State,41,Iowa State,7,numberfire,52.5,-17,Kansas State -17
+333062306,Kansas State,41,Iowa State,7,teamrankings,53,-17,Kansas State -17
+333062628,TCU,27,West Virginia,30,consensus,,-14,TCU -14
+333062628,TCU,27,West Virginia,30,numberfire,46.5,-12,TCU -12
+333062628,TCU,27,West Virginia,30,teamrankings,45.5,-11,TCU -11
+333060025,California,28,Arizona,33,consensus,,14.5,Arizona -14.5
+333060025,California,28,Arizona,33,numberfire,67.5,14.5,Arizona -14.5
+333060025,California,28,Arizona,33,teamrankings,67.5,14,Arizona -14
+333060057,Florida,20,Georgia,23,consensus,,2.5,Georgia -2.5
+333060057,Florida,20,Georgia,23,numberfire,46.5,3,Georgia -3
+333060057,Florida,20,Georgia,23,teamrankings,47,3.5,Georgia -3.5
+333060158,Nebraska,27,Northwestern,24,consensus,,-7,Nebraska -7
+333060158,Nebraska,27,Northwestern,24,numberfire,59,-4,Nebraska -4
+333060158,Nebraska,27,Northwestern,24,teamrankings,58.5,-4,Nebraska -4
+333060084,Indiana,39,Minnesota,42,consensus,,-7,Indiana -7
+333060084,Indiana,39,Minnesota,42,numberfire,67,-7.5,Indiana -7.5
+333060084,Indiana,39,Minnesota,42,teamrankings,67,-7.5,Indiana -7.5
+333060202,Tulsa,15,UT San Antonio,34,consensus,,-3.5,Tulsa -3.5
+333060202,Tulsa,15,UT San Antonio,34,teamrankings,54.5,-3.5,Tulsa -3.5
+333060251,Texas,35,Kansas,13,consensus,,-27,Texas -27
+333060251,Texas,35,Kansas,13,numberfire,52,-27.5,Texas -27.5
+333060251,Texas,35,Kansas,13,teamrankings,52,-27,Texas -27
+333062439,UNLV,24,San José State,34,consensus,,2.5,San José State -2.5
+333062439,UNLV,24,San José State,34,numberfire,67,5,San José State -5
+333062439,UNLV,24,San José State,34,teamrankings,66.5,5,San José State -5
+333060328,Utah State,47,Hawai'i,10,consensus,,-21,Utah State -21
+333060328,Utah State,47,Hawai'i,10,numberfire,52,-24,Utah State -24
+333060328,Utah State,47,Hawai'i,10,teamrankings,52,-24,Utah State -24
+333060070,Idaho,21,Texas State,37,consensus,,13,Texas State -13
+333060070,Idaho,21,Texas State,37,numberfire,49,10.5,Texas State -10.5
+333060070,Idaho,21,Texas State,37,teamrankings,49,10,Texas State -10
+333060309,Louisiana,49,New Mexico State,35,consensus,,-27,Louisiana -27
+333060309,Louisiana,49,New Mexico State,35,numberfire,67.5,-32.5,Louisiana -32.5
+333060309,Louisiana,49,New Mexico State,35,teamrankings,67.5,-32.5,Louisiana -32.5
+333062226,Florida Atlantic,34,Tulane,17,consensus,,-3,Florida Atlantic -3
+333062226,Florida Atlantic,34,Tulane,17,numberfire,47.5,-3,Florida Atlantic -3
+333062226,Florida Atlantic,34,Tulane,17,teamrankings,47.5,-3,Florida Atlantic -3
+333062229,Florida International,13,East Carolina,34,consensus,,20,East Carolina -20
+333062229,Florida International,13,East Carolina,34,numberfire,50.5,27,East Carolina -27
+333062229,Florida International,13,East Carolina,34,teamrankings,50.5,27,East Carolina -27
+333060059,Georgia Tech,21,Pittsburgh,10,consensus,,-8,Georgia Tech -8
+333060059,Georgia Tech,21,Pittsburgh,10,numberfire,53,-11.5,Georgia Tech -11.5
+333060059,Georgia Tech,21,Pittsburgh,10,teamrankings,52.5,-11.5,Georgia Tech -11.5
+333062649,Toledo,55,Eastern Michigan,16,consensus,,-28,Toledo -28
+333062649,Toledo,55,Eastern Michigan,16,numberfire,66.5,-30.5,Toledo -30.5
+333062649,Toledo,55,Eastern Michigan,16,teamrankings,66.5,-30.5,Toledo -30.5
+333060096,Kentucky,48,Alabama State,14,consensus,,-27.5,Kentucky -27.5
+333060006,South Alabama,16,Arkansas State,17,consensus,,-2.5,South Alabama -2.5
+333060006,South Alabama,16,Arkansas State,17,numberfire,63.5,-3,South Alabama -3
+333060006,South Alabama,16,Arkansas State,17,teamrankings,63.5,-3,South Alabama -3
+333060036,Colorado State,30,Boise State,42,consensus,,10,Boise State -10
+333060036,Colorado State,30,Boise State,42,numberfire,59.5,7,Boise State -7
+333060036,Colorado State,30,Boise State,42,teamrankings,59.5,7,Boise State -7
+333060021,San Diego State,35,New Mexico,30,consensus,,-17,San Diego State -17
+333060021,San Diego State,35,New Mexico,30,numberfire,58,-14,San Diego State -14
+333060021,San Diego State,35,New Mexico,30,teamrankings,57,-14,San Diego State -14
+333090193,Miami (OH),3,Bowling Green,45,consensus,,24.5,Bowling Green -24.5
+333090193,Miami (OH),3,Bowling Green,45,numberfire,47.5,24,Bowling Green -24
+333090193,Miami (OH),3,Bowling Green,45,teamrankings,47.5,23.5,Bowling Green -23.5
+333092084,Buffalo,30,Ohio,3,consensus,,-2.5,Buffalo -2.5
+333092084,Buffalo,30,Ohio,3,numberfire,54,-4,Buffalo -4
+333092084,Buffalo,30,Ohio,3,teamrankings,54,-4,Buffalo -4
+333102050,Ball State,44,Central Michigan,24,consensus,,-21.5,Ball State -21.5
+333102050,Ball State,44,Central Michigan,24,numberfire,58,-21,Ball State -21
+333102050,Ball State,44,Central Michigan,24,teamrankings,58.5,-21,Ball State -21
+333110024,Stanford,26,Oregon,20,consensus,,9.5,Oregon -9.5
+333110024,Stanford,26,Oregon,20,numberfire,60,10,Oregon -10
+333110024,Stanford,26,Oregon,20,teamrankings,60.5,10,Oregon -10
+333110239,Baylor,41,Oklahoma,12,consensus,,-7,Baylor -7
+333110239,Baylor,41,Oklahoma,12,numberfire,74,-16.5,Baylor -16.5
+333110239,Baylor,41,Oklahoma,12,teamrankings,74.5,-17,Baylor -17
+333110309,Louisiana,41,Troy,36,consensus,,-13,Louisiana -13
+333110309,Louisiana,41,Troy,36,numberfire,67.5,-14,Louisiana -14
+333110309,Louisiana,41,Troy,36,teamrankings,68,-13.5,Louisiana -13.5
+333120041,Connecticut,10,Louisville,31,consensus,,26.5,Louisville -26.5
+333120041,Connecticut,10,Louisville,31,numberfire,50,27.5,Louisville -27.5
+333120041,Connecticut,10,Louisville,31,teamrankings,50.5,27.5,Louisville -27.5
+333120167,New Mexico,45,Air Force,37,consensus,,-1.5,New Mexico -1.5
+333120167,New Mexico,45,Air Force,37,numberfire,62,-3,New Mexico -3
+333120167,New Mexico,45,Air Force,37,teamrankings,61,-3,New Mexico -3
+333130333,Alabama,38,LSU,17,consensus,,-9.5,Alabama -9.5
+333130333,Alabama,38,LSU,17,numberfire,55,-14,Alabama -14
+333130333,Alabama,38,LSU,17,teamrankings,54,-14,Alabama -14
+333130154,Wake Forest,3,Florida State,59,consensus,,34.5,Florida State -34.5
+333130154,Wake Forest,3,Florida State,59,numberfire,55.5,34,Florida State -34
+333130154,Wake Forest,3,Florida State,59,teamrankings,56,34,Florida State -34
+333130096,Kentucky,17,Missouri,48,consensus,,14,Missouri -14
+333130096,Kentucky,17,Missouri,48,numberfire,57,14.5,Missouri -14.5
+333130096,Kentucky,17,Missouri,48,teamrankings,55,14,Missouri -14
+333132633,Tennessee,23,Auburn,55,consensus,,7.5,Auburn -7.5
+333132633,Tennessee,23,Auburn,55,numberfire,56,7.5,Auburn -7.5
+333132633,Tennessee,23,Auburn,55,teamrankings,56.5,7.5,Auburn -7.5
+333132390,Miami,24,Virginia Tech,42,consensus,,-6.5,Miami -6.5
+333132390,Miami,24,Virginia Tech,42,numberfire,43.5,-5,Miami -5
+333132390,Miami,24,Virginia Tech,42,teamrankings,43.5,-4.5,Miami -4.5
+333130197,Oklahoma State,42,Kansas,6,consensus,,-32,Oklahoma State -32
+333130197,Oklahoma State,42,Kansas,6,numberfire,56,-31,Oklahoma State -31
+333130197,Oklahoma State,42,Kansas,6,teamrankings,56,-31.5,Oklahoma State -31.5
+333130245,Texas A&M,51,Mississippi State,41,consensus,,-19,Texas A&M -19
+333130245,Texas A&M,51,Mississippi State,41,numberfire,68,-19,Texas A&M -19
+333130245,Texas A&M,51,Mississippi State,41,teamrankings,71.5,-19.5,Texas A&M -19.5
+333132751,Wyoming,10,Fresno State,48,consensus,,10.5,Fresno State -10.5
+333132751,Wyoming,10,Fresno State,48,numberfire,81,8,Fresno State -8
+333132751,Wyoming,10,Fresno State,48,teamrankings,81,7.5,Fresno State -7.5
+333130012,Arizona,26,UCLA,31,consensus,,2.5,UCLA -2.5
+333130012,Arizona,26,UCLA,31,numberfire,60,-1.5,Arizona -1.5
+333130012,Arizona,26,UCLA,31,teamrankings,60.5,-1.5,Arizona -1.5
+333132116,UCF,19,Houston,14,consensus,,-10,UCF -10
+333132116,UCF,19,Houston,14,numberfire,67.5,-13.5,UCF -13.5
+333132116,UCF,19,Houston,14,teamrankings,67,-13.5,UCF -13.5
+333130254,Utah,19,Arizona State,20,consensus,,7,Arizona State -7
+333130254,Utah,19,Arizona State,20,numberfire,63,7.5,Arizona State -7.5
+333130254,Utah,19,Arizona State,20,teamrankings,63,7,Arizona State -7
+333130221,Pittsburgh,28,Notre Dame,21,consensus,,3.5,Notre Dame -3.5
+333130221,Pittsburgh,28,Notre Dame,21,numberfire,51,4,Notre Dame -4
+333130221,Pittsburgh,28,Notre Dame,21,teamrankings,51.5,4.5,Notre Dame -4.5
+333130275,Wisconsin,27,BYU,17,consensus,,-9,Wisconsin -9
+333130275,Wisconsin,27,BYU,17,numberfire,55,-9.5,Wisconsin -9.5
+333130275,Wisconsin,27,BYU,17,teamrankings,55,-9,Wisconsin -9
+333132641,Texas Tech,26,Kansas State,49,consensus,,-4,Texas Tech -4
+333132641,Texas Tech,26,Kansas State,49,numberfire,61,-2.5,Texas Tech -2.5
+333132641,Texas Tech,26,Kansas State,49,teamrankings,63,-2.5,Texas Tech -2.5
+333130057,Florida,17,Vanderbilt,34,consensus,,-10,Florida -10
+333130057,Florida,17,Vanderbilt,34,numberfire,41.5,-10.5,Florida -10.5
+333130057,Florida,17,Vanderbilt,34,teamrankings,41,-12,Florida -12
+333130066,Iowa State,17,TCU,21,consensus,,8,TCU -8
+333130066,Iowa State,17,TCU,21,numberfire,45.5,7,TCU -7
+333130066,Iowa State,17,TCU,21,teamrankings,43.5,7,TCU -7
+333130135,Minnesota,24,Penn State,10,numberfire,47.5,-2.5,Minnesota -2.5
+333130135,Minnesota,24,Penn State,10,teamrankings,47.5,-2.5,Minnesota -2.5
+333130276,Marshall,56,UAB,14,consensus,,-23,Marshall -23
+333130276,Marshall,56,UAB,14,numberfire,68,-24.5,Marshall -24.5
+333130276,Marshall,56,UAB,14,teamrankings,68,-24,Marshall -24
+333132132,Cincinnati,28,SMU,25,consensus,,-10.5,Cincinnati -10.5
+333132132,Cincinnati,28,SMU,25,numberfire,66.5,-7.5,Cincinnati -7.5
+333132132,Cincinnati,28,SMU,25,teamrankings,66.5,-7,Cincinnati -7
+333130349,Army,17,Western Kentucky,21,consensus,,6,Western Kentucky -6
+333130349,Army,17,Western Kentucky,21,numberfire,56.5,6,Western Kentucky -6
+333130349,Army,17,Western Kentucky,21,teamrankings,57,6,Western Kentucky -6
+333132509,Purdue,14,Iowa,38,consensus,,14,Iowa -14
+333132509,Purdue,14,Iowa,38,numberfire,44.5,16,Iowa -16
+333132509,Purdue,14,Iowa,38,teamrankings,44,16.5,Iowa -16.5
+333130145,Ole Miss,34,Arkansas,24,consensus,,-17,Ole Miss -17
+333130145,Ole Miss,34,Arkansas,24,numberfire,54.5,-17,Ole Miss -17
+333130145,Ole Miss,34,Arkansas,24,teamrankings,54.5,-17,Ole Miss -17
+333130153,North Carolina,45,Virginia,14,consensus,,-14,North Carolina -14
+333130153,North Carolina,45,Virginia,14,numberfire,52.5,-12,North Carolina -12
+333130153,North Carolina,45,Virginia,14,teamrankings,52.5,-11.5,North Carolina -11.5
+333130061,Georgia,45,Appalachian State,6,consensus,,-31.5,Georgia -31.5
+333132199,Eastern Michigan,35,Western Michigan,32,consensus,,3,Western Michigan -3
+333132199,Eastern Michigan,35,Western Michigan,32,numberfire,59.5,2.5,Western Michigan -2.5
+333132199,Eastern Michigan,35,Western Michigan,32,teamrankings,59.5,3,Western Michigan -3
+333132636,UT San Antonio,10,Tulane,7,consensus,,-7.5,UT San Antonio -7.5
+333132636,UT San Antonio,10,Tulane,7,numberfire,51,-8.5,UT San Antonio -8.5
+333132636,UT San Antonio,10,Tulane,7,teamrankings,51,-8.5,UT San Antonio -8.5
+333130025,California,28,USC,62,consensus,,17,USC -17
+333130025,California,28,USC,62,numberfire,57,17.5,USC -17.5
+333130025,California,28,USC,62,teamrankings,57,19.5,USC -19.5
+333130036,Colorado State,38,Nevada,17,consensus,,-8,Colorado State -8
+333130036,Colorado State,38,Nevada,17,numberfire,66,-9,Colorado State -9
+333130036,Colorado State,38,Nevada,17,teamrankings,66.5,-9,Colorado State -9
+333130120,Maryland,3,Syracuse,20,consensus,,-3.5,Maryland -3.5
+333130120,Maryland,3,Syracuse,20,numberfire,55,-5,Maryland -5
+333130120,Maryland,3,Syracuse,20,teamrankings,53.5,-6,Maryland -6
+333130130,Michigan,13,Nebraska,17,consensus,,-6.5,Michigan -6.5
+333130130,Michigan,13,Nebraska,17,numberfire,57,-6.5,Michigan -6.5
+333130130,Michigan,13,Nebraska,17,teamrankings,55.5,-5.5,Michigan -5.5
+333130249,North Texas,41,UTEP,7,consensus,,-21,North Texas -21
+333130249,North Texas,41,UTEP,7,numberfire,55,-27,North Texas -27
+333130249,North Texas,41,UTEP,7,teamrankings,54,-26.5,North Texas -26.5
+333130084,Indiana,52,Illinois,35,consensus,,-7.5,Indiana -7.5
+333130084,Indiana,52,Illinois,35,numberfire,79,-9,Indiana -9
+333130084,Indiana,52,Illinois,35,teamrankings,79.5,-9.5,Indiana -9.5
+333130166,New Mexico State,34,Boston College,48,consensus,,24,Boston College -24
+333130166,New Mexico State,34,Boston College,48,numberfire,62,25,Boston College -25
+333130166,New Mexico State,34,Boston College,48,teamrankings,62.5,25,Boston College -25
+333132426,Navy,42,Hawai'i,28,consensus,,-18,Navy -18
+333132426,Navy,42,Hawai'i,28,numberfire,54,-17,Navy -17
+333132426,Navy,42,Hawai'i,28,teamrankings,54.5,-17,Navy -17
+333130151,East Carolina,58,Tulsa,24,consensus,,-14,East Carolina -14
+333130151,East Carolina,58,Tulsa,24,numberfire,54,-16,East Carolina -16
+333130151,East Carolina,58,Tulsa,24,teamrankings,53.5,-16,East Carolina -16
+333130150,Duke,38,NC State,20,consensus,,-9,Duke -9
+333130150,Duke,38,NC State,20,numberfire,56.5,-10.5,Duke -10.5
+333130150,Duke,38,NC State,20,teamrankings,56.5,-10.5,Duke -10.5
+333132393,Middle Tennessee,48,Florida International,0,consensus,,-17,Middle Tennessee -17
+333132393,Middle Tennessee,48,Florida International,0,numberfire,49,-19.5,Middle Tennessee -19.5
+333130235,Memphis,21,UT Martin,6,consensus,,-14.5,Memphis -14.5
+333130070,Idaho,38,Old Dominion,59,consensus,,13,Old Dominion -13
+333132348,Louisiana Tech,36,Southern Mississippi,13,consensus,,-14,Louisiana Tech -14
+333132348,Louisiana Tech,36,Southern Mississippi,13,numberfire,52.5,-17,Louisiana Tech -17
+333132348,Louisiana Tech,36,Southern Mississippi,13,teamrankings,52,-17,Louisiana Tech -17
+333132433,Louisiana Monroe,14,Arkansas State,42,consensus,,-3.5,Louisiana Monroe -3.5
+333132433,Louisiana Monroe,14,Arkansas State,42,numberfire,55,-3,Louisiana Monroe -3
+333132433,Louisiana Monroe,14,Arkansas State,42,teamrankings,55,-3.5,Louisiana Monroe -3.5
+333132439,UNLV,24,Utah State,28,consensus,,13,Utah State -13
+333132439,UNLV,24,Utah State,28,numberfire,56,15.5,Utah State -15.5
+333132439,UNLV,24,Utah State,28,teamrankings,56.5,16.5,Utah State -16.5
+333130264,Washington,59,Colorado,7,consensus,,-27,Washington -27
+333130264,Washington,59,Colorado,7,numberfire,64,-28.5,Washington -28.5
+333130264,Washington,59,Colorado,7,teamrankings,63,-30,Washington -30
+333130023,San José State,30,San Diego State,34,consensus,,-6.5,San José State -6.5
+333130023,San José State,30,San Diego State,34,numberfire,58.5,-6.5,San José State -6.5
+333130023,San José State,30,San Diego State,34,teamrankings,59.5,-6.5,San José State -6.5
+333160189,Bowling Green,49,Ohio,0,consensus,,-9,Bowling Green -9
+333160189,Bowling Green,49,Ohio,0,numberfire,51,-9,Bowling Green -9
+333160189,Bowling Green,49,Ohio,0,teamrankings,52,-8.5,Bowling Green -8.5
+333162649,Toledo,51,Buffalo,41,consensus,,-3.5,Toledo -3.5
+333162649,Toledo,51,Buffalo,41,numberfire,54.5,-6,Toledo -6
+333162649,Toledo,51,Buffalo,41,teamrankings,54.5,-5.5,Toledo -5.5
+333172459,Northern Illinois,48,Ball State,27,consensus,,-6.5,Northern Illinois -6.5
+333172459,Northern Illinois,48,Ball State,27,numberfire,72.5,-8.5,Northern Illinois -8.5
+333172459,Northern Illinois,48,Ball State,27,teamrankings,72.5,-8.5,Northern Illinois -8.5
+333172309,Kent State,24,Miami (OH),6,consensus,,-16.5,Kent State -16.5
+333172309,Kent State,24,Miami (OH),6,numberfire,50,-19.5,Kent State -19.5
+333172309,Kent State,24,Miami (OH),6,teamrankings,50,-19.5,Kent State -19.5
+333180228,Clemson,55,Georgia Tech,31,consensus,,-10,Clemson -10
+333180228,Clemson,55,Georgia Tech,31,numberfire,61,-10.5,Clemson -10.5
+333180228,Clemson,55,Georgia Tech,31,teamrankings,61.5,-10.5,Clemson -10.5
+333180202,Tulsa,34,Marshall,45,consensus,,14.5,Marshall -14.5
+333180202,Tulsa,34,Marshall,45,numberfire,63,13.5,Marshall -13.5
+333180202,Tulsa,34,Marshall,45,teamrankings,63,13.5,Marshall -13.5
+333190026,UCLA,41,Washington,31,consensus,,-6.5,UCLA -6.5
+333190026,UCLA,41,Washington,31,numberfire,61,-3,UCLA -3
+333190026,UCLA,41,Washington,31,teamrankings,61,-3,UCLA -3
+333200344,Mississippi State,7,Alabama,20,consensus,,24.5,Alabama -24.5
+333200344,Mississippi State,7,Alabama,20,numberfire,53.5,23.5,Alabama -23.5
+333200344,Mississippi State,7,Alabama,20,teamrankings,54,23.5,Alabama -23.5
+333200052,Florida State,59,Syracuse,3,consensus,,-38.5,Florida State -38.5
+333200052,Florida State,59,Syracuse,3,numberfire,58,-37,Florida State -37
+333200052,Florida State,59,Syracuse,3,teamrankings,59,-37.5,Florida State -37.5
+333200356,Illinois,35,Ohio State,60,consensus,,32,Ohio State -32
+333200356,Illinois,35,Ohio State,60,numberfire,67,33.5,Ohio State -33.5
+333200356,Illinois,35,Ohio State,60,teamrankings,67,34,Ohio State -34
+333200030,USC,20,Stanford,17,consensus,,3,Stanford -3
+333200030,USC,20,Stanford,17,numberfire,45,3.5,Stanford -3.5
+333200030,USC,20,Stanford,17,teamrankings,45,3.5,Stanford -3.5
+333200239,Baylor,63,Texas Tech,34,consensus,,-27,Baylor -27
+333200239,Baylor,63,Texas Tech,34,numberfire,84.5,-28,Baylor -28
+333200239,Baylor,63,Texas Tech,34,teamrankings,84,-28,Baylor -28
+333202483,Oregon,44,Utah,21,consensus,,-25,Oregon -25
+333202483,Oregon,44,Utah,21,numberfire,63.5,-28,Oregon -28
+333202483,Oregon,44,Utah,21,teamrankings,64,-28.5,Oregon -28.5
+333200002,Auburn,43,Georgia,38,consensus,,-3,Auburn -3
+333200002,Auburn,43,Georgia,38,numberfire,65,-3,Auburn -3
+333200002,Auburn,43,Georgia,38,teamrankings,66,-3,Auburn -3
+333202579,South Carolina,19,Florida,14,consensus,,-11,South Carolina -11
+333202579,South Carolina,19,Florida,14,numberfire,42,-15.5,South Carolina -15.5
+333202579,South Carolina,19,Florida,14,teamrankings,42,-15.5,South Carolina -15.5
+333200251,Texas,13,Oklahoma State,38,consensus,,2,Oklahoma State -2
+333200251,Texas,13,Oklahoma State,38,numberfire,62,3,Oklahoma State -3
+333200251,Texas,13,Oklahoma State,38,teamrankings,61.5,3,Oklahoma State -3
+333200158,Nebraska,28,Michigan State,41,consensus,,3.5,Michigan State -3.5
+333200158,Nebraska,28,Michigan State,41,numberfire,41,5.5,Michigan State -5.5
+333200158,Nebraska,28,Michigan State,41,teamrankings,41,5.5,Michigan State -5.5
+333200218,Temple,36,UCF,39,consensus,,17,UCF -17
+333200218,Temple,36,UCF,39,numberfire,57.5,17.5,UCF -17.5
+333200218,Temple,36,UCF,39,teamrankings,59.5,17.5,UCF -17.5
+333200201,Oklahoma,48,Iowa State,10,consensus,,-21,Oklahoma -21
+333200201,Oklahoma,48,Iowa State,10,numberfire,48,-23.5,Oklahoma -23.5
+333200201,Oklahoma,48,Iowa State,10,teamrankings,49,-23,Oklahoma -23
+333200009,Arizona State,30,Oregon State,17,consensus,,-13.5,Arizona State -13.5
+333200009,Arizona State,30,Oregon State,17,numberfire,65,-13.5,Arizona State -13.5
+333200009,Arizona State,30,Oregon State,17,teamrankings,65,-13.5,Arizona State -13.5
+333200097,Louisville,20,Houston,13,consensus,,-16.5,Louisville -16.5
+333200097,Louisville,20,Houston,13,numberfire,60.5,-17,Louisville -17
+333200097,Louisville,20,Houston,13,teamrankings,60.5,-16.5,Louisville -16.5
+333200275,Wisconsin,51,Indiana,3,consensus,,-18.5,Wisconsin -18.5
+333200275,Wisconsin,51,Indiana,3,numberfire,68,-26.5,Wisconsin -26.5
+333200275,Wisconsin,51,Indiana,3,teamrankings,68,-27,Wisconsin -27
+333200150,Duke,48,Miami,30,consensus,,3,Miami -3
+333200150,Duke,48,Miami,30,numberfire,64,4,Miami -4
+333200150,Duke,48,Miami,30,teamrankings,64,3.5,Miami -3.5
+333200145,Ole Miss,51,Troy,21,consensus,,-28,Ole Miss -28
+333200145,Ole Miss,51,Troy,21,numberfire,69,-28,Ole Miss -28
+333200145,Ole Miss,51,Troy,21,teamrankings,69.5,-28,Ole Miss -28
+333200164,Rutgers,17,Cincinnati,52,consensus,,2.5,Cincinnati -2.5
+333200164,Rutgers,17,Cincinnati,52,numberfire,53.5,-1.5,Rutgers -1.5
+333200164,Rutgers,17,Cincinnati,52,teamrankings,54.5,,Cincinnati -null
+333200213,Penn State,45,Purdue,21,consensus,,-20.5,Penn State -20.5
+333200213,Penn State,45,Purdue,21,numberfire,45.5,-21.5,Penn State -21.5
+333200213,Penn State,45,Purdue,21,teamrankings,48,-21.5,Penn State -21.5
+333202305,Kansas,31,West Virginia,19,consensus,,7.5,West Virginia -7.5
+333202305,Kansas,31,West Virginia,19,numberfire,46.5,6.5,West Virginia -6.5
+333202305,Kansas,31,West Virginia,19,teamrankings,44,6.5,West Virginia -6.5
+333202711,Western Michigan,22,Central Michigan,27,consensus,,2.5,Central Michigan -2.5
+333202711,Western Michigan,22,Central Michigan,27,numberfire,51,2,Central Michigan -2
+333202711,Western Michigan,22,Central Michigan,27,teamrankings,50.5,3,Central Michigan -3
+333200238,Vanderbilt,22,Kentucky,6,consensus,,-13.5,Vanderbilt -13.5
+333200238,Vanderbilt,22,Kentucky,6,numberfire,53,-12,Vanderbilt -12
+333200238,Vanderbilt,22,Kentucky,6,teamrankings,51.5,-11,Vanderbilt -11
+333200221,Pittsburgh,27,North Carolina,34,numberfire,53,1,North Carolina -1
+333200221,Pittsburgh,27,North Carolina,34,teamrankings,53.5,-1,Pittsburgh -1
+333200103,Boston College,38,NC State,21,consensus,,-7.5,Boston College -7.5
+333200103,Boston College,38,NC State,21,numberfire,54,-7.5,Boston College -7.5
+333200103,Boston College,38,NC State,21,teamrankings,51.5,-7,Boston College -7
+333202572,Southern Mississippi,7,Florida Atlantic,41,consensus,,14.5,Florida Atlantic -14.5
+333202572,Southern Mississippi,7,Florida Atlantic,41,numberfire,50.5,17,Florida Atlantic -17
+333202572,Southern Mississippi,7,Florida Atlantic,41,teamrankings,50.5,17,Florida Atlantic -17
+333200259,Virginia Tech,24,Maryland,27,consensus,,-15,Virginia Tech -15
+333200259,Virginia Tech,24,Maryland,27,numberfire,44,-16,Virginia Tech -16
+333200259,Virginia Tech,24,Maryland,27,teamrankings,44.5,-14,Virginia Tech -14
+333200113,UMass,13,Akron,14,consensus,,7,Akron -7
+333200113,UMass,13,Akron,14,numberfire,50,7,Akron -7
+333200113,UMass,13,Akron,14,teamrankings,49.5,7,Akron -7
+333200151,East Carolina,63,UAB,14,consensus,,-25,East Carolina -25
+333200151,East Carolina,63,UAB,14,numberfire,66.5,-28,East Carolina -28
+333200151,East Carolina,63,UAB,14,teamrankings,67.5,-28,East Carolina -28
+333200012,Arizona,17,Washington State,24,consensus,,-13.5,Arizona -13.5
+333200012,Arizona,17,Washington State,24,numberfire,63.5,-11,Arizona -11
+333200012,Arizona,17,Washington State,24,teamrankings,63,-11,Arizona -11
+333202247,Georgia State,21,Louisiana,35,consensus,,21,Louisiana -21
+333202247,Georgia State,21,Louisiana,35,numberfire,59.5,20.5,Louisiana -20.5
+333202247,Georgia State,21,Louisiana,35,teamrankings,59.5,21,Louisiana -21
+333202567,SMU,38,Connecticut,21,consensus,,-13.5,SMU -13.5
+333202567,SMU,38,Connecticut,21,numberfire,56,-16.5,SMU -16.5
+333202567,SMU,38,Connecticut,21,teamrankings,56,-14.5,SMU -14.5
+333200252,BYU,59,Idaho State,13,consensus,,-46,BYU -46
+333202306,Kansas State,33,TCU,31,consensus,,-10.5,Kansas State -10.5
+333202306,Kansas State,33,TCU,31,numberfire,45.5,-12,Kansas State -12
+333202306,Kansas State,33,TCU,31,teamrankings,45,-11.5,Kansas State -11.5
+333202426,Navy,42,South Alabama,14,consensus,,-9.5,Navy -9.5
+333202426,Navy,42,South Alabama,14,numberfire,59,-7,Navy -7
+333202426,Navy,42,South Alabama,14,teamrankings,59,-7,Navy -7
+333200077,Northwestern,19,Michigan,27,consensus,,-1.5,Northwestern -1.5
+333200077,Northwestern,19,Michigan,27,numberfire,48.5,-2.5,Northwestern -2.5
+333200077,Northwestern,19,Michigan,27,teamrankings,48.5,-2.5,Northwestern -2.5
+333200038,Colorado,41,California,24,consensus,,-1,Colorado -1
+333200038,Colorado,41,California,24,numberfire,67,-1,Colorado -1
+333200038,Colorado,41,California,24,teamrankings,67,-1,Colorado -1
+333200058,South Florida,10,Memphis,23,consensus,,2.5,Memphis -2.5
+333200058,South Florida,10,Memphis,23,numberfire,40,1.5,Memphis -1.5
+333200058,South Florida,10,Memphis,23,teamrankings,40.5,1.5,Memphis -1.5
+333200242,Rice,52,Louisiana Tech,14,consensus,,-15,Rice -15
+333200242,Rice,52,Louisiana Tech,14,numberfire,51,-14.5,Rice -14.5
+333200242,Rice,52,Louisiana Tech,14,teamrankings,51,-14.5,Rice -14.5
+333200167,New Mexico,42,Colorado State,66,consensus,,4,Colorado State -4
+333200167,New Mexico,42,Colorado State,66,numberfire,62,7,Colorado State -7
+333200167,New Mexico,42,Colorado State,66,teamrankings,62.5,7,Colorado State -7
+333202032,Arkansas State,38,Texas State,21,consensus,,-6.5,Arkansas State -6.5
+333202032,Arkansas State,38,Texas State,21,numberfire,51.5,-7,Arkansas State -7
+333202032,Arkansas State,38,Texas State,21,teamrankings,51.5,-7.5,Arkansas State -7.5
+333202638,UTEP,33,Florida International,10,consensus,,-6,UTEP -6
+333202638,UTEP,33,Florida International,10,numberfire,47,-5.5,UTEP -5.5
+333202638,UTEP,33,Florida International,10,teamrankings,47,-5.5,UTEP -5.5
+333200068,Boise State,48,Wyoming,7,consensus,,-20,Boise State -20
+333200068,Boise State,48,Wyoming,7,numberfire,70,-24,Boise State -24
+333200068,Boise State,48,Wyoming,7,teamrankings,70,-24,Boise State -24
+333200062,Hawai'i,21,San Diego State,28,consensus,,5,San Diego State -5
+333200062,Hawai'i,21,San Diego State,28,numberfire,59.5,5.5,San Diego State -5.5
+333200062,Hawai'i,21,San Diego State,28,teamrankings,60,5.5,San Diego State -5.5
+333202440,Nevada,38,San José State,16,consensus,,7,San José State -7
+333202440,Nevada,38,San José State,16,numberfire,67,7,San José State -7
+333202440,Nevada,38,San José State,16,teamrankings,67,6.5,San José State -6.5
+333230193,Miami (OH),7,Buffalo,44,consensus,,24,Buffalo -24
+333230193,Miami (OH),7,Buffalo,44,numberfire,48,24,Buffalo -24
+333230193,Miami (OH),7,Buffalo,44,teamrankings,48,24,Buffalo -24
+333230195,Ohio,13,Kent State,44,consensus,,-5.5,Ohio -5.5
+333230195,Ohio,13,Kent State,44,numberfire,53.5,-6.5,Ohio -6.5
+333230195,Ohio,13,Kent State,44,teamrankings,53.5,-6.5,Ohio -6.5
+333242649,Toledo,17,Northern Illinois,35,consensus,,3,Northern Illinois -3
+333242649,Toledo,17,Northern Illinois,35,numberfire,73.5,1,Northern Illinois -1
+333242649,Toledo,17,Northern Illinois,35,teamrankings,73.5,1,Northern Illinois -1
+333252116,UCF,41,Rutgers,17,consensus,,-14.5,UCF -14.5
+333252116,UCF,41,Rutgers,17,numberfire,59.5,-19.5,UCF -19.5
+333252116,UCF,41,Rutgers,17,teamrankings,59.5,-20,UCF -20
+333250005,UAB,34,Rice,37,consensus,,14,Rice -14
+333250005,UAB,34,Rice,37,teamrankings,63.5,17,Rice -17
+333260023,San José State,52,Navy,58,consensus,,-3,San José State -3
+333260023,San José State,52,Navy,58,numberfire,59.5,-1,San José State -1
+333260023,San José State,52,Navy,58,teamrankings,60.5,-1,San José State -1
+333270333,Alabama,49,Chattanooga,0,consensus,,-48.5,Alabama -48.5
+333270052,Florida State,80,Idaho,14,consensus,,-56,Florida State -56
+333270052,Florida State,80,Idaho,14,numberfire,68.5,-58,Florida State -58
+333270052,Florida State,80,Idaho,14,teamrankings,70,-58.5,Florida State -58.5
+333270194,Ohio State,42,Indiana,14,consensus,,-31.5,Ohio State -31.5
+333270194,Ohio State,42,Indiana,14,numberfire,81,-33.5,Ohio State -33.5
+333270194,Ohio State,42,Indiana,14,teamrankings,80.5,-33.5,Ohio State -33.5
+333270197,Oklahoma State,49,Baylor,17,consensus,,13,Baylor -13
+333270197,Oklahoma State,49,Baylor,17,numberfire,78.5,7.5,Baylor -7.5
+333270197,Oklahoma State,49,Baylor,17,teamrankings,78,7.5,Baylor -7.5
+333270012,Arizona,42,Oregon,16,consensus,,17.5,Oregon -17.5
+333270012,Arizona,42,Oregon,16,numberfire,68,18.5,Oregon -18.5
+333270012,Arizona,42,Oregon,16,teamrankings,70,20.5,Oregon -20.5
+333270228,Clemson,52,The Citadel,6,consensus,,-40.5,Clemson -40.5
+333270145,Ole Miss,10,Missouri,24,consensus,,2,Missouri -2
+333270145,Ole Miss,10,Missouri,24,numberfire,58.5,1.5,Missouri -1.5
+333270145,Ole Miss,10,Missouri,24,teamrankings,58.5,1,Missouri -1
+333270024,Stanford,63,California,13,consensus,,-28.5,Stanford -28.5
+333270024,Stanford,63,California,13,numberfire,59,-31.5,Stanford -31.5
+333270024,Stanford,63,California,13,teamrankings,59,-31.5,Stanford -31.5
+333272579,South Carolina,70,Coastal Carolina,10,consensus,,-34,South Carolina -34
+333270099,LSU,34,Texas A&M,10,consensus,,-4,LSU -4
+333270099,LSU,34,Texas A&M,10,numberfire,74,-4,LSU -4
+333270099,LSU,34,Texas A&M,10,teamrankings,75,-3.5,LSU -3.5
+333270077,Northwestern,6,Michigan State,30,consensus,,7,Michigan State -7
+333270077,Northwestern,6,Michigan State,30,numberfire,41,6.5,Michigan State -6.5
+333270077,Northwestern,6,Michigan State,30,teamrankings,41,6.5,Michigan State -6.5
+333270026,UCLA,33,Arizona State,38,consensus,,2,Arizona State -2
+333270026,UCLA,33,Arizona State,38,numberfire,61.5,3,Arizona State -3
+333270026,UCLA,33,Arizona State,38,teamrankings,62,3,Arizona State -3
+333270278,Fresno State,69,New Mexico,28,consensus,,-31,Fresno State -31
+333270278,Fresno State,69,New Mexico,28,numberfire,68,-34,Fresno State -34
+333270278,Fresno State,69,New Mexico,28,teamrankings,68.5,-34.5,Fresno State -34.5
+333270135,Minnesota,7,Wisconsin,20,consensus,,14.5,Wisconsin -14.5
+333270135,Minnesota,7,Wisconsin,20,numberfire,50,17,Wisconsin -17
+333270135,Minnesota,7,Wisconsin,20,teamrankings,51,15.5,Wisconsin -15.5
+333272306,Kansas State,31,Oklahoma,41,consensus,,-3,Kansas State -3
+333272306,Kansas State,31,Oklahoma,41,numberfire,53.5,-5,Kansas State -5
+333272306,Kansas State,31,Oklahoma,41,teamrankings,53.5,-5.5,Kansas State -5.5
+333270097,Louisville,24,Memphis,17,consensus,,-22.5,Louisville -22.5
+333270097,Louisville,24,Memphis,17,numberfire,43,-23,Louisville -23
+333270097,Louisville,24,Memphis,17,teamrankings,43.5,-23.5,Louisville -23.5
+333270038,Colorado,29,USC,47,consensus,,21.5,USC -21.5
+333270038,Colorado,29,USC,47,numberfire,53,21,USC -21
+333270038,Colorado,29,USC,47,teamrankings,54.5,21,USC -21
+333270153,North Carolina,80,Old Dominion,20,consensus,,-17,North Carolina -17
+333270154,Wake Forest,21,Duke,28,consensus,,5.5,Duke -5.5
+333270154,Wake Forest,21,Duke,28,numberfire,49.5,6.5,Duke -6.5
+333270154,Wake Forest,21,Duke,28,teamrankings,49.5,6.5,Duke -6.5
+333270248,Houston,17,Cincinnati,24,consensus,,-2.5,Houston -2.5
+333270248,Houston,17,Cincinnati,24,numberfire,59,-2.5,Houston -2.5
+333270248,Houston,17,Cincinnati,24,teamrankings,60,-2.5,Houston -2.5
+333272294,Iowa,24,Michigan,21,consensus,,-3.5,Iowa -3.5
+333272294,Iowa,24,Michigan,21,numberfire,45.5,-6,Iowa -6
+333272294,Iowa,24,Michigan,21,teamrankings,47,-6,Iowa -6
+333272390,Miami,45,Virginia,26,consensus,,-19.5,Miami -19.5
+333272390,Miami,45,Virginia,26,numberfire,58,-20.5,Miami -20.5
+333272390,Miami,45,Virginia,26,teamrankings,58,-20.5,Miami -20.5
+333272509,Purdue,16,Illinois,20,consensus,,6.5,Illinois -6.5
+333272509,Purdue,16,Illinois,20,numberfire,55,6.5,Illinois -6.5
+333272509,Purdue,16,Illinois,20,teamrankings,54.5,6.5,Illinois -6.5
+333270008,Arkansas,17,Mississippi State,24,consensus,,3,Mississippi State -3
+333270008,Arkansas,17,Mississippi State,24,numberfire,50.5,1,Mississippi State -1
+333270008,Arkansas,17,Mississippi State,24,teamrankings,50,2.5,Mississippi State -2.5
+333270152,NC State,28,East Carolina,42,consensus,,6,East Carolina -6
+333270152,NC State,28,East Carolina,42,numberfire,55,5.5,East Carolina -5.5
+333270152,NC State,28,East Carolina,42,teamrankings,55,4.5,East Carolina -4.5
+333270183,Syracuse,16,Pittsburgh,17,consensus,,1.5,Pittsburgh -1.5
+333270183,Syracuse,16,Pittsburgh,17,numberfire,49.5,-1,Syracuse -1
+333270183,Syracuse,16,Pittsburgh,17,teamrankings,50,-1,Syracuse -1
+333272117,Central Michigan,37,UMass,0,consensus,,-8.5,Central Michigan -8.5
+333272117,Central Michigan,37,UMass,0,numberfire,47,-12.5,Central Michigan -12.5
+333272117,Central Michigan,37,UMass,0,teamrankings,48,-13,Central Michigan -13
+333272199,Eastern Michigan,7,Bowling Green,58,consensus,,24,Bowling Green -24
+333272199,Eastern Michigan,7,Bowling Green,58,numberfire,54.5,26,Bowling Green -26
+333272199,Eastern Michigan,7,Bowling Green,58,teamrankings,54.5,26.5,Bowling Green -26.5
+333270059,Georgia Tech,66,Alabama A&M,7,consensus,,-51.5,Georgia Tech -51.5
+333270057,Florida,20,Georgia Southern,26,consensus,,-27.5,Florida -27.5
+333272751,Wyoming,59,Hawai'i,56,consensus,,-6.5,Wyoming -6.5
+333272751,Wyoming,59,Hawai'i,56,numberfire,63,-6,Wyoming -6
+333272751,Wyoming,59,Hawai'i,56,teamrankings,63,-5.5,Wyoming -5.5
+333272032,Arkansas State,35,Georgia State,33,consensus,,-23,Arkansas State -23
+333272032,Arkansas State,35,Georgia State,33,numberfire,57.5,-24,Arkansas State -24
+333272032,Arkansas State,35,Georgia State,33,teamrankings,57.5,-24,Arkansas State -24
+333272226,Florida Atlantic,55,New Mexico State,10,consensus,,-21,Florida Atlantic -21
+333272226,Florida Atlantic,55,New Mexico State,10,numberfire,56,-23,Florida Atlantic -23
+333272226,Florida Atlantic,55,New Mexico State,10,teamrankings,57,-23.5,Florida Atlantic -23.5
+333270328,Utah State,13,Colorado State,0,consensus,,-6,Utah State -6
+333270328,Utah State,13,Colorado State,0,numberfire,57.5,-11,Utah State -11
+333270328,Utah State,13,Colorado State,0,teamrankings,57.5,-10.5,Utah State -10.5
+333272655,Tulane,45,UTEP,3,consensus,,-15.5,Tulane -15.5
+333272655,Tulane,45,UTEP,3,numberfire,47,-16,Tulane -16
+333272655,Tulane,45,UTEP,3,teamrankings,48,-16,Tulane -16
+333272572,Southern Mississippi,21,Middle Tennessee,42,consensus,,20.5,Middle Tennessee -20.5
+333272572,Southern Mississippi,21,Middle Tennessee,42,numberfire,54.5,23,Middle Tennessee -23
+333272572,Southern Mississippi,21,Middle Tennessee,42,teamrankings,54.5,24,Middle Tennessee -24
+333270087,Notre Dame,23,BYU,13,consensus,,-1,Notre Dame -1
+333270087,Notre Dame,23,BYU,13,numberfire,53.5,1,BYU -1
+333270087,Notre Dame,23,BYU,13,teamrankings,53,3,BYU -3
+333270120,Maryland,26,Boston College,29,numberfire,53.5,-1.5,Maryland -1.5
+333270120,Maryland,26,Boston College,29,teamrankings,52.5,-2,Maryland -2
+333270213,Penn State,20,Nebraska,23,consensus,,-2.5,Penn State -2.5
+333270213,Penn State,20,Nebraska,23,numberfire,51,-1,Penn State -1
+333270213,Penn State,20,Nebraska,23,teamrankings,50,,Nebraska -null
+333270249,North Texas,13,UT San Antonio,21,consensus,,-7,North Texas -7
+333270249,North Texas,13,UT San Antonio,21,numberfire,48.5,-8.5,North Texas -8.5
+333270249,North Texas,13,UT San Antonio,21,teamrankings,48.5,-10,North Texas -10
+333270265,Washington State,49,Utah,37,consensus,,-1,Washington State -1
+333270265,Washington State,49,Utah,37,numberfire,52,-1.5,Washington State -1.5
+333270265,Washington State,49,Utah,37,teamrankings,52,-2,Washington State -2
+333272229,Florida International,10,Marshall,48,consensus,,33,Marshall -33
+333272229,Florida International,10,Marshall,48,numberfire,56,32.5,Marshall -32.5
+333272229,Florida International,10,Marshall,48,teamrankings,55.5,32.5,Marshall -32.5
+333272348,Louisiana Tech,14,Tulsa,24,consensus,,3.5,Tulsa -3.5
+333272348,Louisiana Tech,14,Tulsa,24,numberfire,53.5,2.5,Tulsa -2.5
+333272348,Louisiana Tech,14,Tulsa,24,teamrankings,53,2.5,Tulsa -2.5
+333272633,Tennessee,10,Vanderbilt,14,consensus,,-2.5,Tennessee -2.5
+333272633,Tennessee,10,Vanderbilt,14,numberfire,48.5,-2.5,Tennessee -2.5
+333272633,Tennessee,10,Vanderbilt,14,teamrankings,49,-2.5,Tennessee -2.5
+333270058,South Florida,6,SMU,16,consensus,,5.5,SMU -5.5
+333270058,South Florida,6,SMU,16,numberfire,55.5,6,SMU -6
+333270058,South Florida,6,SMU,16,teamrankings,55.5,5,SMU -5
+333270061,Georgia,59,Kentucky,17,consensus,,-26,Georgia -26
+333270061,Georgia,59,Kentucky,17,numberfire,61,-26.5,Georgia -26.5
+333270061,Georgia,59,Kentucky,17,teamrankings,61,-25,Georgia -25
+333270006,South Alabama,36,Louisiana Monroe,14,consensus,,-3,South Alabama -3
+333270006,South Alabama,36,Louisiana Monroe,14,numberfire,56.5,-3.5,South Alabama -3.5
+333270006,South Alabama,36,Louisiana Monroe,14,teamrankings,56.5,-3.5,South Alabama -3.5
+333270326,Texas State,7,Western Kentucky,38,consensus,,3.5,Western Kentucky -3.5
+333270326,Texas State,7,Western Kentucky,38,numberfire,50.5,5,Western Kentucky -5
+333270326,Texas State,7,Western Kentucky,38,teamrankings,50.5,5.5,Western Kentucky -5.5
+333270218,Temple,21,Connecticut,28,consensus,,-9,Temple -9
+333270218,Temple,21,Connecticut,28,numberfire,53.5,-6.5,Temple -6.5
+333270218,Temple,21,Connecticut,28,teamrankings,53.5,-7,Temple -7
+333270066,Iowa State,34,Kansas,0,consensus,,-5,Iowa State -5
+333270066,Iowa State,34,Kansas,0,numberfire,46.5,-4,Iowa State -4
+333270066,Iowa State,34,Kansas,0,teamrankings,46,-4,Iowa State -4
+333270021,San Diego State,34,Boise State,31,consensus,,6,Boise State -6
+333270021,San Diego State,34,Boise State,31,numberfire,57,6.5,Boise State -6.5
+333270021,San Diego State,34,Boise State,31,teamrankings,57,7,Boise State -7
+333270204,Oregon State,27,Washington,69,consensus,,1.5,Washington -1.5
+333270204,Oregon State,27,Washington,69,numberfire,59.5,-1.5,Oregon State -1.5
+333270204,Oregon State,27,Washington,69,teamrankings,60,1.5,Washington -1.5
+333302459,Northern Illinois,33,Western Michigan,14,consensus,,-33.5,Northern Illinois -33.5
+333302459,Northern Illinois,33,Western Michigan,14,numberfire,64,-35.5,Northern Illinois -35.5
+333302459,Northern Illinois,33,Western Michigan,14,teamrankings,64,-35.5,Northern Illinois -35.5
+333320251,Texas,41,Texas Tech,16,consensus,,-6,Texas -6
+333320251,Texas,41,Texas Tech,16,numberfire,68,-5.5,Texas -5.5
+333320251,Texas,41,Texas Tech,16,teamrankings,68,-6,Texas -6
+333320344,Mississippi State,17,Ole Miss,10,consensus,,3,Ole Miss -3
+333320344,Mississippi State,17,Ole Miss,10,numberfire,53.5,3.5,Ole Miss -3.5
+333320344,Mississippi State,17,Ole Miss,10,teamrankings,53.5,4,Ole Miss -4
+333332483,Oregon,36,Oregon State,35,consensus,,-21,Oregon -21
+333332483,Oregon,36,Oregon State,35,teamrankings,69.5,-24,Oregon -24
+333330023,San José State,62,Fresno State,52,consensus,,10,Fresno State -10
+333330023,San José State,62,Fresno State,52,teamrankings,72.5,10.5,Fresno State -10.5
+333330099,LSU,31,Arkansas,27,consensus,,-24.5,LSU -24.5
+333330099,LSU,31,Arkansas,27,teamrankings,54.5,-28,LSU -28
+333332116,UCF,23,South Florida,20,consensus,,-26,UCF -26
+333332116,UCF,23,South Florida,20,teamrankings,50,-27.5,UCF -27.5
+333330158,Nebraska,17,Iowa,38,consensus,,-3,Nebraska -3
+333330158,Nebraska,17,Iowa,38,teamrankings,47,-3,Nebraska -3
+333330248,Houston,34,SMU,0,consensus,,-10,Houston -10
+333330248,Houston,34,SMU,0,teamrankings,63.5,-8.5,Houston -8.5
+333330276,Marshall,59,East Carolina,28,consensus,,-3,Marshall -3
+333330276,Marshall,59,East Carolina,28,teamrankings,70,-3,Marshall -3
+333332006,Akron,31,Toledo,29,consensus,,8.5,Toledo -8.5
+333332006,Akron,31,Toledo,29,teamrankings,58,11,Toledo -11
+333332050,Ball State,55,Miami (OH),14,consensus,,-34,Ball State -34
+333332050,Ball State,55,Miami (OH),14,teamrankings,60.5,-35,Ball State -35
+333332084,Buffalo,7,Bowling Green,24,teamrankings,52,3.5,Bowling Green -3.5
+333332117,Central Michigan,42,Eastern Michigan,10,consensus,,-19,Central Michigan -19
+333332117,Central Michigan,42,Eastern Michigan,10,teamrankings,57.5,-17.5,Central Michigan -17.5
+333332653,Troy,42,Texas State,28,consensus,,-4.5,Troy -4.5
+333332653,Troy,42,Texas State,28,teamrankings,56.5,-8.5,Troy -8.5
+333330195,Ohio,51,UMass,23,consensus,,-14,Ohio -14
+333330195,Ohio,51,UMass,23,teamrankings,52,-19.5,Ohio -19.5
+333332226,Florida Atlantic,21,Florida International,6,consensus,,-28.5,Florida Atlantic -28.5
+333332226,Florida Atlantic,21,Florida International,6,teamrankings,44.5,-28,Florida Atlantic -28
+333330221,Pittsburgh,31,Miami,41,consensus,,3,Miami -3
+333330221,Pittsburgh,31,Miami,41,teamrankings,56,1.5,Miami -1.5
+333330264,Washington,27,Washington State,17,consensus,,-14.5,Washington -14.5
+333330264,Washington,27,Washington State,17,teamrankings,66,-17.5,Washington -17.5
+333340002,Auburn,34,Alabama,28,consensus,,9.5,Alabama -9.5
+333340002,Auburn,34,Alabama,28,numberfire,53.5,10,Alabama -10
+333340002,Auburn,34,Alabama,28,teamrankings,52.5,10,Alabama -10
+333340057,Florida,7,Florida State,37,consensus,,26,Florida State -26
+333340057,Florida,7,Florida State,37,numberfire,46.5,28.5,Florida State -28.5
+333340057,Florida,7,Florida State,37,teamrankings,50.5,28,Florida State -28
+333340130,Michigan,41,Ohio State,42,consensus,,13,Ohio State -13
+333340130,Michigan,41,Ohio State,42,numberfire,57,15.5,Ohio State -15.5
+333340130,Michigan,41,Ohio State,42,teamrankings,57,17,Ohio State -17
+333340142,Missouri,28,Texas A&M,21,consensus,,-3,Missouri -3
+333340142,Missouri,28,Texas A&M,21,numberfire,71.5,-3.5,Missouri -3.5
+333340142,Missouri,28,Texas A&M,21,teamrankings,72.5,-4.5,Missouri -4.5
+333342579,South Carolina,31,Clemson,17,consensus,,-6,South Carolina -6
+333342579,South Carolina,31,Clemson,17,numberfire,62.5,-2.5,South Carolina -2.5
+333342579,South Carolina,31,Clemson,17,teamrankings,62,-2,South Carolina -2
+333340024,Stanford,27,Notre Dame,20,consensus,,-14,Stanford -14
+333340024,Stanford,27,Notre Dame,20,numberfire,49.5,-16,Stanford -16
+333340024,Stanford,27,Notre Dame,20,teamrankings,49.5,-16.5,Stanford -16.5
+333342628,TCU,38,Baylor,41,consensus,,14,Baylor -14
+333342628,TCU,38,Baylor,41,numberfire,65,13.5,Baylor -13.5
+333342628,TCU,38,Baylor,41,teamrankings,65,14,Baylor -14
+333340127,Michigan State,14,Minnesota,3,consensus,,-14,Michigan State -14
+333340127,Michigan State,14,Minnesota,3,numberfire,42,-17,Michigan State -17
+333340127,Michigan State,14,Minnesota,3,teamrankings,42,-17,Michigan State -17
+333340009,Arizona State,58,Arizona,21,consensus,,-13.5,Arizona State -13.5
+333340009,Arizona State,58,Arizona,21,numberfire,61,-10,Arizona State -10
+333340009,Arizona State,58,Arizona,21,teamrankings,61.5,-10,Arizona State -10
+333340275,Wisconsin,24,Penn State,31,consensus,,-23.5,Wisconsin -23.5
+333340275,Wisconsin,24,Penn State,31,numberfire,50,-25,Wisconsin -25
+333340275,Wisconsin,24,Penn State,31,teamrankings,49.5,-25,Wisconsin -25
+333340030,USC,14,UCLA,35,consensus,,-3.5,USC -3.5
+333340030,USC,14,UCLA,35,numberfire,52,-4.5,USC -4.5
+333340030,USC,14,UCLA,35,teamrankings,52.5,-4,USC -4
+333340153,North Carolina,25,Duke,27,consensus,,-5.5,North Carolina -5.5
+333340153,North Carolina,25,Duke,27,numberfire,60.5,-5,North Carolina -5
+333340153,North Carolina,25,Duke,27,teamrankings,62.5,-5,North Carolina -5
+333340041,Connecticut,28,Rutgers,17,consensus,,4,Rutgers -4
+333340041,Connecticut,28,Rutgers,17,numberfire,48.5,2.5,Rutgers -2.5
+333340041,Connecticut,28,Rutgers,17,teamrankings,47.5,2.5,Rutgers -2.5
+333340235,Memphis,21,Temple,41,consensus,,-7.5,Memphis -7.5
+333340235,Memphis,21,Temple,41,numberfire,49,-8,Memphis -8
+333340235,Memphis,21,Temple,41,teamrankings,50,-8,Memphis -8
+333342305,Kansas,10,Kansas State,31,consensus,,16.5,Kansas State -16.5
+333342305,Kansas,10,Kansas State,31,numberfire,52,17.5,Kansas State -17.5
+333342305,Kansas,10,Kansas State,31,teamrankings,52,17.5,Kansas State -17.5
+333340238,Vanderbilt,23,Wake Forest,21,consensus,,-14,Vanderbilt -14
+333340238,Vanderbilt,23,Wake Forest,21,numberfire,42.5,-14.5,Vanderbilt -14.5
+333340238,Vanderbilt,23,Wake Forest,21,teamrankings,42.5,-14,Vanderbilt -14
+333340152,NC State,21,Maryland,41,consensus,,3,Maryland -3
+333340152,NC State,21,Maryland,41,numberfire,50,3,Maryland -3
+333340152,NC State,21,Maryland,41,teamrankings,50,3,Maryland -3
+333340005,UAB,27,Southern Mississippi,62,consensus,,-13.5,UAB -13.5
+333340005,UAB,27,Southern Mississippi,62,numberfire,63.5,-14.5,UAB -14.5
+333340005,UAB,27,Southern Mississippi,62,teamrankings,63.5,-14.5,UAB -14.5
+333340036,Colorado State,58,Air Force,13,consensus,,-14,Colorado State -14
+333340036,Colorado State,58,Air Force,13,numberfire,62,-17,Colorado State -17
+333340036,Colorado State,58,Air Force,13,teamrankings,62,-17,Colorado State -17
+333340254,Utah,24,Colorado,17,consensus,,-14,Utah -14
+333340254,Utah,24,Colorado,17,numberfire,56,-14.5,Utah -14.5
+333340254,Utah,24,Colorado,17,teamrankings,56,-16.5,Utah -16.5
+333340328,Utah State,35,Wyoming,7,consensus,,-20,Utah State -20
+333340328,Utah State,35,Wyoming,7,numberfire,58.5,-24,Utah State -24
+333340328,Utah State,35,Wyoming,7,teamrankings,58.5,-24,Utah State -24
+333342247,Georgia State,17,South Alabama,38,consensus,,9,South Alabama -9
+333342247,Georgia State,17,South Alabama,38,numberfire,60.5,7.5,South Alabama -7.5
+333342247,Georgia State,17,South Alabama,38,teamrankings,60.5,7.5,South Alabama -7.5
+333340202,Tulsa,10,North Texas,42,consensus,,3,North Texas -3
+333340202,Tulsa,10,North Texas,42,numberfire,49.5,4,North Texas -4
+333340202,Tulsa,10,North Texas,42,teamrankings,49.5,4,North Texas -4
+333340242,Rice,17,Tulane,13,consensus,,-13,Rice -13
+333340242,Rice,17,Tulane,13,numberfire,49,-10,Rice -10
+333340242,Rice,17,Tulane,13,teamrankings,49,-10,Rice -10
+333342440,Nevada,23,BYU,28,consensus,,14.5,BYU -14.5
+333342440,Nevada,23,BYU,28,numberfire,65,16,BYU -16
+333342440,Nevada,23,BYU,28,teamrankings,66,15.5,BYU -15.5
+333340356,Illinois,34,Northwestern,37,consensus,,4,Northwestern -4
+333340356,Illinois,34,Northwestern,37,numberfire,59.5,3.5,Northwestern -3.5
+333340356,Illinois,34,Northwestern,37,teamrankings,59.5,4,Northwestern -4
+333340166,New Mexico State,24,Idaho,16,consensus,,-4.5,New Mexico State -4.5
+333340166,New Mexico State,24,Idaho,16,numberfire,64,-3.5,New Mexico State -3.5
+333340166,New Mexico State,24,Idaho,16,teamrankings,64,-3,New Mexico State -3
+333340183,Syracuse,34,Boston College,31,consensus,,2.5,Boston College -2.5
+333340183,Syracuse,34,Boston College,31,numberfire,51,2.5,Boston College -2.5
+333340183,Syracuse,34,Boston College,31,teamrankings,51.5,2.5,Boston College -2.5
+333342636,UT San Antonio,30,Louisiana Tech,10,consensus,,-14,UT San Antonio -14
+333342636,UT San Antonio,30,Louisiana Tech,10,numberfire,52.5,-16,UT San Antonio -16
+333342636,UT San Antonio,30,Louisiana Tech,10,teamrankings,52.5,-16,UT San Antonio -16
+333340084,Indiana,56,Purdue,36,consensus,,-20.5,Indiana -20.5
+333340084,Indiana,56,Purdue,36,numberfire,67,-20,Indiana -20
+333340084,Indiana,56,Purdue,36,teamrankings,67,-20,Indiana -20
+333340059,Georgia Tech,34,Georgia,41,consensus,,3,Georgia -3
+333340059,Georgia Tech,34,Georgia,41,numberfire,58,3,Georgia -3
+333340059,Georgia Tech,34,Georgia,41,teamrankings,58.5,2.5,Georgia -2.5
+333342393,Middle Tennessee,48,UTEP,17,consensus,,-21,Middle Tennessee -21
+333342393,Middle Tennessee,48,UTEP,17,numberfire,56,-24,Middle Tennessee -24
+333340277,West Virginia,44,Iowa State,52,consensus,,-7.5,West Virginia -7.5
+333340277,West Virginia,44,Iowa State,52,teamrankings,53.5,-7.5,West Virginia -7.5
+333340098,Western Kentucky,34,Arkansas State,31,consensus,,-4,Western Kentucky -4
+333340098,Western Kentucky,34,Arkansas State,31,numberfire,55.5,-6,Western Kentucky -6
+333340098,Western Kentucky,34,Arkansas State,31,teamrankings,55.5,-6,Western Kentucky -6
+333340096,Kentucky,14,Tennessee,27,consensus,,4,Tennessee -4
+333340096,Kentucky,14,Tennessee,27,numberfire,52.5,3.5,Tennessee -3.5
+333340096,Kentucky,14,Tennessee,27,teamrankings,52,3.5,Tennessee -3.5
+333340309,Louisiana,28,Louisiana Monroe,31,consensus,,-13,Louisiana -13
+333340309,Louisiana,28,Louisiana Monroe,31,numberfire,56.5,-17.5,Louisiana -17.5
+333340309,Louisiana,28,Louisiana Monroe,31,teamrankings,56.5,-17.5,Louisiana -17.5
+333340068,Boise State,45,New Mexico,17,consensus,,-35,Boise State -35
+333340068,Boise State,45,New Mexico,17,numberfire,69.5,-38,Boise State -38
+333340068,Boise State,45,New Mexico,17,teamrankings,69.5,-38,Boise State -38
+333342439,UNLV,45,San Diego State,19,consensus,,3,San Diego State -3
+333342439,UNLV,45,San Diego State,19,numberfire,53.5,3.5,San Diego State -3.5
+333342439,UNLV,45,San Diego State,19,teamrankings,54,3.5,San Diego State -3.5
+333340062,Hawai'i,49,Army,42,consensus,,-4.5,Hawai'i -4.5
+333340062,Hawai'i,49,Army,42,numberfire,61.5,-5.5,Hawai'i -5.5
+333340062,Hawai'i,49,Army,42,teamrankings,61.5,-5.5,Hawai'i -5.5
+333392132,Cincinnati,24,Louisville,31,consensus,,6.5,Louisville -6.5
+333392132,Cincinnati,24,Louisville,31,numberfire,49,3,Louisville -3
+333392132,Cincinnati,24,Louisville,31,teamrankings,49,3,Louisville -3
+333402459,Northern Illinois,27,Bowling Green,47,consensus,,-3,Northern Illinois -3
+333402459,Northern Illinois,27,Bowling Green,47,numberfire,58.5,-3,Northern Illinois -3
+333402459,Northern Illinois,27,Bowling Green,47,teamrankings,58,-3,Northern Illinois -3
+333410052,Florida State,45,Duke,7,consensus,,-27.5,Florida State -27.5
+333410052,Florida State,45,Duke,7,numberfire,66,-30,Florida State -30
+333410052,Florida State,45,Duke,7,teamrankings,66,-30,Florida State -30
+333410127,Michigan State,34,Ohio State,24,consensus,,6.5,Ohio State -6.5
+333410127,Michigan State,34,Ohio State,24,numberfire,53.5,5.5,Ohio State -5.5
+333410127,Michigan State,34,Ohio State,24,teamrankings,53.5,5.5,Ohio State -5.5
+333410002,Auburn,59,Missouri,42,consensus,,2,Missouri -2
+333410002,Auburn,59,Missouri,42,numberfire,59.5,1.5,Missouri -1.5
+333410002,Auburn,59,Missouri,42,teamrankings,59.5,2,Missouri -2
+333410197,Oklahoma State,24,Oklahoma,33,consensus,,-10.5,Oklahoma State -10.5
+333410197,Oklahoma State,24,Oklahoma,33,numberfire,57,-10,Oklahoma State -10
+333410197,Oklahoma State,24,Oklahoma,33,teamrankings,57,-10,Oklahoma State -10
+333410009,Arizona State,14,Stanford,38,consensus,,-3,Arizona State -3
+333410009,Arizona State,14,Stanford,38,numberfire,52.5,-3,Arizona State -3
+333410009,Arizona State,14,Stanford,38,teamrankings,52.5,-3,Arizona State -3
+333410239,Baylor,30,Texas,10,consensus,,-13,Baylor -13
+333410239,Baylor,30,Texas,10,numberfire,73,-16.5,Baylor -16.5
+333410239,Baylor,30,Texas,10,teamrankings,71,-17.5,Baylor -17.5
+333412567,SMU,13,UCF,17,consensus,,10,UCF -10
+333412567,SMU,13,UCF,17,numberfire,57.5,13,UCF -13
+333412567,SMU,13,UCF,17,teamrankings,57,13.5,UCF -13.5
+333410278,Fresno State,24,Utah State,17,consensus,,-6,Fresno State -6
+333410278,Fresno State,24,Utah State,17,numberfire,61.5,-2.5,Fresno State -2.5
+333410278,Fresno State,24,Utah State,17,teamrankings,61,-2.5,Fresno State -2.5
+333410242,Rice,41,Marshall,24,consensus,,11,Marshall -11
+333410242,Rice,41,Marshall,24,numberfire,62,6.5,Marshall -6.5
+333410242,Rice,41,Marshall,24,teamrankings,64.5,6.5,Marshall -6.5
+333410041,Connecticut,45,Memphis,10,consensus,,1.5,Memphis -1.5
+333410041,Connecticut,45,Memphis,10,numberfire,41.5,1.5,Memphis -1.5
+333410041,Connecticut,45,Memphis,10,teamrankings,41.5,1.5,Memphis -1.5
+333410164,Rutgers,31,South Florida,6,consensus,,-7,Rutgers -7
+333410164,Rutgers,31,South Florida,6,numberfire,44,-4,Rutgers -4
+333410164,Rutgers,31,South Florida,6,teamrankings,44,-4,Rutgers -4
+333410006,South Alabama,30,Louisiana,8,consensus,,-1.5,South Alabama -1.5
+333410006,South Alabama,30,Louisiana,8,numberfire,59.5,-3,South Alabama -3
+333410006,South Alabama,30,Louisiana,8,teamrankings,59.5,-3,South Alabama -3
+333482426,Navy,34,Army,7,consensus,,-10,Navy -10
+333482426,Navy,34,Army,7,numberfire,49.5,-13.5,Navy -13.5
+333482426,Navy,34,Army,7,teamrankings,49.5,-13.5,Navy -13.5
+332500201,Oklahoma,16,West Virginia,7,consensus,,-21.5,Oklahoma -21.5
+332500201,Oklahoma,16,West Virginia,7,numberfire,54,-21,Oklahoma -21
+332500201,Oklahoma,16,West Virginia,7,teamrankings,53.5,-21,Oklahoma -21
+332500002,Auburn,38,Arkansas State,9,consensus,,-7.5,Auburn -7.5
+332500002,Auburn,38,Arkansas State,9,numberfire,60.5,-10.5,Auburn -10.5
+332500002,Auburn,38,Arkansas State,9,teamrankings,60,-10.5,Auburn -10.5
+332570183,Syracuse,54,Wagner,0,consensus,,-28,Syracuse -28
+332710058,South Florida,21,Miami,49,consensus,,18.5,Miami -18.5
+332710058,South Florida,21,Miami,49,numberfire,48,17,Miami -17
+332710058,South Florida,21,Miami,49,teamrankings,48,17,Miami -17
+332782305,Kansas,16,Texas Tech,54,consensus,,16,Texas Tech -16
+332782305,Kansas,16,Texas Tech,54,numberfire,55.5,16.5,Texas Tech -16.5
+332782305,Kansas,16,Texas Tech,54,teamrankings,55,16.5,Texas Tech -16.5
+332850251,Texas,36,Oklahoma,20,consensus,,13,Oklahoma -13
+332850251,Texas,36,Oklahoma,20,numberfire,57.5,13.5,Oklahoma -13.5
+332850251,Texas,36,Oklahoma,20,teamrankings,57,13.5,Oklahoma -13.5
+332920024,Stanford,24,UCLA,10,consensus,,-6,Stanford -6
+332920024,Stanford,24,UCLA,10,numberfire,55,-4,Stanford -4
+332920024,Stanford,24,UCLA,10,teamrankings,55,-4.5,Stanford -4.5
+333040248,Houston,35,South Florida,23,consensus,,-10.5,Houston -10.5
+333040248,Houston,35,South Florida,23,numberfire,53,-18,Houston -18
+333040248,Houston,35,South Florida,23,teamrankings,53,-18.5,Houston -18.5
+333130277,West Virginia,40,Texas,47,consensus,,7.5,Texas -7.5
+333130277,West Virginia,40,Texas,47,numberfire,55,6.5,Texas -6.5
+333130277,West Virginia,40,Texas,47,teamrankings,55,6.5,Texas -6.5
+333340258,Virginia,6,Virginia Tech,16,consensus,,13,Virginia Tech -13
+333340258,Virginia,6,Virginia Tech,16,numberfire,41,10.5,Virginia Tech -10.5
+333340258,Virginia,6,Virginia Tech,16,teamrankings,41.5,11.5,Virginia Tech -11.5
+333252005,Air Force,21,UNLV,41,numberfire,58.5,-1,Air Force -1
+333252005,Air Force,21,UNLV,41,teamrankings,58.5,-2,Air Force -2
