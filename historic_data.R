@@ -9,12 +9,13 @@ team_info <- readRDS("data/team_info.RDS")
 
 wp_model <- xgb.load("data/wp_model.model")
 
-print(fd_model$feature_names)
+#print(fd_model$feature_names)
 
 seasons <- c(2019)
 pbp <- purrr::map_df(seasons, function(x) {
   download.file(glue::glue("https://raw.githubusercontent.com/saiemgilani/cfbscrapR-data/master/data/parquet/pbp_players_pos_{x}.parquet"),"tmp.parquet")
-  df <- arrow::read_parquet("tmp.parquet")
+  df <- arrow::read_parquet("tmp.parquet") %>%
+    mutate(season = x)
   return(df)
 })
 
@@ -603,7 +604,7 @@ make_tidy_data <- function(current_situation){
   ) %>%
     select(choice, choice_prob, success_prob, fail_wp, success_wp)
 
-  table_data <- bind_rows(
+  tableData <- bind_rows(
     go, fg, punt
   ) %>%
     mutate(
@@ -614,9 +615,7 @@ make_tidy_data <- function(current_situation){
     ) %>%
     arrange(-choice_prob)
 
-  play_desc <- df$play_text %>%
-    stringr::str_replace("\\([:digit:]*\\:[:digit:]+\\)\\s", "") %>%
-    substr(1, 80)
+
 
   choice <- dplyr::case_when(
     # football to punt
@@ -638,6 +637,8 @@ make_tidy_data <- function(current_situation){
   tibble(
     "game_id" = current_situation$game_id,
     "play_id" = current_situation$play_id,
+    "season" = current_situation$season,
+    "week" = current_situation$week,
     "desc" = current_situation$play_text,
     "qtr" = current_situation$period,
     "TimeSecsRem" = current_situation$TimeSecsRem,
@@ -676,4 +677,24 @@ run_data_check <- function() {
   }
   return(final_pbp)
 }
-run_data_check()
+#run_data_check()
+
+
+run_model <- function() {
+  final_pbp <- data.frame()
+
+  progress_bar <- progress::progress_bar$new(total = nrow(cleaned_pbp))
+  for ( i in 1:nrow(cleaned_pbp)) {
+    play <- cleaned_pbp %>% slice(i)
+    progress_bar$tick()
+    message(play$id_play)
+
+    final_pbp <- final_pbp %>%
+      bind_rows(play %>% make_tidy_data())
+  }
+  return(final_pbp)
+}
+tictoc::tic()
+final_pbp <- run_model()
+tictoc::toc()
+saveRDS(final_pbp,"data/final_pbp.RDS")
