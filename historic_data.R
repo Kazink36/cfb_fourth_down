@@ -32,8 +32,8 @@ lines <- lines %>%
 filter_plays <- function(df) {
   tmp <- df %>%
     filter(
-      down %in% c(3,4),
-      rush == 1 | pass == 1,
+      down %in% c(4),
+      #rush == 1 | pass == 1,
       !is.na(offense_play),
       !is.na(yards_to_goal),
       !is.na(score_diff)
@@ -64,17 +64,20 @@ filter_plays <- function(df) {
       posteam_spread = dplyr::if_else(offense_play == home_team, spread_line, -1 * spread_line),
       play_id = id_play,
       pos_score = pos_team_score,
-      def_pos_score = def_pos_team_score
+      def_pos_score = def_pos_team_score,
+      pos_team_receives_2H_kickoff = receives_2H_kickoff
     ) %>%
     # look at when an actual play is run or a defensive penalty gives a first down
-    filter(rush+pass == 1 | first_down_penalty == 1,
+    filter(#rush+pass == 1 | first_down_penalty == 1,
            distance > 0,
            yards_to_goal > 0,
            distance <= yards_to_goal,
            !is.na(posteam_spread),
            !is.na(posteam_total)) %>%
     mutate(label = as.double(yards_gained)) %>%
-    mutate(label = label + 10)
+    mutate(label = label + 10) %>%
+    # To prevent sim errors
+    rename(yards_to_goal_end_old = yards_to_goal_end)
   return(tmp)
 }
 
@@ -119,7 +122,7 @@ get_fg_wp <- function(df) {
            wp = NA)
 
 
-  wp_vars <- game_state_long %>%
+  wp_vars <- probs %>%
     select(
       "pos_team_receives_2H_kickoff",
       "spread_time",
@@ -135,6 +138,8 @@ get_fg_wp <- function(df) {
       "def_pos_team_timeouts_rem_before",
       "period"
     ) %>%
+    # Down is encoded as a factor, this prevents creating a character matrix
+    mutate(down = as.numeric(down)) %>%
     as.matrix()
 
   probs$wp <- predict(wp_model, newdata = wp_vars)
@@ -142,7 +147,7 @@ get_fg_wp <- function(df) {
 
   # for end of 1st half stuff
   #flip_half() %>%
-  fg_make_wp<-1-probs %>%
+  fg_make_wp<- 1-probs %>%
     mutate(
 
       # fill in end of game situation when team can kneel out clock
@@ -199,6 +204,8 @@ get_fg_wp <- function(df) {
       "def_pos_team_timeouts_rem_before",
       "period"
     ) %>%
+    # Down is encoded as a factor, this prevents creating a character matrix
+    mutate(down = as.numeric(down)) %>%
     as.matrix()
 
   probs$wp <- predict(wp_model, newdata = wp_vars)
@@ -242,13 +249,13 @@ get_punt_wp <- function(df) {
   # get the distribution at a yard line from punt data
   punt_probs <- punt_df %>%
     filter(yards_to_goal == df$yards_to_goal) %>%
-    select(punt_yards_to_goal_end = yards_to_goal_end, pct)
+    select(yards_to_goal_end, pct)
 
   if (nrow(punt_probs) > 0) {
 
     # get punt df
     probs <- punt_probs %>%
-      bind_cols(df[rep(1, nrow(punt_probs)), ], "minimal")
+      bind_cols(df[rep(1, nrow(punt_probs)), ])#, "minimal")
 
     probs <- probs %>%
       flip_team()
@@ -329,6 +336,8 @@ get_punt_wp <- function(df) {
         "def_pos_team_timeouts_rem_before",
         "period"
       ) %>%
+      # Down is encoded as a factor, this prevents creating a character matrix
+      mutate(down = as.numeric(down)) %>%
       as.matrix()
 
     probs$wp <- predict(wp_model, newdata = wp_vars)
@@ -364,14 +373,15 @@ get_punt_wp <- function(df) {
 
 }
 get_go_wp <- function(game_state) {
-  print("Check go WP")
+  # print("Check go WP")
   not.character <- function(x){
     !is.character(x)
   }
   game_state_matrix <- game_state %>%
     select_if(not.character) %>%
-    mutate(posteam_spread = -7,
-           posteam_total = 50) %>%
+    #Debugging
+    # mutate(posteam_spread = -7,
+    #        posteam_total = 50) %>%
     select(down,
            distance,
            yards_to_goal,
@@ -419,6 +429,8 @@ get_go_wp <- function(game_state) {
       "def_pos_team_timeouts_rem_before",
       "period"
     ) %>%
+    # Down is encoded as a factor, this prevents creating a character matrix
+    mutate(down = as.numeric(down)) %>%
     as.matrix()
 
   game_state_long$wp <- predict(wp_model, newdata = wp_vars)
@@ -460,10 +472,14 @@ update_game_state <- function(df) {
            pos_team_timeouts_rem_before = ifelse(td,pos_to_temp,pos_team_timeouts_rem_before),
            pos_score = ifelse(td,pos_score_temp,pos_score),
            yards_to_goal = ifelse(td,75,yards_to_goal),
-           pos_team = if_else(home_team == pos_team & td, away_team, home_team),
+           pos_team = case_when(home_team == pos_team & td ~ away_team,
+                                away_team == pos_team & td ~ home_team,
+                                TRUE ~ pos_team),
            # Turnover
            turnover = !success,
-           pos_team = if_else(home_team == pos_team & turnover, away_team, home_team),
+           pos_team = case_when(home_team == pos_team & turnover ~ away_team,
+                                away_team == pos_team & turnover ~ home_team,
+                                TRUE ~ pos_team),
            pos_score_temp = ifelse(turnover,def_pos_score,pos_score),
            def_pos_score = ifelse(turnover,pos_score,def_pos_score),
            pos_score = ifelse(turnover,pos_score_temp,pos_score),
@@ -477,26 +493,35 @@ update_game_state <- function(df) {
     mutate(Under_two = TimeSecsRem < 120,
            log_ydstogo = log(yards_to_goal),
            Goal_To_Go = distance == yards_to_goal,
-           pos_score_diff_start = pos_score-def_pos_score,ep = NA,
+           pos_score_diff_start = pos_score-def_pos_score,
+           ep = NA,
+           posteam_spread = if_else(pos_team == home_team,spread_line,-1*spread_line)
     )
 }
 flip_team <- function(df) {
-  turnover <- TRUE
   df %>%
     mutate(
       down = 1,
       distance = 10,
       TimeSecsRem = ifelse(TimeSecsRem<=6,0,TimeSecsRem - 6),
-      pos_score_temp = ifelse(turnover,def_pos_score,pos_score),
-      def_pos_score = ifelse(turnover,pos_score,def_pos_score),
-      pos_score = ifelse(turnover,pos_score_temp,pos_score),
-      pos_to_temp = ifelse(turnover,def_pos_team_timeouts_rem_before,pos_team_timeouts_rem_before),
-      def_pos_team_timeouts_rem_before = ifelse(turnover,pos_team_timeouts_rem_before,def_pos_team_timeouts_rem_before),
-      pos_team_timeouts_rem_before = ifelse(turnover,pos_to_temp,pos_team_timeouts_rem_before),
-      pos_score = ifelse(turnover,pos_score_temp,pos_score),
+      pos_score_temp = def_pos_score,
+      def_pos_score = pos_score,
+      pos_score = pos_score_temp,
+      pos_to_temp = def_pos_team_timeouts_rem_before,
+      def_pos_team_timeouts_rem_before = pos_team_timeouts_rem_before,
+      pos_team_timeouts_rem_before = pos_to_temp,
+      #pos_score = ifelse(turnover,pos_score_temp,pos_score),
       score_differential = pos_score - def_pos_score,
       pos_score_diff_start = pos_score - def_pos_score,
-      pos_team = if_else(home_team == pos_team, away_team, home_team)
+      pos_team = if_else(home_team == pos_team, away_team, home_team),
+      posteam_spread = if_else(pos_team == home_team,spread_line,-1*spread_line)
+    )%>%
+    mutate(Under_two = TimeSecsRem < 120,
+           log_ydstogo = log(yards_to_goal),
+           Goal_To_Go = distance == yards_to_goal,
+           #pos_score_diff_start = pos_score-def_pos_score,
+           ep = NA,
+           posteam_spread = if_else(pos_team == home_team,spread_line,-1*spread_line)
     )
 }
 
@@ -551,7 +576,42 @@ make_tidy_data <- function(current_situation){
   df <- current_situation
   fullInput <- df
 
-  tableData <- make_table_data(df) %>%
+  go <- tibble::tibble(
+    "choice_prob" = z[[1]],
+    "choice" = "Go for it",
+    "success_prob" = z[[2]],
+    "fail_wp" = z[[3]],
+    "success_wp" = z[[4]]
+  ) %>%
+    select(choice, choice_prob, success_prob, fail_wp, success_wp)
+
+  punt <- tibble::tibble(
+    "choice_prob" = if_else(is.na(x), NA_real_, x),
+    "choice" = "Punt",
+    "success_prob" = NA_real_,
+    "fail_wp" = NA_real_,
+    "success_wp" = NA_real_
+  ) %>%
+    select(choice, choice_prob, success_prob, fail_wp, success_wp)
+
+  fg <- tibble::tibble(
+    "choice_prob" = y[[1]],
+    "choice" = "Field goal attempt",
+    "success_prob" = y[[2]],
+    "fail_wp" = y[[3]],
+    "success_wp" = y[[4]]
+  ) %>%
+    select(choice, choice_prob, success_prob, fail_wp, success_wp)
+
+  table_data <- bind_rows(
+    go, fg, punt
+  ) %>%
+    mutate(
+      choice_prob = 100 * choice_prob,
+      success_prob = 100 * success_prob,
+      fail_wp = 100 * fail_wp,
+      success_wp = 100 * success_wp
+    ) %>%
     arrange(-choice_prob)
 
   play_desc <- df$play_text %>%
