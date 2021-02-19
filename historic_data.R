@@ -11,7 +11,7 @@ wp_model <- xgb.load("data/wp_model.model")
 
 #print(fd_model$feature_names)
 
-seasons <- c(2019)
+seasons <- c(2014)
 pbp <- purrr::map_df(seasons, function(x) {
   download.file(glue::glue("https://raw.githubusercontent.com/saiemgilani/cfbscrapR-data/master/data/parquet/pbp_players_pos_{x}.parquet"),"tmp.parquet")
   df <- arrow::read_parquet("tmp.parquet") %>%
@@ -28,7 +28,8 @@ lines <- lines %>%
   group_by(id) %>%
     slice(1) %>%
     ungroup() %>%
-  select(game_id = id,home_team = homeTeam,away_team = awayTeam,spread_line = spread,total_line = overUnder)
+  select(game_id = id,home_team = homeTeam,away_team = awayTeam,spread_line = spread,total_line = overUnder) %>%
+  replace_na(list(total_line = 55.5))
 
 filter_plays <- function(df) {
   tmp <- df %>%
@@ -154,9 +155,9 @@ get_fg_wp <- function(df) {
       # fill in end of game situation when team can kneel out clock
       # discourages punting when the other team can end the game
       wp = case_when(
-        score_differential > 0 & TimeSecsRem < 120 & def_pos_team_timeouts_rem_before == 0 ~ 1,
-        score_differential > 0 & TimeSecsRem < 80 & def_pos_team_timeouts_rem_before == 1 ~ 1,
-        score_differential > 0 & TimeSecsRem < 40 & def_pos_team_timeouts_rem_before == 2 ~ 1,
+        score_differential > 0 & adj_TimeSecsRem < 120 & def_pos_team_timeouts_rem_before == 0 ~ 1,
+        score_differential > 0 & adj_TimeSecsRem < 80 & def_pos_team_timeouts_rem_before == 1 ~ 1,
+        score_differential > 0 & adj_TimeSecsRem < 40 & def_pos_team_timeouts_rem_before == 2 ~ 1,
         TRUE ~ wp
       )
 
@@ -218,9 +219,9 @@ get_fg_wp <- function(df) {
       # fill in end of game situation when team can kneel out clock
       # discourages punting when the other team can end the game
       wp = case_when(
-        score_differential > 0 & TimeSecsRem < 120 & def_pos_team_timeouts_rem_before == 0 ~ 1,
-        score_differential > 0 & TimeSecsRem < 80 & def_pos_team_timeouts_rem_before == 1 ~ 1,
-        score_differential > 0 & TimeSecsRem < 40 & def_pos_team_timeouts_rem_before == 2 ~ 1,
+        score_differential > 0 & adj_TimeSecsRem < 120 & def_pos_team_timeouts_rem_before == 0 ~ 1,
+        score_differential > 0 & adj_TimeSecsRem < 80 & def_pos_team_timeouts_rem_before == 1 ~ 1,
+        score_differential > 0 & adj_TimeSecsRem < 40 & def_pos_team_timeouts_rem_before == 2 ~ 1,
         TRUE ~ wp
       )
 
@@ -355,9 +356,9 @@ get_punt_wp <- function(df) {
         # fill in end of game situation when team can kneel out clock
         # discourages punting when the other team can end the game
         wp = case_when(
-          score_differential > 0 & TimeSecsRem < 120 & def_pos_team_timeouts_rem_before == 0 ~ 1,
-          score_differential > 0 & TimeSecsRem < 80 & def_pos_team_timeouts_rem_before == 1 ~ 1,
-          score_differential > 0 & TimeSecsRem < 40 & def_pos_team_timeouts_rem_before == 2 ~ 1,
+          score_differential > 0 & adj_TimeSecsRem < 120 & def_pos_team_timeouts_rem_before == 0 ~ 1,
+          score_differential > 0 & adj_TimeSecsRem < 80 & def_pos_team_timeouts_rem_before == 1 ~ 1,
+          score_differential > 0 & adj_TimeSecsRem < 40 & def_pos_team_timeouts_rem_before == 2 ~ 1,
           TRUE ~ wp
         ),
 
@@ -526,50 +527,6 @@ flip_team <- function(df) {
     )
 }
 
-make_table_data <- function(current_situation) {
-  x <- get_punt_wp(current_situation)
-
-  y <- get_fg_wp(current_situation)
-  z <- get_go_wp(current_situation)
-
-  go <- tibble::tibble(
-    "choice_prob" = z[[1]],
-    "choice" = "Go for it",
-    "success_prob" = z[[2]],
-    "fail_wp" = z[[3]],
-    "success_wp" = z[[4]]
-  ) %>%
-    select(choice, choice_prob, success_prob, fail_wp, success_wp)
-
-  punt <- tibble::tibble(
-    "choice_prob" = if_else(is.na(x), NA_real_, x),
-    "choice" = "Punt",
-    "success_prob" = NA_real_,
-    "fail_wp" = NA_real_,
-    "success_wp" = NA_real_
-  ) %>%
-    select(choice, choice_prob, success_prob, fail_wp, success_wp)
-
-  fg <- tibble::tibble(
-    "choice_prob" = y[[1]],
-    "choice" = "Field goal attempt",
-    "success_prob" = y[[2]],
-    "fail_wp" = y[[3]],
-    "success_wp" = y[[4]]
-  ) %>%
-    select(choice, choice_prob, success_prob, fail_wp, success_wp)
-
-  for_return <- bind_rows(
-    go, fg, punt
-  ) %>%
-    mutate(
-      choice_prob = 100 * choice_prob,
-      success_prob = 100 * success_prob,
-      fail_wp = 100 * fail_wp,
-      success_wp = 100 * success_wp
-    )
-  return(for_return)
-}
 make_tidy_data <- function(current_situation){
   x <- get_punt_wp(current_situation)
   y <- get_fg_wp(current_situation)
@@ -688,7 +645,9 @@ run_model <- function() {
     play <- cleaned_pbp %>% slice(i)
     progress_bar$tick()
     message(play$id_play)
-
+    if (i %% 100 == 0) {
+      message(glue::glue("Play {i}"))
+    }
     final_pbp <- final_pbp %>%
       bind_rows(play %>% make_tidy_data())
   }
@@ -697,4 +656,4 @@ run_model <- function() {
 tictoc::tic()
 final_pbp <- run_model()
 tictoc::toc()
-saveRDS(final_pbp,"data/final_pbp.RDS")
+saveRDS(final_pbp,"data/fd_pbp_2014.RDS")
