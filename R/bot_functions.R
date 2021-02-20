@@ -4,7 +4,9 @@ punt_df <- readRDS("data/punt_df.RDS")
 fg_model <- readRDS("data/fg_model.RDS")
 yard_model <- readRDS("data/fd_model.RDS")
 team_info <- readRDS("data/team_info.RDS")
+fd_model <- readRDS("data/fd_model.RDS")
 
+wp_model <- xgboost::xgb.load("data/wp_model.model")
 get_data <- function(df) {
 
   espn_game_id <- df$game_id
@@ -81,12 +83,20 @@ get_data <- function(df) {
           ) %>%
           left_join(team_info %>%
                       select(abbreviation,posteam = school) %>%
-                      mutate(abbreviation = case_when(posteam == "Louisiana" ~ "UL",
-                                                      posteam == "Wisconsin" ~ "WISC",
-                                                      posteam == "Oklahoma" ~ "OU",
-                                                      posteam == "Indiana" ~ "IU",
-                                                      posteam == "Charlotte" ~ "CLT",
-                                                      posteam == "UMass" ~ "MASS",
+                      mutate(abbreviation = case_when(posteam == "Louisiana" ~ "ULL",
+                                                      #posteam == "Wisconsin" ~ "WISC",
+                                                      #posteam == "Oklahoma" ~ "OU",
+                                                      #posteam == "Indiana" ~ "IU",
+                                                      posteam == "Charlotte" ~ "CHAR",
+                                                      posteam == "UMass" ~ "UMASS",
+                                                      #TEMPORARY FOR 2019
+                                                      posteam == "Miami" ~ "MIAMI",
+                                                      posteam == "Wisconsin" ~ "WIS",
+                                                      posteam == "Louisiana Tech" ~ "LT",
+                                                      #TEMPORARY FOR 2018
+                                                      posteam == "Connecticut" ~ "UCONN",
+                                                      posteam == "Arkansas State" ~ "ARKST",
+                                                      posteam == "Akron" ~ "AKRON",
                                                      TRUE ~ abbreviation)),
                     by = "abbreviation") %>%
           dplyr::filter(qtr <= 4) %>%
@@ -210,6 +220,7 @@ get_data <- function(df) {
           select(
             game_id,
             play_id = id,
+            yr,
             desc,
             type,
             qtr,
@@ -218,6 +229,7 @@ get_data <- function(df) {
             TimeSecsRem,
             time,
             posteam,
+            abbreviation,
             # yardline_side,
             away_team,
             home_team,
@@ -370,11 +382,18 @@ make_table <- function(df, current_situation,shiny = FALSE) {
     # logo <- team_info %>%
     #   filter(school == current_situation$posteam) %>%
     #   pull(logo)
-    wp1 <- df %>% dplyr::slice(1) %>% pull(choice_prob)
-    wp2 <- df %>% dplyr::slice(2) %>% pull(choice_prob)
+    wp1 <- df %>%
+      arrange(-choice_prob) %>%
+      dplyr::slice(1) %>%
+      pull(choice_prob)
+    wp2 <- df %>%
+      arrange(-choice_prob) %>%
+      dplyr::slice(2) %>%
+      pull(choice_prob)
 
     diff <- wp1 - wp2
-    choice <- df %>% dplyr::slice(1) %>% pull(choice)
+    choice <- df %>%
+      arrange(-choice_prob) %>% dplyr::slice(1) %>% pull(choice)
     choice <- if_else(abs(diff) < 1, "Toss-up", choice)
     table %>%
       tab_header(
@@ -391,8 +410,8 @@ make_table <- function(df, current_situation,shiny = FALSE) {
       )
   }
 }
-make_table_data <- function(current_situation,punt_df) {
-  x <- get_punt_wp(current_situation, punt_df)
+make_table_data <- function(current_situation) {
+  x <- get_punt_wp(current_situation)
 
   y <- get_fg_wp(current_situation)
   z <- get_go_wp(current_situation)
@@ -435,29 +454,62 @@ make_table_data <- function(current_situation,punt_df) {
     )
   return(for_return)
 }
-make_tidy_data <- function(current_situation,punt_df){
-  x <- get_punt_wp(current_situation, punt_df)
+make_tidy_data <- function(current_situation){
+  x <- get_punt_wp(current_situation)
   y <- get_fg_wp(current_situation)
   z <- get_go_wp(current_situation)
   df <- current_situation
   fullInput <- df
 
-  tableData <- make_table_data(df, punt_df) %>%
+  go <- tibble::tibble(
+    "choice_prob" = z[[1]],
+    "choice" = "Go for it",
+    "success_prob" = z[[2]],
+    "fail_wp" = z[[3]],
+    "success_wp" = z[[4]]
+  ) %>%
+    select(choice, choice_prob, success_prob, fail_wp, success_wp)
+
+  punt <- tibble::tibble(
+    "choice_prob" = if_else(is.na(x), NA_real_, x),
+    "choice" = "Punt",
+    "success_prob" = NA_real_,
+    "fail_wp" = NA_real_,
+    "success_wp" = NA_real_
+  ) %>%
+    select(choice, choice_prob, success_prob, fail_wp, success_wp)
+
+  fg <- tibble::tibble(
+    "choice_prob" = y[[1]],
+    "choice" = "Field goal attempt",
+    "success_prob" = y[[2]],
+    "fail_wp" = y[[3]],
+    "success_wp" = y[[4]]
+  ) %>%
+    select(choice, choice_prob, success_prob, fail_wp, success_wp)
+
+  tableData <- bind_rows(
+    go, fg, punt
+  ) %>%
+    mutate(
+      choice_prob = 100 * choice_prob,
+      success_prob = 100 * success_prob,
+      fail_wp = 100 * fail_wp,
+      success_wp = 100 * success_wp
+    ) %>%
     arrange(-choice_prob)
 
-  play_desc <- df$desc %>%
-    stringr::str_replace("\\([:digit:]*\\:[:digit:]+\\)\\s", "") %>%
-    substr(1, 80)
+
 
   choice <- dplyr::case_when(
     # football to punt
-    fullInput$type_text %in% c("Blocked Punt", "Punt") ~ "Punt",
+    fullInput$play_type %in% c("Blocked Punt", "Punt") ~ "Punt",
     # field goal
-    fullInput$type_text %in% c("Field Goal Good", "Field Goal Missed") ~ "Field goal attempt",
+    fullInput$play_type %in% c("Field Goal Good", "Field Goal Missed") ~ "Field goal attempt",
     # go for it
-    fullInput$type_text %in% c("Pass Incompletion", "Pass Reception", "Passing Touchdown", "Rush", "Rushing Touchdown", "Sack") ~ "Go for it",
+    fullInput$play_type %in% c("Pass Incompletion", "Pass Reception", "Passing Touchdown", "Rush", "Rushing Touchdown", "Sack") ~ "Go for it",
     # penalty
-    fullInput$type_text %in% c("Penalty") ~ "Penalty",
+    fullInput$play_type %in% c("Penalty") ~ "Penalty",
     TRUE ~ ""
   )
   wp1 <- tableData %>% dplyr::slice(1) %>% pull(choice_prob)
@@ -469,16 +521,18 @@ make_tidy_data <- function(current_situation,punt_df){
   tibble(
     "game_id" = current_situation$game_id,
     "play_id" = current_situation$play_id,
-    "desc" = current_situation$desc,
-    "qtr" = current_situation$qtr,
+    "season" = current_situation$season,
+    "week" = current_situation$week,
+    "desc" = current_situation$play_text,
+    "qtr" = current_situation$period,
     "TimeSecsRem" = current_situation$TimeSecsRem,
     "distance" = current_situation$distance,
     "yards_to_goal" = current_situation$yards_to_goal,
-    "posteam" = current_situation$posteam,
+    "pos_team" = current_situation$pos_team,
     "home_team" = current_situation$home_team,
-    "home_score" = current_situation$home_score,
+    "home_score" = ifelse(current_situation$home_team == current_situation$pos_team, current_situation$pos_team_score, current_situation$def_pos_team_score),
     "away_team" = current_situation$away_team,
-    "away_score" = current_situation$away_score,
+    "away_score" = ifelse(current_situation$home_team == current_situation$pos_team, current_situation$def_pos_team_score, current_situation$pos_team_score),
     "fg_wp" = y[[1]],
     "fg_make_prob" = y[[2]],
     "fg_make_wp" = y[[4]],

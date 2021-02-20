@@ -62,7 +62,7 @@ while(nrow(live_games) != 0) {
     plays <- rbind(plays,get_data(live_games[i,]))
   }
   if (nrow(plays != 0)) {
-    old_plays <- readRDS("old_plays.RDS")
+    old_plays <- readRDS("data/old_plays.RDS")
     plays <- plays %>% mutate(old = ifelse(play_id %in% old_plays$play_id,1,0))
     to_tweet <- plays %>% filter(old == 0)
   }
@@ -75,8 +75,8 @@ while(nrow(live_games) != 0) {
       play %>%
         tweet_play()
       old_plays <- old_plays %>%
-        bind_rows(play %>% make_tidy_data(punt_df))
-      saveRDS(old_plays,"old_plays.RDS")
+        bind_rows(play %>% make_tidy_data())
+      saveRDS(old_plays,"data/old_plays.RDS")
       message(paste(Sys.time(),play$desc))
       Sys.sleep(60)
     }

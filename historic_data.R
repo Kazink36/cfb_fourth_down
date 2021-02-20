@@ -11,7 +11,7 @@ wp_model <- xgb.load("data/wp_model.model")
 
 #print(fd_model$feature_names)
 
-seasons <- c(2014)
+seasons <- c(2018)
 pbp <- purrr::map_df(seasons, function(x) {
   download.file(glue::glue("https://raw.githubusercontent.com/saiemgilani/cfbscrapR-data/master/data/parquet/pbp_players_pos_{x}.parquet"),"tmp.parquet")
   df <- arrow::read_parquet("tmp.parquet") %>%
@@ -28,7 +28,7 @@ lines <- lines %>%
   group_by(id) %>%
     slice(1) %>%
     ungroup() %>%
-  select(game_id = id,home_team = homeTeam,away_team = awayTeam,spread_line = spread,total_line = overUnder) %>%
+  select(game_id = id,home_team = homeTeam,away_team = awayTeam,spread_line = spread,total_line = overUnder) #%>%
   replace_na(list(total_line = 55.5))
 
 filter_plays <- function(df) {
@@ -640,10 +640,8 @@ run_data_check <- function() {
 run_model <- function() {
   final_pbp <- data.frame()
 
-  progress_bar <- progress::progress_bar$new(total = nrow(cleaned_pbp))
   for ( i in 1:nrow(cleaned_pbp)) {
     play <- cleaned_pbp %>% slice(i)
-    progress_bar$tick()
     message(play$id_play)
     if (i %% 100 == 0) {
       message(glue::glue("Play {i}"))
@@ -657,3 +655,34 @@ tictoc::tic()
 final_pbp <- run_model()
 tictoc::toc()
 saveRDS(final_pbp,"data/fd_pbp_2014.RDS")
+
+
+
+
+
+# cleaned_pbp %>%
+#   anti_join(final_pbp,by = c("play_id","play_text" = "desc") ) %>% view()
+#
+# final_pbp %>%
+#   left_join(cleaned_pbp %>% group_by(play_id,play_text) %>% slice(1) %>% ungroup() %>% select(play_id,play_text,EPA),
+#             by = c("play_id","desc"="play_text")) %>% summary()
+
+
+# seasons <- 2014:2020
+# purrr::map(seasons, function(x) {
+#   download.file(glue::glue("https://raw.githubusercontent.com/saiemgilani/cfbscrapR-data/master/data/parquet/pbp_players_pos_{x}.parquet"),"tmp.parquet")
+#   df <- arrow::read_parquet("tmp.parquet")
+#
+#   cleaned_pbp <- data.frame()
+#   cleaned_pbp <- filter_plays(df) %>%
+#     group_by(play_id,play_text) %>%
+#     slice(1) %>%
+#     ungroup() %>%
+#     select(play_id,play_text,EPA)
+#
+#   fd_file <- readRDS(glue::glue("data/fd_pbp_{x}.RDS"))%>%
+#     left_join(cleaned_pbp,
+#               by = c("play_id","desc"="play_text"))
+#   #fd_file$EPA <- cleaned_pbp$EPA # mismatch is here
+#   write.csv(fd_file, glue::glue("data/{x}.csv"))
+# })

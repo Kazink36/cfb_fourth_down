@@ -2,17 +2,24 @@ library(shiny)
 library(shinydashboard)
 library(cfbscrapR)
 library(gt)
-library(MASS)
+library(MASS, exclude = "select")
 library(rtweet)
 library(reactable)
 library(htmltools)
 library(tippy)
 library(xgboost)
+library(glue)
 library(tidyverse)
 source("R/bot_functions.R")
 source("R/helpers.R")
 
-old_plays <- readRDS("data/old_plays_all.RDS")
+
+#old_plays <- readRDS("data/old_plays_all.RDS")
+old_plays <- map_df(2014:2020, function(x) {
+    readRDS(glue::glue("data/fd_pbp_{x}.RDS"))
+  }
+)
+
 team_info <- readRDS("data/team_info.RDS")
 logos <- readRDS("data/logos.RDS")
 
@@ -114,11 +121,16 @@ body <- dashboardBody(
       ),
       tabItem(tabName = "plays",
               box(width = 12,
-                  selectInput("team",
-                              "Team",
-                              choices = team_info %>% pull(school),
-                              selected = "Utah"),
-                  reactableOutput("play_summary")),
+                  column(width = 6,selectInput("team",
+                                               "Team",
+                                               choices = team_info %>% pull(school),
+                                               selected = "Utah")),
+                  column(width = 6,selectInput("season",
+                                               "Season",
+                                               choices = old_plays %>% distinct(season) %>% pull(season),
+                                               selected = max(old_plays$season)))
+                  ,
+                  column(width = 12, reactableOutput("play_summary"))),
               br(),
               box(width = 12, title = "Filters",collapsible = TRUE,align = "center",
                   collapsed = FALSE,
@@ -176,10 +188,10 @@ server <- function(input, output, session) {
     input$update,
     {
 
-      tibble(qtr = input$qtr,#period = 3,
+      tibble(qtr = as.numeric(input$qtr),#period = 3,
                             #half = 2,TimeSecsRem = 1638,
                             time = input$minutes*60+input$seconds,
-                            posteam = input$team,
+                            pos_team = input$team,
                             #home_team = "Utah",
                             yards_to_goal = input$yards_to_goal, #yardline = "BYU 20",
                             distance = input$distance,
@@ -189,16 +201,17 @@ server <- function(input, output, session) {
                             def_pos_score = input$def_pos_score,
                             vegas_total = input$vegas_ou,
 
-                            posteam_spread = input$posteam_spread,
-
+                            posteam_spread = as.numeric(input$posteam_spread),
+                            pos_team_receives_2H_kickoff = 1,
                             #Constants
                             down = 4,
                             home_opening_kickoff = 1,
                             runoff = 0
       ) %>%
         mutate(period = qtr,
+               spread_line = posteam_spread,
                posteam_total = (-posteam_spread + vegas_total) / 2,
-               home_team = posteam,
+               home_team = pos_team,
                away_team = "Dummy",
                half = ifelse(period <= 2,1,2),
                TimeSecsRem = time + ifelse(period %in% c(1,3),900,0),
@@ -223,7 +236,7 @@ server <- function(input, output, session) {
 
 
   output$suggestion <- render_gt({
-    fullInput() %>% make_table_data(punt_df) %>%
+    fullInput() %>% make_table_data() %>%
       make_table(fullInput(),shiny = TRUE)
   })
 
@@ -232,11 +245,11 @@ server <- function(input, output, session) {
     logos %>% filter(school == team) %>% pull(logos)
     image <- tibble(x = 4, y = .825,logo = logos %>% filter(school == team) %>% pull(logos))
     old_plays %>%
-      filter(posteam == team,
+      filter(pos_team == team,
              choice != "Penalty",
              choice != "") %>%
       #mutate(recommendation = ifelse(strength < .001,"Toss-up",recommendation)) %>%
-      select(posteam,recommendation,choice) %>%
+      select(pos_team,recommendation,choice) %>%
       count(recommendation,choice) %>%
       mutate(correct = ifelse(recommendation == choice,1,0),
              choice = fct_relevel(choice,"Field goal attempt","Punt")) %>%
@@ -267,18 +280,25 @@ server <- function(input, output, session) {
             text = element_text(size = 16))
   }, height=reactive(ifelse(!is.null(input$innerWidth),input$innerWidth*3/5,0)))
 
+  old_plays_season <- reactive({
+    readRDS(glue("data/fd_pbp_{input$season}.RDS")) %>%
+      filter(home_team %in% team_info$school,
+             away_team %in% team_info$school)
+  })
+
   table_data_prep <- reactive({
-    old_plays %>%
+    old_plays_season() %>%
     filter(choice != "Penalty",
            choice != "",
-           #posteam == "Utah",
+           #pos_team == "Utah",
            #TimeSecsRem > 60,
            yards_to_goal > 0) %>%
-      filter(posteam == input$team) %>%
+      filter(pos_team == input$team) %>%
+      #filter(season == input$season) %>%
     mutate(decision_value = if_else(recommendation == choice,strength,-strength)) %>%
-    mutate(defteam = if_else(posteam == home_team,away_team,home_team),
-           pos_score = if_else(posteam == home_team,home_score,away_score),
-           def_pos_score = if_else(posteam == home_team,away_score,home_score),
+    mutate(def_team = if_else(pos_team == home_team,away_team,home_team),
+           pos_score = if_else(pos_team == home_team,home_score,away_score),
+           def_pos_score = if_else(pos_team == home_team,away_score,home_score),
            score = glue::glue("{pos_score} - {def_pos_score}"),
            sec = TimeSecsRem %% 60,
            min = round(TimeSecsRem/60),
@@ -294,7 +314,7 @@ server <- function(input, output, session) {
                               choice == "Go for it" ~ "Go",
                               TRUE ~ choice),
            id = row_number()) %>%
-    select(game_id,play_id,posteam,defteam,qtr,time,distance,yards_to_goal,score,fg_wp,punt_wp,go_wp,recommendation,choice,decision_value,desc)
+    select(game_id,play_id,pos_team,def_team,qtr,time,distance,yards_to_goal,score,fg_wp,punt_wp,go_wp,recommendation,choice,decision_value,desc)
   })
 
 output$plays_def <- renderUI({
@@ -302,8 +322,8 @@ output$plays_def <- renderUI({
   selectInput("team_def",
               "Defense",
               choices = c("ALL",table_data_prep() %>%
-                            distinct(defteam) %>%
-                            arrange(defteam) %>%
+                            distinct(def_team) %>%
+                            arrange(def_team) %>%
                             pull()),
               selected = "ALL")
 
@@ -316,28 +336,29 @@ observeEvent(input$team, {
     data <- table_data_prep()
     # if (input$team != "ALL") {
     #   data <- data %>%
-    #     filter(posteam == input$team)
+    #     filter(pos_team == input$team)
     # }
     ##message(length(input$team_def))
     if(length(input$team_def)!= 0) {
       if (input$team_def != "ALL") {
         data <- data %>%
-          filter(defteam == input$team_def)
+          filter(def_team == input$team_def)
       }
     }
     data %>%
       filter(recommendation %in% input$plays_ideal) %>%
       filter(choice %in% input$plays_actual) %>%
       filter(qtr %in% input$plays_qtr) %>%
-      #select(-posteam) %>%
+      #filter(season == input$season) %>%
+      #select(-pos_team) %>%
       mutate(id = row_number()) %>%
       return()
   })
   output$play_summary <- renderReactable({
     team <- input$team
     # table_data <- table_data_prep %>%
-    #   filter(posteam == team) %>%
-    #   select(-posteam) %>%
+    #   filter(pos_team == team) %>%
+    #   select(-pos_team) %>%
     #   mutate(id = row_number())
 
     with_tooltip <- function(value, tooltip, ...) {
@@ -346,9 +367,9 @@ observeEvent(input$team, {
     }
     ###message(input$team_def)
     table_data() %>%
-      left_join(logos,by = c("posteam" = "school")) %>%
-      left_join(logos,by = c("defteam" = "school"),suffix = c("_pos","_def")) %>%
-      select(-posteam,-logos_pos,-defteam,-game_id,-play_id,-go_wp,-fg_wp,-punt_wp) %>%
+      left_join(logos,by = c("pos_team" = "school")) %>%
+      left_join(logos,by = c("def_team" = "school"),suffix = c("_pos","_def")) %>%
+      select(-pos_team,-logos_pos,-def_team,-game_id,-play_id,-go_wp,-fg_wp,-punt_wp) %>%
       select(logos_def,everything()) %>%
       reactable(
         defaultColDef = colDef(
@@ -460,6 +481,7 @@ observeEvent(input$team, {
   })
 
 
+
   output$downloadData <- downloadHandler(
     filename = function() {
       paste('fourth_down_plays','.csv', sep='')
@@ -469,44 +491,51 @@ observeEvent(input$team, {
     }
   )
 
+  observe({
+    query <- parseQueryString(session$clientData$url_search)
+    query1 <- paste(names(query), query, sep = "=", collapse=", ")
+    # print(query1)
+    # print(substr(query1, (nchar(query1) - 4), (nchar(query1))))
+    # if(substr(query1, (nchar(query1) - 4), (nchar(query1))) == "2pt=1"){
+    #   updateTabsetPanel(session, "inTabset", selected = "two_pt")
+    # }
+  })
+
 }
 
-shinyApp(ui, server)
+shinyApp(ui, server, enableBookmarking = "url")
 
-
-
-
-
-# current_sit <- tibble(qtr = 3,#period = 3,
-#                       #half = 2,TimeSecsRem = 1638,
-#                       time = 738,
-#                       posteam = "Utah",
-#                       #home_team = "Utah",
-#                       yards_to_goal = 20, down = 4, #yardline = "BYU 20",
-#                       distance = 5,
-#                       pos_team_timeouts_rem_before = 3,
-#                       def_pos_team_timeouts_rem_before = 3,
-#                       pos_score = 22,
-#                       def_pos_score = 25,
-#                       #score_differential = -3,
-#                       posteam_total = 50,
-#                       posteam_spread = -7,
+# input <- list(qtr = 3, minutes = 5, seconds = 30,team = "Utah",yards_to_goal = 20,distance = 5,pos_timeouts = 3,def_timeouts = 3,pos_score = 7, def_pos_score = 14,vegas_ou = 55.5, posteam_spread = -7)
 #
-#                       home_opening_kickoff = 1,
-#                       runoff = 0,
-#                       #home_score = 25,
-#                       #away_score = 22,
-#                       #type_text = "Rush",
-#                       #yr = 2020
-#                       ) %>%
+# current_sit <- tibble(qtr = input$qtr,#period = 3,
+#        #half = 2,TimeSecsRem = 1638,
+#        time = input$minutes*60+input$seconds,
+#        pos_team = input$team,
+#        #home_team = "Utah",
+#        yards_to_goal = input$yards_to_goal, #yardline = "BYU 20",
+#        distance = input$distance,
+#        pos_team_timeouts_rem_before = as.numeric(input$pos_timeouts),
+#        def_pos_team_timeouts_rem_before = as.numeric(input$def_timeouts),
+#        pos_score = input$pos_score,
+#        def_pos_score = input$def_pos_score,
+#        vegas_total = input$vegas_ou,
+#
+#        posteam_spread = input$posteam_spread,
+#
+#        pos_team_receives_2H_kickoff = 1,
+#        #Constants
+#        down = 4,
+#        home_opening_kickoff = 1,
+#        runoff = 0
+# ) %>%
 #   mutate(period = qtr,
-#          home_team = posteam,
+#          spread_line = posteam_spread,
+#          posteam_total = (-posteam_spread + vegas_total) / 2,
+#          home_team = pos_team,
 #          away_team = "Dummy",
 #          half = ifelse(period <= 2,1,2),
 #          TimeSecsRem = time + ifelse(period %in% c(1,3),900,0),
 #          Under_two = TimeSecsRem < 120,
-#          #distance = ifelse(distance == 0,1,distance),
-#          #period = ifelse(half == 2,3,1) + ifelse(TimeSecsRem < 900,1,0),
 #          log_ydstogo = log(yards_to_goal),
 #          Goal_To_Go = distance == yards_to_goal,
 #          pos_score_diff_start = pos_score-def_pos_score,ep = NA,
@@ -520,9 +549,11 @@ shinyApp(ui, server)
 #     # if conversion after 2 minute warning, run down 40 seconds
 #     runoff = ifelse(time <= 120 & score_differential > 0 & qtr == 4, 40, runoff)
 #   )
+
+
 #
-# table_data <- make_table_data(current_sit,punt_df)
+# table_data <- make_table_data(current_sit)
 #
 # make_table(table_data,current_sit,shiny = TRUE)
-#
+# #
 # table
