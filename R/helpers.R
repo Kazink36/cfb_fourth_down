@@ -428,7 +428,8 @@ flip_team <- function(df) {
       #pos_score = ifelse(turnover,pos_score_temp,pos_score),
       score_differential = pos_score - def_pos_score,
       pos_score_diff_start = pos_score - def_pos_score,
-      pos_team = if_else(home_team == pos_team, away_team, home_team),
+      pos_team = if_else(home_team == posteam, away_team, home_team),
+      posteam = if_else(home_team == posteam, away_team, home_team),
       posteam_spread = if_else(pos_team == home_team,spread_line,-1*spread_line)
     )%>%
     mutate(Under_two = TimeSecsRem < 120,

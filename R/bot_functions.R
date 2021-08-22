@@ -345,8 +345,8 @@ make_table <- function(df, current_situation,shiny = FALSE) {
     fmt_number(
       columns = vars(choice_prob, success_prob, success_wp, fail_wp), decimals = 0
     ) %>%
-    # tab_source_note(md("**Please cite**: Ben Baldwin's fourth down model"
-    # )) %>%
+    tab_source_note(md("Based on Ben Baldwin's NFL fourth down model using cfbfastR's WP model"
+    )) %>%
     tab_style(
       style = list(
         cell_text(color = "red", weight = "bold")
@@ -411,6 +411,12 @@ make_table <- function(df, current_situation,shiny = FALSE) {
   }
 }
 make_table_data <- function(current_situation) {
+  current_situation <- current_situation %>%
+    mutate(spread_line = posteam_spread,
+           pos_team_receives_2H_kickoff = case_when(posteam == home_team & home_opening_kickoff == 0 ~ 1,
+                                                    posteam == home_team & home_opening_kickoff == 1 ~ 0,
+                                                    posteam == away_team ~ home_opening_kickoff),
+           pos_team = posteam)
   x <- get_punt_wp(current_situation)
 
   y <- get_fg_wp(current_situation)
@@ -455,6 +461,17 @@ make_table_data <- function(current_situation) {
   return(for_return)
 }
 make_tidy_data <- function(current_situation){
+  current_situation <- current_situation %>%
+    mutate(spread_line = posteam_spread,
+           pos_team_receives_2H_kickoff = case_when(posteam == home_team & home_opening_kickoff == 0 ~ 1,
+                                                    posteam == home_team & home_opening_kickoff == 1 ~ 0,
+                                                    posteam == away_team ~ home_opening_kickoff),
+           pos_team = posteam,
+           play_type = type_text,
+           play_text = desc,
+           pos_team_score = pos_score,
+           def_pos_team_score = def_pos_score)
+
   x <- get_punt_wp(current_situation)
   y <- get_fg_wp(current_situation)
   z <- get_go_wp(current_situation)
@@ -547,14 +564,56 @@ make_tidy_data <- function(current_situation){
     "strength" = diff/100
   )
 }
+tidy_to_table_data <- function(df) {
+  go <- tibble::tibble(
+    "choice_prob" = df$go_wp,
+    "choice" = "Go for it",
+    "success_prob" = df$go_success_prob,
+    "fail_wp" = df$go_fail_wp,
+    "success_wp" = df$go_success_wp
+  ) %>%
+    select(choice, choice_prob, success_prob, fail_wp, success_wp)
 
+  punt <- tibble::tibble(
+    "choice_prob" = if_else(is.na(df$punt_wp), NA_real_, df$punt_wp),
+    "choice" = "Punt",
+    "success_prob" = NA_real_,
+    "fail_wp" = NA_real_,
+    "success_wp" = NA_real_
+  ) %>%
+    select(choice, choice_prob, success_prob, fail_wp, success_wp)
+
+  fg <- tibble::tibble(
+    "choice_prob" = df$fg_wp,
+    "choice" = "Field goal attempt",
+    "success_prob" = df$fg_make_prob,
+    "fail_wp" = df$fg_fail_wp,
+    "success_wp" = df$fg_make_wp
+  ) %>%
+    select(choice, choice_prob, success_prob, fail_wp, success_wp)
+
+  tableData <- bind_rows(
+    go, fg, punt
+  ) %>%
+    mutate(
+      choice_prob = 100 * choice_prob,
+      success_prob = 100 * success_prob,
+      fail_wp = 100 * fail_wp,
+      success_wp = 100 * success_wp
+    ) %>%
+    arrange(-choice_prob)
+}
 # function to tweet out one play
 #df is current_situation
-tweet_play <- function(df) {
+tweet_play <- function(df,tidy = FALSE) {
   fullInput <- df
-
-  tableData <- make_table_data(df, punt_df) %>%
-    arrange(-choice_prob)
+  if(tidy){
+    tableData <- tidy_to_table_data(df)%>%
+      arrange(-choice_prob)
+  } else {
+    tableData <- make_table_data(df) %>%
+      arrange(-choice_prob)
+  }
 
   play_desc <- df$desc %>%
     stringr::str_replace("\\([:digit:]*\\:[:digit:]+\\)\\s", "") %>%
@@ -603,7 +662,7 @@ tweet_play <- function(df) {
   posteam <- df$posteam
   defteam <- if_else(df$posteam == df$home_team, df$away_team, df$home_team)
 
-  table <- make_table(tableData, df)
+  table <- make_table(tableData, df,shiny = TRUE)
 
   table %>% gtsave("bot/post.png",zoom = 3)
   # ---> {df$away_team} ({df$away_score}) @ {df$home_team} ({df$home_score}) <---
