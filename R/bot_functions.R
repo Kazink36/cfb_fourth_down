@@ -90,13 +90,13 @@ get_data <- function(df) {
                                                       posteam == "Charlotte" ~ "CHAR",
                                                       posteam == "UMass" ~ "UMASS",
                                                       #TEMPORARY FOR 2019
-                                                      posteam == "Miami" ~ "MIAMI",
-                                                      posteam == "Wisconsin" ~ "WIS",
-                                                      posteam == "Louisiana Tech" ~ "LT",
-                                                      #TEMPORARY FOR 2018
-                                                      posteam == "Connecticut" ~ "UCONN",
-                                                      posteam == "Arkansas State" ~ "ARKST",
-                                                      posteam == "Akron" ~ "AKRON",
+                                                      # posteam == "Miami" ~ "MIAMI",
+                                                      # posteam == "Wisconsin" ~ "WIS",
+                                                      # posteam == "Louisiana Tech" ~ "LT",
+                                                      # #TEMPORARY FOR 2018
+                                                      # posteam == "Connecticut" ~ "UCONN",
+                                                      # posteam == "Arkansas State" ~ "ARKST",
+                                                      # posteam == "Akron" ~ "AKRON",
                                                      TRUE ~ abbreviation)),
                     by = "abbreviation") %>%
           dplyr::filter(qtr <= 4) %>%
@@ -303,13 +303,14 @@ get_data <- function(df) {
 # }
 make_table <- function(df, current_situation,shiny = FALSE) {
   current_situation <- current_situation %>%
-    mutate(score_differential = pos_score_diff_start,
+    mutate(score_differential = if_else(pos_team == home_team,home_score-away_score,away_score-home_score),#pos_score_diff_start,
            ydstogo = distance,
            yardline_100 = yards_to_goal,
-           qtr = period,
+           #qtr = period,
            sec = TimeSecsRem %% 60,
            min = floor(TimeSecsRem/60),
            min = ifelse(min>15,min-15,min),
+           min = ifelse(min == 15 & sec>0,min-15,min),
            time = glue::glue("{min}:{str_pad(sec,2,side = 'left',pad = '0')}"))
   table <- df %>%
     arrange(-choice_prob) %>%
@@ -606,7 +607,7 @@ tidy_to_table_data <- function(df) {
 # function to tweet out one play
 #df is current_situation
 tweet_play <- function(df,tidy = FALSE) {
-  fullInput <- df
+  fullInput <- df %>% mutate(type_text = choice)
   if(tidy){
     tableData <- tidy_to_table_data(df)%>%
       arrange(-choice_prob)
@@ -620,6 +621,9 @@ tweet_play <- function(df,tidy = FALSE) {
     substr(1, 80)
 
   choice_emoji <- dplyr::case_when(
+    fullInput$choice == "Punt" ~ "\U0001f3c8\U0001f9B5",
+    fullInput$choice == "Field goal attempt" ~ "\U0001f45F\U0001f3c8",
+    fullInput$choice == "Go for it" ~ "\U0001f449",
     # football to punt
     fullInput$type_text %in% c("Blocked Punt", "Punt") ~ "\U0001f3c8\U0001f9B5",
     # field goal
@@ -653,14 +657,14 @@ tweet_play <- function(df,tidy = FALSE) {
     abs(diff) > 10 ~ "(VERY STRONG)"
   )
 
-  position <- if_else(
-    !is.na(df$yardline),
-    glue::glue("at the {df$yardline}"),
+   position <-# if_else(
+  #   !is.na(df$yardline),
+  #   glue::glue("at the {df$yardline}"),
     glue::glue("{df$yards_to_goal} yards from opponent end zone")
-  )
+  #)##
 
-  posteam <- df$posteam
-  defteam <- if_else(df$posteam == df$home_team, df$away_team, df$home_team)
+  posteam <- df$pos_team
+  defteam <- if_else(df$pos_team == df$home_team, df$away_team, df$home_team)
 
   table <- make_table(tableData, df,shiny = TRUE)
 

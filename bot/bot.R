@@ -3,10 +3,10 @@ library(gt)
 library(MASS, exclude = "select")
 library(rtweet)
 library(tidyverse)
-
+setwd("~/Documents/cfb_fourth_down")
 
 week <- 1
-season <- 2019
+season <- 2021
 games<- cfbfastR::cfbd_game_info(season,week = week,season_type = "regular")
 
 # Get game_id's of nationally broadcasted games
@@ -42,7 +42,7 @@ live_games <- games %>%
     # hasn't finished yet
     is.na(away_post_win_prob),
 
-    # happening today (REMOVE THE DAY ADJUSTMENT)
+    # happening today
     as.character(lubridate::as_date(start_time3)) == as.character(lubridate::today())
 
   ) %>%
@@ -76,7 +76,7 @@ while(nrow(live_games) != 0) {
   }
   if (nrow(plays != 0)) {
     old_plays <- readRDS(glue::glue("data/fd_pbp_{season}.RDS"))
-    plays <- plays %>% mutate(old = ifelse(play_id %in% old_plays$play_id,1,0))
+    plays <- plays %>% mutate(play_id = as.numeric(play_id),old = ifelse(play_id %in% old_plays$play_id,1,0))
     to_tweet <- plays %>% filter(old == 0)
   }
   if (nrow(to_tweet) != 0) {
@@ -84,7 +84,8 @@ while(nrow(live_games) != 0) {
 
       play <- to_tweet %>% slice(i)
       message(play$play_id)
-      tidy_play <- make_tidy_data(play)
+      tidy_play <- make_tidy_data(play) %>% mutate(game_id = as.numeric(game_id),
+                                                   play_id = as.numeric(play_id))
       old_plays <- old_plays %>%
         bind_rows(tidy_play)
       saveRDS(old_plays,glue::glue("data/fd_pbp_{season}.RDS"))
