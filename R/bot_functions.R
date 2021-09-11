@@ -83,14 +83,18 @@ get_data <- function(df) {
           ) %>%
           left_join(team_info %>%
                       select(abbreviation,posteam = school) %>%
-                      mutate(abbreviation = case_when(posteam == "Louisiana" ~ "ULL",
-                                                      #posteam == "Wisconsin" ~ "WISC",
-                                                      #posteam == "Oklahoma" ~ "OU",
-                                                      #posteam == "Indiana" ~ "IU",
-                                                      posteam == "Charlotte" ~ "CHAR",
-                                                      posteam == "UMass" ~ "UMASS",
+                      mutate(abbreviation = case_when(posteam == "Louisiana" ~ "UL",
+                                                      posteam == "Wisconsin" ~ "WISC",
+                                                      posteam == "Oklahoma" ~ "OU",
+                                                      posteam == "Indiana" ~ "IU",
+                                                      posteam == "Charlotte" ~ "CLT",
+                                                      posteam == "UMass" ~ "MASS",
+                                                      posteam == "Northwestern" ~ "NU",
+                                                      posteam == "Miami" ~ "MIA",
+                                                      # NOT FBS Teams
+                                                      posteam == "Wagner" ~ "WAG",
+                                                      posteam == "The Citadel" ~ "CIT",
                                                       #TEMPORARY FOR 2019
-                                                      # posteam == "Miami" ~ "MIAMI",
                                                       # posteam == "Wisconsin" ~ "WIS",
                                                       # posteam == "Louisiana Tech" ~ "LT",
                                                       # #TEMPORARY FOR 2018

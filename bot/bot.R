@@ -4,10 +4,14 @@ library(MASS, exclude = "select")
 library(rtweet)
 library(tidyverse)
 setwd("~/Documents/cfb_fourth_down")
+options(dplyr.summarise.inform = FALSE)
+source("R/bot_functions.R")
+source("R/helpers.R")
 
-week <- 1
+week <- 2
 season <- 2021
-games<- cfbfastR::cfbd_game_info(season,week = week,season_type = "regular")
+games<- cfbfastR::cfbd_game_info(season,week = week,season_type = "regular") %>%
+  filter(home_team %in% team_info$school,away_team %in% team_info$school)
 
 # Get game_id's of nationally broadcasted games
 media<-cfbfastR::cfbd_game_media(season,week = week)
@@ -18,9 +22,7 @@ national_games <- media %>%
 
 
 
-options(dplyr.summarise.inform = FALSE)
-source("R/bot_functions.R")
-source("R/helpers.R")
+
 
 
 
@@ -74,7 +76,7 @@ while(nrow(live_games) != 0) {
                             week = week)
                    )
   }
-  if (nrow(plays != 0)) {
+   if (nrow(plays != 0)) {
     old_plays <- readRDS(glue::glue("data/fd_pbp_{season}.RDS"))
     plays <- plays %>% mutate(play_id = as.numeric(play_id),old = ifelse(play_id %in% old_plays$play_id,1,0))
     to_tweet <- plays %>% filter(old == 0)
@@ -91,21 +93,25 @@ while(nrow(live_games) != 0) {
       saveRDS(old_plays,glue::glue("data/fd_pbp_{season}.RDS"))
     score_diff <- abs(tidy_play$home_score - tidy_play$away_score)
       if(
-        (tidy_play$game_id %in% national_games) |
+        !(tidy_play$strength> 0.3 & tidy_play$recommendation == "Punt" & tidy_play$choice == "Punt") |
+        (as.integer(tidy_play$game_id) %in% national_games$game_id & tidy_play$qtr>2) |
         (score_diff <= 14 & tidy_play$qtr == 4)
          ) {
       tidy_play %>%
         tweet_play(tidy = TRUE)
         message(paste(Sys.time(),play$desc))
+        Sys.sleep(60)
       }
 
 
-      Sys.sleep(60)
+
     }
   }
   message("No Plays To Tweet")
 
   # Update live games
+  games <- cfbfastR::cfbd_game_info(season,week = week,season_type = "regular") %>%
+    filter(home_team %in% team_info$school,away_team %in% team_info$school)
   live_games <- games %>%
     # Had some trouble working with the times, this was super hacky but works
     mutate(start_time = lubridate::as_datetime(start_date),
@@ -141,7 +147,7 @@ while(nrow(live_games) != 0) {
     dplyr::filter(started == 1) %>%
     dplyr::select(game_id, home_team, away_team, week)
 
-    Sys.sleep(120)
+    Sys.sleep(60)
 }
 
 

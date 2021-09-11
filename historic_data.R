@@ -1,7 +1,7 @@
 library(xgboost)
 library(tidymodels)
 library(tidyverse)
-
+setwd("~/Documents/cfb_fourth_down")
 fd_model <- readRDS("data/fd_model.RDS")
 punt_df <- readRDS("data/punt_df.RDS")
 fg_model <- readRDS("data/fg_model.RDS")
@@ -11,7 +11,7 @@ wp_model <- xgb.load("data/wp_model.model")
 
 #print(fd_model$feature_names)
 
-seasons <- c(2018)
+seasons <- 2021
 pbp <- purrr::map_df(seasons, function(x) {
   download.file(glue::glue("https://raw.githubusercontent.com/saiemgilani/cfbscrapR-data/master/data/parquet/pbp_players_pos_{x}.parquet"),"tmp.parquet")
   df <- arrow::read_parquet("tmp.parquet") %>%
@@ -28,7 +28,7 @@ lines <- lines %>%
   group_by(id) %>%
     slice(1) %>%
     ungroup() %>%
-  select(game_id = id,home_team = homeTeam,away_team = awayTeam,spread_line = spread,total_line = overUnder) #%>%
+  select(game_id = id,home_team = homeTeam,away_team = awayTeam,spread_line = spread,total_line = overUnder) %>%
   replace_na(list(total_line = 55.5))
 
 filter_plays <- function(df) {
@@ -644,7 +644,7 @@ run_model <- function() {
     play <- cleaned_pbp %>% slice(i)
     message(play$id_play)
     if (i %% 100 == 0) {
-      message(glue::glue("Play {i}"))
+      message(glue::glue("Play {i} out of {nrow(cleaned_pbp)}"))
     }
     final_pbp <- final_pbp %>%
       bind_rows(play %>% make_tidy_data())
@@ -654,7 +654,7 @@ run_model <- function() {
 tictoc::tic()
 final_pbp <- run_model()
 tictoc::toc()
-saveRDS(final_pbp,"data/fd_pbp_2014.RDS")
+saveRDS(final_pbp,"data/fd_pbp_{seasons}_new.RDS")
 
 
 
