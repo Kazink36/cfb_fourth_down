@@ -525,11 +525,15 @@ make_tidy_data <- function(current_situation){
 
   choice <- dplyr::case_when(
     # football to punt
-    fullInput$play_type %in% c("Blocked Punt", "Punt") ~ "Punt",
+    fullInput$play_type %in% c("Blocked Punt", "Punt","Safety",
+                               "Blocked Punt Touchdown","Punt Return Touchdown") ~ "Punt",
     # field goal
-    fullInput$play_type %in% c("Field Goal Good", "Field Goal Missed") ~ "Field goal attempt",
+    fullInput$play_type %in% c("Field Goal Good", "Field Goal Missed","Blocked Field Goal") ~ "Field goal attempt",
     # go for it
-    fullInput$play_type %in% c("Pass Incompletion", "Pass Reception", "Passing Touchdown", "Rush", "Rushing Touchdown", "Sack") ~ "Go for it",
+    fullInput$play_type %in% c("Pass Incompletion", "Pass Reception", "Passing Touchdown",
+                               "Rush", "Rushing Touchdown", "Sack","Interception",
+                               "Fumble Recovery (Opponent)","Pass Interception Return",
+                               "Fumble Return Touchdown") ~ "Go for it",
     # penalty
     fullInput$play_type %in% c("Penalty") ~ "Penalty",
     TRUE ~ ""
@@ -607,6 +611,7 @@ tidy_to_table_data <- function(df) {
       success_wp = 100 * success_wp
     ) %>%
     arrange(-choice_prob)
+  return(tableData)
 }
 # function to tweet out one play
 #df is current_situation

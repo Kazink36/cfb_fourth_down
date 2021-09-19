@@ -8,7 +8,7 @@ options(dplyr.summarise.inform = FALSE)
 source("R/bot_functions.R")
 source("R/helpers.R")
 
-week <- 2
+week <- 3
 season <- 2021
 games<- cfbfastR::cfbd_game_info(season,week = week,season_type = "regular") %>%
   filter(home_team %in% team_info$school,away_team %in% team_info$school)
@@ -57,7 +57,7 @@ live_games <- games %>%
     # has already started
     started = dplyr::case_when(
       current_hour > game_hour ~ 1,
-      current_hour == game_hour & current_minute >= game_minute + 10 ~ 1,
+      current_hour == game_hour & current_minute >= game_minute + 5 ~ 1,
       TRUE ~ 0
     )
   ) %>%
@@ -69,7 +69,7 @@ while(nrow(live_games) != 0) {
   plays <- tibble()
   to_tweet <- tibble()
   for (i in 1:nrow(live_games)) {
-    Sys.sleep(2)
+    Sys.sleep(.5)
     plays <- rbind(plays,
                    get_data(live_games[i,]) %>%
                      mutate(season = season,
@@ -93,14 +93,14 @@ while(nrow(live_games) != 0) {
       saveRDS(old_plays,glue::glue("data/fd_pbp_{season}.RDS"))
     score_diff <- abs(tidy_play$home_score - tidy_play$away_score)
       if(
-        !(tidy_play$strength> 0.3 & tidy_play$recommendation == "Punt" & tidy_play$choice == "Punt") |
-        (as.integer(tidy_play$game_id) %in% national_games$game_id & tidy_play$qtr>2) |
-        (score_diff <= 14 & tidy_play$qtr == 4)
+        !(tidy_play$strength> 0.3 & tidy_play$recommendation == "Punt" & tidy_play$choice == "Punt") &
+        ((as.integer(tidy_play$game_id) %in% national_games$game_id) |
+        (score_diff <= 14 & tidy_play$qtr == 4))
          ) {
       tidy_play %>%
         tweet_play(tidy = TRUE)
         message(paste(Sys.time(),play$desc))
-        Sys.sleep(60)
+        Sys.sleep(45)
       }
 
 
@@ -147,7 +147,7 @@ while(nrow(live_games) != 0) {
     dplyr::filter(started == 1) %>%
     dplyr::select(game_id, home_team, away_team, week)
 
-    Sys.sleep(60)
+    Sys.sleep(45)
 }
 
 

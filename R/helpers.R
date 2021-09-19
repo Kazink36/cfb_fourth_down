@@ -391,6 +391,7 @@ update_game_state <- function(df) {
                                 away_team == pos_team & td ~ home_team,
                                 TRUE ~ pos_team),
            posteam_spread = ifelse(td,-1*posteam_spread,posteam_spread),
+           pos_team_receives_2H_kickoff = ifelse(td,ifelse(pos_team_receives_2H_kickoff==1,0,1),pos_team_receives_2H_kickoff),
            # Turnover
            turnover = !success,
            pos_team = case_when(home_team == pos_team & turnover ~ away_team,
@@ -405,7 +406,8 @@ update_game_state <- function(df) {
            pos_score = ifelse(turnover,pos_score_temp,pos_score),
            yards_to_goal = ifelse(turnover,100-yards_to_goal,yards_to_goal),
            distance = ifelse(yards_to_goal < 10, yards_to_goal,distance),
-           posteam_spread = ifelse(turnover,-1*posteam_spread,posteam_spread)
+           posteam_spread = ifelse(turnover,-1*posteam_spread,posteam_spread),
+           pos_team_receives_2H_kickoff = ifelse(turnover,ifelse(pos_team_receives_2H_kickoff==1,0,1),pos_team_receives_2H_kickoff),
     ) %>%
     mutate(Under_two = TimeSecsRem < 120,
            log_ydstogo = log(yards_to_goal),
@@ -432,7 +434,8 @@ flip_team <- function(df) {
       pos_score_diff_start = pos_score - def_pos_score,
       pos_team = if_else(home_team == posteam, away_team, home_team),
       posteam = if_else(home_team == posteam, away_team, home_team),
-      posteam_spread = -1*posteam_spread
+      posteam_spread = -1*posteam_spread,
+      pos_team_receives_2H_kickoff = if_else(pos_team_receives_2H_kickoff == 1,0,1)
       #posteam_spread = if_else(pos_team == home_team,spread_line,-1*spread_line)
     )%>%
     mutate(Under_two = TimeSecsRem < 120,
